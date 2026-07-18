@@ -4,12 +4,17 @@ export default function Home() {
     <main>
       <header className="site-header">
         <div className="container nav">
-          <a href="#" className="logo">
-            Gold Bridge Capital
+          <a href="#" className="logo" aria-label="Gold Bridge Capital">
+            <span className="logo-mark">GB</span>
+
+            <span className="logo-text">
+              <strong>Gold Bridge</strong>
+              <small>Capital</small>
+            </span>
           </a>
 
-          <nav className="nav-links">
-            <a href="#storitev">Storitev</a>
+          <nav className="nav-links" aria-label="Glavna navigacija">
+            <a href="#storitev">Rešitve</a>
             <a href="#postopek">Postopek</a>
             <a href="#primer">Primer</a>
             <a href="#kontakt">Kontakt</a>
@@ -24,21 +29,27 @@ export default function Home() {
       <section className="hero">
         <div className="container hero-grid">
           <div className="hero-content">
-            <p className="eyebrow">
-              Mednarodno financiranje z zastavo zlata
-            </p>
+            <div className="hero-kicker">
+              <span />
+              Private Structured Finance
+            </div>
 
-            <h1>Pridobite likvidnost brez prodaje svojega zlata.</h1>
+            <h1>
+              Pridobite likvidnost
+              <span> brez prodaje zlata.</span>
+            </h1>
 
             <p className="hero-description">
-              Kratkoročno financiranje za lastnike fizičnega investicijskega
-              zlata. Zlato se uporabi kot zavarovanje in ostane v vaši lasti do
-              poplačila vseh pogodbenih obveznosti.
+              Diskretno kratkoročno financiranje, zavarovano s fizičnim
+              investicijskim zlatom. Kapital uporabite za poslovne ali
+              investicijske namene, zlato pa ostane v vaši lasti do poplačila
+              pogodbenih obveznosti.
             </p>
 
             <div className="hero-actions">
               <a href="#kontakt" className="primary-button">
-                Oddajte zaupno povpraševanje
+                <span>Oddajte zaupno povpraševanje</span>
+                <span className="button-arrow">→</span>
               </a>
 
               <a href="#storitev" className="secondary-button">
@@ -46,55 +57,85 @@ export default function Home() {
               </a>
             </div>
 
-            <div className="hero-facts">
-              <div>
-                <strong>Do 12 mesecev</strong>
-                <span>Najdaljša ročnost</span>
+            <div className="hero-trust">
+              <div className="trust-item">
+                <span className="trust-icon">✓</span>
+                <span>Diskretna obravnava</span>
               </div>
 
-              <div>
-                <strong>Individualno</strong>
-                <span>Strukturiranje financiranja</span>
+              <div className="trust-item">
+                <span className="trust-icon">✓</span>
+                <span>Ročnost do 12 mesecev</span>
               </div>
 
-              <div>
-                <strong>Švica</strong>
-                <span>Predvidena varna hramba zlata</span>
-              </div>
-            </div>
-          </div>
-
-          <div className="hero-card">
-            <p className="hero-card-label">Osnovni model</p>
-
-            <div className="model-step">
-              <span>01</span>
-              <div>
-                <strong>Fizično zlato</strong>
-                <p>Preverjeno lastništvo, čistina in zakonit izvor.</p>
-              </div>
-            </div>
-
-            <div className="model-line" />
-
-            <div className="model-step">
-              <span>02</span>
-              <div>
-                <strong>Zavarovanje</strong>
-                <p>Zlato se deponira pri dogovorjenem skrbniku.</p>
-              </div>
-            </div>
-
-            <div className="model-line" />
-
-            <div className="model-step">
-              <span>03</span>
-              <div>
-                <strong>Kapital</strong>
-                <p>Po izpolnitvi pogojev se odobrena sredstva nakažejo.</p>
+              <div className="trust-item">
+                <span className="trust-icon">✓</span>
+                <span>Fizično zlato kot zavarovanje</span>
               </div>
             </div>
           </div>
+
+          <aside className="hero-card">
+            <div className="hero-card-top">
+              <p className="hero-card-label">Indicative Structure</p>
+              <span className="hero-card-status">Private</span>
+            </div>
+
+            <div className="hero-card-main">
+              <p className="hero-card-caption">Primer vrednosti zlata</p>
+              <strong className="hero-card-value">3.000.000 €</strong>
+
+              <div className="hero-card-divider" />
+
+              <div className="hero-card-metrics">
+                <div>
+                  <span>Okvirno financiranje</span>
+                  <strong>2.000.000 €</strong>
+                </div>
+
+                <div>
+                  <span>Najdaljša ročnost</span>
+                  <strong>12 mesecev</strong>
+                </div>
+              </div>
+            </div>
+
+            <div className="hero-card-process">
+              <div className="model-step">
+                <span>01</span>
+                <div>
+                  <strong>Preverjanje zlata</strong>
+                  <p>Lastništvo, čistina, dokumentacija in zakonit izvor.</p>
+                </div>
+              </div>
+
+              <div className="model-line" />
+
+              <div className="model-step">
+                <span>02</span>
+                <div>
+                  <strong>Strukturiranje</strong>
+                  <p>Individualna priprava pogojev in pogodbenega okvirja.</p>
+                </div>
+              </div>
+
+              <div className="model-line" />
+
+              <div className="model-step">
+                <span>03</span>
+                <div>
+                  <strong>Hramba in izplačilo</strong>
+                  <p>
+                    Deponiranje pri dogovorjenem skrbniku in izplačilo kapitala.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <p className="hero-card-disclaimer">
+              Prikaz je informativen in ne predstavlja zavezujoče ponudbe.
+            </p>
+          </aside>
         </div>
       </section>
 

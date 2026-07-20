@@ -90,6 +90,5 @@
           </div>
         </div>
       </footer>
-      </footer>
   );
 }

@@ -4,6 +4,20 @@ import { FormEvent, useState } from "react";
 
 type FormStatus = "idle" | "sending" | "success" | "error";
 
+type ContactPayload = {
+  name: string;
+  company: string;
+  email: string;
+  phone: string;
+  financingAmount: string;
+  goldValue: string;
+  goldAmount: string;
+  goldLocation: string;
+  purpose: string;
+  ownershipConfirmed: boolean;
+  privacyConfirmed: boolean;
+};
+
 export default function ContactForm() {
   const [status, setStatus] = useState<FormStatus>("idle");
   const [errorMessage, setErrorMessage] = useState("");
@@ -17,7 +31,7 @@ export default function ContactForm() {
     setStatus("sending");
     setErrorMessage("");
 
-    const payload = {
+    const payload: ContactPayload = {
       name: String(formData.get("name") || "").trim(),
       company: String(formData.get("company") || "").trim(),
       email: String(formData.get("email") || "").trim(),
@@ -48,19 +62,20 @@ export default function ContactForm() {
 
       if (!response.ok) {
         throw new Error(
-          result.error || "Povpraševanja ni bilo mogoče poslati."
+          result.error ||
+            "We were unable to submit your inquiry. Please try again."
         );
       }
 
       form.reset();
       setStatus("success");
     } catch (error) {
-      console.error("Napaka pri pošiljanju obrazca:", error);
+      console.error("Contact form submission failed:", error);
 
       setErrorMessage(
         error instanceof Error
           ? error.message
-          : "Prišlo je do napake. Poskusite ponovno."
+          : "An unexpected error occurred. Please try again."
       );
 
       setStatus("error");
@@ -68,118 +83,149 @@ export default function ContactForm() {
   }
 
   return (
-    <form className="contact-form" onSubmit={handleSubmit}>
+    <form
+      className="contact-form"
+      onSubmit={handleSubmit}
+      noValidate={false}
+    >
+      {/* Client information */}
       <div className="form-row">
         <div className="form-field">
-          <label htmlFor="name">Ime in priimek</label>
+          <label htmlFor="name">Full Name</label>
+
           <input
             id="name"
             name="name"
             type="text"
-            placeholder="Vaše ime"
+            autoComplete="name"
+            placeholder="Your full name"
             required
           />
         </div>
 
         <div className="form-field">
-          <label htmlFor="company">Podjetje</label>
+          <label htmlFor="company">
+            Company, Family Office or Organisation
+          </label>
+
           <input
             id="company"
             name="company"
             type="text"
-            placeholder="Ime podjetja"
+            autoComplete="organization"
+            placeholder="Organisation name"
           />
         </div>
       </div>
 
       <div className="form-row">
         <div className="form-field">
-          <label htmlFor="email">E-poštni naslov</label>
+          <label htmlFor="email">Business Email Address</label>
+
           <input
             id="email"
             name="email"
             type="email"
-            placeholder="ime@podjetje.com"
+            autoComplete="email"
+            inputMode="email"
+            placeholder="name@company.com"
             required
           />
         </div>
 
         <div className="form-field">
-          <label htmlFor="phone">Telefonska številka</label>
+          <label htmlFor="phone">Telephone Number</label>
+
           <input
             id="phone"
             name="phone"
             type="tel"
-            placeholder="+386 ..."
+            autoComplete="tel"
+            inputMode="tel"
+            placeholder="+41 ..."
           />
         </div>
       </div>
 
+      {/* Financing profile */}
       <div className="form-row">
         <div className="form-field">
           <label htmlFor="financingAmount">
-            Želeni znesek financiranja
+            Requested Financing Amount
           </label>
 
           <input
             id="financingAmount"
             name="financingAmount"
             type="text"
-            placeholder="Na primer 2.000.000 €"
+            inputMode="decimal"
+            placeholder="e.g. EUR 2,000,000"
             required
           />
         </div>
 
         <div className="form-field">
-          <label htmlFor="goldValue">Ocenjena vrednost zlata</label>
+          <label htmlFor="goldValue">
+            Estimated Market Value of Gold
+          </label>
 
           <input
             id="goldValue"
             name="goldValue"
             type="text"
-            placeholder="Na primer 3.000.000 €"
+            inputMode="decimal"
+            placeholder="e.g. EUR 3,000,000"
             required
           />
         </div>
       </div>
 
+      {/* Gold profile */}
       <div className="form-row">
         <div className="form-field">
-          <label htmlFor="goldAmount">Količina zlata</label>
+          <label htmlFor="goldAmount">
+            Gold Quantity and Specification
+          </label>
 
           <input
             id="goldAmount"
             name="goldAmount"
             type="text"
-            placeholder="Na primer 50 kg"
+            placeholder="e.g. 50 kg, investment-grade bars"
           />
         </div>
 
         <div className="form-field">
-          <label htmlFor="goldLocation">Lokacija zlata</label>
+          <label htmlFor="goldLocation">
+            Current Gold Location or Custodian
+          </label>
 
           <input
             id="goldLocation"
             name="goldLocation"
             type="text"
-            placeholder="Država in mesto"
+            placeholder="Country, city, bank or vault"
             required
           />
         </div>
       </div>
 
-      <div className="form-field">
-        <label htmlFor="purpose">Namen financiranja</label>
+      {/* Transaction overview */}
+      <div className="form-field form-field-full">
+        <label htmlFor="purpose">
+          Transaction Overview and Financing Purpose
+        </label>
 
         <textarea
           id="purpose"
           name="purpose"
-          rows={5}
-          placeholder="Na kratko opišite namen financiranja in relevantne informacije."
+          rows={7}
+          placeholder="Please briefly describe the purpose of the financing, the preferred transaction timeframe, the ownership structure of the gold and any relevant information that may assist our initial assessment."
           required
         />
       </div>
 
+      {/* Declarations */}
       <label className="checkbox-field">
         <input
           name="ownershipConfirmed"
@@ -188,8 +234,8 @@ export default function ContactForm() {
         />
 
         <span>
-          Potrjujem, da sem lastnik zlata oziroma imam pooblastilo
-          zakonitega lastnika.
+          I confirm that I am the legal owner of the gold or that I am
+          duly authorised to act on behalf of its legal owner.
         </span>
       </label>
 
@@ -201,8 +247,9 @@ export default function ContactForm() {
         />
 
         <span>
-          Strinjam se z obdelavo podatkov za namen obravnave
-          povpraševanja.
+          I consent to the processing of the information provided for
+          the purpose of reviewing and responding to this confidential
+          financing inquiry.
         </span>
       </label>
 
@@ -210,25 +257,31 @@ export default function ContactForm() {
         type="submit"
         className="submit-button"
         disabled={status === "sending"}
+        aria-busy={status === "sending"}
       >
         {status === "sending"
-          ? "Pošiljanje ..."
-          : "Pošlji zaupno povpraševanje"}
+          ? "Submitting Confidential Inquiry..."
+          : "Submit Confidential Inquiry"}
       </button>
 
       {status === "success" && (
         <div
-          className="form-message form-message-success"
+          className="form-message form-message-success success-message"
           role="status"
+          aria-live="polite"
         >
-          Hvala. Vaše povpraševanje je bilo uspešno poslano.
+          Thank you. Your confidential inquiry has been submitted
+          successfully. Our team will review the information provided
+          and contact you should the transaction meet the initial
+          assessment criteria.
         </div>
       )}
 
       {status === "error" && (
         <div
-          className="form-message form-message-error"
+          className="form-message form-message-error error-message"
           role="alert"
+          aria-live="assertive"
         >
           {errorMessage}
         </div>

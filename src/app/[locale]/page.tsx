@@ -4,6 +4,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import { setRequestLocale } from "next-intl/server";
 import ContactForm from "@/components/ContactForm";
 import Icon, { type IconName } from "@/components/shared/Icon";
+import InstitutionalStrip from "@/components/landing/InstitutionalStrip";
 
 const advantages = [
   {
@@ -69,43 +70,10 @@ export default async function Home({ params }: HomeProps) {
   return (
     <main className="site-shell">
       <SiteHeader />
+
       <HeroSection />
 
-      <section className="institutional-strip" aria-label="Key principles">
-        <div className="container institutional-strip-grid">
-          <div className="institutional-strip-item">
-            <span className="strip-index">01</span>
-            <div>
-              <strong>Physical Collateral</strong>
-              <span>Eligible investment-grade gold</span>
-            </div>
-          </div>
-
-          <div className="institutional-strip-item">
-            <span className="strip-index">02</span>
-            <div>
-              <strong>Individual Structuring</strong>
-              <span>No standardised retail product</span>
-            </div>
-          </div>
-
-          <div className="institutional-strip-item">
-            <span className="strip-index">03</span>
-            <div>
-              <strong>Defined Term</strong>
-              <span>Short-term financing up to 12 months</span>
-            </div>
-          </div>
-
-          <div className="institutional-strip-item">
-            <span className="strip-index">04</span>
-            <div>
-              <strong>Subject to Approval</strong>
-              <span>Full due diligence and documentation</span>
-            </div>
-          </div>
-        </div>
-      </section>
+      <InstitutionalStrip />
 
       <section id="approach" className="section approach-section">
         <div className="section-decoration section-decoration-left" />

@@ -1,3 +1,4 @@
+import { setRequestLocale } from "next-intl/server";
 import ContactForm from "@/components/ContactForm";
 
 type IconName =
@@ -446,7 +447,17 @@ const clientProfiles = [
   },
 ];
 
-export default function Home() {
+type HomeProps = {
+  params: Promise<{
+    locale: string;
+  }>;
+};
+
+export default async function Home({ params }: HomeProps) {
+  const { locale } = await params;
+
+  setRequestLocale(locale);
+  
   return (
     <main className="site-shell">
       <header className="site-header">

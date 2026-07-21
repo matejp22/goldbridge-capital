@@ -479,4 +479,73 @@
     "label": "Please note",
     "text": "Depending on the transaction, additional legal opinions, assay reports, independent valuations, tax information, financial statements, custody confirmations or other specialist documents may be required."
   }
+},
+
+"FAQ": {
+  "kicker": "Frequently Asked Questions",
+  "title": {
+    "main": "Essential information before",
+    "highlight": " submitting an inquiry."
+  },
+  "introduction": {
+    "first": "The answers below provide a general overview of the potential transaction process. Each case remains subject to individual review, documentation, legal structuring and approval.",
+    "second": "No information on this website should be interpreted as a binding offer, investment recommendation or commitment to provide financing."
+  },
+  "items": {
+    "collateral": {
+      "number": "01",
+      "question": "What type of gold may be considered as collateral?",
+      "answer": "Transactions are generally expected to involve clearly identifiable physical investment gold with verifiable purity, ownership, provenance and supporting documentation. The accepted form, refinery, bar size, location and custody conditions depend on the requirements of the relevant transaction parties."
+    },
+    "sale": {
+      "number": "02",
+      "question": "Does the client sell the gold?",
+      "answer": "The intended structure is financing secured by physical gold rather than an outright sale. The client is expected to retain legal ownership, subject to the contractual security, custody and enforcement rights established in the final transaction documents."
+    },
+    "custody": {
+      "number": "03",
+      "question": "Where is the gold held during the financing period?",
+      "answer": "The gold is held under custody arrangements accepted by the relevant parties. Depending on the transaction, this may involve an approved bank, vault operator, custodian or other professional storage provider in an agreed jurisdiction."
+    },
+    "amount": {
+      "number": "04",
+      "question": "How much financing may be available?",
+      "answer": "The potential financing amount depends on the independently assessed collateral value, form and location of the gold, market conditions, requested term, client profile and risk requirements of the financing party. No fixed advance ratio can be guaranteed before full review."
+    },
+    "term": {
+      "number": "05",
+      "question": "What is the maximum financing term?",
+      "answer": "The intended focus is short-term financing with a duration of up to 12 months. The precise term is determined individually and depends on the proposed use of funds, repayment strategy and approval of the relevant parties."
+    },
+    "pricing": {
+      "number": "06",
+      "question": "How are pricing and transaction costs determined?",
+      "answer": "Pricing is established individually after review of the collateral and transaction. Total costs may include financing charges, arrangement fees, legal costs, custody, transportation, insurance, assay, valuation, compliance and other professional expenses."
+    },
+    "timing": {
+      "number": "07",
+      "question": "How quickly can a transaction be completed?",
+      "answer": "Completion time depends heavily on document quality, collateral location, ownership verification, compliance review, valuation, legal preparation and custody arrangements. A specific completion date cannot be promised before all required information has been reviewed."
+    },
+    "acceptance": {
+      "number": "08",
+      "question": "Is every submitted transaction accepted?",
+      "answer": "No. Every inquiry is assessed individually. Gold Bridge Capital and the relevant independent parties may decline a transaction at any stage where documentation, compliance, collateral eligibility, commercial terms or risk requirements are not satisfactory."
+    },
+    "repayment": {
+      "number": "09",
+      "question": "What happens after the financing has been repaid?",
+      "answer": "Once all repayment obligations, fees and other contractual conditions have been fully satisfied, the collateral is released in accordance with the definitive transaction and custody documents."
+    }
+  },
+  "sidebar": {
+    "overline": "Confidential discussion",
+    "title": "Your transaction may require a more specific assessment.",
+    "text": "Provide a concise overview of your gold collateral, financing requirement and intended use of funds. The initial submission will be reviewed confidentially.",
+    "button": "Start a Confidential Inquiry"
+  },
+  "disclaimer": {
+    "label": "Important information",
+    "text": "Gold Bridge Capital does not represent that financing will be available for every applicant or transaction. Any potential transaction remains subject to satisfactory due diligence, definitive documentation and approval."
+  }
 }

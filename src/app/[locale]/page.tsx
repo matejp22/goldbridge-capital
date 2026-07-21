@@ -13,6 +13,7 @@ import ProcessSection from "@/components/landing/ProcessSection";
 import RequirementsSection from "@/components/landing/RequirementsSection";
 import FAQSection from "@/components/landing/FAQSection";
 import InquirySection from "@/components/landing/InquirySection";
+import ClosingSection from "@/components/landing/ClosingSection";
 
 type HomeProps = {
   params: Promise<{
@@ -38,38 +39,11 @@ export default async function Home({ params }: HomeProps) {
       <RequirementsSection />
       <FAQSection />
       <InquirySection />
-           
+      <ClosingSection />
 
      
 
-      <section className="closing-section">
-        <div className="closing-background" aria-hidden="true">
-          <div className="closing-line closing-line-one" />
-          <div className="closing-line closing-line-two" />
-          <div className="closing-glow" />
-        </div>
-
-        <div className="container closing-content">
-          <span className="closing-overline">
-            Gold Bridge Capital
-          </span>
-
-          <h2>
-            Structured liquidity.
-            <span> Preserved ownership.</span>
-          </h2>
-
-          <p>
-            A discreet and disciplined approach to financing secured by
-            eligible physical investment gold.
-          </p>
-
-          <a href="#inquiry" className="button button-primary">
-            <span>Discuss a Transaction</span>
-            <Icon name="arrow" className="button-icon" />
-          </a>
-        </div>
-      </section>
+      
 
      <SiteFooter />
     </main>

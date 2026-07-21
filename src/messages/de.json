@@ -917,4 +917,12 @@
     "title": "12. Kontakt",
     "text": "Bei rechtlichen Fragen oder Anfragen zur Website kontaktieren Sie:"
   }
+},
+"CookieConsent": {
+  "kicker": "Datenschutzeinstellungen",
+  "title": "Ihre Privatsphäre ist uns wichtig",
+  "description": "Wir verwenden notwendige Technologien, um diese Website zu betreiben. Mit Ihrer Zustimmung können wir außerdem Analysedienste einsetzen, um die Nutzung der Website besser zu verstehen und ihre Leistung zu verbessern.",
+  "privacyLink": "Datenschutzerklärung lesen",
+  "reject": "Analysen ablehnen",
+  "accept": "Analysen akzeptieren"
 }

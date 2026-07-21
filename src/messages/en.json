@@ -930,4 +930,12 @@
     "title": "12. Contact",
     "text": "For legal or website-related inquiries, contact:"
   }
+},
+"CookieConsent": {
+  "kicker": "Privacy choices",
+  "title": "Your privacy matters",
+  "description": "We use essential technologies to operate this website. With your permission, we may also use analytics to understand how the website is used and improve its performance.",
+  "privacyLink": "Read our Privacy Policy",
+  "reject": "Reject analytics",
+  "accept": "Accept analytics"
 }

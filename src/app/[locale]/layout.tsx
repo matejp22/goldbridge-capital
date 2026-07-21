@@ -1,3 +1,4 @@
+import CookieConsent from "@/components/privacy/CookieConsent";
 import { Inter, Cormorant_Garamond } from "next/font/google";
 import type { Metadata } from "next";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
@@ -120,6 +121,7 @@ export default async function LocaleLayout({
       <body>
         <NextIntlClientProvider>
           {children}
+          <CookieConsent />
         </NextIntlClientProvider>
       </body>
     </html>

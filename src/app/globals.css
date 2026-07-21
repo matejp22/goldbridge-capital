@@ -5162,6 +5162,134 @@ textarea {
   }
 }
 
+.cookie-consent {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  left: 24px;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  pointer-events: none;
+}
+
+.cookie-consent-inner {
+  width: min(100%, 1120px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  padding: 24px 28px;
+  border: 1px solid rgba(198, 164, 92, 0.3);
+  border-radius: 18px;
+  background: rgba(12, 18, 24, 0.97);
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(18px);
+  pointer-events: auto;
+}
+
+.cookie-consent-copy {
+  max-width: 760px;
+}
+
+.cookie-consent-copy .section-kicker {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.cookie-consent-copy h2 {
+  margin: 0 0 8px;
+  color: #ffffff;
+  font-family: var(--font-cormorant), serif;
+  font-size: clamp(24px, 3vw, 32px);
+  font-weight: 600;
+  line-height: 1.05;
+}
+
+.cookie-consent-copy p {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.68);
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.cookie-consent-copy a {
+  color: #d7b86f;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.cookie-consent-actions {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  gap: 12px;
+}
+
+.cookie-button {
+  min-height: 44px;
+  padding: 0 20px;
+  border-radius: 999px;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease,
+    background-color 0.2s ease,
+    color 0.2s ease;
+}
+
+.cookie-button:hover {
+  transform: translateY(-1px);
+}
+
+.cookie-button-secondary {
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  background: transparent;
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.cookie-button-secondary:hover {
+  border-color: rgba(255, 255, 255, 0.42);
+  color: #ffffff;
+}
+
+.cookie-button-primary {
+  border: 1px solid #c6a45c;
+  background: #c6a45c;
+  color: #111820;
+}
+
+.cookie-button-primary:hover {
+  background: #d7b86f;
+  border-color: #d7b86f;
+}
+
+@media (max-width: 760px) {
+  .cookie-consent {
+    right: 12px;
+    bottom: 12px;
+    left: 12px;
+  }
+
+  .cookie-consent-inner {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 20px;
+    padding: 22px;
+  }
+
+  .cookie-consent-actions {
+    width: 100%;
+  }
+
+  .cookie-button {
+    flex: 1;
+  }
+}
+
 /*
   GLOBALS.CSS COMPLETE
 */

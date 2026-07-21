@@ -1,9 +1,10 @@
 "use client";
 
 import { FormEvent, useState } from "react";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 
 type FormStatus = "idle" | "sending" | "success" | "error";
+type SupportedLocale = "en" | "de" | "it";
 
 type ContactPayload = {
   name: string;
@@ -18,6 +19,7 @@ type ContactPayload = {
   ownershipConfirmed: boolean;
   privacyConfirmed: boolean;
   website: string;
+  locale: SupportedLocale;
 };
 
 declare global {
@@ -32,6 +34,7 @@ declare global {
 
 export default function ContactForm() {
   const t = useTranslations("ContactForm");
+  const locale = useLocale() as SupportedLocale;
 
   const [status, setStatus] = useState<FormStatus>("idle");
   const [errorMessage, setErrorMessage] = useState("");
@@ -62,6 +65,7 @@ export default function ContactForm() {
       privacyConfirmed:
         formData.get("privacyConfirmed") === "on",
       website: String(formData.get("website") || "").trim(),
+      locale,
     };
 
     try {
@@ -85,9 +89,9 @@ export default function ContactForm() {
       setStatus("success");
 
       window.gtag?.("event", "generate_lead", {
-  form_name: "confidential_financing_inquiry",
-  form_location: "landing_page",
-});
+        form_name: "confidential_financing_inquiry",
+        form_location: "landing_page",
+      });
     } catch (error) {
       console.error("Contact form submission failed:", error);
 

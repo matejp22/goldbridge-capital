@@ -135,4 +135,62 @@
     "title": "Qualification and compliance",
     "text": "All potential clients, beneficial owners, collateral and uses of funds are subject to applicable identification, ownership, provenance, sanctions, anti-money-laundering and counterparty review requirements."
   }
+},
+
+"Structure": {
+  "kicker": "How Structured Financing Works",
+  "title": {
+    "main": "A clear path from physical gold",
+    "highlight": " to available liquidity."
+  },
+  "introduction": {
+    "first": "Each proposed transaction is reviewed individually. The structure depends on the nature and location of the gold, the requested financing amount, the intended use of funds and the requirements of the relevant financing and custody partners.",
+    "second": "The outline below presents a typical transaction pathway. It does not represent a guaranteed offer or a standardised lending product."
+  },
+  "steps": {
+    "collateral": {
+      "number": "01",
+      "label": "Eligible collateral",
+      "title": "Physical Investment Gold",
+      "text": "The client presents eligible physical gold together with supporting ownership, product, custody and provenance documentation."
+    },
+    "review": {
+      "number": "02",
+      "label": "Preliminary assessment",
+      "title": "Verification & Review",
+      "text": "Documentation, ownership, purity, form, storage location, beneficial ownership and intended use of funds are reviewed."
+    },
+    "financing": {
+      "number": "03",
+      "label": "Individual terms",
+      "title": "Financing Structure",
+      "text": "Indicative terms may be prepared based on the verified collateral value, requested capital, term and counterparty requirements."
+    },
+    "custody": {
+      "number": "04",
+      "label": "Agreed arrangements",
+      "title": "Secure Custody",
+      "text": "The gold is held under agreed custody and collateral arrangements with suitable independent service providers."
+    },
+    "release": {
+      "number": "05",
+      "label": "Completion",
+      "title": "Capital Release",
+      "text": "Following execution of the required agreements and satisfaction of conditions, approved financing may be released."
+    }
+  },
+  "principles": {
+    "ownership": {
+      "title": "Client ownership",
+      "text": "The commercial objective is to unlock liquidity without an outright sale of the gold."
+    },
+    "counterparties": {
+      "title": "Independent counterparties",
+      "text": "Custody, valuation, legal, compliance and financing functions may be performed by separate professional parties."
+    },
+    "assessment": {
+      "title": "Case-by-case assessment",
+      "text": "No transaction proceeds without satisfactory documentation, due diligence and final approval."
+    }
+  }
 }

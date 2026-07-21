@@ -582,4 +582,14 @@
     "security": "Confidential",
     "notice": "By submitting this form, you confirm that the information provided is accurate to the best of your knowledge. Submission does not create a client relationship, financing commitment or obligation on any party."
   }
+},
+
+"Closing": {
+  "overline": "Gold Bridge Capital",
+  "title": {
+    "main": "Structured liquidity.",
+    "highlight": " Preserved ownership."
+  },
+  "text": "A discreet and disciplined approach to financing secured by eligible physical investment gold.",
+  "button": "Discuss a Transaction"
 }

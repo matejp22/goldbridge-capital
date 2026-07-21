@@ -7,6 +7,8 @@ import Link from "next/link";
 type ConsentChoice = "accepted" | "rejected";
 
 const STORAGE_KEY = "goldbridge-cookie-consent";
+const OPEN_SETTINGS_EVENT = "goldbridge-open-cookie-settings";
+const CONSENT_CHANGE_EVENT = "goldbridge-consent-change";
 
 export default function CookieConsent() {
   const t = useTranslations("CookieConsent");
@@ -15,19 +17,37 @@ export default function CookieConsent() {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
-    const existingChoice = window.localStorage.getItem(STORAGE_KEY);
+    const existingChoice =
+      window.localStorage.getItem(STORAGE_KEY);
 
     if (!existingChoice) {
       setIsVisible(true);
     }
+
+    function handleOpenSettings() {
+      setIsVisible(true);
+    }
+
+    window.addEventListener(
+      OPEN_SETTINGS_EVENT,
+      handleOpenSettings
+    );
+
+    return () => {
+      window.removeEventListener(
+        OPEN_SETTINGS_EVENT,
+        handleOpenSettings
+      );
+    };
   }, []);
 
   function saveConsent(choice: ConsentChoice) {
     window.localStorage.setItem(STORAGE_KEY, choice);
+
     window.dispatchEvent(
-      new CustomEvent("goldbridge-consent-change", {
+      new CustomEvent(CONSENT_CHANGE_EVENT, {
         detail: choice,
-      }),
+      })
     );
 
     setIsVisible(false);

@@ -630,7 +630,8 @@
     "bottomLinks": {
       "privacy": "Privacy",
       "terms": "Terms",
-      "legal": "Legal"
+      "legal": "Legal",
+      "cookieSettings": "Cookie settings"
     }
   },
   "ContactForm": {

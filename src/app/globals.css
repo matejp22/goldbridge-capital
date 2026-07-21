@@ -5290,6 +5290,21 @@ textarea {
   }
 }
 
+.footer-cookie-settings-button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  line-height: inherit;
+  cursor: pointer;
+}
+
+.footer-cookie-settings-button:hover {
+  text-decoration: underline;
+}
+
 /*
   GLOBALS.CSS COMPLETE
 */

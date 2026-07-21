@@ -46,5 +46,26 @@
       "disclaimer": "Illustrative information only. Final availability and terms are subject to due diligence, documentation and approval."
     },
     "discover": "Discover our approach"
+    },
+  "InstitutionalStrip": {
+    "ariaLabel": "Key principles",
+    "items": {
+      "collateral": {
+        "title": "Physical Collateral",
+        "description": "Eligible investment-grade gold"
+      },
+      "structuring": {
+        "title": "Individual Structuring",
+        "description": "No standardised retail product"
+      },
+      "term": {
+        "title": "Defined Term",
+        "description": "Short-term financing up to 12 months"
+      },
+      "approval": {
+        "title": "Subject to Approval",
+        "description": "Full due diligence and documentation"
+      }
+    }
   }
 }

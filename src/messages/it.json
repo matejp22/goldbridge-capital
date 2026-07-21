@@ -680,14 +680,14 @@
       "idle": "Invia richiesta riservata",
       "sending": "Invio della richiesta riservata..."
     },
-    "messages": {
-      "success": "Grazie. La tua richiesta riservata è stata inviata con successo. Il nostro team esaminerà le informazioni fornite e ti contatterà qualora l'operazione soddisfi i criteri di valutazione iniziale.",
-      "submissionError": "Non è stato possibile inviare la richiesta. Riprova.",
-      "unexpectedError": "Si è verificato un errore imprevisto. Riprova."
-    }
+      "messages": {
+    "success": "Grazie. La tua richiesta riservata è stata inviata con successo. Il nostro team esaminerà le informazioni fornite e ti contatterà qualora l'operazione soddisfi i criteri di valutazione iniziale.",
+    "submissionError": "Non è stato possibile inviare la richiesta. Riprova.",
+    "unexpectedError": "Si è verificato un errore imprevisto. Riprova."
   }
 },
 "Metadata": {
   "title": "Gold Bridge Capital | Finanziamenti strutturati garantiti da oro",
   "description": "Soluzioni riservate di finanziamento a breve termine garantite da oro fisico da investimento idoneo, per clienti privati e aziendali qualificati."
+}
 }

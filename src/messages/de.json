@@ -680,14 +680,14 @@
       "idle": "Vertrauliche Anfrage absenden",
       "sending": "Vertrauliche Anfrage wird gesendet..."
     },
-    "messages": {
-      "success": "Vielen Dank. Ihre vertrauliche Anfrage wurde erfolgreich übermittelt. Unser Team wird die bereitgestellten Informationen prüfen und Sie kontaktieren, sofern die Transaktion die Kriterien der ersten Prüfung erfüllt.",
-      "submissionError": "Ihre Anfrage konnte nicht übermittelt werden. Bitte versuchen Sie es erneut.",
-      "unexpectedError": "Ein unerwarteter Fehler ist aufgetreten. Bitte versuchen Sie es erneut."
-    }
+      "messages": {
+    "success": "Vielen Dank. Ihre vertrauliche Anfrage wurde erfolgreich übermittelt. Unser Team wird die bereitgestellten Informationen prüfen und Sie kontaktieren, sofern die Transaktion die Kriterien der ersten Prüfung erfüllt.",
+    "submissionError": "Ihre Anfrage konnte nicht übermittelt werden. Bitte versuchen Sie es erneut.",
+    "unexpectedError": "Ein unerwarteter Fehler ist aufgetreten. Bitte versuchen Sie es erneut."
   }
 },
 "Metadata": {
   "title": "Gold Bridge Capital | Strukturierte Finanzierung mit Goldbesicherung",
   "description": "Vertrauliche kurzfristige Finanzierungslösungen, besichert durch geeignetes physisches Anlagegold, für qualifizierte private und gewerbliche Kunden."
+}
 }

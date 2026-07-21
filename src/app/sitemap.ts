@@ -2,46 +2,51 @@ import type { MetadataRoute } from "next";
 
 const baseUrl = "https://goldbridge-capital.com";
 
+const locales = ["en", "de", "it"] as const;
+
+const pages = [
+  {
+    path: "",
+    changeFrequency: "monthly" as const,
+    priority: 1,
+  },
+  {
+    path: "/privacy",
+    changeFrequency: "yearly" as const,
+    priority: 0.4,
+  },
+  {
+    path: "/terms",
+    changeFrequency: "yearly" as const,
+    priority: 0.4,
+  },
+  {
+    path: "/legal",
+    changeFrequency: "yearly" as const,
+    priority: 0.4,
+  },
+];
+
 export default function sitemap(): MetadataRoute.Sitemap {
-  return [
-    {
-      url: `${baseUrl}/en`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 1,
+  const lastModified = new Date();
+
+  return pages.flatMap((page) =>
+    locales.map((locale) => ({
+      url: `${baseUrl}/${locale}${page.path}`,
+      lastModified,
+      changeFrequency: page.changeFrequency,
+      priority:
+        page.path === "" && locale !== "en"
+          ? 0.9
+          : page.priority,
       alternates: {
         languages: {
-          en: `${baseUrl}/en`,
-          de: `${baseUrl}/de`,
-          it: `${baseUrl}/it`,
+          en: `${baseUrl}/en${page.path}`,
+          de: `${baseUrl}/de${page.path}`,
+          it: `${baseUrl}/it${page.path}`,
+          "x-default": `${baseUrl}/en${page.path}`,
         },
       },
-    },
-    {
-      url: `${baseUrl}/de`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.9,
-      alternates: {
-        languages: {
-          en: `${baseUrl}/en`,
-          de: `${baseUrl}/de`,
-          it: `${baseUrl}/it`,
-        },
-      },
-    },
-    {
-      url: `${baseUrl}/it`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.9,
-      alternates: {
-        languages: {
-          en: `${baseUrl}/en`,
-          de: `${baseUrl}/de`,
-          it: `${baseUrl}/it`,
-        },
-      },
-    },
-  ];
+    }))
+  );
 }

@@ -1,3 +1,50 @@
 {
-  "test": "Hello"
+  "Hero": {
+    "kicker": "Private Structured Finance",
+    "title": {
+      "main": "Unlock liquidity",
+      "highlight": " without selling your gold."
+    },
+    "lead": "Gold Bridge Capital facilitates tailored short-term financing solutions secured by eligible physical investment gold for qualified private and corporate clients.",
+    "actions": {
+      "discuss": "Discuss Your Transaction",
+      "explore": "Explore the Structure"
+    },
+    "assurances": {
+      "confidential": "Confidential assessment",
+      "term": "Terms up to 12 months",
+      "collateral": "Physical gold collateral"
+    },
+    "transaction": {
+      "ariaLabel": "Illustrative financing structure",
+      "overline": "Illustrative Structure",
+      "title": "Private Transaction",
+      "confidential": "Confidential",
+      "goldValueLabel": "Indicative gold value",
+      "goldValue": "€3,000,000",
+      "financingLabel": "Illustrative financing",
+      "financingValue": "€2,000,000",
+      "maximumTermLabel": "Maximum term",
+      "maximumTermValue": "Up to 12 months",
+      "steps": {
+        "verification": {
+          "number": "01",
+          "title": "Gold Verification",
+          "description": "Ownership, form, purity, provenance and documentation."
+        },
+        "structuring": {
+          "number": "02",
+          "title": "Transaction Structuring",
+          "description": "Indicative terms, due diligence and contractual framework."
+        },
+        "funding": {
+          "number": "03",
+          "title": "Custody & Funding",
+          "description": "Agreed custody arrangements followed by capital release."
+        }
+      },
+      "disclaimer": "Illustrative information only. Final availability and terms are subject to due diligence, documentation and approval."
+    },
+    "discover": "Discover our approach"
+  }
 }

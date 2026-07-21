@@ -269,4 +269,91 @@
     "label": "Important",
     "text": "Values shown above are hypothetical. Actual collateral eligibility, valuation, advance ratio, duration, pricing, custody arrangements and repayment obligations are determined only after full review and written approval by the relevant parties."
   }
+},
+
+"Process": {
+  "kicker": "Transaction Process",
+  "title": {
+    "main": "A disciplined process from",
+    "highlight": " inquiry to completion."
+  },
+  "introduction": {
+    "first": "Gold-backed financing transactions require a structured and transparent review process. Each stage is designed to establish whether the proposed collateral, client profile and financing purpose meet the requirements of the relevant counterparties.",
+    "second": "Timelines depend on the quality of documentation, collateral location, legal structure, jurisdiction and responsiveness of all parties involved."
+  },
+  "steps": {
+    "inquiry": {
+      "number": "01",
+      "stage": "Initial submission",
+      "title": "Confidential Inquiry",
+      "text": "The client submits an initial overview of the transaction, including the requested financing amount, intended use of funds and essential information about the proposed gold collateral.",
+      "items": {
+        "first": "Requested financing amount",
+        "second": "Purpose and preferred duration",
+        "third": "Initial collateral description"
+      }
+    },
+    "assessment": {
+      "number": "02",
+      "stage": "Preliminary review",
+      "title": "Eligibility Assessment",
+      "text": "The opportunity is screened for basic eligibility. This includes the client profile, beneficial ownership, collateral form, location, documentation and commercial rationale.",
+      "items": {
+        "first": "Client and beneficial-owner profile",
+        "second": "Collateral form, purity and location",
+        "third": "Initial compliance suitability"
+      }
+    },
+    "diligence": {
+      "number": "03",
+      "stage": "Detailed verification",
+      "title": "Due Diligence",
+      "text": "Suitable opportunities proceed to more detailed document, ownership, provenance, sanctions, anti-money-laundering and counterparty review.",
+      "items": {
+        "first": "Identity and corporate documentation",
+        "second": "Proof of ownership and provenance",
+        "third": "Independent verification where required"
+      }
+    },
+    "structuring": {
+      "number": "04",
+      "stage": "Commercial preparation",
+      "title": "Indicative Structuring",
+      "text": "Based on the verified information, suitable parties may prepare an indicative transaction structure covering financing amount, term, pricing, collateral and conditions.",
+      "items": {
+        "first": "Indicative advance ratio",
+        "second": "Proposed duration and repayment profile",
+        "third": "Custody and collateral mechanics"
+      }
+    },
+    "documentation": {
+      "number": "05",
+      "stage": "Legal completion",
+      "title": "Documentation & Custody",
+      "text": "If the indicative structure is accepted, the relevant parties prepare definitive agreements and establish the agreed custody and collateral arrangements.",
+      "items": {
+        "first": "Definitive transaction agreements",
+        "second": "Custody and security documentation",
+        "third": "Completion conditions confirmed"
+      }
+    },
+    "funding": {
+      "number": "06",
+      "stage": "Transaction completion",
+      "title": "Funding & Repayment",
+      "text": "Once all conditions have been satisfied, approved financing may be released. The client then performs the agreed repayment obligations according to the executed documents.",
+      "items": {
+        "first": "Capital release after completion",
+        "second": "Contractual monitoring during the term",
+        "third": "Collateral release after full repayment"
+      }
+    }
+  },
+  "timing": {
+    "label": "Indicative transaction timing",
+    "title": "Preparation quality directly influences execution speed.",
+    "text": "A well-documented transaction may progress materially faster than a case with incomplete ownership, provenance, valuation or custody information. No standard completion timeline can be guaranteed.",
+    "statLabel": "Primary factor",
+    "statValue": "Complete documentation"
+  }
 }

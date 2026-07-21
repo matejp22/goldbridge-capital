@@ -46,7 +46,7 @@
       "disclaimer": "Illustrative information only. Final availability and terms are subject to due diligence, documentation and approval."
     },
     "discover": "Discover our approach"
-    },
+  },
   "InstitutionalStrip": {
     "ariaLabel": "Key principles",
     "items": {
@@ -67,875 +67,862 @@
         "description": "Full due diligence and documentation"
       }
     }
-  
-},
-
-"Approach": {
-  "kicker": "Why Gold Bridge Capital",
-  "title": {
-    "main": "A considered approach to",
-    "highlight": " gold-backed liquidity."
   },
-  "introduction": {
-    "first": "Significant private transactions require more than access to capital. They require discretion, credible documentation, suitable counterparties and a structure aligned with the collateral and commercial objective.",
-    "second": "Gold Bridge Capital acts as a transaction facilitator. We support the preparation, assessment and coordination of potential financing opportunities with relevant independent parties."
-  },
-  "advantages": {
-    "confidential": {
-      "number": "01",
-      "title": "Confidential by Design",
-      "text": "Each inquiry is handled discreetly and shared only with the professionals required to assess and structure the proposed transaction."
+  "Approach": {
+    "kicker": "Why Gold Bridge Capital",
+    "title": {
+      "main": "A considered approach to",
+      "highlight": " gold-backed liquidity."
     },
-    "international": {
-      "number": "02",
-      "title": "International Access",
-      "text": "We coordinate opportunities with suitable financing, custody, legal and transaction partners according to the requirements of each case."
+    "introduction": {
+      "first": "Significant private transactions require more than access to capital. They require discretion, credible documentation, suitable counterparties and a structure aligned with the collateral and commercial objective.",
+      "second": "Gold Bridge Capital acts as a transaction facilitator. We support the preparation, assessment and coordination of potential financing opportunities with relevant independent parties."
     },
-    "tailored": {
-      "number": "03",
-      "title": "Tailored Structures",
-      "text": "Financing terms are developed individually around the collateral, requested capital, intended use of funds and agreed repayment profile."
-    },
-    "review": {
-      "number": "04",
-      "title": "Disciplined Review",
-      "text": "Every opportunity is subject to verification of ownership, provenance, purity, documentation, counterparties and regulatory acceptability."
-    }
-  },
-  "statement": "Our role is to bring clarity, structure and disciplined coordination to complex transactions secured by physical gold.",
-  "signature": "Gold Bridge Capital"
-},
-
-"Clients": {
-  "kicker": "Who We Work With",
-  "title": {
-    "main": "Designed for qualified private",
-    "highlight": " and corporate clients."
-  },
-  "introduction": "We consider transactions with a legitimate financing purpose, suitable physical gold collateral and complete, verifiable documentation.",
-  "profiles": {
-    "familyOffices": {
-      "title": "Family Offices",
-      "text": "Private capital structures for families seeking liquidity while preserving ownership of eligible physical gold."
-    },
-    "entrepreneurs": {
-      "title": "Entrepreneurs",
-      "text": "Short-term capital for qualified business, acquisition, expansion or bridge-financing requirements."
-    },
-    "privateInvestors": {
-      "title": "Private Investors",
-      "text": "Individually reviewed financing opportunities secured by documented investment-grade gold."
-    },
-    "corporations": {
-      "title": "Corporations",
-      "text": "Structured liquidity solutions for companies with a clearly defined commercial purpose and acceptable collateral."
-    }
-  },
-  "qualification": {
-    "title": "Qualification and compliance",
-    "text": "All potential clients, beneficial owners, collateral and uses of funds are subject to applicable identification, ownership, provenance, sanctions, anti-money-laundering and counterparty review requirements."
-  }
-},
-
-"Structure": {
-  "kicker": "How Structured Financing Works",
-  "title": {
-    "main": "A clear path from physical gold",
-    "highlight": " to available liquidity."
-  },
-  "introduction": {
-    "first": "Each proposed transaction is reviewed individually. The structure depends on the nature and location of the gold, the requested financing amount, the intended use of funds and the requirements of the relevant financing and custody partners.",
-    "second": "The outline below presents a typical transaction pathway. It does not represent a guaranteed offer or a standardised lending product."
-  },
-  "steps": {
-    "collateral": {
-      "number": "01",
-      "label": "Eligible collateral",
-      "title": "Physical Investment Gold",
-      "text": "The client presents eligible physical gold together with supporting ownership, product, custody and provenance documentation."
-    },
-    "review": {
-      "number": "02",
-      "label": "Preliminary assessment",
-      "title": "Verification & Review",
-      "text": "Documentation, ownership, purity, form, storage location, beneficial ownership and intended use of funds are reviewed."
-    },
-    "financing": {
-      "number": "03",
-      "label": "Individual terms",
-      "title": "Financing Structure",
-      "text": "Indicative terms may be prepared based on the verified collateral value, requested capital, term and counterparty requirements."
-    },
-    "custody": {
-      "number": "04",
-      "label": "Agreed arrangements",
-      "title": "Secure Custody",
-      "text": "The gold is held under agreed custody and collateral arrangements with suitable independent service providers."
-    },
-    "release": {
-      "number": "05",
-      "label": "Completion",
-      "title": "Capital Release",
-      "text": "Following execution of the required agreements and satisfaction of conditions, approved financing may be released."
-    }
-  },
-  "principles": {
-    "ownership": {
-      "title": "Client ownership",
-      "text": "The commercial objective is to unlock liquidity without an outright sale of the gold."
-    },
-    "counterparties": {
-      "title": "Independent counterparties",
-      "text": "Custody, valuation, legal, compliance and financing functions may be performed by separate professional parties."
-    },
-    "assessment": {
-      "title": "Case-by-case assessment",
-      "text": "No transaction proceeds without satisfactory documentation, due diligence and final approval."
-    }
-  }
-},
-
-"Example": {
-  "kicker": "Illustrative Transaction",
-  "title": {
-    "main": "An example of a potential",
-    "highlight": " gold-backed financing structure."
-  },
-  "introduction": "The following example is provided solely to explain the mechanics of a possible transaction. It is not an offer, commitment, quotation or guarantee of financing.",
-  "case": {
-    "overline": "Illustrative client case",
-    "title": "Short-Term Private Financing",
-    "status": "Example only"
-  },
-  "values": {
-    "collateral": {
-      "label": "Indicative collateral value",
-      "value": "€3,000,000",
-      "note": "Physical investment gold"
-    },
-    "financing": {
-      "label": "Illustrative financing",
-      "value": "€2,000,000",
-      "note": "Subject to approval"
-    }
-  },
-  "details": {
-    "term": {
-      "label": "Illustrative term",
-      "value": "Up to 12 months"
-    },
-    "repayment": {
-      "label": "Indicative repayment",
-      "value": "€2.2M–€2.3M"
-    },
-    "ownership": {
-      "label": "Collateral ownership",
-      "value": "Retained by client"
-    },
-    "custody": {
-      "label": "Custody",
-      "value": "As contractually agreed"
-    }
-  },
-  "footer": "During the agreed financing period, the gold serves as collateral under the executed transaction documents. The precise legal and custody structure depends on the approved counterparties and jurisdiction.",
-  "summary": {
-    "overline": "Indicative overview",
-    "title": "Transaction Summary",
-    "rows": {
-      "goldValue": {
-        "label": "Gold value",
-        "value": "€3,000,000"
+    "advantages": {
+      "confidential": {
+        "number": "01",
+        "title": "Confidential by Design",
+        "text": "Each inquiry is handled discreetly and shared only with the professionals required to assess and structure the proposed transaction."
       },
-      "financingAmount": {
-        "label": "Financing amount",
-        "value": "€2,000,000"
+      "international": {
+        "number": "02",
+        "title": "International Access",
+        "text": "We coordinate opportunities with suitable financing, custody, legal and transaction partners according to the requirements of each case."
       },
-      "advanceRatio": {
-        "label": "Illustrative advance ratio",
-        "value": "Approx. 67%"
+      "tailored": {
+        "number": "03",
+        "title": "Tailored Structures",
+        "text": "Financing terms are developed individually around the collateral, requested capital, intended use of funds and agreed repayment profile."
       },
-      "maximumPeriod": {
-        "label": "Maximum period",
-        "value": "12 months"
+      "review": {
+        "number": "04",
+        "title": "Disciplined Review",
+        "text": "Every opportunity is subject to verification of ownership, provenance, purity, documentation, counterparties and regulatory acceptability."
+      }
+    },
+    "statement": "Our role is to bring clarity, structure and disciplined coordination to complex transactions secured by physical gold.",
+    "signature": "Gold Bridge Capital"
+  },
+  "Clients": {
+    "kicker": "Who We Work With",
+    "title": {
+      "main": "Designed for qualified private",
+      "highlight": " and corporate clients."
+    },
+    "introduction": "We consider transactions with a legitimate financing purpose, suitable physical gold collateral and complete, verifiable documentation.",
+    "profiles": {
+      "familyOffices": {
+        "title": "Family Offices",
+        "text": "Private capital structures for families seeking liquidity while preserving ownership of eligible physical gold."
       },
-      "totalRepayment": {
-        "label": "Illustrative total repayment",
+      "entrepreneurs": {
+        "title": "Entrepreneurs",
+        "text": "Short-term capital for qualified business, acquisition, expansion or bridge-financing requirements."
+      },
+      "privateInvestors": {
+        "title": "Private Investors",
+        "text": "Individually reviewed financing opportunities secured by documented investment-grade gold."
+      },
+      "corporations": {
+        "title": "Corporations",
+        "text": "Structured liquidity solutions for companies with a clearly defined commercial purpose and acceptable collateral."
+      }
+    },
+    "qualification": {
+      "title": "Qualification and compliance",
+      "text": "All potential clients, beneficial owners, collateral and uses of funds are subject to applicable identification, ownership, provenance, sanctions, anti-money-laundering and counterparty review requirements."
+    }
+  },
+  "Structure": {
+    "kicker": "How Structured Financing Works",
+    "title": {
+      "main": "A clear path from physical gold",
+      "highlight": " to available liquidity."
+    },
+    "introduction": {
+      "first": "Each proposed transaction is reviewed individually. The structure depends on the nature and location of the gold, the requested financing amount, the intended use of funds and the requirements of the relevant financing and custody partners.",
+      "second": "The outline below presents a typical transaction pathway. It does not represent a guaranteed offer or a standardised lending product."
+    },
+    "steps": {
+      "collateral": {
+        "number": "01",
+        "label": "Eligible collateral",
+        "title": "Physical Investment Gold",
+        "text": "The client presents eligible physical gold together with supporting ownership, product, custody and provenance documentation."
+      },
+      "review": {
+        "number": "02",
+        "label": "Preliminary assessment",
+        "title": "Verification & Review",
+        "text": "Documentation, ownership, purity, form, storage location, beneficial ownership and intended use of funds are reviewed."
+      },
+      "financing": {
+        "number": "03",
+        "label": "Individual terms",
+        "title": "Financing Structure",
+        "text": "Indicative terms may be prepared based on the verified collateral value, requested capital, term and counterparty requirements."
+      },
+      "custody": {
+        "number": "04",
+        "label": "Agreed arrangements",
+        "title": "Secure Custody",
+        "text": "The gold is held under agreed custody and collateral arrangements with suitable independent service providers."
+      },
+      "release": {
+        "number": "05",
+        "label": "Completion",
+        "title": "Capital Release",
+        "text": "Following execution of the required agreements and satisfaction of conditions, approved financing may be released."
+      }
+    },
+    "principles": {
+      "ownership": {
+        "title": "Client ownership",
+        "text": "The commercial objective is to unlock liquidity without an outright sale of the gold."
+      },
+      "counterparties": {
+        "title": "Independent counterparties",
+        "text": "Custody, valuation, legal, compliance and financing functions may be performed by separate professional parties."
+      },
+      "assessment": {
+        "title": "Case-by-case assessment",
+        "text": "No transaction proceeds without satisfactory documentation, due diligence and final approval."
+      }
+    }
+  },
+  "Example": {
+    "kicker": "Illustrative Transaction",
+    "title": {
+      "main": "An example of a potential",
+      "highlight": " gold-backed financing structure."
+    },
+    "introduction": "The following example is provided solely to explain the mechanics of a possible transaction. It is not an offer, commitment, quotation or guarantee of financing.",
+    "case": {
+      "overline": "Illustrative client case",
+      "title": "Short-Term Private Financing",
+      "status": "Example only"
+    },
+    "values": {
+      "collateral": {
+        "label": "Indicative collateral value",
+        "value": "€3,000,000",
+        "note": "Physical investment gold"
+      },
+      "financing": {
+        "label": "Illustrative financing",
+        "value": "€2,000,000",
+        "note": "Subject to approval"
+      }
+    },
+    "details": {
+      "term": {
+        "label": "Illustrative term",
+        "value": "Up to 12 months"
+      },
+      "repayment": {
+        "label": "Indicative repayment",
         "value": "€2.2M–€2.3M"
+      },
+      "ownership": {
+        "label": "Collateral ownership",
+        "value": "Retained by client"
+      },
+      "custody": {
+        "label": "Custody",
+        "value": "As contractually agreed"
       }
     },
-    "note": "Final pricing may include financing costs, professional fees, custody costs, valuation costs and other transaction expenses."
-  },
-  "caveat": {
-    "label": "Important",
-    "text": "Values shown above are hypothetical. Actual collateral eligibility, valuation, advance ratio, duration, pricing, custody arrangements and repayment obligations are determined only after full review and written approval by the relevant parties."
-  }
-},
-
-"Process": {
-  "kicker": "Transaction Process",
-  "title": {
-    "main": "A disciplined process from",
-    "highlight": " inquiry to completion."
-  },
-  "introduction": {
-    "first": "Gold-backed financing transactions require a structured and transparent review process. Each stage is designed to establish whether the proposed collateral, client profile and financing purpose meet the requirements of the relevant counterparties.",
-    "second": "Timelines depend on the quality of documentation, collateral location, legal structure, jurisdiction and responsiveness of all parties involved."
-  },
-  "steps": {
-    "inquiry": {
-      "number": "01",
-      "stage": "Initial submission",
-      "title": "Confidential Inquiry",
-      "text": "The client submits an initial overview of the transaction, including the requested financing amount, intended use of funds and essential information about the proposed gold collateral.",
-      "items": {
-        "first": "Requested financing amount",
-        "second": "Purpose and preferred duration",
-        "third": "Initial collateral description"
-      }
+    "footer": "During the agreed financing period, the gold serves as collateral under the executed transaction documents. The precise legal and custody structure depends on the approved counterparties and jurisdiction.",
+    "summary": {
+      "overline": "Indicative overview",
+      "title": "Transaction Summary",
+      "rows": {
+        "goldValue": {
+          "label": "Gold value",
+          "value": "€3,000,000"
+        },
+        "financingAmount": {
+          "label": "Financing amount",
+          "value": "€2,000,000"
+        },
+        "advanceRatio": {
+          "label": "Illustrative advance ratio",
+          "value": "Approx. 67%"
+        },
+        "maximumPeriod": {
+          "label": "Maximum period",
+          "value": "12 months"
+        },
+        "totalRepayment": {
+          "label": "Illustrative total repayment",
+          "value": "€2.2M–€2.3M"
+        }
+      },
+      "note": "Final pricing may include financing costs, professional fees, custody costs, valuation costs and other transaction expenses."
     },
-    "assessment": {
-      "number": "02",
-      "stage": "Preliminary review",
-      "title": "Eligibility Assessment",
-      "text": "The opportunity is screened for basic eligibility. This includes the client profile, beneficial ownership, collateral form, location, documentation and commercial rationale.",
-      "items": {
-        "first": "Client and beneficial-owner profile",
-        "second": "Collateral form, purity and location",
-        "third": "Initial compliance suitability"
-      }
-    },
-    "diligence": {
-      "number": "03",
-      "stage": "Detailed verification",
-      "title": "Due Diligence",
-      "text": "Suitable opportunities proceed to more detailed document, ownership, provenance, sanctions, anti-money-laundering and counterparty review.",
-      "items": {
-        "first": "Identity and corporate documentation",
-        "second": "Proof of ownership and provenance",
-        "third": "Independent verification where required"
-      }
-    },
-    "structuring": {
-      "number": "04",
-      "stage": "Commercial preparation",
-      "title": "Indicative Structuring",
-      "text": "Based on the verified information, suitable parties may prepare an indicative transaction structure covering financing amount, term, pricing, collateral and conditions.",
-      "items": {
-        "first": "Indicative advance ratio",
-        "second": "Proposed duration and repayment profile",
-        "third": "Custody and collateral mechanics"
-      }
-    },
-    "documentation": {
-      "number": "05",
-      "stage": "Legal completion",
-      "title": "Documentation & Custody",
-      "text": "If the indicative structure is accepted, the relevant parties prepare definitive agreements and establish the agreed custody and collateral arrangements.",
-      "items": {
-        "first": "Definitive transaction agreements",
-        "second": "Custody and security documentation",
-        "third": "Completion conditions confirmed"
-      }
-    },
-    "funding": {
-      "number": "06",
-      "stage": "Transaction completion",
-      "title": "Funding & Repayment",
-      "text": "Once all conditions have been satisfied, approved financing may be released. The client then performs the agreed repayment obligations according to the executed documents.",
-      "items": {
-        "first": "Capital release after completion",
-        "second": "Contractual monitoring during the term",
-        "third": "Collateral release after full repayment"
-      }
+    "caveat": {
+      "label": "Important",
+      "text": "Values shown above are hypothetical. Actual collateral eligibility, valuation, advance ratio, duration, pricing, custody arrangements and repayment obligations are determined only after full review and written approval by the relevant parties."
     }
   },
-  "timing": {
-    "label": "Indicative transaction timing",
-    "title": "Preparation quality directly influences execution speed.",
-    "text": "A well-documented transaction may progress materially faster than a case with incomplete ownership, provenance, valuation or custody information. No standard completion timeline can be guaranteed.",
-    "statLabel": "Primary factor",
-    "statValue": "Complete documentation"
-  }
-},
-
-"Requirements": {
-  "kicker": "Transaction Requirements",
-  "title": {
-    "main": "What is required for an",
-    "highlight": " initial assessment."
-  },
-  "introduction": "Complete documentation helps establish whether a proposed transaction is suitable for further review. Additional information may be requested depending on the parties, jurisdiction and collateral structure.",
-  "cards": {
-    "collateral": {
-      "number": "01",
-      "title": "Gold Collateral Information",
-      "text": "Clear and verifiable information about the proposed physical investment gold.",
-      "items": {
-        "form": {
-          "title": "Form and quantity",
-          "text": "Bars, ingots or other accepted investment-gold format."
-        },
-        "purity": {
-          "title": "Purity and identification",
-          "text": "Refinery, serial numbers, assay details and available certificates."
-        },
-        "location": {
-          "title": "Current location",
-          "text": "Vault, custodian, bank, logistics provider or other existing storage arrangement."
-        },
-        "value": {
-          "title": "Indicative market value",
-          "text": "Recent valuation, inventory statement or equivalent supporting information."
+  "Process": {
+    "kicker": "Transaction Process",
+    "title": {
+      "main": "A disciplined process from",
+      "highlight": " inquiry to completion."
+    },
+    "introduction": {
+      "first": "Gold-backed financing transactions require a structured and transparent review process. Each stage is designed to establish whether the proposed collateral, client profile and financing purpose meet the requirements of the relevant counterparties.",
+      "second": "Timelines depend on the quality of documentation, collateral location, legal structure, jurisdiction and responsiveness of all parties involved."
+    },
+    "steps": {
+      "inquiry": {
+        "number": "01",
+        "stage": "Initial submission",
+        "title": "Confidential Inquiry",
+        "text": "The client submits an initial overview of the transaction, including the requested financing amount, intended use of funds and essential information about the proposed gold collateral.",
+        "items": {
+          "first": "Requested financing amount",
+          "second": "Purpose and preferred duration",
+          "third": "Initial collateral description"
+        }
+      },
+      "assessment": {
+        "number": "02",
+        "stage": "Preliminary review",
+        "title": "Eligibility Assessment",
+        "text": "The opportunity is screened for basic eligibility. This includes the client profile, beneficial ownership, collateral form, location, documentation and commercial rationale.",
+        "items": {
+          "first": "Client and beneficial-owner profile",
+          "second": "Collateral form, purity and location",
+          "third": "Initial compliance suitability"
+        }
+      },
+      "diligence": {
+        "number": "03",
+        "stage": "Detailed verification",
+        "title": "Due Diligence",
+        "text": "Suitable opportunities proceed to more detailed document, ownership, provenance, sanctions, anti-money-laundering and counterparty review.",
+        "items": {
+          "first": "Identity and corporate documentation",
+          "second": "Proof of ownership and provenance",
+          "third": "Independent verification where required"
+        }
+      },
+      "structuring": {
+        "number": "04",
+        "stage": "Commercial preparation",
+        "title": "Indicative Structuring",
+        "text": "Based on the verified information, suitable parties may prepare an indicative transaction structure covering financing amount, term, pricing, collateral and conditions.",
+        "items": {
+          "first": "Indicative advance ratio",
+          "second": "Proposed duration and repayment profile",
+          "third": "Custody and collateral mechanics"
+        }
+      },
+      "documentation": {
+        "number": "05",
+        "stage": "Legal completion",
+        "title": "Documentation & Custody",
+        "text": "If the indicative structure is accepted, the relevant parties prepare definitive agreements and establish the agreed custody and collateral arrangements.",
+        "items": {
+          "first": "Definitive transaction agreements",
+          "second": "Custody and security documentation",
+          "third": "Completion conditions confirmed"
+        }
+      },
+      "funding": {
+        "number": "06",
+        "stage": "Transaction completion",
+        "title": "Funding & Repayment",
+        "text": "Once all conditions have been satisfied, approved financing may be released. The client then performs the agreed repayment obligations according to the executed documents.",
+        "items": {
+          "first": "Capital release after completion",
+          "second": "Contractual monitoring during the term",
+          "third": "Collateral release after full repayment"
         }
       }
-    },
-    "ownership": {
-      "number": "02",
-      "title": "Ownership & Provenance",
-      "text": "Evidence showing who legally owns the gold and how it was acquired.",
-      "items": {
-        "proof": {
-          "title": "Proof of legal ownership",
-          "text": "Purchase invoices, custody records, title documents or equivalent evidence."
-        },
-        "provenance": {
-          "title": "Source and provenance",
-          "text": "Documentation explaining acquisition history and lawful origin."
-        },
-        "encumbrances": {
-          "title": "Existing encumbrances",
-          "text": "Disclosure of any pledge, lien, financing arrangement or third-party claim."
-        },
-        "authority": {
-          "title": "Authority to transact",
-          "text": "Evidence that the applicant is authorised to offer the gold as collateral."
-        }
-      }
-    },
-    "compliance": {
-      "number": "03",
-      "title": "Client & Compliance Documents",
-      "text": "Identification and corporate information required for applicable compliance review.",
-      "items": {
-        "identification": {
-          "title": "Personal identification",
-          "text": "Valid identification and address documentation for relevant individuals."
-        },
-        "corporate": {
-          "title": "Corporate documents",
-          "text": "Registry extract, constitutional documents and signing authority where applicable."
-        },
-        "beneficialOwnership": {
-          "title": "Beneficial ownership",
-          "text": "Complete disclosure of the ultimate beneficial owners and controlling parties."
-        },
-        "wealth": {
-          "title": "Source of wealth and funds",
-          "text": "Supporting information proportionate to the transaction and applicable requirements."
-        }
-      }
-    },
-    "financing": {
-      "number": "04",
-      "title": "Financing Request",
-      "text": "A clear explanation of the requested capital and proposed repayment plan.",
-      "items": {
-        "amount": {
-          "title": "Requested amount",
-          "text": "Exact or indicative financing amount required by the client."
-        },
-        "purpose": {
-          "title": "Intended use of funds",
-          "text": "Legitimate and sufficiently detailed commercial or private financing purpose."
-        },
-        "term": {
-          "title": "Preferred term",
-          "text": "Required duration, normally within a maximum period of 12 months."
-        },
-        "repayment": {
-          "title": "Repayment strategy",
-          "text": "Credible explanation of how all obligations are expected to be repaid."
-        }
-      }
-    }
-  },
-  "sidebar": {
-    "overline": "Initial review",
-    "title": "Prepare the essential documents before submitting.",
-    "text": "An initial inquiry does not require every definitive document, but it should include enough information to determine whether further assessment is commercially and legally appropriate.",
-    "items": {
-      "ownership": "Clear ownership evidence",
-      "gold": "Verifiable gold documentation",
-      "purpose": "Defined financing purpose",
-      "repayment": "Credible repayment strategy"
-    },
-    "button": "Submit an Inquiry"
-  },
-  "warning": {
-    "title": "Documents are subject to verification",
-    "text": "Submission of information does not create an obligation to arrange, provide or approve financing."
-  },
-  "note": {
-    "label": "Please note",
-    "text": "Depending on the transaction, additional legal opinions, assay reports, independent valuations, tax information, financial statements, custody confirmations or other specialist documents may be required."
-  }
-},
-
-"FAQ": {
-  "kicker": "Frequently Asked Questions",
-  "title": {
-    "main": "Essential information before",
-    "highlight": " submitting an inquiry."
-  },
-  "introduction": {
-    "first": "The answers below provide a general overview of the potential transaction process. Each case remains subject to individual review, documentation, legal structuring and approval.",
-    "second": "No information on this website should be interpreted as a binding offer, investment recommendation or commitment to provide financing."
-  },
-  "items": {
-    "collateral": {
-      "number": "01",
-      "question": "What type of gold may be considered as collateral?",
-      "answer": "Transactions are generally expected to involve clearly identifiable physical investment gold with verifiable purity, ownership, provenance and supporting documentation. The accepted form, refinery, bar size, location and custody conditions depend on the requirements of the relevant transaction parties."
-    },
-    "sale": {
-      "number": "02",
-      "question": "Does the client sell the gold?",
-      "answer": "The intended structure is financing secured by physical gold rather than an outright sale. The client is expected to retain legal ownership, subject to the contractual security, custody and enforcement rights established in the final transaction documents."
-    },
-    "custody": {
-      "number": "03",
-      "question": "Where is the gold held during the financing period?",
-      "answer": "The gold is held under custody arrangements accepted by the relevant parties. Depending on the transaction, this may involve an approved bank, vault operator, custodian or other professional storage provider in an agreed jurisdiction."
-    },
-    "amount": {
-      "number": "04",
-      "question": "How much financing may be available?",
-      "answer": "The potential financing amount depends on the independently assessed collateral value, form and location of the gold, market conditions, requested term, client profile and risk requirements of the financing party. No fixed advance ratio can be guaranteed before full review."
-    },
-    "term": {
-      "number": "05",
-      "question": "What is the maximum financing term?",
-      "answer": "The intended focus is short-term financing with a duration of up to 12 months. The precise term is determined individually and depends on the proposed use of funds, repayment strategy and approval of the relevant parties."
-    },
-    "pricing": {
-      "number": "06",
-      "question": "How are pricing and transaction costs determined?",
-      "answer": "Pricing is established individually after review of the collateral and transaction. Total costs may include financing charges, arrangement fees, legal costs, custody, transportation, insurance, assay, valuation, compliance and other professional expenses."
     },
     "timing": {
-      "number": "07",
-      "question": "How quickly can a transaction be completed?",
-      "answer": "Completion time depends heavily on document quality, collateral location, ownership verification, compliance review, valuation, legal preparation and custody arrangements. A specific completion date cannot be promised before all required information has been reviewed."
-    },
-    "acceptance": {
-      "number": "08",
-      "question": "Is every submitted transaction accepted?",
-      "answer": "No. Every inquiry is assessed individually. Gold Bridge Capital and the relevant independent parties may decline a transaction at any stage where documentation, compliance, collateral eligibility, commercial terms or risk requirements are not satisfactory."
-    },
-    "repayment": {
-      "number": "09",
-      "question": "What happens after the financing has been repaid?",
-      "answer": "Once all repayment obligations, fees and other contractual conditions have been fully satisfied, the collateral is released in accordance with the definitive transaction and custody documents."
+      "label": "Indicative transaction timing",
+      "title": "Preparation quality directly influences execution speed.",
+      "text": "A well-documented transaction may progress materially faster than a case with incomplete ownership, provenance, valuation or custody information. No standard completion timeline can be guaranteed.",
+      "statLabel": "Primary factor",
+      "statValue": "Complete documentation"
     }
   },
-  "sidebar": {
-    "overline": "Confidential discussion",
-    "title": "Your transaction may require a more specific assessment.",
-    "text": "Provide a concise overview of your gold collateral, financing requirement and intended use of funds. The initial submission will be reviewed confidentially.",
-    "button": "Start a Confidential Inquiry"
-  },
-  "disclaimer": {
-    "label": "Important information",
-    "text": "Gold Bridge Capital does not represent that financing will be available for every applicant or transaction. Any potential transaction remains subject to satisfactory due diligence, definitive documentation and approval."
-  }
-},
-
-"Inquiry": {
-  "kicker": "Confidential Inquiry",
-  "title": {
-    "main": "Discuss your proposed",
-    "highlight": " gold-backed transaction."
-  },
-  "lead": "Submit a concise overview of your financing requirement and proposed gold collateral. The information will be used solely for an initial assessment of whether the opportunity may be suitable for further review.",
-  "principles": {
-    "confidential": {
-      "title": "Confidential handling",
-      "text": "Information is reviewed discreetly and shared only where required for assessment."
+  "Requirements": {
+    "kicker": "Transaction Requirements",
+    "title": {
+      "main": "What is required for an",
+      "highlight": " initial assessment."
     },
-    "assessment": {
-      "title": "Preliminary assessment",
-      "text": "The submission helps determine whether a detailed review is appropriate."
+    "introduction": "Complete documentation helps establish whether a proposed transaction is suitable for further review. Additional information may be requested depending on the parties, jurisdiction and collateral structure.",
+    "cards": {
+      "collateral": {
+        "number": "01",
+        "title": "Gold Collateral Information",
+        "text": "Clear and verifiable information about the proposed physical investment gold.",
+        "items": {
+          "form": {
+            "title": "Form and quantity",
+            "text": "Bars, ingots or other accepted investment-gold format."
+          },
+          "purity": {
+            "title": "Purity and identification",
+            "text": "Refinery, serial numbers, assay details and available certificates."
+          },
+          "location": {
+            "title": "Current location",
+            "text": "Vault, custodian, bank, logistics provider or other existing storage arrangement."
+          },
+          "value": {
+            "title": "Indicative market value",
+            "text": "Recent valuation, inventory statement or equivalent supporting information."
+          }
+        }
+      },
+      "ownership": {
+        "number": "02",
+        "title": "Ownership & Provenance",
+        "text": "Evidence showing who legally owns the gold and how it was acquired.",
+        "items": {
+          "proof": {
+            "title": "Proof of legal ownership",
+            "text": "Purchase invoices, custody records, title documents or equivalent evidence."
+          },
+          "provenance": {
+            "title": "Source and provenance",
+            "text": "Documentation explaining acquisition history and lawful origin."
+          },
+          "encumbrances": {
+            "title": "Existing encumbrances",
+            "text": "Disclosure of any pledge, lien, financing arrangement or third-party claim."
+          },
+          "authority": {
+            "title": "Authority to transact",
+            "text": "Evidence that the applicant is authorised to offer the gold as collateral."
+          }
+        }
+      },
+      "compliance": {
+        "number": "03",
+        "title": "Client & Compliance Documents",
+        "text": "Identification and corporate information required for applicable compliance review.",
+        "items": {
+          "identification": {
+            "title": "Personal identification",
+            "text": "Valid identification and address documentation for relevant individuals."
+          },
+          "corporate": {
+            "title": "Corporate documents",
+            "text": "Registry extract, constitutional documents and signing authority where applicable."
+          },
+          "beneficialOwnership": {
+            "title": "Beneficial ownership",
+            "text": "Complete disclosure of the ultimate beneficial owners and controlling parties."
+          },
+          "wealth": {
+            "title": "Source of wealth and funds",
+            "text": "Supporting information proportionate to the transaction and applicable requirements."
+          }
+        }
+      },
+      "financing": {
+        "number": "04",
+        "title": "Financing Request",
+        "text": "A clear explanation of the requested capital and proposed repayment plan.",
+        "items": {
+          "amount": {
+            "title": "Requested amount",
+            "text": "Exact or indicative financing amount required by the client."
+          },
+          "purpose": {
+            "title": "Intended use of funds",
+            "text": "Legitimate and sufficiently detailed commercial or private financing purpose."
+          },
+          "term": {
+            "title": "Preferred term",
+            "text": "Required duration, normally within a maximum period of 12 months."
+          },
+          "repayment": {
+            "title": "Repayment strategy",
+            "text": "Credible explanation of how all obligations are expected to be repaid."
+          }
+        }
+      }
     },
-    "structuring": {
-      "title": "Individual structuring",
-      "text": "Potential terms are developed according to the specific collateral and transaction."
+    "sidebar": {
+      "overline": "Initial review",
+      "title": "Prepare the essential documents before submitting.",
+      "text": "An initial inquiry does not require every definitive document, but it should include enough information to determine whether further assessment is commercially and legally appropriate.",
+      "items": {
+        "ownership": "Clear ownership evidence",
+        "gold": "Verifiable gold documentation",
+        "purpose": "Defined financing purpose",
+        "repayment": "Credible repayment strategy"
+      },
+      "button": "Submit an Inquiry"
+    },
+    "warning": {
+      "title": "Documents are subject to verification",
+      "text": "Submission of information does not create an obligation to arrange, provide or approve financing."
+    },
+    "note": {
+      "label": "Please note",
+      "text": "Depending on the transaction, additional legal opinions, assay reports, independent valuations, tax information, financial statements, custody confirmations or other specialist documents may be required."
     }
   },
-  "contact": {
-    "label": "Direct correspondence",
+  "FAQ": {
+    "kicker": "Frequently Asked Questions",
+    "title": {
+      "main": "Essential information before",
+      "highlight": " submitting an inquiry."
+    },
+    "introduction": {
+      "first": "The answers below provide a general overview of the potential transaction process. Each case remains subject to individual review, documentation, legal structuring and approval.",
+      "second": "No information on this website should be interpreted as a binding offer, investment recommendation or commitment to provide financing."
+    },
+    "items": {
+      "collateral": {
+        "number": "01",
+        "question": "What type of gold may be considered as collateral?",
+        "answer": "Transactions are generally expected to involve clearly identifiable physical investment gold with verifiable purity, ownership, provenance and supporting documentation. The accepted form, refinery, bar size, location and custody conditions depend on the requirements of the relevant transaction parties."
+      },
+      "sale": {
+        "number": "02",
+        "question": "Does the client sell the gold?",
+        "answer": "The intended structure is financing secured by physical gold rather than an outright sale. The client is expected to retain legal ownership, subject to the contractual security, custody and enforcement rights established in the final transaction documents."
+      },
+      "custody": {
+        "number": "03",
+        "question": "Where is the gold held during the financing period?",
+        "answer": "The gold is held under custody arrangements accepted by the relevant parties. Depending on the transaction, this may involve an approved bank, vault operator, custodian or other professional storage provider in an agreed jurisdiction."
+      },
+      "amount": {
+        "number": "04",
+        "question": "How much financing may be available?",
+        "answer": "The potential financing amount depends on the independently assessed collateral value, form and location of the gold, market conditions, requested term, client profile and risk requirements of the financing party. No fixed advance ratio can be guaranteed before full review."
+      },
+      "term": {
+        "number": "05",
+        "question": "What is the maximum financing term?",
+        "answer": "The intended focus is short-term financing with a duration of up to 12 months. The precise term is determined individually and depends on the proposed use of funds, repayment strategy and approval of the relevant parties."
+      },
+      "pricing": {
+        "number": "06",
+        "question": "How are pricing and transaction costs determined?",
+        "answer": "Pricing is established individually after review of the collateral and transaction. Total costs may include financing charges, arrangement fees, legal costs, custody, transportation, insurance, assay, valuation, compliance and other professional expenses."
+      },
+      "timing": {
+        "number": "07",
+        "question": "How quickly can a transaction be completed?",
+        "answer": "Completion time depends heavily on document quality, collateral location, ownership verification, compliance review, valuation, legal preparation and custody arrangements. A specific completion date cannot be promised before all required information has been reviewed."
+      },
+      "acceptance": {
+        "number": "08",
+        "question": "Is every submitted transaction accepted?",
+        "answer": "No. Every inquiry is assessed individually. Gold Bridge Capital and the relevant independent parties may decline a transaction at any stage where documentation, compliance, collateral eligibility, commercial terms or risk requirements are not satisfactory."
+      },
+      "repayment": {
+        "number": "09",
+        "question": "What happens after the financing has been repaid?",
+        "answer": "Once all repayment obligations, fees and other contractual conditions have been fully satisfied, the collateral is released in accordance with the definitive transaction and custody documents."
+      }
+    },
+    "sidebar": {
+      "overline": "Confidential discussion",
+      "title": "Your transaction may require a more specific assessment.",
+      "text": "Provide a concise overview of your gold collateral, financing requirement and intended use of funds. The initial submission will be reviewed confidentially.",
+      "button": "Start a Confidential Inquiry"
+    },
+    "disclaimer": {
+      "label": "Important information",
+      "text": "Gold Bridge Capital does not represent that financing will be available for every applicant or transaction. Any potential transaction remains subject to satisfactory due diligence, definitive documentation and approval."
+    }
+  },
+  "Inquiry": {
+    "kicker": "Confidential Inquiry",
+    "title": {
+      "main": "Discuss your proposed",
+      "highlight": " gold-backed transaction."
+    },
+    "lead": "Submit a concise overview of your financing requirement and proposed gold collateral. The information will be used solely for an initial assessment of whether the opportunity may be suitable for further review.",
+    "principles": {
+      "confidential": {
+        "title": "Confidential handling",
+        "text": "Information is reviewed discreetly and shared only where required for assessment."
+      },
+      "assessment": {
+        "title": "Preliminary assessment",
+        "text": "The submission helps determine whether a detailed review is appropriate."
+      },
+      "structuring": {
+        "title": "Individual structuring",
+        "text": "Potential terms are developed according to the specific collateral and transaction."
+      }
+    },
+    "contact": {
+      "label": "Direct correspondence",
+      "email": "inquiries@goldbridge-capital.com",
+      "notice": "Please avoid sending original documents or highly sensitive personal information by unencrypted email."
+    },
+    "form": {
+      "overline": "Initial transaction overview",
+      "title": "Submit Your Inquiry",
+      "security": "Confidential",
+      "notice": "By submitting this form, you confirm that the information provided is accurate to the best of your knowledge. Submission does not create a client relationship, financing commitment or obligation on any party."
+    }
+  },
+  "Closing": {
+    "overline": "Gold Bridge Capital",
+    "title": {
+      "main": "Structured liquidity.",
+      "highlight": " Preserved ownership."
+    },
+    "text": "A discreet and disciplined approach to financing secured by eligible physical investment gold.",
+    "button": "Discuss a Transaction"
+  },
+  "Header": {
+    "homeAriaLabel": "Gold Bridge Capital home",
+    "brand": {
+      "main": "Gold Bridge",
+      "sub": "Capital"
+    },
+    "navigationAriaLabel": "Primary navigation",
+    "navigation": {
+      "approach": "Our Approach",
+      "structure": "How It Works",
+      "example": "Example",
+      "process": "Process"
+    },
+    "cta": "Confidential Inquiry"
+  },
+  "Footer": {
+    "homeAriaLabel": "Gold Bridge Capital home",
+    "brand": {
+      "main": "Gold Bridge",
+      "sub": "Capital"
+    },
+    "description": "Gold Bridge Capital facilitates the assessment and coordination of potential short-term financing transactions secured by eligible physical investment gold.",
     "email": "inquiries@goldbridge-capital.com",
-    "notice": "Please avoid sending original documents or highly sensitive personal information by unencrypted email."
-  },
-  "form": {
-    "overline": "Initial transaction overview",
-    "title": "Submit Your Inquiry",
-    "security": "Confidential",
-    "notice": "By submitting this form, you confirm that the information provided is accurate to the best of your knowledge. Submission does not create a client relationship, financing commitment or obligation on any party."
-  }
-},
-
-"Closing": {
-  "overline": "Gold Bridge Capital",
-  "title": {
-    "main": "Structured liquidity.",
-    "highlight": " Preserved ownership."
-  },
-  "text": "A discreet and disciplined approach to financing secured by eligible physical investment gold.",
-  "button": "Discuss a Transaction"
-},
-
-"Header": {
-  "homeAriaLabel": "Gold Bridge Capital home",
-  "brand": {
-    "main": "Gold Bridge",
-    "sub": "Capital"
-  },
-  "navigationAriaLabel": "Primary navigation",
-  "navigation": {
-    "approach": "Our Approach",
-    "structure": "How It Works",
-    "example": "Example",
-    "process": "Process"
-  },
-  "cta": "Confidential Inquiry"
-},
-
-"Footer": {
-  "homeAriaLabel": "Gold Bridge Capital home",
-  "brand": {
-    "main": "Gold Bridge",
-    "sub": "Capital"
-  },
-  "description": "Gold Bridge Capital facilitates the assessment and coordination of potential short-term financing transactions secured by eligible physical investment gold.",
-  "email": "inquiries@goldbridge-capital.com",
-  "navigation": {
-    "title": "Navigation",
-    "approach": "Our Approach",
-    "structure": "How It Works",
-    "transaction": "Illustrative Transaction",
-    "process": "Transaction Process",
-    "requirements": "Requirements"
-  },
-  "information": {
-    "title": "Information",
-    "faq": "Frequently Asked Questions",
-    "inquiry": "Confidential Inquiry",
-    "privacyPolicy": "Privacy Policy",
-    "termsOfUse": "Terms of Use",
-    "legalNotice": "Legal Notice"
-  },
-  "disclaimer": {
-    "label": "Important legal information",
-    "text": "The content of this website is provided for general informational purposes only. It does not constitute financial, legal, tax or investment advice, an offer to lend, an offer of securities or a commitment to arrange or provide financing. Any potential transaction is subject to client and collateral due diligence, compliance review, independent verification, definitive legal documentation and approval by the relevant parties. Gold Bridge Capital does not guarantee that financing will be available or that any transaction will be completed."
-  },
-  "copyright": "© {year} Gold Bridge Capital. All rights reserved.",
-  "bottomLinks": {
-    "privacy": "Privacy",
-    "terms": "Terms",
-    "legal": "Legal"
-  }
-},
-
-"ContactForm": {
-  "fields": {
-    "name": {
-      "label": "Full Name",
-      "placeholder": "Your full name"
+    "navigation": {
+      "title": "Navigation",
+      "approach": "Our Approach",
+      "structure": "How It Works",
+      "transaction": "Illustrative Transaction",
+      "process": "Transaction Process",
+      "requirements": "Requirements"
     },
-    "company": {
-      "label": "Company, Family Office or Organisation",
-      "placeholder": "Organisation name"
+    "information": {
+      "title": "Information",
+      "faq": "Frequently Asked Questions",
+      "inquiry": "Confidential Inquiry",
+      "privacyPolicy": "Privacy Policy",
+      "termsOfUse": "Terms of Use",
+      "legalNotice": "Legal Notice"
     },
-    "email": {
-      "label": "Business Email Address",
-      "placeholder": "name@company.com"
+    "disclaimer": {
+      "label": "Important legal information",
+      "text": "The content of this website is provided for general informational purposes only. It does not constitute financial, legal, tax or investment advice, an offer to lend, an offer of securities or a commitment to arrange or provide financing. Any potential transaction is subject to client and collateral due diligence, compliance review, independent verification, definitive legal documentation and approval by the relevant parties. Gold Bridge Capital does not guarantee that financing will be available or that any transaction will be completed."
     },
-    "phone": {
-      "label": "Telephone Number",
-      "placeholder": "+41 ..."
+    "copyright": "© {year} Gold Bridge Capital. All rights reserved.",
+    "bottomLinks": {
+      "privacy": "Privacy",
+      "terms": "Terms",
+      "legal": "Legal"
+    }
+  },
+  "ContactForm": {
+    "fields": {
+      "name": {
+        "label": "Full Name",
+        "placeholder": "Your full name"
+      },
+      "company": {
+        "label": "Company, Family Office or Organisation",
+        "placeholder": "Organisation name"
+      },
+      "email": {
+        "label": "Business Email Address",
+        "placeholder": "name@company.com"
+      },
+      "phone": {
+        "label": "Telephone Number",
+        "placeholder": "+41 ..."
+      },
+      "financingAmount": {
+        "label": "Requested Financing Amount",
+        "placeholder": "e.g. EUR 2,000,000"
+      },
+      "goldValue": {
+        "label": "Estimated Market Value of Gold",
+        "placeholder": "e.g. EUR 3,000,000"
+      },
+      "goldAmount": {
+        "label": "Gold Quantity and Specification",
+        "placeholder": "e.g. 50 kg, investment-grade bars"
+      },
+      "goldLocation": {
+        "label": "Current Gold Location or Custodian",
+        "placeholder": "Country, city, bank or vault"
+      },
+      "purpose": {
+        "label": "Transaction Overview and Financing Purpose",
+        "placeholder": "Please briefly describe the purpose of the financing, the preferred transaction timeframe, the ownership structure of the gold and any relevant information that may assist our initial assessment."
+      }
     },
-    "financingAmount": {
-      "label": "Requested Financing Amount",
-      "placeholder": "e.g. EUR 2,000,000"
+    "confirmations": {
+      "ownership": "I confirm that I am the legal owner of the gold or that I am duly authorised to act on behalf of its legal owner.",
+      "privacy": "I consent to the processing of the information provided for the purpose of reviewing and responding to this confidential financing inquiry."
     },
-    "goldValue": {
-      "label": "Estimated Market Value of Gold",
-      "placeholder": "e.g. EUR 3,000,000"
+    "button": {
+      "idle": "Submit Confidential Inquiry",
+      "sending": "Submitting Confidential Inquiry..."
     },
-    "goldAmount": {
-      "label": "Gold Quantity and Specification",
-      "placeholder": "e.g. 50 kg, investment-grade bars"
+    "messages": {
+      "success": "Thank you. Your confidential inquiry has been submitted successfully. Our team will review the information provided and contact you should the transaction meet the initial assessment criteria.",
+      "submissionError": "We were unable to submit your inquiry. Please try again.",
+      "unexpectedError": "An unexpected error occurred. Please try again."
+    }
+  },
+  "Metadata": {
+    "title": "Gold Bridge Capital | Gold-Backed Structured Financing",
+    "description": "Confidential short-term financing solutions secured by eligible physical investment gold for qualified private and corporate clients."
+  },
+  "Privacy": {
+    "kicker": "Privacy & Data Protection",
+    "title": "Privacy Policy",
+    "updated": "Last updated: July 2026",
+    "controller": {
+      "title": "1. Data controller",
+      "introduction": "The controller responsible for the processing of personal data through this website is:",
+      "location": "Slovenia",
+      "formationNotice": "Gold Bridge Capital is currently a project in formation and is not yet a separately incorporated legal entity."
     },
-    "goldLocation": {
-      "label": "Current Gold Location or Custodian",
-      "placeholder": "Country, city, bank or vault"
+    "data": {
+      "title": "2. Personal data we collect",
+      "introduction": "When you submit a confidential inquiry or contact us directly, we may collect the following information:",
+      "items": {
+        "name": "Your full name.",
+        "company": "Your company, family office or organisation.",
+        "email": "Your business email address.",
+        "phone": "Your telephone number, if provided.",
+        "transaction": "The requested financing amount and intended use of funds.",
+        "gold": "Information concerning the quantity, estimated value, ownership and location of the proposed gold collateral.",
+        "message": "Any additional information you voluntarily provide in your inquiry or subsequent correspondence."
+      }
     },
     "purpose": {
-      "label": "Transaction Overview and Financing Purpose",
-      "placeholder": "Please briefly describe the purpose of the financing, the preferred transaction timeframe, the ownership structure of the gold and any relevant information that may assist our initial assessment."
-    }
-  },
-  "confirmations": {
-    "ownership": "I confirm that I am the legal owner of the gold or that I am duly authorised to act on behalf of its legal owner.",
-    "privacy": "I consent to the processing of the information provided for the purpose of reviewing and responding to this confidential financing inquiry."
-  },
-  "button": {
-    "idle": "Submit Confidential Inquiry",
-    "sending": "Submitting Confidential Inquiry..."
-  },
-    "messages": {
-    "success": "Thank you. Your confidential inquiry has been submitted successfully. Our team will review the information provided and contact you should the transaction meet the initial assessment criteria.",
-    "submissionError": "We were unable to submit your inquiry. Please try again.",
-    "unexpectedError": "An unexpected error occurred. Please try again."
-  }
-},
-"Metadata": {
-  "title": "Gold Bridge Capital | Gold-Backed Structured Financing",
-  "description": "Confidential short-term financing solutions secured by eligible physical investment gold for qualified private and corporate clients."
-}
-},
-"Privacy": {
-  "kicker": "Privacy & Data Protection",
-  "title": "Privacy Policy",
-  "updated": "Last updated: July 2026",
-  "controller": {
-    "title": "1. Data controller",
-    "introduction": "The controller responsible for the processing of personal data through this website is:",
-    "location": "Slovenia",
-    "formationNotice": "Gold Bridge Capital is currently a project in formation and is not yet a separately incorporated legal entity."
-  },
-  "data": {
-    "title": "2. Personal data we collect",
-    "introduction": "When you submit a confidential inquiry or contact us directly, we may collect the following information:",
-    "items": {
-      "name": "Your full name.",
-      "company": "Your company, family office or organisation.",
-      "email": "Your business email address.",
-      "phone": "Your telephone number, if provided.",
-      "transaction": "The requested financing amount and intended use of funds.",
-      "gold": "Information concerning the quantity, estimated value, ownership and location of the proposed gold collateral.",
-      "message": "Any additional information you voluntarily provide in your inquiry or subsequent correspondence."
-    }
-  },
-  "purpose": {
-    "title": "3. How we use personal data",
-    "introduction": "We process personal data only where necessary for the following purposes:",
-    "items": {
-      "review": "To review and assess a submitted financing inquiry.",
-      "response": "To respond to questions and communicate about a potential transaction.",
-      "communication": "To maintain relevant pre-contractual and business correspondence.",
-      "security": "To protect the website, communications and parties involved from misuse, fraud or unlawful activity.",
-      "legal": "To comply with applicable legal, regulatory and compliance obligations."
-    }
-  },
-  "legalBasis": {
-    "title": "4. Legal basis for processing",
-    "text": "Personal data submitted through the inquiry form is processed primarily because it is necessary to take steps at your request before potentially entering into a business relationship. Where appropriate, processing may also be based on our legitimate interests in responding to inquiries, protecting our operations and complying with legal obligations."
-  },
-  "recipients": {
-    "title": "5. Recipients and service providers",
-    "introduction": "Personal data may be made available only to parties that require it for the purposes described in this policy, including:",
-    "items": {
-      "email": "Email and communication service providers used to receive and respond to inquiries.",
-      "railway": "Railway and its infrastructure providers, which host and operate the website.",
-      "professionals": "Professional advisers or potential transaction counterparties where necessary for a confidential preliminary assessment and where an appropriate basis for disclosure exists.",
-      "authorities": "Public authorities where disclosure is required by law."
+      "title": "3. How we use personal data",
+      "introduction": "We process personal data only where necessary for the following purposes:",
+      "items": {
+        "review": "To review and assess a submitted financing inquiry.",
+        "response": "To respond to questions and communicate about a potential transaction.",
+        "communication": "To maintain relevant pre-contractual and business correspondence.",
+        "security": "To protect the website, communications and parties involved from misuse, fraud or unlawful activity.",
+        "legal": "To comply with applicable legal, regulatory and compliance obligations."
+      }
     },
-    "noSale": "We do not sell personal data to third parties."
-  },
-  "transfers": {
-    "title": "6. International data transfers",
-    "text": "Some service providers may process information outside Slovenia or the European Economic Area. Where applicable, transfers are subject to appropriate safeguards required by data protection law."
-  },
-  "retention": {
-    "title": "7. Data retention",
-    "text": "Information submitted through a financing inquiry is generally retained for no longer than 12 months after the last relevant communication, unless a longer period is necessary because a business relationship develops, legal obligations apply, or information is required for the establishment, exercise or defence of legal claims."
-  },
-  "rights": {
-    "title": "8. Your data protection rights",
-    "introduction": "Subject to the conditions provided by applicable law, you may have the right to:",
-    "items": {
-      "access": "Request access to your personal data.",
-      "rectification": "Request correction of inaccurate or incomplete information.",
-      "erasure": "Request deletion of your personal data.",
-      "restriction": "Request restriction of processing.",
-      "objection": "Object to processing based on legitimate interests.",
-      "portability": "Request data portability where applicable.",
-      "complaint": "Lodge a complaint with the competent supervisory authority."
+    "legalBasis": {
+      "title": "4. Legal basis for processing",
+      "text": "Personal data submitted through the inquiry form is processed primarily because it is necessary to take steps at your request before potentially entering into a business relationship. Where appropriate, processing may also be based on our legitimate interests in responding to inquiries, protecting our operations and complying with legal obligations."
     },
-    "contact": "Requests concerning your personal data may be sent to the privacy contact stated below."
-  },
-  "analytics": {
-    "title": "9. Analytics and cookies",
-    "text": "Google Analytics is not currently active. If analytics services are introduced, non-essential analytics technologies will be implemented together with an appropriate consent mechanism and this policy will be updated before activation."
-  },
-  "security": {
-    "title": "10. Data security",
-    "text": "Reasonable technical and organisational measures are used to protect personal data against unauthorised access, loss, misuse, alteration or disclosure. However, no internet transmission or electronic storage system can be guaranteed to be completely secure."
-  },
-  "changes": {
-    "title": "11. Changes to this policy",
-    "text": "This Privacy Policy may be updated when the website, service providers, data-processing activities or applicable legal requirements change. The latest version will be published on this page together with the updated date."
-  },
-  "contact": {
-    "title": "12. Privacy contact",
-    "text": "For questions, requests or concerns relating to privacy and personal data, contact:"
-  }
-},
-"Terms": {
-  "kicker": "Legal Terms",
-  "title": "Terms of Use",
-  "updated": "Last updated: July 2026",
-  "operator": {
-    "title": "1. Website operator",
-    "text": "This website is operated by:",
-    "location": "Slovenia",
-    "formationNotice": "Gold Bridge Capital is currently a project in formation and is not yet a separately incorporated legal entity."
-  },
-  "acceptance": {
-    "title": "2. Acceptance of these terms",
-    "text": "By accessing or using this website, you agree to be bound by these Terms of Use. If you do not agree with these terms, you should not use the website."
-  },
-  "information": {
-    "title": "3. General information only",
-    "text": "The content of this website is provided for general informational purposes only. It is intended to present the activities and potential transaction process associated with Gold Bridge Capital."
-  },
-  "noOffer": {
-    "title": "4. No financial, legal or investment offer",
-    "text": "Nothing on this website constitutes financial, legal, tax or investment advice, an offer to lend, an offer of securities, a solicitation, a recommendation or a binding commitment to arrange or provide financing. Any potential transaction is subject to separate assessment, due diligence, documentation and approval."
-  },
-  "eligibility": {
-    "title": "5. Eligibility and transaction assessment",
-    "text": "The availability of any financing structure depends on the profile of the client, the nature and location of the proposed gold collateral, applicable legal and compliance requirements, market conditions and the approval of relevant independent parties. No transaction is guaranteed."
-  },
-  "inquiries": {
-    "title": "6. Information submitted through inquiries",
-    "introduction": "When submitting an inquiry, you confirm that:",
-    "items": {
-      "accuracy": "The information provided is accurate and complete to the best of your knowledge.",
-      "authority": "You are the legal owner of the proposed gold collateral or are duly authorised to act on behalf of the legal owner.",
-      "lawful": "The proposed transaction and intended use of funds are lawful.",
-      "noCommitment": "Submission of an inquiry does not create a client relationship, financing commitment or obligation for any party."
+    "recipients": {
+      "title": "5. Recipients and service providers",
+      "introduction": "Personal data may be made available only to parties that require it for the purposes described in this policy, including:",
+      "items": {
+        "email": "Email and communication service providers used to receive and respond to inquiries.",
+        "railway": "Railway and its infrastructure providers, which host and operate the website.",
+        "professionals": "Professional advisers or potential transaction counterparties where necessary for a confidential preliminary assessment and where an appropriate basis for disclosure exists.",
+        "authorities": "Public authorities where disclosure is required by law."
+      },
+      "noSale": "We do not sell personal data to third parties."
+    },
+    "transfers": {
+      "title": "6. International data transfers",
+      "text": "Some service providers may process information outside Slovenia or the European Economic Area. Where applicable, transfers are subject to appropriate safeguards required by data protection law."
+    },
+    "retention": {
+      "title": "7. Data retention",
+      "text": "Information submitted through a financing inquiry is generally retained for no longer than 12 months after the last relevant communication, unless a longer period is necessary because a business relationship develops, legal obligations apply, or information is required for the establishment, exercise or defence of legal claims."
+    },
+    "rights": {
+      "title": "8. Your data protection rights",
+      "introduction": "Subject to the conditions provided by applicable law, you may have the right to:",
+      "items": {
+        "access": "Request access to your personal data.",
+        "rectification": "Request correction of inaccurate or incomplete information.",
+        "erasure": "Request deletion of your personal data.",
+        "restriction": "Request restriction of processing.",
+        "objection": "Object to processing based on legitimate interests.",
+        "portability": "Request data portability where applicable.",
+        "complaint": "Lodge a complaint with the competent supervisory authority."
+      },
+      "contact": "Requests concerning your personal data may be sent to the privacy contact stated below."
+    },
+    "analytics": {
+      "title": "9. Analytics and cookies",
+      "text": "Google Analytics is used only after you consent to analytics technologies through the cookie banner. If you reject analytics, Google Analytics is not loaded. You can change your choice by clearing this website's stored data or browser storage."
+    },
+    "security": {
+      "title": "10. Data security",
+      "text": "Reasonable technical and organisational measures are used to protect personal data against unauthorised access, loss, misuse, alteration or disclosure. However, no internet transmission or electronic storage system can be guaranteed to be completely secure."
+    },
+    "changes": {
+      "title": "11. Changes to this policy",
+      "text": "This Privacy Policy may be updated when the website, service providers, data-processing activities or applicable legal requirements change. The latest version will be published on this page together with the updated date."
+    },
+    "contact": {
+      "title": "12. Privacy contact",
+      "text": "For questions, requests or concerns relating to privacy and personal data, contact:"
     }
   },
-  "thirdParties": {
-    "title": "7. Independent third parties",
-    "text": "Potential financing, custody, valuation, legal, compliance, insurance and other transaction services may be provided by independent third parties. Gold Bridge Capital does not control those parties and is not responsible for their decisions, services, availability or contractual obligations."
-  },
-  "intellectualProperty": {
-    "title": "8. Intellectual property",
-    "text": "Unless otherwise stated, the website design, text, branding, graphics and other original content are owned by or licensed to the website operator. You may not reproduce, distribute, modify, publish or commercially exploit such content without prior written permission."
-  },
-  "prohibitedUse": {
-    "title": "9. Prohibited use",
-    "introduction": "You must not use this website:",
-    "items": {
-      "unlawful": "For any unlawful, fraudulent or misleading purpose.",
-      "falseInformation": "To submit false, incomplete or unauthorised information.",
-      "security": "To interfere with the security, availability or operation of the website.",
-      "copying": "To copy, scrape, extract or reuse substantial parts of the website without permission.",
-      "impersonation": "To impersonate another person or misrepresent your authority, identity or ownership rights."
+  "Terms": {
+    "kicker": "Legal Terms",
+    "title": "Terms of Use",
+    "updated": "Last updated: July 2026",
+    "operator": {
+      "title": "1. Website operator",
+      "text": "This website is operated by:",
+      "location": "Slovenia",
+      "formationNotice": "Gold Bridge Capital is currently a project in formation and is not yet a separately incorporated legal entity."
+    },
+    "acceptance": {
+      "title": "2. Acceptance of these terms",
+      "text": "By accessing or using this website, you agree to be bound by these Terms of Use. If you do not agree with these terms, you should not use the website."
+    },
+    "information": {
+      "title": "3. General information only",
+      "text": "The content of this website is provided for general informational purposes only. It is intended to present the activities and potential transaction process associated with Gold Bridge Capital."
+    },
+    "noOffer": {
+      "title": "4. No financial, legal or investment offer",
+      "text": "Nothing on this website constitutes financial, legal, tax or investment advice, an offer to lend, an offer of securities, a solicitation, a recommendation or a binding commitment to arrange or provide financing. Any potential transaction is subject to separate assessment, due diligence, documentation and approval."
+    },
+    "eligibility": {
+      "title": "5. Eligibility and transaction assessment",
+      "text": "The availability of any financing structure depends on the profile of the client, the nature and location of the proposed gold collateral, applicable legal and compliance requirements, market conditions and the approval of relevant independent parties. No transaction is guaranteed."
+    },
+    "inquiries": {
+      "title": "6. Information submitted through inquiries",
+      "introduction": "When submitting an inquiry, you confirm that:",
+      "items": {
+        "accuracy": "The information provided is accurate and complete to the best of your knowledge.",
+        "authority": "You are the legal owner of the proposed gold collateral or are duly authorised to act on behalf of the legal owner.",
+        "lawful": "The proposed transaction and intended use of funds are lawful.",
+        "noCommitment": "Submission of an inquiry does not create a client relationship, financing commitment or obligation for any party."
+      }
+    },
+    "thirdParties": {
+      "title": "7. Independent third parties",
+      "text": "Potential financing, custody, valuation, legal, compliance, insurance and other transaction services may be provided by independent third parties. Gold Bridge Capital does not control those parties and is not responsible for their decisions, services, availability or contractual obligations."
+    },
+    "intellectualProperty": {
+      "title": "8. Intellectual property",
+      "text": "Unless otherwise stated, the website design, text, branding, graphics and other original content are owned by or licensed to the website operator. You may not reproduce, distribute, modify, publish or commercially exploit such content without prior written permission."
+    },
+    "prohibitedUse": {
+      "title": "9. Prohibited use",
+      "introduction": "You must not use this website:",
+      "items": {
+        "unlawful": "For any unlawful, fraudulent or misleading purpose.",
+        "falseInformation": "To submit false, incomplete or unauthorised information.",
+        "security": "To interfere with the security, availability or operation of the website.",
+        "copying": "To copy, scrape, extract or reuse substantial parts of the website without permission.",
+        "impersonation": "To impersonate another person or misrepresent your authority, identity or ownership rights."
+      }
+    },
+    "availability": {
+      "title": "10. Website availability",
+      "text": "We aim to keep the website available and accurate, but we do not guarantee uninterrupted access, error-free operation, completeness or continued availability. The website may be modified, suspended or withdrawn without prior notice."
+    },
+    "liability": {
+      "title": "11. Limitation of liability",
+      "text": "To the maximum extent permitted by applicable law, the website operator is not liable for any direct or indirect loss arising from reliance on the website, inability to access it, use of third-party services, failure of a proposed transaction to proceed or decisions made on the basis of website content."
+    },
+    "indemnity": {
+      "title": "12. Responsibility for submitted information",
+      "text": "You are responsible for the information and materials you submit. You agree to be responsible for losses, claims or costs arising from materially false, misleading, unlawful or unauthorised information submitted through the website."
+    },
+    "privacy": {
+      "title": "13. Privacy",
+      "text": "Personal data submitted through the website is processed in accordance with our",
+      "link": "Privacy Policy"
+    },
+    "changes": {
+      "title": "14. Changes to these terms",
+      "text": "These Terms of Use may be updated from time to time. The latest version will be published on this page together with the date of the most recent update."
+    },
+    "law": {
+      "title": "15. Governing law",
+      "text": "These Terms of Use are governed by the laws of the Republic of Slovenia. Any dispute relating to the use of this website will be subject to the jurisdiction of the competent courts in Slovenia, unless mandatory law provides otherwise."
+    },
+    "contact": {
+      "title": "16. Contact",
+      "text": "For questions concerning these Terms of Use, contact:"
     }
   },
-  "availability": {
-    "title": "10. Website availability",
-    "text": "We aim to keep the website available and accurate, but we do not guarantee uninterrupted access, error-free operation, completeness or continued availability. The website may be modified, suspended or withdrawn without prior notice."
+  "Legal": {
+    "kicker": "Legal Information",
+    "title": "Legal Notice",
+    "updated": "Last updated: July 2026",
+    "operator": {
+      "title": "1. Website operator",
+      "location": "Slovenia",
+      "formationNotice": "Gold Bridge Capital is currently a project in formation and is not yet a separately incorporated legal entity."
+    },
+    "project": {
+      "title": "2. Project status",
+      "text": "Gold Bridge Capital is currently operated as a developing business project. Formal corporate, registration and regulatory details will be updated when the relevant legal entity has been established."
+    },
+    "services": {
+      "title": "3. Nature of the services",
+      "text": "The website presents a potential transaction-facilitation and coordination service relating to short-term financing opportunities secured by eligible physical investment gold. Each opportunity is reviewed individually and may involve independent financing, custody, legal, valuation, compliance and other professional parties."
+    },
+    "noRegulatedService": {
+      "title": "4. No regulated financial service offered through the website",
+      "text": "The website does not itself provide banking, deposit-taking, investment, securities, payment, custody, legal or tax services. Nothing on the website constitutes a regulated financial product, a public offer, investment advice or a binding commitment to arrange or provide financing."
+    },
+    "thirdParties": {
+      "title": "5. Independent third parties",
+      "text": "Any financing, custody, valuation, legal, compliance, insurance or related transaction services may be provided by independent third parties under separate agreements. Their decisions, approvals, services and contractual obligations remain their own responsibility."
+    },
+    "accuracy": {
+      "title": "6. Accuracy of information",
+      "text": "Reasonable efforts are made to keep the information on this website accurate and current. However, no representation or warranty is made regarding completeness, accuracy, availability or suitability for a particular purpose."
+    },
+    "liability": {
+      "title": "7. Limitation of liability",
+      "text": "To the maximum extent permitted by applicable law, the website operator is not responsible for losses arising from reliance on website content, interruption or unavailability of the website, third-party services, market movements, regulatory decisions or the failure of any proposed transaction to proceed."
+    },
+    "links": {
+      "title": "8. External links",
+      "text": "This website may contain links to third-party websites or services. Such links are provided for convenience only. The website operator does not control and is not responsible for the content, security, availability or privacy practices of external websites."
+    },
+    "copyright": {
+      "title": "9. Copyright and intellectual property",
+      "text": "Unless otherwise stated, the website design, text, visual identity, graphics and other original content are protected by applicable intellectual-property laws. Reproduction, distribution, modification or commercial use without prior written permission is prohibited."
+    },
+    "privacy": {
+      "title": "10. Privacy Policy",
+      "link": "View the Privacy Policy"
+    },
+    "terms": {
+      "title": "11. Terms of Use",
+      "link": "View the Terms of Use"
+    },
+    "contact": {
+      "title": "12. Contact",
+      "text": "For legal or website-related inquiries, contact:"
+    }
   },
-  "liability": {
-    "title": "11. Limitation of liability",
-    "text": "To the maximum extent permitted by applicable law, the website operator is not liable for any direct or indirect loss arising from reliance on the website, inability to access it, use of third-party services, failure of a proposed transaction to proceed or decisions made on the basis of website content."
-  },
-  "indemnity": {
-    "title": "12. Responsibility for submitted information",
-    "text": "You are responsible for the information and materials you submit. You agree to be responsible for losses, claims or costs arising from materially false, misleading, unlawful or unauthorised information submitted through the website."
-  },
-  "privacy": {
-    "title": "13. Privacy",
-    "text": "Personal data submitted through the website is processed in accordance with our",
-    "link": "Privacy Policy"
-  },
-  "changes": {
-    "title": "14. Changes to these terms",
-    "text": "These Terms of Use may be updated from time to time. The latest version will be published on this page together with the date of the most recent update."
-  },
-  "law": {
-    "title": "15. Governing law",
-    "text": "These Terms of Use are governed by the laws of the Republic of Slovenia. Any dispute relating to the use of this website will be subject to the jurisdiction of the competent courts in Slovenia, unless mandatory law provides otherwise."
-  },
-  "contact": {
-    "title": "16. Contact",
-    "text": "For questions concerning these Terms of Use, contact:"
+  "CookieConsent": {
+    "kicker": "Privacy choices",
+    "title": "Your privacy matters",
+    "description": "We use essential technologies to operate this website. With your permission, we may also use analytics to understand how the website is used and improve its performance.",
+    "privacyLink": "Read our Privacy Policy",
+    "reject": "Reject analytics",
+    "accept": "Accept analytics"
   }
-},
-"Legal": {
-  "kicker": "Legal Information",
-  "title": "Legal Notice",
-  "updated": "Last updated: July 2026",
-  "operator": {
-    "title": "1. Website operator",
-    "location": "Slovenia",
-    "formationNotice": "Gold Bridge Capital is currently a project in formation and is not yet a separately incorporated legal entity."
-  },
-  "project": {
-    "title": "2. Project status",
-    "text": "Gold Bridge Capital is currently operated as a developing business project. Formal corporate, registration and regulatory details will be updated when the relevant legal entity has been established."
-  },
-  "services": {
-    "title": "3. Nature of the services",
-    "text": "The website presents a potential transaction-facilitation and coordination service relating to short-term financing opportunities secured by eligible physical investment gold. Each opportunity is reviewed individually and may involve independent financing, custody, legal, valuation, compliance and other professional parties."
-  },
-  "noRegulatedService": {
-    "title": "4. No regulated financial service offered through the website",
-    "text": "The website does not itself provide banking, deposit-taking, investment, securities, payment, custody, legal or tax services. Nothing on the website constitutes a regulated financial product, a public offer, investment advice or a binding commitment to arrange or provide financing."
-  },
-  "thirdParties": {
-    "title": "5. Independent third parties",
-    "text": "Any financing, custody, valuation, legal, compliance, insurance or related transaction services may be provided by independent third parties under separate agreements. Their decisions, approvals, services and contractual obligations remain their own responsibility."
-  },
-  "accuracy": {
-    "title": "6. Accuracy of information",
-    "text": "Reasonable efforts are made to keep the information on this website accurate and current. However, no representation or warranty is made regarding completeness, accuracy, availability or suitability for a particular purpose."
-  },
-  "liability": {
-    "title": "7. Limitation of liability",
-    "text": "To the maximum extent permitted by applicable law, the website operator is not responsible for losses arising from reliance on website content, interruption or unavailability of the website, third-party services, market movements, regulatory decisions or the failure of any proposed transaction to proceed."
-  },
-  "links": {
-    "title": "8. External links",
-    "text": "This website may contain links to third-party websites or services. Such links are provided for convenience only. The website operator does not control and is not responsible for the content, security, availability or privacy practices of external websites."
-  },
-  "copyright": {
-    "title": "9. Copyright and intellectual property",
-    "text": "Unless otherwise stated, the website design, text, visual identity, graphics and other original content are protected by applicable intellectual-property laws. Reproduction, distribution, modification or commercial use without prior written permission is prohibited."
-  },
-  "privacy": {
-    "title": "10. Privacy Policy",
-    "link": "View the Privacy Policy"
-  },
-  "terms": {
-    "title": "11. Terms of Use",
-    "link": "View the Terms of Use"
-  },
-  "contact": {
-    "title": "12. Contact",
-    "text": "For legal or website-related inquiries, contact:"
-  }
-},
-"CookieConsent": {
-  "kicker": "Privacy choices",
-  "title": "Your privacy matters",
-  "description": "We use essential technologies to operate this website. With your permission, we may also use analytics to understand how the website is used and improve its performance.",
-  "privacyLink": "Read our Privacy Policy",
-  "reject": "Reject analytics",
-  "accept": "Accept analytics"
 }

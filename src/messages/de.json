@@ -680,249 +680,249 @@
       "idle": "Vertrauliche Anfrage absenden",
       "sending": "Vertrauliche Anfrage wird gesendet..."
     },
-      "messages": {
-    "success": "Vielen Dank. Ihre vertrauliche Anfrage wurde erfolgreich übermittelt. Unser Team wird die bereitgestellten Informationen prüfen und Sie kontaktieren, sofern die Transaktion die Kriterien der ersten Prüfung erfüllt.",
-    "submissionError": "Ihre Anfrage konnte nicht übermittelt werden. Bitte versuchen Sie es erneut.",
-    "unexpectedError": "Ein unerwarteter Fehler ist aufgetreten. Bitte versuchen Sie es erneut."
-  }
-},
-"Metadata": {
-  "title": "Gold Bridge Capital | Strukturierte Finanzierung mit Goldbesicherung",
-  "description": "Vertrauliche kurzfristige Finanzierungslösungen, besichert durch geeignetes physisches Anlagegold, für qualifizierte private und gewerbliche Kunden."
-}
-},
-"Privacy": {
-  "kicker": "Datenschutz",
-  "title": "Datenschutzerklärung",
-  "updated": "Zuletzt aktualisiert: Juli 2026",
-  "controller": {
-    "title": "1. Verantwortlicher",
-    "introduction": "Verantwortlicher für die Verarbeitung personenbezogener Daten über diese Website ist:",
-    "location": "Slowenien",
-    "formationNotice": "Gold Bridge Capital ist derzeit ein Projekt in Gründung und noch keine eigenständig eingetragene juristische Person."
-  },
-  "data": {
-    "title": "2. Welche personenbezogenen Daten wir erheben",
-    "introduction": "Wenn Sie eine vertrauliche Anfrage einreichen oder uns direkt kontaktieren, können wir folgende Informationen erheben:",
-    "items": {
-      "name": "Ihren vollständigen Namen.",
-      "company": "Ihr Unternehmen, Family Office oder Ihre Organisation.",
-      "email": "Ihre geschäftliche E-Mail-Adresse.",
-      "phone": "Ihre Telefonnummer, sofern angegeben.",
-      "transaction": "Den gewünschten Finanzierungsbetrag und den vorgesehenen Verwendungszweck.",
-      "gold": "Informationen über Menge, geschätzten Wert, Eigentum und Standort der vorgeschlagenen Goldsicherheit.",
-      "message": "Alle weiteren Informationen, die Sie freiwillig in Ihrer Anfrage oder in der anschließenden Korrespondenz bereitstellen."
+    "messages": {
+      "success": "Vielen Dank. Ihre vertrauliche Anfrage wurde erfolgreich übermittelt. Unser Team wird die bereitgestellten Informationen prüfen und Sie kontaktieren, sofern die Transaktion die Kriterien der ersten Prüfung erfüllt.",
+      "submissionError": "Ihre Anfrage konnte nicht übermittelt werden. Bitte versuchen Sie es erneut.",
+      "unexpectedError": "Ein unerwarteter Fehler ist aufgetreten. Bitte versuchen Sie es erneut."
     }
   },
-  "purpose": {
-    "title": "3. Wie wir personenbezogene Daten verwenden",
-    "introduction": "Wir verarbeiten personenbezogene Daten nur, soweit dies für folgende Zwecke erforderlich ist:",
-    "items": {
-      "review": "Zur Prüfung und Bewertung einer eingereichten Finanzierungsanfrage.",
-      "response": "Zur Beantwortung von Fragen und zur Kommunikation über eine mögliche Transaktion.",
-      "communication": "Zur Führung relevanter vorvertraglicher und geschäftlicher Korrespondenz.",
-      "security": "Zum Schutz der Website, der Kommunikation und der beteiligten Parteien vor Missbrauch, Betrug oder rechtswidrigen Aktivitäten.",
-      "legal": "Zur Erfüllung anwendbarer gesetzlicher, regulatorischer und Compliance-Verpflichtungen."
-    }
+  "Metadata": {
+    "title": "Gold Bridge Capital | Strukturierte Finanzierung mit Goldbesicherung",
+    "description": "Vertrauliche kurzfristige Finanzierungslösungen, besichert durch geeignetes physisches Anlagegold, für qualifizierte private und gewerbliche Kunden."
   },
-  "legalBasis": {
-    "title": "4. Rechtsgrundlage der Verarbeitung",
-    "text": "Personenbezogene Daten, die über das Anfrageformular übermittelt werden, werden in erster Linie verarbeitet, weil dies erforderlich ist, um auf Ihre Anfrage hin vor einem möglichen Geschäftsverhältnis tätig zu werden. Soweit angemessen, kann die Verarbeitung außerdem auf unseren berechtigten Interessen an der Beantwortung von Anfragen, dem Schutz unserer Tätigkeit und der Erfüllung gesetzlicher Pflichten beruhen."
-  },
-  "recipients": {
-    "title": "5. Empfänger und Dienstleister",
-    "introduction": "Personenbezogene Daten können ausschließlich Parteien zugänglich gemacht werden, die diese für die in dieser Erklärung beschriebenen Zwecke benötigen, darunter:",
-    "items": {
-      "email": "E-Mail- und Kommunikationsdienstleister, die zum Empfang und zur Beantwortung von Anfragen genutzt werden.",
-      "railway": "Railway und dessen Infrastrukturpartner, die die Website hosten und betreiben.",
-      "professionals": "Professionelle Berater oder potenzielle Transaktionsparteien, soweit dies für eine vertrauliche Vorprüfung erforderlich ist und eine geeignete Grundlage für die Weitergabe besteht.",
-      "authorities": "Behörden, wenn eine Offenlegung gesetzlich vorgeschrieben ist."
+  "Privacy": {
+    "kicker": "Datenschutz",
+    "title": "Datenschutzerklärung",
+    "updated": "Zuletzt aktualisiert: Juli 2026",
+    "controller": {
+      "title": "1. Verantwortlicher",
+      "introduction": "Verantwortlicher für die Verarbeitung personenbezogener Daten über diese Website ist:",
+      "location": "Slowenien",
+      "formationNotice": "Gold Bridge Capital ist derzeit ein Projekt in Gründung und noch keine eigenständig eingetragene juristische Person."
     },
-    "noSale": "Wir verkaufen personenbezogene Daten nicht an Dritte."
-  },
-  "transfers": {
-    "title": "6. Internationale Datenübermittlungen",
-    "text": "Einige Dienstleister können Informationen außerhalb Sloweniens oder des Europäischen Wirtschaftsraums verarbeiten. Soweit erforderlich, erfolgen solche Übermittlungen unter Anwendung geeigneter datenschutzrechtlicher Garantien."
-  },
-  "retention": {
-    "title": "7. Speicherdauer",
-    "text": "Informationen aus einer Finanzierungsanfrage werden grundsätzlich nicht länger als 12 Monate nach der letzten relevanten Kommunikation gespeichert, es sei denn, eine längere Aufbewahrung ist erforderlich, weil sich eine Geschäftsbeziehung entwickelt, gesetzliche Pflichten gelten oder die Informationen zur Geltendmachung, Ausübung oder Verteidigung rechtlicher Ansprüche benötigt werden."
-  },
-  "rights": {
-    "title": "8. Ihre Datenschutzrechte",
-    "introduction": "Vorbehaltlich der gesetzlichen Voraussetzungen können Sie insbesondere folgende Rechte haben:",
-    "items": {
-      "access": "Auskunft über Ihre personenbezogenen Daten zu verlangen.",
-      "rectification": "Die Berichtigung unrichtiger oder unvollständiger Informationen zu verlangen.",
-      "erasure": "Die Löschung Ihrer personenbezogenen Daten zu verlangen.",
-      "restriction": "Die Einschränkung der Verarbeitung zu verlangen.",
-      "objection": "Der Verarbeitung auf Grundlage berechtigter Interessen zu widersprechen.",
-      "portability": "Soweit anwendbar, die Übertragbarkeit Ihrer Daten zu verlangen.",
-      "complaint": "Eine Beschwerde bei der zuständigen Aufsichtsbehörde einzureichen."
+    "data": {
+      "title": "2. Welche personenbezogenen Daten wir erheben",
+      "introduction": "Wenn Sie eine vertrauliche Anfrage einreichen oder uns direkt kontaktieren, können wir folgende Informationen erheben:",
+      "items": {
+        "name": "Ihren vollständigen Namen.",
+        "company": "Ihr Unternehmen, Family Office oder Ihre Organisation.",
+        "email": "Ihre geschäftliche E-Mail-Adresse.",
+        "phone": "Ihre Telefonnummer, sofern angegeben.",
+        "transaction": "Den gewünschten Finanzierungsbetrag und den vorgesehenen Verwendungszweck.",
+        "gold": "Informationen über Menge, geschätzten Wert, Eigentum und Standort der vorgeschlagenen Goldsicherheit.",
+        "message": "Alle weiteren Informationen, die Sie freiwillig in Ihrer Anfrage oder in der anschließenden Korrespondenz bereitstellen."
+      }
     },
-    "contact": "Anfragen zu Ihren personenbezogenen Daten können an den unten angegebenen Datenschutzkontakt gesendet werden."
-  },
-  "analytics": {
-    "title": "9. Analysen und Cookies",
-    "text": "Google Analytics ist derzeit nicht aktiviert. Falls Analysedienste eingeführt werden, werden nicht notwendige Analysetechnologien zusammen mit einem geeigneten Einwilligungsmechanismus umgesetzt und diese Datenschutzerklärung vor der Aktivierung aktualisiert."
-  },
-  "security": {
-    "title": "10. Datensicherheit",
-    "text": "Es werden angemessene technische und organisatorische Maßnahmen eingesetzt, um personenbezogene Daten vor unbefugtem Zugriff, Verlust, Missbrauch, Veränderung oder Offenlegung zu schützen. Eine vollständig sichere Übertragung über das Internet oder elektronische Speicherung kann jedoch nicht garantiert werden."
-  },
-  "changes": {
-    "title": "11. Änderungen dieser Datenschutzerklärung",
-    "text": "Diese Datenschutzerklärung kann aktualisiert werden, wenn sich die Website, Dienstleister, Verarbeitungstätigkeiten oder anwendbare rechtliche Anforderungen ändern. Die jeweils aktuelle Fassung wird zusammen mit dem aktualisierten Datum auf dieser Seite veröffentlicht."
-  },
-  "contact": {
-    "title": "12. Datenschutzkontakt",
-    "text": "Bei Fragen, Anfragen oder Anliegen zum Datenschutz und zu personenbezogenen Daten kontaktieren Sie:"
-  }
-},
-"Terms": {
-  "kicker": "Rechtliche Bedingungen",
-  "title": "Nutzungsbedingungen",
-  "updated": "Zuletzt aktualisiert: Juli 2026",
-  "operator": {
-    "title": "1. Betreiber der Website",
-    "text": "Diese Website wird betrieben von:",
-    "location": "Slowenien",
-    "formationNotice": "Gold Bridge Capital ist derzeit ein Projekt in Gründung und noch keine eigenständig eingetragene juristische Person."
-  },
-  "acceptance": {
-    "title": "2. Annahme dieser Bedingungen",
-    "text": "Durch den Zugriff auf diese Website oder deren Nutzung erklären Sie sich mit diesen Nutzungsbedingungen einverstanden. Wenn Sie diesen Bedingungen nicht zustimmen, sollten Sie die Website nicht nutzen."
-  },
-  "information": {
-    "title": "3. Ausschließlich allgemeine Informationen",
-    "text": "Die Inhalte dieser Website dienen ausschließlich allgemeinen Informationszwecken. Sie sollen die Tätigkeit und den möglichen Transaktionsprozess im Zusammenhang mit Gold Bridge Capital darstellen."
-  },
-  "noOffer": {
-    "title": "4. Kein Finanz-, Rechts- oder Anlageangebot",
-    "text": "Nichts auf dieser Website stellt Finanz-, Rechts-, Steuer- oder Anlageberatung, ein Kreditangebot, ein Wertpapierangebot, eine Aufforderung, Empfehlung oder eine verbindliche Verpflichtung zur Vermittlung oder Bereitstellung einer Finanzierung dar. Jede potenzielle Transaktion unterliegt einer gesonderten Prüfung, Due Diligence, Dokumentation und Genehmigung."
-  },
-  "eligibility": {
-    "title": "5. Eignung und Transaktionsprüfung",
-    "text": "Die Verfügbarkeit einer Finanzierungsstruktur hängt vom Profil des Kunden, der Art und dem Standort der vorgeschlagenen Goldsicherheit, den anwendbaren rechtlichen und Compliance-Anforderungen, den Marktbedingungen und der Genehmigung relevanter unabhängiger Parteien ab. Keine Transaktion wird garantiert."
-  },
-  "inquiries": {
-    "title": "6. Über Anfragen übermittelte Informationen",
-    "introduction": "Mit dem Einreichen einer Anfrage bestätigen Sie, dass:",
-    "items": {
-      "accuracy": "Die bereitgestellten Informationen nach bestem Wissen richtig und vollständig sind.",
-      "authority": "Sie rechtmäßiger Eigentümer der vorgeschlagenen Goldsicherheit sind oder ordnungsgemäß bevollmächtigt sind, im Namen des rechtmäßigen Eigentümers zu handeln.",
-      "lawful": "Die vorgeschlagene Transaktion und die beabsichtigte Mittelverwendung rechtmäßig sind.",
-      "noCommitment": "Das Einreichen einer Anfrage weder eine Kundenbeziehung noch eine Finanzierungszusage oder Verpflichtung einer Partei begründet."
+    "purpose": {
+      "title": "3. Wie wir personenbezogene Daten verwenden",
+      "introduction": "Wir verarbeiten personenbezogene Daten nur, soweit dies für folgende Zwecke erforderlich ist:",
+      "items": {
+        "review": "Zur Prüfung und Bewertung einer eingereichten Finanzierungsanfrage.",
+        "response": "Zur Beantwortung von Fragen und zur Kommunikation über eine mögliche Transaktion.",
+        "communication": "Zur Führung relevanter vorvertraglicher und geschäftlicher Korrespondenz.",
+        "security": "Zum Schutz der Website, der Kommunikation und der beteiligten Parteien vor Missbrauch, Betrug oder rechtswidrigen Aktivitäten.",
+        "legal": "Zur Erfüllung anwendbarer gesetzlicher, regulatorischer und Compliance-Verpflichtungen."
+      }
+    },
+    "legalBasis": {
+      "title": "4. Rechtsgrundlage der Verarbeitung",
+      "text": "Personenbezogene Daten, die über das Anfrageformular übermittelt werden, werden in erster Linie verarbeitet, weil dies erforderlich ist, um auf Ihre Anfrage hin vor einem möglichen Geschäftsverhältnis tätig zu werden. Soweit angemessen, kann die Verarbeitung außerdem auf unseren berechtigten Interessen an der Beantwortung von Anfragen, dem Schutz unserer Tätigkeit und der Erfüllung gesetzlicher Pflichten beruhen."
+    },
+    "recipients": {
+      "title": "5. Empfänger und Dienstleister",
+      "introduction": "Personenbezogene Daten können ausschließlich Parteien zugänglich gemacht werden, die diese für die in dieser Erklärung beschriebenen Zwecke benötigen, darunter:",
+      "items": {
+        "email": "E-Mail- und Kommunikationsdienstleister, die zum Empfang und zur Beantwortung von Anfragen genutzt werden.",
+        "railway": "Railway und dessen Infrastrukturpartner, die die Website hosten und betreiben.",
+        "professionals": "Professionelle Berater oder potenzielle Transaktionsparteien, soweit dies für eine vertrauliche Vorprüfung erforderlich ist und eine geeignete Grundlage für die Weitergabe besteht.",
+        "authorities": "Behörden, wenn eine Offenlegung gesetzlich vorgeschrieben ist."
+      },
+      "noSale": "Wir verkaufen personenbezogene Daten nicht an Dritte."
+    },
+    "transfers": {
+      "title": "6. Internationale Datenübermittlungen",
+      "text": "Einige Dienstleister können Informationen außerhalb Sloweniens oder des Europäischen Wirtschaftsraums verarbeiten. Soweit erforderlich, erfolgen solche Übermittlungen unter Anwendung geeigneter datenschutzrechtlicher Garantien."
+    },
+    "retention": {
+      "title": "7. Speicherdauer",
+      "text": "Informationen aus einer Finanzierungsanfrage werden grundsätzlich nicht länger als 12 Monate nach der letzten relevanten Kommunikation gespeichert, es sei denn, eine längere Aufbewahrung ist erforderlich, weil sich eine Geschäftsbeziehung entwickelt, gesetzliche Pflichten gelten oder die Informationen zur Geltendmachung, Ausübung oder Verteidigung rechtlicher Ansprüche benötigt werden."
+    },
+    "rights": {
+      "title": "8. Ihre Datenschutzrechte",
+      "introduction": "Vorbehaltlich der gesetzlichen Voraussetzungen können Sie insbesondere folgende Rechte haben:",
+      "items": {
+        "access": "Auskunft über Ihre personenbezogenen Daten zu verlangen.",
+        "rectification": "Die Berichtigung unrichtiger oder unvollständiger Informationen zu verlangen.",
+        "erasure": "Die Löschung Ihrer personenbezogenen Daten zu verlangen.",
+        "restriction": "Die Einschränkung der Verarbeitung zu verlangen.",
+        "objection": "Der Verarbeitung auf Grundlage berechtigter Interessen zu widersprechen.",
+        "portability": "Soweit anwendbar, die Übertragbarkeit Ihrer Daten zu verlangen.",
+        "complaint": "Eine Beschwerde bei der zuständigen Aufsichtsbehörde einzureichen."
+      },
+      "contact": "Anfragen zu Ihren personenbezogenen Daten können an den unten angegebenen Datenschutzkontakt gesendet werden."
+    },
+    "analytics": {
+      "title": "9. Analysen und Cookies",
+      "text": "Google Analytics wird nur verwendet, nachdem Sie über das Cookie-Banner der Nutzung von Analysetechnologien zugestimmt haben. Wenn Sie Analysen ablehnen, wird Google Analytics nicht geladen. Sie können Ihre Auswahl ändern, indem Sie die für diese Website gespeicherten Daten beziehungsweise den Browserspeicher löschen."
+    },
+    "security": {
+      "title": "10. Datensicherheit",
+      "text": "Es werden angemessene technische und organisatorische Maßnahmen eingesetzt, um personenbezogene Daten vor unbefugtem Zugriff, Verlust, Missbrauch, Veränderung oder Offenlegung zu schützen. Eine vollständig sichere Übertragung über das Internet oder elektronische Speicherung kann jedoch nicht garantiert werden."
+    },
+    "changes": {
+      "title": "11. Änderungen dieser Datenschutzerklärung",
+      "text": "Diese Datenschutzerklärung kann aktualisiert werden, wenn sich die Website, Dienstleister, Verarbeitungstätigkeiten oder anwendbare rechtliche Anforderungen ändern. Die jeweils aktuelle Fassung wird zusammen mit dem aktualisierten Datum auf dieser Seite veröffentlicht."
+    },
+    "contact": {
+      "title": "12. Datenschutzkontakt",
+      "text": "Bei Fragen, Anfragen oder Anliegen zum Datenschutz und zu personenbezogenen Daten kontaktieren Sie:"
     }
   },
-  "thirdParties": {
-    "title": "7. Unabhängige Dritte",
-    "text": "Mögliche Finanzierungs-, Verwahrungs-, Bewertungs-, Rechts-, Compliance-, Versicherungs- und sonstige Transaktionsleistungen können von unabhängigen Dritten erbracht werden. Gold Bridge Capital kontrolliert diese Parteien nicht und ist nicht für deren Entscheidungen, Leistungen, Verfügbarkeit oder vertragliche Verpflichtungen verantwortlich."
-  },
-  "intellectualProperty": {
-    "title": "8. Geistiges Eigentum",
-    "text": "Sofern nicht anders angegeben, stehen Webdesign, Texte, Markenauftritt, Grafiken und sonstige originäre Inhalte im Eigentum des Websitebetreibers oder werden von diesem rechtmäßig genutzt. Eine Vervielfältigung, Verbreitung, Bearbeitung, Veröffentlichung oder kommerzielle Nutzung ohne vorherige schriftliche Genehmigung ist nicht gestattet."
-  },
-  "prohibitedUse": {
-    "title": "9. Unzulässige Nutzung",
-    "introduction": "Sie dürfen diese Website nicht verwenden:",
-    "items": {
-      "unlawful": "Für rechtswidrige, betrügerische oder irreführende Zwecke.",
-      "falseInformation": "Zur Übermittlung falscher, unvollständiger oder nicht autorisierter Informationen.",
-      "security": "Zur Beeinträchtigung der Sicherheit, Verfügbarkeit oder Funktionsweise der Website.",
-      "copying": "Zum Kopieren, Scrapen, Extrahieren oder Wiederverwenden wesentlicher Teile der Website ohne Genehmigung.",
-      "impersonation": "Zur Vortäuschung der Identität einer anderen Person oder zur falschen Darstellung Ihrer Befugnis, Identität oder Eigentumsrechte."
+  "Terms": {
+    "kicker": "Rechtliche Bedingungen",
+    "title": "Nutzungsbedingungen",
+    "updated": "Zuletzt aktualisiert: Juli 2026",
+    "operator": {
+      "title": "1. Betreiber der Website",
+      "text": "Diese Website wird betrieben von:",
+      "location": "Slowenien",
+      "formationNotice": "Gold Bridge Capital ist derzeit ein Projekt in Gründung und noch keine eigenständig eingetragene juristische Person."
+    },
+    "acceptance": {
+      "title": "2. Annahme dieser Bedingungen",
+      "text": "Durch den Zugriff auf diese Website oder deren Nutzung erklären Sie sich mit diesen Nutzungsbedingungen einverstanden. Wenn Sie diesen Bedingungen nicht zustimmen, sollten Sie die Website nicht nutzen."
+    },
+    "information": {
+      "title": "3. Ausschließlich allgemeine Informationen",
+      "text": "Die Inhalte dieser Website dienen ausschließlich allgemeinen Informationszwecken. Sie sollen die Tätigkeit und den möglichen Transaktionsprozess im Zusammenhang mit Gold Bridge Capital darstellen."
+    },
+    "noOffer": {
+      "title": "4. Kein Finanz-, Rechts- oder Anlageangebot",
+      "text": "Nichts auf dieser Website stellt Finanz-, Rechts-, Steuer- oder Anlageberatung, ein Kreditangebot, ein Wertpapierangebot, eine Aufforderung, Empfehlung oder eine verbindliche Verpflichtung zur Vermittlung oder Bereitstellung einer Finanzierung dar. Jede potenzielle Transaktion unterliegt einer gesonderten Prüfung, Due Diligence, Dokumentation und Genehmigung."
+    },
+    "eligibility": {
+      "title": "5. Eignung und Transaktionsprüfung",
+      "text": "Die Verfügbarkeit einer Finanzierungsstruktur hängt vom Profil des Kunden, der Art und dem Standort der vorgeschlagenen Goldsicherheit, den anwendbaren rechtlichen und Compliance-Anforderungen, den Marktbedingungen und der Genehmigung relevanter unabhängiger Parteien ab. Keine Transaktion wird garantiert."
+    },
+    "inquiries": {
+      "title": "6. Über Anfragen übermittelte Informationen",
+      "introduction": "Mit dem Einreichen einer Anfrage bestätigen Sie, dass:",
+      "items": {
+        "accuracy": "Die bereitgestellten Informationen nach bestem Wissen richtig und vollständig sind.",
+        "authority": "Sie rechtmäßiger Eigentümer der vorgeschlagenen Goldsicherheit sind oder ordnungsgemäß bevollmächtigt sind, im Namen des rechtmäßigen Eigentümers zu handeln.",
+        "lawful": "Die vorgeschlagene Transaktion und die beabsichtigte Mittelverwendung rechtmäßig sind.",
+        "noCommitment": "Das Einreichen einer Anfrage weder eine Kundenbeziehung noch eine Finanzierungszusage oder Verpflichtung einer Partei begründet."
+      }
+    },
+    "thirdParties": {
+      "title": "7. Unabhängige Dritte",
+      "text": "Mögliche Finanzierungs-, Verwahrungs-, Bewertungs-, Rechts-, Compliance-, Versicherungs- und sonstige Transaktionsleistungen können von unabhängigen Dritten erbracht werden. Gold Bridge Capital kontrolliert diese Parteien nicht und ist nicht für deren Entscheidungen, Leistungen, Verfügbarkeit oder vertragliche Verpflichtungen verantwortlich."
+    },
+    "intellectualProperty": {
+      "title": "8. Geistiges Eigentum",
+      "text": "Sofern nicht anders angegeben, stehen Webdesign, Texte, Markenauftritt, Grafiken und sonstige originäre Inhalte im Eigentum des Websitebetreibers oder werden von diesem rechtmäßig genutzt. Eine Vervielfältigung, Verbreitung, Bearbeitung, Veröffentlichung oder kommerzielle Nutzung ohne vorherige schriftliche Genehmigung ist nicht gestattet."
+    },
+    "prohibitedUse": {
+      "title": "9. Unzulässige Nutzung",
+      "introduction": "Sie dürfen diese Website nicht verwenden:",
+      "items": {
+        "unlawful": "Für rechtswidrige, betrügerische oder irreführende Zwecke.",
+        "falseInformation": "Zur Übermittlung falscher, unvollständiger oder nicht autorisierter Informationen.",
+        "security": "Zur Beeinträchtigung der Sicherheit, Verfügbarkeit oder Funktionsweise der Website.",
+        "copying": "Zum Kopieren, Scrapen, Extrahieren oder Wiederverwenden wesentlicher Teile der Website ohne Genehmigung.",
+        "impersonation": "Zur Vortäuschung der Identität einer anderen Person oder zur falschen Darstellung Ihrer Befugnis, Identität oder Eigentumsrechte."
+      }
+    },
+    "availability": {
+      "title": "10. Verfügbarkeit der Website",
+      "text": "Wir bemühen uns, die Website verfügbar und korrekt zu halten, garantieren jedoch keinen ununterbrochenen Zugang, fehlerfreien Betrieb, Vollständigkeit oder dauerhafte Verfügbarkeit. Die Website kann ohne vorherige Ankündigung geändert, ausgesetzt oder eingestellt werden."
+    },
+    "liability": {
+      "title": "11. Haftungsbeschränkung",
+      "text": "Soweit nach anwendbarem Recht zulässig, haftet der Websitebetreiber nicht für direkte oder indirekte Schäden, die aus dem Vertrauen auf die Website, der fehlenden Zugriffsmöglichkeit, der Nutzung von Diensten Dritter, dem Nichtzustandekommen einer vorgeschlagenen Transaktion oder Entscheidungen auf Grundlage der Websiteinhalte entstehen."
+    },
+    "indemnity": {
+      "title": "12. Verantwortung für übermittelte Informationen",
+      "text": "Sie sind für die von Ihnen übermittelten Informationen und Unterlagen verantwortlich. Sie erklären sich dafür verantwortlich, Verluste, Ansprüche oder Kosten zu tragen, die aus wesentlich falschen, irreführenden, rechtswidrigen oder nicht autorisierten Informationen entstehen, die über die Website eingereicht wurden."
+    },
+    "privacy": {
+      "title": "13. Datenschutz",
+      "text": "Personenbezogene Daten, die über die Website übermittelt werden, werden gemäß unserer",
+      "link": "Datenschutzerklärung"
+    },
+    "changes": {
+      "title": "14. Änderungen dieser Bedingungen",
+      "text": "Diese Nutzungsbedingungen können von Zeit zu Zeit aktualisiert werden. Die jeweils aktuelle Fassung wird zusammen mit dem Datum der letzten Aktualisierung auf dieser Seite veröffentlicht."
+    },
+    "law": {
+      "title": "15. Anwendbares Recht",
+      "text": "Diese Nutzungsbedingungen unterliegen dem Recht der Republik Slowenien. Für alle Streitigkeiten im Zusammenhang mit der Nutzung dieser Website sind die zuständigen Gerichte in Slowenien zuständig, sofern zwingendes Recht nichts anderes vorsieht."
+    },
+    "contact": {
+      "title": "16. Kontakt",
+      "text": "Bei Fragen zu diesen Nutzungsbedingungen kontaktieren Sie:"
     }
   },
-  "availability": {
-    "title": "10. Verfügbarkeit der Website",
-    "text": "Wir bemühen uns, die Website verfügbar und korrekt zu halten, garantieren jedoch keinen ununterbrochenen Zugang, fehlerfreien Betrieb, Vollständigkeit oder dauerhafte Verfügbarkeit. Die Website kann ohne vorherige Ankündigung geändert, ausgesetzt oder eingestellt werden."
+  "Legal": {
+    "kicker": "Rechtliche Informationen",
+    "title": "Impressum",
+    "updated": "Zuletzt aktualisiert: Juli 2026",
+    "operator": {
+      "title": "1. Betreiber der Website",
+      "location": "Slowenien",
+      "formationNotice": "Gold Bridge Capital ist derzeit ein Projekt in Gründung und noch keine eigenständig eingetragene juristische Person."
+    },
+    "project": {
+      "title": "2. Status des Projekts",
+      "text": "Gold Bridge Capital wird derzeit als sich entwickelndes Geschäftsprojekt betrieben. Formelle Unternehmens-, Registrierungs- und regulatorische Angaben werden ergänzt, sobald die entsprechende juristische Person gegründet wurde."
+    },
+    "services": {
+      "title": "3. Art der Dienstleistungen",
+      "text": "Die Website stellt eine potenzielle Dienstleistung zur Vermittlung und Koordination kurzfristiger Finanzierungsmöglichkeiten dar, die durch geeignetes physisches Anlagegold besichert sind. Jede Möglichkeit wird individuell geprüft und kann unabhängige Finanzierungs-, Verwahrungs-, Rechts-, Bewertungs-, Compliance- und weitere professionelle Parteien einbeziehen."
+    },
+    "noRegulatedService": {
+      "title": "4. Keine regulierte Finanzdienstleistung über diese Website",
+      "text": "Die Website selbst erbringt keine Bank-, Einlagen-, Anlage-, Wertpapier-, Zahlungs-, Verwahrungs-, Rechts- oder Steuerdienstleistungen. Nichts auf dieser Website stellt ein reguliertes Finanzprodukt, ein öffentliches Angebot, eine Anlageberatung oder eine verbindliche Verpflichtung zur Vermittlung oder Bereitstellung einer Finanzierung dar."
+    },
+    "thirdParties": {
+      "title": "5. Unabhängige Dritte",
+      "text": "Finanzierungs-, Verwahrungs-, Bewertungs-, Rechts-, Compliance-, Versicherungs- oder sonstige transaktionsbezogene Leistungen können von unabhängigen Dritten auf Grundlage separater Vereinbarungen erbracht werden. Deren Entscheidungen, Genehmigungen, Leistungen und vertragliche Verpflichtungen liegen in deren eigener Verantwortung."
+    },
+    "accuracy": {
+      "title": "6. Richtigkeit der Informationen",
+      "text": "Es werden angemessene Anstrengungen unternommen, die Informationen auf dieser Website richtig und aktuell zu halten. Es wird jedoch keine Zusicherung oder Gewährleistung hinsichtlich Vollständigkeit, Richtigkeit, Verfügbarkeit oder Eignung für einen bestimmten Zweck übernommen."
+    },
+    "liability": {
+      "title": "7. Haftungsbeschränkung",
+      "text": "Soweit nach anwendbarem Recht zulässig, haftet der Betreiber der Website nicht für Verluste, die aus dem Vertrauen auf Websiteinhalte, Unterbrechungen oder Nichtverfügbarkeit der Website, Leistungen Dritter, Marktbewegungen, regulatorischen Entscheidungen oder dem Nichtzustandekommen einer vorgeschlagenen Transaktion entstehen."
+    },
+    "links": {
+      "title": "8. Externe Links",
+      "text": "Diese Website kann Links zu Websites oder Diensten Dritter enthalten. Solche Links werden ausschließlich aus Gründen der Benutzerfreundlichkeit bereitgestellt. Der Betreiber der Website kontrolliert externe Websites nicht und ist nicht für deren Inhalte, Sicherheit, Verfügbarkeit oder Datenschutzpraktiken verantwortlich."
+    },
+    "copyright": {
+      "title": "9. Urheberrecht und geistiges Eigentum",
+      "text": "Sofern nicht anders angegeben, sind Webdesign, Texte, visuelle Identität, Grafiken und sonstige originäre Inhalte durch die anwendbaren Vorschriften zum geistigen Eigentum geschützt. Vervielfältigung, Verbreitung, Bearbeitung oder kommerzielle Nutzung ohne vorherige schriftliche Genehmigung ist untersagt."
+    },
+    "privacy": {
+      "title": "10. Datenschutzerklärung",
+      "link": "Datenschutzerklärung anzeigen"
+    },
+    "terms": {
+      "title": "11. Nutzungsbedingungen",
+      "link": "Nutzungsbedingungen anzeigen"
+    },
+    "contact": {
+      "title": "12. Kontakt",
+      "text": "Bei rechtlichen Fragen oder Anfragen zur Website kontaktieren Sie:"
+    }
   },
-  "liability": {
-    "title": "11. Haftungsbeschränkung",
-    "text": "Soweit nach anwendbarem Recht zulässig, haftet der Websitebetreiber nicht für direkte oder indirekte Schäden, die aus dem Vertrauen auf die Website, der fehlenden Zugriffsmöglichkeit, der Nutzung von Diensten Dritter, dem Nichtzustandekommen einer vorgeschlagenen Transaktion oder Entscheidungen auf Grundlage der Websiteinhalte entstehen."
-  },
-  "indemnity": {
-    "title": "12. Verantwortung für übermittelte Informationen",
-    "text": "Sie sind für die von Ihnen übermittelten Informationen und Unterlagen verantwortlich. Sie erklären sich dafür verantwortlich, Verluste, Ansprüche oder Kosten zu tragen, die aus wesentlich falschen, irreführenden, rechtswidrigen oder nicht autorisierten Informationen entstehen, die über die Website eingereicht wurden."
-  },
-  "privacy": {
-    "title": "13. Datenschutz",
-    "text": "Personenbezogene Daten, die über die Website übermittelt werden, werden gemäß unserer",
-    "link": "Datenschutzerklärung"
-  },
-  "changes": {
-    "title": "14. Änderungen dieser Bedingungen",
-    "text": "Diese Nutzungsbedingungen können von Zeit zu Zeit aktualisiert werden. Die jeweils aktuelle Fassung wird zusammen mit dem Datum der letzten Aktualisierung auf dieser Seite veröffentlicht."
-  },
-  "law": {
-    "title": "15. Anwendbares Recht",
-    "text": "Diese Nutzungsbedingungen unterliegen dem Recht der Republik Slowenien. Für alle Streitigkeiten im Zusammenhang mit der Nutzung dieser Website sind die zuständigen Gerichte in Slowenien zuständig, sofern zwingendes Recht nichts anderes vorsieht."
-  },
-  "contact": {
-    "title": "16. Kontakt",
-    "text": "Bei Fragen zu diesen Nutzungsbedingungen kontaktieren Sie:"
+  "CookieConsent": {
+    "kicker": "Datenschutzeinstellungen",
+    "title": "Ihre Privatsphäre ist uns wichtig",
+    "description": "Wir verwenden notwendige Technologien, um diese Website zu betreiben. Mit Ihrer Zustimmung können wir außerdem Analysedienste einsetzen, um die Nutzung der Website besser zu verstehen und ihre Leistung zu verbessern.",
+    "privacyLink": "Datenschutzerklärung lesen",
+    "reject": "Analysen ablehnen",
+    "accept": "Analysen akzeptieren"
   }
-},
-"Legal": {
-  "kicker": "Rechtliche Informationen",
-  "title": "Impressum",
-  "updated": "Zuletzt aktualisiert: Juli 2026",
-  "operator": {
-    "title": "1. Betreiber der Website",
-    "location": "Slowenien",
-    "formationNotice": "Gold Bridge Capital ist derzeit ein Projekt in Gründung und noch keine eigenständig eingetragene juristische Person."
-  },
-  "project": {
-    "title": "2. Status des Projekts",
-    "text": "Gold Bridge Capital wird derzeit als sich entwickelndes Geschäftsprojekt betrieben. Formelle Unternehmens-, Registrierungs- und regulatorische Angaben werden ergänzt, sobald die entsprechende juristische Person gegründet wurde."
-  },
-  "services": {
-    "title": "3. Art der Dienstleistungen",
-    "text": "Die Website stellt eine potenzielle Dienstleistung zur Vermittlung und Koordination kurzfristiger Finanzierungsmöglichkeiten dar, die durch geeignetes physisches Anlagegold besichert sind. Jede Möglichkeit wird individuell geprüft und kann unabhängige Finanzierungs-, Verwahrungs-, Rechts-, Bewertungs-, Compliance- und weitere professionelle Parteien einbeziehen."
-  },
-  "noRegulatedService": {
-    "title": "4. Keine regulierte Finanzdienstleistung über diese Website",
-    "text": "Die Website selbst erbringt keine Bank-, Einlagen-, Anlage-, Wertpapier-, Zahlungs-, Verwahrungs-, Rechts- oder Steuerdienstleistungen. Nichts auf dieser Website stellt ein reguliertes Finanzprodukt, ein öffentliches Angebot, eine Anlageberatung oder eine verbindliche Verpflichtung zur Vermittlung oder Bereitstellung einer Finanzierung dar."
-  },
-  "thirdParties": {
-    "title": "5. Unabhängige Dritte",
-    "text": "Finanzierungs-, Verwahrungs-, Bewertungs-, Rechts-, Compliance-, Versicherungs- oder sonstige transaktionsbezogene Leistungen können von unabhängigen Dritten auf Grundlage separater Vereinbarungen erbracht werden. Deren Entscheidungen, Genehmigungen, Leistungen und vertragliche Verpflichtungen liegen in deren eigener Verantwortung."
-  },
-  "accuracy": {
-    "title": "6. Richtigkeit der Informationen",
-    "text": "Es werden angemessene Anstrengungen unternommen, die Informationen auf dieser Website richtig und aktuell zu halten. Es wird jedoch keine Zusicherung oder Gewährleistung hinsichtlich Vollständigkeit, Richtigkeit, Verfügbarkeit oder Eignung für einen bestimmten Zweck übernommen."
-  },
-  "liability": {
-    "title": "7. Haftungsbeschränkung",
-    "text": "Soweit nach anwendbarem Recht zulässig, haftet der Betreiber der Website nicht für Verluste, die aus dem Vertrauen auf Websiteinhalte, Unterbrechungen oder Nichtverfügbarkeit der Website, Leistungen Dritter, Marktbewegungen, regulatorischen Entscheidungen oder dem Nichtzustandekommen einer vorgeschlagenen Transaktion entstehen."
-  },
-  "links": {
-    "title": "8. Externe Links",
-    "text": "Diese Website kann Links zu Websites oder Diensten Dritter enthalten. Solche Links werden ausschließlich aus Gründen der Benutzerfreundlichkeit bereitgestellt. Der Betreiber der Website kontrolliert externe Websites nicht und ist nicht für deren Inhalte, Sicherheit, Verfügbarkeit oder Datenschutzpraktiken verantwortlich."
-  },
-  "copyright": {
-    "title": "9. Urheberrecht und geistiges Eigentum",
-    "text": "Sofern nicht anders angegeben, sind Webdesign, Texte, visuelle Identität, Grafiken und sonstige originäre Inhalte durch die anwendbaren Vorschriften zum geistigen Eigentum geschützt. Vervielfältigung, Verbreitung, Bearbeitung oder kommerzielle Nutzung ohne vorherige schriftliche Genehmigung ist untersagt."
-  },
-  "privacy": {
-    "title": "10. Datenschutzerklärung",
-    "link": "Datenschutzerklärung anzeigen"
-  },
-  "terms": {
-    "title": "11. Nutzungsbedingungen",
-    "link": "Nutzungsbedingungen anzeigen"
-  },
-  "contact": {
-    "title": "12. Kontakt",
-    "text": "Bei rechtlichen Fragen oder Anfragen zur Website kontaktieren Sie:"
-  }
-},
-"CookieConsent": {
-  "kicker": "Datenschutzeinstellungen",
-  "title": "Ihre Privatsphäre ist uns wichtig",
-  "description": "Wir verwenden notwendige Technologien, um diese Website zu betreiben. Mit Ihrer Zustimmung können wir außerdem Analysedienste einsetzen, um die Nutzung der Website besser zu verstehen und ihre Leistung zu verbessern.",
-  "privacyLink": "Datenschutzerklärung lesen",
-  "reject": "Analysen ablehnen",
-  "accept": "Analysen akzeptieren"
 }

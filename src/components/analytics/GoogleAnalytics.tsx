@@ -3,7 +3,16 @@
 import Script from "next/script";
 import { useEffect, useState } from "react";
 
+type ConsentChoice = "accepted" | "rejected";
+
+type AnalyticsWindow = Window & {
+  dataLayer?: unknown[];
+  gtag?: (...args: unknown[]) => void;
+  [key: `ga-disable-${string}`]: boolean | undefined;
+};
+
 const STORAGE_KEY = "goldbridge-cookie-consent";
+const CONSENT_CHANGE_EVENT = "goldbridge-consent-change";
 
 export default function GoogleAnalytics() {
   const measurementId =
@@ -12,33 +21,61 @@ export default function GoogleAnalytics() {
   const [isAllowed, setIsAllowed] = useState(false);
 
   useEffect(() => {
+    if (!measurementId) {
+      return;
+    }
+
+    const analyticsWindow =
+      window as AnalyticsWindow;
+
     const existingChoice =
       window.localStorage.getItem(STORAGE_KEY);
 
     if (existingChoice === "accepted") {
+      analyticsWindow[`ga-disable-${measurementId}`] = false;
       setIsAllowed(true);
+    } else {
+      analyticsWindow[`ga-disable-${measurementId}`] = true;
+      setIsAllowed(false);
     }
 
     function handleConsentChange(event: Event) {
-      const customEvent = event as CustomEvent<
-        "accepted" | "rejected"
-      >;
+      const customEvent = event as CustomEvent<ConsentChoice>;
+      const accepted = customEvent.detail === "accepted";
 
-      setIsAllowed(customEvent.detail === "accepted");
+      analyticsWindow[`ga-disable-${measurementId}`] =
+        !accepted;
+
+      if (analyticsWindow.gtag) {
+        analyticsWindow.gtag("consent", "update", {
+          analytics_storage: accepted
+            ? "granted"
+            : "denied",
+          ad_storage: "denied",
+          ad_user_data: "denied",
+          ad_personalization: "denied",
+        });
+      }
+
+      if (!accepted) {
+        removeGoogleAnalyticsCookies();
+      }
+
+      setIsAllowed(accepted);
     }
 
     window.addEventListener(
-      "goldbridge-consent-change",
-      handleConsentChange,
+      CONSENT_CHANGE_EVENT,
+      handleConsentChange
     );
 
     return () => {
       window.removeEventListener(
-        "goldbridge-consent-change",
-        handleConsentChange,
+        CONSENT_CHANGE_EVENT,
+        handleConsentChange
       );
     };
-  }, []);
+  }, [measurementId]);
 
   if (!measurementId || !isAllowed) {
     return null;
@@ -47,35 +84,90 @@ export default function GoogleAnalytics() {
   return (
     <>
       <Script
-        src={`https://www.googletagmanager.com/gtag/js?id=${measurementId}`}
-        strategy="afterInteractive"
-      />
-
-      <Script
-        id="goldbridge-google-analytics"
+        id="goldbridge-google-analytics-initialization"
         strategy="afterInteractive"
       >
         {`
           window.dataLayer = window.dataLayer || [];
 
-          function gtag() {
+          window.gtag = window.gtag || function() {
             window.dataLayer.push(arguments);
-          }
+          };
 
-          gtag('js', new Date());
+          window['ga-disable-${measurementId}'] = false;
 
-          gtag('consent', 'default', {
+          window.gtag('consent', 'default', {
             analytics_storage: 'granted',
             ad_storage: 'denied',
             ad_user_data: 'denied',
             ad_personalization: 'denied'
           });
 
-          gtag('config', '${measurementId}', {
-            anonymize_ip: true
+          window.gtag('js', new Date());
+        `}
+      </Script>
+
+      <Script
+        src={`https://www.googletagmanager.com/gtag/js?id=${measurementId}`}
+        strategy="afterInteractive"
+      />
+
+      <Script
+        id="goldbridge-google-analytics-configuration"
+        strategy="afterInteractive"
+      >
+        {`
+          window.gtag('config', '${measurementId}', {
+            anonymize_ip: true,
+            allow_google_signals: false,
+            allow_ad_personalization_signals: false
           });
         `}
       </Script>
     </>
   );
+}
+
+function removeGoogleAnalyticsCookies() {
+  const cookies = document.cookie.split(";");
+
+  for (const cookie of cookies) {
+    const cookieName = cookie
+      .split("=")[0]
+      ?.trim();
+
+    if (
+      !cookieName ||
+      !(
+        cookieName === "_ga" ||
+        cookieName.startsWith("_ga_") ||
+        cookieName === "_gid" ||
+        cookieName === "_gat"
+      )
+    ) {
+      continue;
+    }
+
+    expireCookie(cookieName, "/");
+    expireCookie(cookieName, "/", window.location.hostname);
+    expireCookie(
+      cookieName,
+      "/",
+      `.${window.location.hostname}`
+    );
+  }
+}
+
+function expireCookie(
+  name: string,
+  path: string,
+  domain?: string
+) {
+  const domainPart = domain
+    ? `; domain=${domain}`
+    : "";
+
+  document.cookie =
+    `${name}=; expires=Thu, 01 Jan 1970 00:00:00 GMT; ` +
+    `path=${path}${domainPart}; SameSite=Lax`;
 }

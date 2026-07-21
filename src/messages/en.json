@@ -548,4 +548,38 @@
     "label": "Important information",
     "text": "Gold Bridge Capital does not represent that financing will be available for every applicant or transaction. Any potential transaction remains subject to satisfactory due diligence, definitive documentation and approval."
   }
+},
+
+"Inquiry": {
+  "kicker": "Confidential Inquiry",
+  "title": {
+    "main": "Discuss your proposed",
+    "highlight": " gold-backed transaction."
+  },
+  "lead": "Submit a concise overview of your financing requirement and proposed gold collateral. The information will be used solely for an initial assessment of whether the opportunity may be suitable for further review.",
+  "principles": {
+    "confidential": {
+      "title": "Confidential handling",
+      "text": "Information is reviewed discreetly and shared only where required for assessment."
+    },
+    "assessment": {
+      "title": "Preliminary assessment",
+      "text": "The submission helps determine whether a detailed review is appropriate."
+    },
+    "structuring": {
+      "title": "Individual structuring",
+      "text": "Potential terms are developed according to the specific collateral and transaction."
+    }
+  },
+  "contact": {
+    "label": "Direct correspondence",
+    "email": "inquiries@goldbridge-capital.com",
+    "notice": "Please avoid sending original documents or highly sensitive personal information by unencrypted email."
+  },
+  "form": {
+    "overline": "Initial transaction overview",
+    "title": "Submit Your Inquiry",
+    "security": "Confidential",
+    "notice": "By submitting this form, you confirm that the information provided is accurate to the best of your knowledge. Submission does not create a client relationship, financing commitment or obligation on any party."
+  }
 }

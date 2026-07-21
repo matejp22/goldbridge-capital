@@ -1,4 +1,3 @@
-import Icon from "@/components/shared/Icon";
 import Icon, { type IconName } from "@/components/shared/Icon";
 
 const advantages = [

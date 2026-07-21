@@ -690,4 +690,92 @@
   "title": "Gold Bridge Capital | Finanziamenti strutturati garantiti da oro",
   "description": "Soluzioni riservate di finanziamento a breve termine garantite da oro fisico da investimento idoneo, per clienti privati e aziendali qualificati."
 }
+},
+"Privacy": {
+  "kicker": "Privacy e protezione dei dati",
+  "title": "Informativa sulla privacy",
+  "updated": "Ultimo aggiornamento: luglio 2026",
+  "controller": {
+    "title": "1. Titolare del trattamento",
+    "introduction": "Il titolare responsabile del trattamento dei dati personali tramite questo sito web è:",
+    "location": "Slovenia",
+    "formationNotice": "Gold Bridge Capital è attualmente un progetto in fase di costituzione e non è ancora una persona giuridica separatamente registrata."
+  },
+  "data": {
+    "title": "2. Dati personali raccolti",
+    "introduction": "Quando invii una richiesta riservata o ci contatti direttamente, possiamo raccogliere le seguenti informazioni:",
+    "items": {
+      "name": "Il tuo nome completo.",
+      "company": "La tua società, family office o organizzazione.",
+      "email": "Il tuo indirizzo email aziendale.",
+      "phone": "Il tuo numero di telefono, se fornito.",
+      "transaction": "L'importo di finanziamento richiesto e l'uso previsto dei fondi.",
+      "gold": "Informazioni relative alla quantità, al valore stimato, alla proprietà e all'ubicazione della garanzia in oro proposta.",
+      "message": "Qualsiasi ulteriore informazione che fornisci volontariamente nella richiesta o nella corrispondenza successiva."
+    }
+  },
+  "purpose": {
+    "title": "3. Come utilizziamo i dati personali",
+    "introduction": "Trattiamo i dati personali solo nella misura necessaria per le seguenti finalità:",
+    "items": {
+      "review": "Esaminare e valutare una richiesta di finanziamento presentata.",
+      "response": "Rispondere alle domande e comunicare in merito a una potenziale operazione.",
+      "communication": "Mantenere la corrispondenza precontrattuale e commerciale pertinente.",
+      "security": "Proteggere il sito web, le comunicazioni e le parti coinvolte da abusi, frodi o attività illecite.",
+      "legal": "Adempiere agli obblighi legali, normativi e di conformità applicabili."
+    }
+  },
+  "legalBasis": {
+    "title": "4. Base giuridica del trattamento",
+    "text": "I dati personali inviati tramite il modulo di richiesta vengono trattati principalmente perché necessari per adottare misure su tua richiesta prima dell'eventuale instaurazione di un rapporto commerciale. Ove opportuno, il trattamento può inoltre basarsi sul nostro legittimo interesse a rispondere alle richieste, proteggere le nostre attività e adempiere agli obblighi di legge."
+  },
+  "recipients": {
+    "title": "5. Destinatari e fornitori di servizi",
+    "introduction": "I dati personali possono essere messi a disposizione esclusivamente delle parti che ne necessitano per le finalità descritte nella presente informativa, tra cui:",
+    "items": {
+      "email": "Fornitori di servizi email e di comunicazione utilizzati per ricevere e rispondere alle richieste.",
+      "railway": "Railway e i suoi fornitori di infrastruttura, che ospitano e gestiscono il sito web.",
+      "professionals": "Consulenti professionali o potenziali controparti dell'operazione, ove necessario per una valutazione preliminare riservata e qualora esista un'adeguata base per la comunicazione.",
+      "authorities": "Autorità pubbliche, qualora la comunicazione sia richiesta dalla legge."
+    },
+    "noSale": "Non vendiamo dati personali a terzi."
+  },
+  "transfers": {
+    "title": "6. Trasferimenti internazionali di dati",
+    "text": "Alcuni fornitori di servizi possono trattare informazioni al di fuori della Slovenia o dello Spazio economico europeo. Ove applicabile, tali trasferimenti sono soggetti alle adeguate garanzie richieste dalla normativa sulla protezione dei dati."
+  },
+  "retention": {
+    "title": "7. Periodo di conservazione",
+    "text": "Le informazioni inviate tramite una richiesta di finanziamento vengono generalmente conservate per non più di 12 mesi dall'ultima comunicazione pertinente, salvo che un periodo più lungo sia necessario perché si sviluppa un rapporto commerciale, si applicano obblighi di legge oppure le informazioni sono necessarie per l'accertamento, l'esercizio o la difesa di diritti legali."
+  },
+  "rights": {
+    "title": "8. I tuoi diritti in materia di protezione dei dati",
+    "introduction": "Alle condizioni previste dalla normativa applicabile, puoi avere il diritto di:",
+    "items": {
+      "access": "Richiedere l'accesso ai tuoi dati personali.",
+      "rectification": "Richiedere la correzione di informazioni inesatte o incomplete.",
+      "erasure": "Richiedere la cancellazione dei tuoi dati personali.",
+      "restriction": "Richiedere la limitazione del trattamento.",
+      "objection": "Opporti al trattamento basato sul legittimo interesse.",
+      "portability": "Richiedere la portabilità dei dati, ove applicabile.",
+      "complaint": "Presentare un reclamo all'autorità di controllo competente."
+    },
+    "contact": "Le richieste relative ai tuoi dati personali possono essere inviate al contatto privacy indicato di seguito."
+  },
+  "analytics": {
+    "title": "9. Analisi e cookie",
+    "text": "Google Analytics non è attualmente attivo. Qualora vengano introdotti servizi di analisi, le tecnologie analitiche non essenziali saranno implementate insieme a un adeguato meccanismo di consenso e la presente informativa verrà aggiornata prima dell'attivazione."
+  },
+  "security": {
+    "title": "10. Sicurezza dei dati",
+    "text": "Vengono adottate misure tecniche e organizzative ragionevoli per proteggere i dati personali da accessi non autorizzati, perdita, uso improprio, modifica o divulgazione. Tuttavia, nessuna trasmissione via internet o sistema di archiviazione elettronica può essere garantito come completamente sicuro."
+  },
+  "changes": {
+    "title": "11. Modifiche alla presente informativa",
+    "text": "La presente Informativa sulla privacy può essere aggiornata in caso di modifiche al sito web, ai fornitori di servizi, alle attività di trattamento o ai requisiti normativi applicabili. La versione più recente sarà pubblicata su questa pagina insieme alla data aggiornata."
+  },
+  "contact": {
+    "title": "12. Contatto privacy",
+    "text": "Per domande, richieste o dubbi relativi alla privacy e ai dati personali, contatta:"
+  }
 }

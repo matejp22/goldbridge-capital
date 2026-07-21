@@ -690,4 +690,92 @@
   "title": "Gold Bridge Capital | Strukturierte Finanzierung mit Goldbesicherung",
   "description": "Vertrauliche kurzfristige Finanzierungslösungen, besichert durch geeignetes physisches Anlagegold, für qualifizierte private und gewerbliche Kunden."
 }
+},
+"Privacy": {
+  "kicker": "Datenschutz",
+  "title": "Datenschutzerklärung",
+  "updated": "Zuletzt aktualisiert: Juli 2026",
+  "controller": {
+    "title": "1. Verantwortlicher",
+    "introduction": "Verantwortlicher für die Verarbeitung personenbezogener Daten über diese Website ist:",
+    "location": "Slowenien",
+    "formationNotice": "Gold Bridge Capital ist derzeit ein Projekt in Gründung und noch keine eigenständig eingetragene juristische Person."
+  },
+  "data": {
+    "title": "2. Welche personenbezogenen Daten wir erheben",
+    "introduction": "Wenn Sie eine vertrauliche Anfrage einreichen oder uns direkt kontaktieren, können wir folgende Informationen erheben:",
+    "items": {
+      "name": "Ihren vollständigen Namen.",
+      "company": "Ihr Unternehmen, Family Office oder Ihre Organisation.",
+      "email": "Ihre geschäftliche E-Mail-Adresse.",
+      "phone": "Ihre Telefonnummer, sofern angegeben.",
+      "transaction": "Den gewünschten Finanzierungsbetrag und den vorgesehenen Verwendungszweck.",
+      "gold": "Informationen über Menge, geschätzten Wert, Eigentum und Standort der vorgeschlagenen Goldsicherheit.",
+      "message": "Alle weiteren Informationen, die Sie freiwillig in Ihrer Anfrage oder in der anschließenden Korrespondenz bereitstellen."
+    }
+  },
+  "purpose": {
+    "title": "3. Wie wir personenbezogene Daten verwenden",
+    "introduction": "Wir verarbeiten personenbezogene Daten nur, soweit dies für folgende Zwecke erforderlich ist:",
+    "items": {
+      "review": "Zur Prüfung und Bewertung einer eingereichten Finanzierungsanfrage.",
+      "response": "Zur Beantwortung von Fragen und zur Kommunikation über eine mögliche Transaktion.",
+      "communication": "Zur Führung relevanter vorvertraglicher und geschäftlicher Korrespondenz.",
+      "security": "Zum Schutz der Website, der Kommunikation und der beteiligten Parteien vor Missbrauch, Betrug oder rechtswidrigen Aktivitäten.",
+      "legal": "Zur Erfüllung anwendbarer gesetzlicher, regulatorischer und Compliance-Verpflichtungen."
+    }
+  },
+  "legalBasis": {
+    "title": "4. Rechtsgrundlage der Verarbeitung",
+    "text": "Personenbezogene Daten, die über das Anfrageformular übermittelt werden, werden in erster Linie verarbeitet, weil dies erforderlich ist, um auf Ihre Anfrage hin vor einem möglichen Geschäftsverhältnis tätig zu werden. Soweit angemessen, kann die Verarbeitung außerdem auf unseren berechtigten Interessen an der Beantwortung von Anfragen, dem Schutz unserer Tätigkeit und der Erfüllung gesetzlicher Pflichten beruhen."
+  },
+  "recipients": {
+    "title": "5. Empfänger und Dienstleister",
+    "introduction": "Personenbezogene Daten können ausschließlich Parteien zugänglich gemacht werden, die diese für die in dieser Erklärung beschriebenen Zwecke benötigen, darunter:",
+    "items": {
+      "email": "E-Mail- und Kommunikationsdienstleister, die zum Empfang und zur Beantwortung von Anfragen genutzt werden.",
+      "railway": "Railway und dessen Infrastrukturpartner, die die Website hosten und betreiben.",
+      "professionals": "Professionelle Berater oder potenzielle Transaktionsparteien, soweit dies für eine vertrauliche Vorprüfung erforderlich ist und eine geeignete Grundlage für die Weitergabe besteht.",
+      "authorities": "Behörden, wenn eine Offenlegung gesetzlich vorgeschrieben ist."
+    },
+    "noSale": "Wir verkaufen personenbezogene Daten nicht an Dritte."
+  },
+  "transfers": {
+    "title": "6. Internationale Datenübermittlungen",
+    "text": "Einige Dienstleister können Informationen außerhalb Sloweniens oder des Europäischen Wirtschaftsraums verarbeiten. Soweit erforderlich, erfolgen solche Übermittlungen unter Anwendung geeigneter datenschutzrechtlicher Garantien."
+  },
+  "retention": {
+    "title": "7. Speicherdauer",
+    "text": "Informationen aus einer Finanzierungsanfrage werden grundsätzlich nicht länger als 12 Monate nach der letzten relevanten Kommunikation gespeichert, es sei denn, eine längere Aufbewahrung ist erforderlich, weil sich eine Geschäftsbeziehung entwickelt, gesetzliche Pflichten gelten oder die Informationen zur Geltendmachung, Ausübung oder Verteidigung rechtlicher Ansprüche benötigt werden."
+  },
+  "rights": {
+    "title": "8. Ihre Datenschutzrechte",
+    "introduction": "Vorbehaltlich der gesetzlichen Voraussetzungen können Sie insbesondere folgende Rechte haben:",
+    "items": {
+      "access": "Auskunft über Ihre personenbezogenen Daten zu verlangen.",
+      "rectification": "Die Berichtigung unrichtiger oder unvollständiger Informationen zu verlangen.",
+      "erasure": "Die Löschung Ihrer personenbezogenen Daten zu verlangen.",
+      "restriction": "Die Einschränkung der Verarbeitung zu verlangen.",
+      "objection": "Der Verarbeitung auf Grundlage berechtigter Interessen zu widersprechen.",
+      "portability": "Soweit anwendbar, die Übertragbarkeit Ihrer Daten zu verlangen.",
+      "complaint": "Eine Beschwerde bei der zuständigen Aufsichtsbehörde einzureichen."
+    },
+    "contact": "Anfragen zu Ihren personenbezogenen Daten können an den unten angegebenen Datenschutzkontakt gesendet werden."
+  },
+  "analytics": {
+    "title": "9. Analysen und Cookies",
+    "text": "Google Analytics ist derzeit nicht aktiviert. Falls Analysedienste eingeführt werden, werden nicht notwendige Analysetechnologien zusammen mit einem geeigneten Einwilligungsmechanismus umgesetzt und diese Datenschutzerklärung vor der Aktivierung aktualisiert."
+  },
+  "security": {
+    "title": "10. Datensicherheit",
+    "text": "Es werden angemessene technische und organisatorische Maßnahmen eingesetzt, um personenbezogene Daten vor unbefugtem Zugriff, Verlust, Missbrauch, Veränderung oder Offenlegung zu schützen. Eine vollständig sichere Übertragung über das Internet oder elektronische Speicherung kann jedoch nicht garantiert werden."
+  },
+  "changes": {
+    "title": "11. Änderungen dieser Datenschutzerklärung",
+    "text": "Diese Datenschutzerklärung kann aktualisiert werden, wenn sich die Website, Dienstleister, Verarbeitungstätigkeiten oder anwendbare rechtliche Anforderungen ändern. Die jeweils aktuelle Fassung wird zusammen mit dem aktualisierten Datum auf dieser Seite veröffentlicht."
+  },
+  "contact": {
+    "title": "12. Datenschutzkontakt",
+    "text": "Bei Fragen, Anfragen oder Anliegen zum Datenschutz und zu personenbezogenen Daten kontaktieren Sie:"
+  }
 }

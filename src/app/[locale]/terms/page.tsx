@@ -1,13 +1,109 @@
-import { getTranslations, setRequestLocale } from "next-intl/server";
+import type { Metadata } from "next";
+import {
+  getTranslations,
+  setRequestLocale,
+} from "next-intl/server";
 
 import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
+
+type SupportedLocale = "en" | "de" | "it";
 
 type TermsPageProps = {
   params: Promise<{
     locale: string;
   }>;
 };
+
+const baseUrl = "https://goldbridge-capital.com";
+
+const metadataByLocale: Record<
+  SupportedLocale,
+  {
+    title: string;
+    description: string;
+    ogLocale: string;
+  }
+> = {
+  en: {
+    title: "Terms of Use | Gold Bridge Capital",
+    description:
+      "Read the terms governing access to and use of the Gold Bridge Capital website and its confidential financing inquiry service.",
+    ogLocale: "en_US",
+  },
+  de: {
+    title: "Nutzungsbedingungen | Gold Bridge Capital",
+    description:
+      "Lesen Sie die Bedingungen für den Zugriff auf die Website von Gold Bridge Capital und die Nutzung des vertraulichen Finanzierungsanfrage-Services.",
+    ogLocale: "de_DE",
+  },
+  it: {
+    title: "Termini di utilizzo | Gold Bridge Capital",
+    description:
+      "Consulta i termini che regolano l’accesso al sito Gold Bridge Capital e l’utilizzo del servizio riservato di richiesta di finanziamento.",
+    ogLocale: "it_IT",
+  },
+};
+
+function getSupportedLocale(locale: string): SupportedLocale {
+  if (locale === "de" || locale === "it") {
+    return locale;
+  }
+
+  return "en";
+}
+
+export async function generateMetadata({
+  params,
+}: TermsPageProps): Promise<Metadata> {
+  const { locale } = await params;
+  const supportedLocale = getSupportedLocale(locale);
+
+  const metadata = metadataByLocale[supportedLocale];
+  const canonicalUrl = `${baseUrl}/${supportedLocale}/terms`;
+
+  return {
+    title: metadata.title,
+    description: metadata.description,
+
+    alternates: {
+      canonical: canonicalUrl,
+      languages: {
+        en: `${baseUrl}/en/terms`,
+        de: `${baseUrl}/de/terms`,
+        it: `${baseUrl}/it/terms`,
+        "x-default": `${baseUrl}/en/terms`,
+      },
+    },
+
+    openGraph: {
+      type: "website",
+      url: canonicalUrl,
+      title: metadata.title,
+      description: metadata.description,
+      siteName: "Gold Bridge Capital",
+      locale: metadata.ogLocale,
+      alternateLocale: ["en_US", "de_DE", "it_IT"].filter(
+        (item) => item !== metadata.ogLocale
+      ),
+    },
+
+    twitter: {
+      card: "summary",
+      title: metadata.title,
+      description: metadata.description,
+    },
+
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+      },
+    },
+  };
+}
 
 export default async function TermsPage({
   params,
@@ -28,7 +124,9 @@ export default async function TermsPage({
       <section className="legal-page">
         <div className="container legal-page-container">
           <header className="legal-page-header">
-            <span className="section-kicker">{t("kicker")}</span>
+            <span className="section-kicker">
+              {t("kicker")}
+            </span>
 
             <h1>{t("title")}</h1>
 

@@ -5,10 +5,8 @@ import { useEffect, useState } from "react";
 
 type ConsentChoice = "accepted" | "rejected";
 
-type AnalyticsWindow = Window & {
-  dataLayer?: unknown[];
+type GoogleAnalyticsApi = {
   gtag?: (...args: unknown[]) => void;
-  [key: `ga-disable-${string}`]: boolean | undefined;
 };
 
 const STORAGE_KEY = "goldbridge-cookie-consent";
@@ -25,37 +23,46 @@ export default function GoogleAnalytics() {
       return;
     }
 
-    const analyticsWindow =
-      window as AnalyticsWindow;
+    const disableKey = `ga-disable-${measurementId}`;
 
     const existingChoice =
       window.localStorage.getItem(STORAGE_KEY);
 
-    if (existingChoice === "accepted") {
-      analyticsWindow[`ga-disable-${measurementId}`] = false;
-      setIsAllowed(true);
-    } else {
-      analyticsWindow[`ga-disable-${measurementId}`] = true;
-      setIsAllowed(false);
-    }
+    const initiallyAccepted =
+      existingChoice === "accepted";
+
+    Reflect.set(
+      window,
+      disableKey,
+      !initiallyAccepted
+    );
+
+    setIsAllowed(initiallyAccepted);
 
     function handleConsentChange(event: Event) {
-      const customEvent = event as CustomEvent<ConsentChoice>;
-      const accepted = customEvent.detail === "accepted";
+      const customEvent =
+        event as CustomEvent<ConsentChoice>;
 
-      analyticsWindow[`ga-disable-${measurementId}`] =
-        !accepted;
+      const accepted =
+        customEvent.detail === "accepted";
 
-      if (analyticsWindow.gtag) {
-        analyticsWindow.gtag("consent", "update", {
-          analytics_storage: accepted
-            ? "granted"
-            : "denied",
-          ad_storage: "denied",
-          ad_user_data: "denied",
-          ad_personalization: "denied",
-        });
-      }
+      Reflect.set(
+        window,
+        disableKey,
+        !accepted
+      );
+
+      const analyticsApi =
+        window as unknown as GoogleAnalyticsApi;
+
+      analyticsApi.gtag?.("consent", "update", {
+        analytics_storage: accepted
+          ? "granted"
+          : "denied",
+        ad_storage: "denied",
+        ad_user_data: "denied",
+        ad_personalization: "denied",
+      });
 
       if (!accepted) {
         removeGoogleAnalyticsCookies();
@@ -108,6 +115,7 @@ export default function GoogleAnalytics() {
       </Script>
 
       <Script
+        id="goldbridge-google-analytics-loader"
         src={`https://www.googletagmanager.com/gtag/js?id=${measurementId}`}
         strategy="afterInteractive"
       />
@@ -149,7 +157,11 @@ function removeGoogleAnalyticsCookies() {
     }
 
     expireCookie(cookieName, "/");
-    expireCookie(cookieName, "/", window.location.hostname);
+    expireCookie(
+      cookieName,
+      "/",
+      window.location.hostname
+    );
     expireCookie(
       cookieName,
       "/",

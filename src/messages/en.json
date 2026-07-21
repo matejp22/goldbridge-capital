@@ -693,14 +693,14 @@
     "idle": "Submit Confidential Inquiry",
     "sending": "Submitting Confidential Inquiry..."
   },
-  "messages": {
+    "messages": {
     "success": "Thank you. Your confidential inquiry has been submitted successfully. Our team will review the information provided and contact you should the transaction meet the initial assessment criteria.",
     "submissionError": "We were unable to submit your inquiry. Please try again.",
     "unexpectedError": "An unexpected error occurred. Please try again."
-     }
-}
+  }
 },
 "Metadata": {
   "title": "Gold Bridge Capital | Gold-Backed Structured Financing",
   "description": "Confidential short-term financing solutions secured by eligible physical investment gold for qualified private and corporate clients."
+}
 }

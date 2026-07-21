@@ -608,4 +608,40 @@
     "process": "Process"
   },
   "cta": "Confidential Inquiry"
+},
+
+"Footer": {
+  "homeAriaLabel": "Gold Bridge Capital home",
+  "brand": {
+    "main": "Gold Bridge",
+    "sub": "Capital"
+  },
+  "description": "Gold Bridge Capital facilitates the assessment and coordination of potential short-term financing transactions secured by eligible physical investment gold.",
+  "email": "inquiries@goldbridge-capital.com",
+  "navigation": {
+    "title": "Navigation",
+    "approach": "Our Approach",
+    "structure": "How It Works",
+    "transaction": "Illustrative Transaction",
+    "process": "Transaction Process",
+    "requirements": "Requirements"
+  },
+  "information": {
+    "title": "Information",
+    "faq": "Frequently Asked Questions",
+    "inquiry": "Confidential Inquiry",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfUse": "Terms of Use",
+    "legalNotice": "Legal Notice"
+  },
+  "disclaimer": {
+    "label": "Important legal information",
+    "text": "The content of this website is provided for general informational purposes only. It does not constitute financial, legal, tax or investment advice, an offer to lend, an offer of securities or a commitment to arrange or provide financing. Any potential transaction is subject to client and collateral due diligence, compliance review, independent verification, definitive legal documentation and approval by the relevant parties. Gold Bridge Capital does not guarantee that financing will be available or that any transaction will be completed."
+  },
+  "copyright": "© {year} Gold Bridge Capital. All rights reserved.",
+  "bottomLinks": {
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "legal": "Legal"
+  }
 }

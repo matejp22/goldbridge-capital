@@ -158,7 +158,7 @@ export async function POST(request: Request) {
     }
 
     const { data, error } = await resend.emails.send({
-      from: "Gold Bridge Capital <onboarding@resend.dev>",
+      from: "Gold Bridge Capital <inquiries@goldbridge-capital.com>",
       to: [recipientEmail],
       replyTo: email,
       subject: `Novo povpraševanje – ${name}`,

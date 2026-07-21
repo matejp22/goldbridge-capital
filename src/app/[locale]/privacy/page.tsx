@@ -1,13 +1,109 @@
-import { getTranslations, setRequestLocale } from "next-intl/server";
+import type { Metadata } from "next";
+import {
+  getTranslations,
+  setRequestLocale,
+} from "next-intl/server";
 
 import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
+
+type SupportedLocale = "en" | "de" | "it";
 
 type PrivacyPageProps = {
   params: Promise<{
     locale: string;
   }>;
 };
+
+const baseUrl = "https://goldbridge-capital.com";
+
+const metadataByLocale: Record<
+  SupportedLocale,
+  {
+    title: string;
+    description: string;
+    ogLocale: string;
+  }
+> = {
+  en: {
+    title: "Privacy Policy | Gold Bridge Capital",
+    description:
+      "Learn how Gold Bridge Capital collects, uses, protects and retains personal data submitted through its confidential financing inquiry form.",
+    ogLocale: "en_US",
+  },
+  de: {
+    title: "Datenschutzerklärung | Gold Bridge Capital",
+    description:
+      "Erfahren Sie, wie Gold Bridge Capital personenbezogene Daten aus vertraulichen Finanzierungsanfragen erhebt, verwendet, schützt und speichert.",
+    ogLocale: "de_DE",
+  },
+  it: {
+    title: "Informativa sulla privacy | Gold Bridge Capital",
+    description:
+      "Scopri come Gold Bridge Capital raccoglie, utilizza, protegge e conserva i dati personali inviati tramite il modulo di richiesta di finanziamento.",
+    ogLocale: "it_IT",
+  },
+};
+
+function getSupportedLocale(locale: string): SupportedLocale {
+  if (locale === "de" || locale === "it") {
+    return locale;
+  }
+
+  return "en";
+}
+
+export async function generateMetadata({
+  params,
+}: PrivacyPageProps): Promise<Metadata> {
+  const { locale } = await params;
+  const supportedLocale = getSupportedLocale(locale);
+
+  const metadata = metadataByLocale[supportedLocale];
+  const canonicalUrl = `${baseUrl}/${supportedLocale}/privacy`;
+
+  return {
+    title: metadata.title,
+    description: metadata.description,
+
+    alternates: {
+      canonical: canonicalUrl,
+      languages: {
+        en: `${baseUrl}/en/privacy`,
+        de: `${baseUrl}/de/privacy`,
+        it: `${baseUrl}/it/privacy`,
+        "x-default": `${baseUrl}/en/privacy`,
+      },
+    },
+
+    openGraph: {
+      type: "website",
+      url: canonicalUrl,
+      title: metadata.title,
+      description: metadata.description,
+      siteName: "Gold Bridge Capital",
+      locale: metadata.ogLocale,
+      alternateLocale: ["en_US", "de_DE", "it_IT"].filter(
+        (item) => item !== metadata.ogLocale
+      ),
+    },
+
+    twitter: {
+      card: "summary",
+      title: metadata.title,
+      description: metadata.description,
+    },
+
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+      },
+    },
+  };
+}
 
 export default async function PrivacyPage({
   params,
@@ -28,7 +124,9 @@ export default async function PrivacyPage({
       <section className="legal-page">
         <div className="container legal-page-container">
           <div className="legal-page-header">
-            <span className="section-kicker">{t("kicker")}</span>
+            <span className="section-kicker">
+              {t("kicker")}
+            </span>
 
             <h1>{t("title")}</h1>
 

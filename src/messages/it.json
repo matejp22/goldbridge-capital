@@ -863,4 +863,58 @@
     "title": "16. Contatti",
     "text": "Per domande relative ai presenti Termini di utilizzo, contatta:"
   }
+},
+"Legal": {
+  "kicker": "Informazioni legali",
+  "title": "Note legali",
+  "updated": "Ultimo aggiornamento: luglio 2026",
+  "operator": {
+    "title": "1. Gestore del sito web",
+    "location": "Slovenia",
+    "formationNotice": "Gold Bridge Capital è attualmente un progetto in fase di costituzione e non è ancora una persona giuridica separatamente registrata."
+  },
+  "project": {
+    "title": "2. Stato del progetto",
+    "text": "Gold Bridge Capital è attualmente gestito come progetto imprenditoriale in fase di sviluppo. I dati societari, di registrazione e normativi formali saranno aggiornati quando sarà costituita la relativa persona giuridica."
+  },
+  "services": {
+    "title": "3. Natura dei servizi",
+    "text": "Il sito web presenta un potenziale servizio di facilitazione e coordinamento di operazioni relative a opportunità di finanziamento a breve termine garantite da oro fisico da investimento idoneo. Ogni opportunità viene valutata individualmente e può coinvolgere soggetti indipendenti operanti nei settori del finanziamento, della custodia, dell'assistenza legale, della valutazione, della conformità e di altri servizi professionali."
+  },
+  "noRegulatedService": {
+    "title": "4. Nessun servizio finanziario regolamentato offerto tramite il sito",
+    "text": "Il sito web non fornisce direttamente servizi bancari, di raccolta di depositi, investimento, intermediazione mobiliare, pagamento, custodia, consulenza legale o fiscale. Nulla di quanto contenuto nel sito costituisce un prodotto finanziario regolamentato, un'offerta al pubblico, consulenza di investimento o un impegno vincolante a organizzare o fornire finanziamenti."
+  },
+  "thirdParties": {
+    "title": "5. Terze parti indipendenti",
+    "text": "I servizi di finanziamento, custodia, valutazione, assistenza legale, conformità, assicurazione o altri servizi connessi all'operazione possono essere forniti da terze parti indipendenti sulla base di accordi separati. Le relative decisioni, approvazioni, prestazioni e obbligazioni contrattuali restano sotto la loro responsabilità."
+  },
+  "accuracy": {
+    "title": "6. Accuratezza delle informazioni",
+    "text": "Vengono compiuti sforzi ragionevoli per mantenere le informazioni presenti su questo sito corrette e aggiornate. Tuttavia, non viene fornita alcuna dichiarazione o garanzia in merito alla completezza, accuratezza, disponibilità o idoneità per uno scopo specifico."
+  },
+  "liability": {
+    "title": "7. Limitazione di responsabilità",
+    "text": "Nella misura massima consentita dalla legge applicabile, il gestore del sito web non è responsabile per perdite derivanti dall'affidamento sui contenuti del sito, dall'interruzione o indisponibilità del sito, da servizi di terzi, movimenti di mercato, decisioni normative o dal mancato perfezionamento di un'operazione proposta."
+  },
+  "links": {
+    "title": "8. Collegamenti esterni",
+    "text": "Questo sito web può contenere collegamenti a siti o servizi di terzi. Tali collegamenti sono forniti esclusivamente per comodità. Il gestore del sito web non controlla e non è responsabile dei contenuti, della sicurezza, della disponibilità o delle prassi in materia di privacy dei siti esterni."
+  },
+  "copyright": {
+    "title": "9. Diritto d'autore e proprietà intellettuale",
+    "text": "Salvo diversa indicazione, il design del sito web, i testi, l'identità visiva, la grafica e gli altri contenuti originali sono protetti dalla normativa applicabile in materia di proprietà intellettuale. È vietata la riproduzione, distribuzione, modifica o utilizzazione commerciale senza previa autorizzazione scritta."
+  },
+  "privacy": {
+    "title": "10. Informativa sulla privacy",
+    "link": "Visualizza l'Informativa sulla privacy"
+  },
+  "terms": {
+    "title": "11. Termini di utilizzo",
+    "link": "Visualizza i Termini di utilizzo"
+  },
+  "contact": {
+    "title": "12. Contatti",
+    "text": "Per richieste legali o relative al sito web, contatta:"
+  }
 }

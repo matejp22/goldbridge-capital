@@ -876,4 +876,58 @@
     "title": "16. Contact",
     "text": "For questions concerning these Terms of Use, contact:"
   }
+},
+"Legal": {
+  "kicker": "Legal Information",
+  "title": "Legal Notice",
+  "updated": "Last updated: July 2026",
+  "operator": {
+    "title": "1. Website operator",
+    "location": "Slovenia",
+    "formationNotice": "Gold Bridge Capital is currently a project in formation and is not yet a separately incorporated legal entity."
+  },
+  "project": {
+    "title": "2. Project status",
+    "text": "Gold Bridge Capital is currently operated as a developing business project. Formal corporate, registration and regulatory details will be updated when the relevant legal entity has been established."
+  },
+  "services": {
+    "title": "3. Nature of the services",
+    "text": "The website presents a potential transaction-facilitation and coordination service relating to short-term financing opportunities secured by eligible physical investment gold. Each opportunity is reviewed individually and may involve independent financing, custody, legal, valuation, compliance and other professional parties."
+  },
+  "noRegulatedService": {
+    "title": "4. No regulated financial service offered through the website",
+    "text": "The website does not itself provide banking, deposit-taking, investment, securities, payment, custody, legal or tax services. Nothing on the website constitutes a regulated financial product, a public offer, investment advice or a binding commitment to arrange or provide financing."
+  },
+  "thirdParties": {
+    "title": "5. Independent third parties",
+    "text": "Any financing, custody, valuation, legal, compliance, insurance or related transaction services may be provided by independent third parties under separate agreements. Their decisions, approvals, services and contractual obligations remain their own responsibility."
+  },
+  "accuracy": {
+    "title": "6. Accuracy of information",
+    "text": "Reasonable efforts are made to keep the information on this website accurate and current. However, no representation or warranty is made regarding completeness, accuracy, availability or suitability for a particular purpose."
+  },
+  "liability": {
+    "title": "7. Limitation of liability",
+    "text": "To the maximum extent permitted by applicable law, the website operator is not responsible for losses arising from reliance on website content, interruption or unavailability of the website, third-party services, market movements, regulatory decisions or the failure of any proposed transaction to proceed."
+  },
+  "links": {
+    "title": "8. External links",
+    "text": "This website may contain links to third-party websites or services. Such links are provided for convenience only. The website operator does not control and is not responsible for the content, security, availability or privacy practices of external websites."
+  },
+  "copyright": {
+    "title": "9. Copyright and intellectual property",
+    "text": "Unless otherwise stated, the website design, text, visual identity, graphics and other original content are protected by applicable intellectual-property laws. Reproduction, distribution, modification or commercial use without prior written permission is prohibited."
+  },
+  "privacy": {
+    "title": "10. Privacy Policy",
+    "link": "View the Privacy Policy"
+  },
+  "terms": {
+    "title": "11. Terms of Use",
+    "link": "View the Terms of Use"
+  },
+  "contact": {
+    "title": "12. Contact",
+    "text": "For legal or website-related inquiries, contact:"
+  }
 }

@@ -863,4 +863,58 @@
     "title": "16. Kontakt",
     "text": "Bei Fragen zu diesen Nutzungsbedingungen kontaktieren Sie:"
   }
+},
+"Legal": {
+  "kicker": "Rechtliche Informationen",
+  "title": "Impressum",
+  "updated": "Zuletzt aktualisiert: Juli 2026",
+  "operator": {
+    "title": "1. Betreiber der Website",
+    "location": "Slowenien",
+    "formationNotice": "Gold Bridge Capital ist derzeit ein Projekt in Gründung und noch keine eigenständig eingetragene juristische Person."
+  },
+  "project": {
+    "title": "2. Status des Projekts",
+    "text": "Gold Bridge Capital wird derzeit als sich entwickelndes Geschäftsprojekt betrieben. Formelle Unternehmens-, Registrierungs- und regulatorische Angaben werden ergänzt, sobald die entsprechende juristische Person gegründet wurde."
+  },
+  "services": {
+    "title": "3. Art der Dienstleistungen",
+    "text": "Die Website stellt eine potenzielle Dienstleistung zur Vermittlung und Koordination kurzfristiger Finanzierungsmöglichkeiten dar, die durch geeignetes physisches Anlagegold besichert sind. Jede Möglichkeit wird individuell geprüft und kann unabhängige Finanzierungs-, Verwahrungs-, Rechts-, Bewertungs-, Compliance- und weitere professionelle Parteien einbeziehen."
+  },
+  "noRegulatedService": {
+    "title": "4. Keine regulierte Finanzdienstleistung über diese Website",
+    "text": "Die Website selbst erbringt keine Bank-, Einlagen-, Anlage-, Wertpapier-, Zahlungs-, Verwahrungs-, Rechts- oder Steuerdienstleistungen. Nichts auf dieser Website stellt ein reguliertes Finanzprodukt, ein öffentliches Angebot, eine Anlageberatung oder eine verbindliche Verpflichtung zur Vermittlung oder Bereitstellung einer Finanzierung dar."
+  },
+  "thirdParties": {
+    "title": "5. Unabhängige Dritte",
+    "text": "Finanzierungs-, Verwahrungs-, Bewertungs-, Rechts-, Compliance-, Versicherungs- oder sonstige transaktionsbezogene Leistungen können von unabhängigen Dritten auf Grundlage separater Vereinbarungen erbracht werden. Deren Entscheidungen, Genehmigungen, Leistungen und vertragliche Verpflichtungen liegen in deren eigener Verantwortung."
+  },
+  "accuracy": {
+    "title": "6. Richtigkeit der Informationen",
+    "text": "Es werden angemessene Anstrengungen unternommen, die Informationen auf dieser Website richtig und aktuell zu halten. Es wird jedoch keine Zusicherung oder Gewährleistung hinsichtlich Vollständigkeit, Richtigkeit, Verfügbarkeit oder Eignung für einen bestimmten Zweck übernommen."
+  },
+  "liability": {
+    "title": "7. Haftungsbeschränkung",
+    "text": "Soweit nach anwendbarem Recht zulässig, haftet der Betreiber der Website nicht für Verluste, die aus dem Vertrauen auf Websiteinhalte, Unterbrechungen oder Nichtverfügbarkeit der Website, Leistungen Dritter, Marktbewegungen, regulatorischen Entscheidungen oder dem Nichtzustandekommen einer vorgeschlagenen Transaktion entstehen."
+  },
+  "links": {
+    "title": "8. Externe Links",
+    "text": "Diese Website kann Links zu Websites oder Diensten Dritter enthalten. Solche Links werden ausschließlich aus Gründen der Benutzerfreundlichkeit bereitgestellt. Der Betreiber der Website kontrolliert externe Websites nicht und ist nicht für deren Inhalte, Sicherheit, Verfügbarkeit oder Datenschutzpraktiken verantwortlich."
+  },
+  "copyright": {
+    "title": "9. Urheberrecht und geistiges Eigentum",
+    "text": "Sofern nicht anders angegeben, sind Webdesign, Texte, visuelle Identität, Grafiken und sonstige originäre Inhalte durch die anwendbaren Vorschriften zum geistigen Eigentum geschützt. Vervielfältigung, Verbreitung, Bearbeitung oder kommerzielle Nutzung ohne vorherige schriftliche Genehmigung ist untersagt."
+  },
+  "privacy": {
+    "title": "10. Datenschutzerklärung",
+    "link": "Datenschutzerklärung anzeigen"
+  },
+  "terms": {
+    "title": "11. Nutzungsbedingungen",
+    "link": "Nutzungsbedingungen anzeigen"
+  },
+  "contact": {
+    "title": "12. Kontakt",
+    "text": "Bei rechtlichen Fragen oder Anfragen zur Website kontaktieren Sie:"
+  }
 }

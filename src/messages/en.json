@@ -592,4 +592,20 @@
   },
   "text": "A discreet and disciplined approach to financing secured by eligible physical investment gold.",
   "button": "Discuss a Transaction"
+},
+
+"Header": {
+  "homeAriaLabel": "Gold Bridge Capital home",
+  "brand": {
+    "main": "Gold Bridge",
+    "sub": "Capital"
+  },
+  "navigationAriaLabel": "Primary navigation",
+  "navigation": {
+    "approach": "Our Approach",
+    "structure": "How It Works",
+    "example": "Example",
+    "process": "Process"
+  },
+  "cta": "Confidential Inquiry"
 }

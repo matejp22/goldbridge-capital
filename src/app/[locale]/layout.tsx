@@ -1,7 +1,10 @@
 import { Inter, Cormorant_Garamond } from "next/font/google";
 import type { Metadata } from "next";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
-import { setRequestLocale } from "next-intl/server";
+import {
+  getTranslations,
+  setRequestLocale,
+} from "next-intl/server";
 import { notFound } from "next/navigation";
 
 import { routing } from "@/i18n/routing";
@@ -18,14 +21,14 @@ const cormorant = Cormorant_Garamond({
   weight: ["400", "500", "600", "700"],
 });
 
-export const metadata: Metadata = {
-  title: "Gold Bridge Capital",
-  description:
-    "International short-term financing secured by eligible physical investment gold.",
-};
-
 type LocaleLayoutProps = {
   children: React.ReactNode;
+  params: Promise<{
+    locale: string;
+  }>;
+};
+
+type MetadataProps = {
   params: Promise<{
     locale: string;
   }>;
@@ -35,6 +38,26 @@ export function generateStaticParams() {
   return routing.locales.map((locale) => ({
     locale,
   }));
+}
+
+export async function generateMetadata({
+  params,
+}: MetadataProps): Promise<Metadata> {
+  const { locale } = await params;
+
+  if (!hasLocale(routing.locales, locale)) {
+    notFound();
+  }
+
+  const t = await getTranslations({
+    locale,
+    namespace: "Metadata",
+  });
+
+  return {
+    title: t("title"),
+    description: t("description"),
+  };
 }
 
 export default async function LocaleLayout({
@@ -55,7 +78,9 @@ export default async function LocaleLayout({
       className={`${inter.variable} ${cormorant.variable}`}
     >
       <body>
-        <NextIntlClientProvider>{children}</NextIntlClientProvider>
+        <NextIntlClientProvider>
+          {children}
+        </NextIntlClientProvider>
       </body>
     </html>
   );

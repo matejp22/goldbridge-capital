@@ -85,10 +85,9 @@ export default function ContactForm() {
       setStatus("success");
 
       window.gtag?.("event", "generate_lead", {
-        form_name: "confidential_financing_inquiry",
-        form_location: "landing_page",
-        currency: "EUR",
-      });
+  form_name: "confidential_financing_inquiry",
+  form_location: "landing_page",
+});
     } catch (error) {
       console.error("Contact form submission failed:", error);
 

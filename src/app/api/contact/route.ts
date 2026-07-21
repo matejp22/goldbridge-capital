@@ -42,6 +42,20 @@ type ErrorMessages = {
   unexpected: string;
 };
 
+type ConfirmationEmail = {
+  subject: string;
+  greeting: string;
+  introduction: string;
+  reviewText: string;
+  responseTime: string;
+  referenceTitle: string;
+  amountLabel: string;
+  goldValueLabel: string;
+  locationLabel: string;
+  securityNotice: string;
+  closing: string;
+};
+
 const messages: Record<SupportedLocale, ErrorMessages> = {
   en: {
     rateLimit:
@@ -52,8 +66,7 @@ const messages: Record<SupportedLocale, ErrorMessages> = {
     shortName: "The name entered is too short.",
     shortPurpose:
       "The inquiry description must contain at least 20 characters.",
-    confirmations:
-      "Both confirmations are required.",
+    confirmations: "Both confirmations are required.",
     unavailable:
       "The contact service is currently unavailable.",
     emailFailed:
@@ -102,6 +115,68 @@ const messages: Record<SupportedLocale, ErrorMessages> = {
       "Non è stato possibile inviare la richiesta. Riprova.",
     unexpected:
       "Si è verificato un errore durante l’elaborazione della richiesta.",
+  },
+};
+
+const confirmationEmails: Record<
+  SupportedLocale,
+  ConfirmationEmail
+> = {
+  en: {
+    subject:
+      "We have received your confidential financing inquiry",
+    greeting: "Dear",
+    introduction:
+      "Thank you for contacting Gold Bridge Capital. We confirm that your confidential financing inquiry has been received successfully.",
+    reviewText:
+      "The information provided will now be reviewed on a preliminary and confidential basis.",
+    responseTime:
+      "We will contact you after the initial assessment if the transaction appears to meet the relevant financing criteria.",
+    referenceTitle: "Inquiry summary",
+    amountLabel: "Requested financing amount",
+    goldValueLabel: "Estimated gold value",
+    locationLabel: "Gold location",
+    securityNotice:
+      "For your security, please do not send passwords, private keys, banking credentials or original ownership documents by email unless specifically requested through an agreed secure channel.",
+    closing: "Kind regards",
+  },
+
+  de: {
+    subject:
+      "Wir haben Ihre vertrauliche Finanzierungsanfrage erhalten",
+    greeting: "Guten Tag",
+    introduction:
+      "Vielen Dank für Ihre Kontaktaufnahme mit Gold Bridge Capital. Wir bestätigen, dass Ihre vertrauliche Finanzierungsanfrage erfolgreich eingegangen ist.",
+    reviewText:
+      "Die übermittelten Informationen werden nun vorläufig und vertraulich geprüft.",
+    responseTime:
+      "Nach der ersten Prüfung werden wir Sie kontaktieren, sofern die Transaktion die relevanten Finanzierungskriterien grundsätzlich erfüllt.",
+    referenceTitle: "Zusammenfassung Ihrer Anfrage",
+    amountLabel: "Gewünschter Finanzierungsbetrag",
+    goldValueLabel: "Geschätzter Goldwert",
+    locationLabel: "Standort des Goldes",
+    securityNotice:
+      "Bitte senden Sie zu Ihrer Sicherheit keine Passwörter, privaten Schlüssel, Bankzugangsdaten oder Originalnachweise zum Eigentum per E-Mail, sofern dies nicht ausdrücklich über einen vereinbarten sicheren Kanal angefordert wurde.",
+    closing: "Mit freundlichen Grüßen",
+  },
+
+  it: {
+    subject:
+      "Abbiamo ricevuto la tua richiesta riservata di finanziamento",
+    greeting: "Gentile",
+    introduction:
+      "Grazie per aver contattato Gold Bridge Capital. Confermiamo di aver ricevuto correttamente la tua richiesta riservata di finanziamento.",
+    reviewText:
+      "Le informazioni fornite saranno ora esaminate in via preliminare e riservata.",
+    responseTime:
+      "Ti contatteremo dopo la valutazione iniziale qualora l’operazione risulti compatibile con i criteri di finanziamento applicabili.",
+    referenceTitle: "Riepilogo della richiesta",
+    amountLabel: "Importo del finanziamento richiesto",
+    goldValueLabel: "Valore stimato dell’oro",
+    locationLabel: "Ubicazione dell’oro",
+    securityNotice:
+      "Per la tua sicurezza, non inviare tramite e-mail password, chiavi private, credenziali bancarie o documenti originali di proprietà, salvo espressa richiesta attraverso un canale sicuro concordato.",
+    closing: "Cordiali saluti",
   },
 };
 
@@ -220,9 +295,12 @@ export async function POST(request: Request) {
     const recipientEmail =
       process.env.CONTACT_TO_EMAIL;
 
-    if (!recipientEmail) {
+    if (
+      !recipientEmail ||
+      !process.env.RESEND_API_KEY
+    ) {
       console.error(
-        "CONTACT_TO_EMAIL is not configured."
+        "Contact email environment variables are not configured."
       );
 
       return NextResponse.json(
@@ -231,72 +309,31 @@ export async function POST(request: Request) {
       );
     }
 
-    if (!process.env.RESEND_API_KEY) {
+    const inquiryResult = await resend.emails.send({
+      from:
+        "Gold Bridge Capital <inquiries@goldbridge-capital.com>",
+      to: [recipientEmail],
+      replyTo: email,
+      subject: `New financing inquiry – ${name}`,
+      html: createInternalInquiryEmail({
+        name,
+        company,
+        email,
+        phone,
+        financingAmount,
+        goldValue,
+        goldAmount,
+        goldLocation,
+        purpose,
+        locale,
+      }),
+    });
+
+    if (inquiryResult.error) {
       console.error(
-        "RESEND_API_KEY is not configured."
+        "Resend inquiry email error:",
+        inquiryResult.error
       );
-
-      return NextResponse.json(
-        { error: t.unavailable },
-        { status: 500 }
-      );
-    }
-
-    const { data, error } =
-      await resend.emails.send({
-        from:
-          "Gold Bridge Capital <inquiries@goldbridge-capital.com>",
-        to: [recipientEmail],
-        replyTo: email,
-        subject: `New financing inquiry – ${name}`,
-        html: `
-          <div style="font-family: Arial, sans-serif; color: #111827; line-height: 1.6;">
-            <h1 style="font-size: 24px;">New confidential inquiry</h1>
-
-            <p><strong>Name:</strong> ${escapeHtml(name)}</p>
-            <p><strong>Company:</strong> ${escapeHtml(
-              company || "Not provided"
-            )}</p>
-            <p><strong>Email:</strong> ${escapeHtml(email)}</p>
-            <p><strong>Phone:</strong> ${escapeHtml(
-              phone || "Not provided"
-            )}</p>
-
-            <hr style="margin: 24px 0; border: 0; border-top: 1px solid #dddddd;" />
-
-            <p><strong>Requested financing amount:</strong> ${escapeHtml(
-              financingAmount
-            )}</p>
-
-            <p><strong>Estimated gold value:</strong> ${escapeHtml(
-              goldValue
-            )}</p>
-
-            <p><strong>Gold quantity:</strong> ${escapeHtml(
-              goldAmount || "Not provided"
-            )}</p>
-
-            <p><strong>Gold location:</strong> ${escapeHtml(
-              goldLocation
-            )}</p>
-
-            <p><strong>Financing purpose:</strong></p>
-            <p>${escapeHtml(purpose).replace(
-              /\n/g,
-              "<br />"
-            )}</p>
-
-            <hr style="margin: 24px 0; border: 0; border-top: 1px solid #dddddd;" />
-
-            <p><strong>Ownership confirmed:</strong> Yes</p>
-            <p><strong>Privacy consent confirmed:</strong> Yes</p>
-            <p><strong>Submitted language:</strong> ${locale.toUpperCase()}</p>
-          </div>
-        `,
-      });
-
-    if (error) {
-      console.error("Resend error:", error);
 
       return NextResponse.json(
         { error: t.emailFailed },
@@ -304,9 +341,43 @@ export async function POST(request: Request) {
       );
     }
 
+    const confirmation =
+      confirmationEmails[locale];
+
+    const confirmationResult =
+      await resend.emails.send({
+        from:
+          "Gold Bridge Capital <inquiries@goldbridge-capital.com>",
+        to: [email],
+        replyTo:
+          "inquiries@goldbridge-capital.com",
+        subject: confirmation.subject,
+        html: createCustomerConfirmationEmail({
+          name,
+          financingAmount,
+          goldValue,
+          goldLocation,
+          confirmation,
+        }),
+      });
+
+    if (confirmationResult.error) {
+      /*
+       * Povpraševanje je bilo že uspešno prejeto.
+       * Zato stranki ne vrnemo napake in ne povzročimo
+       * ponovne oddaje istega povpraševanja.
+       */
+      console.error(
+        "Resend confirmation email error:",
+        confirmationResult.error
+      );
+    }
+
     return NextResponse.json({
       success: true,
-      id: data?.id,
+      id: inquiryResult.data?.id,
+      confirmationSent:
+        !confirmationResult.error,
     });
   } catch (error) {
     console.error("Contact API error:", error);
@@ -316,6 +387,164 @@ export async function POST(request: Request) {
       { status: 500 }
     );
   }
+}
+
+function createInternalInquiryEmail({
+  name,
+  company,
+  email,
+  phone,
+  financingAmount,
+  goldValue,
+  goldAmount,
+  goldLocation,
+  purpose,
+  locale,
+}: {
+  name: string;
+  company: string;
+  email: string;
+  phone: string;
+  financingAmount: string;
+  goldValue: string;
+  goldAmount: string;
+  goldLocation: string;
+  purpose: string;
+  locale: SupportedLocale;
+}) {
+  return `
+    <div style="font-family: Arial, sans-serif; color: #111827; line-height: 1.6;">
+      <h1 style="font-size: 24px;">New confidential inquiry</h1>
+
+      <p><strong>Name:</strong> ${escapeHtml(name)}</p>
+      <p><strong>Company:</strong> ${escapeHtml(
+        company || "Not provided"
+      )}</p>
+      <p><strong>Email:</strong> ${escapeHtml(email)}</p>
+      <p><strong>Phone:</strong> ${escapeHtml(
+        phone || "Not provided"
+      )}</p>
+
+      <hr style="margin: 24px 0; border: 0; border-top: 1px solid #dddddd;" />
+
+      <p><strong>Requested financing amount:</strong> ${escapeHtml(
+        financingAmount
+      )}</p>
+
+      <p><strong>Estimated gold value:</strong> ${escapeHtml(
+        goldValue
+      )}</p>
+
+      <p><strong>Gold quantity:</strong> ${escapeHtml(
+        goldAmount || "Not provided"
+      )}</p>
+
+      <p><strong>Gold location:</strong> ${escapeHtml(
+        goldLocation
+      )}</p>
+
+      <p><strong>Financing purpose:</strong></p>
+      <p>${escapeHtml(purpose).replace(
+        /\n/g,
+        "<br />"
+      )}</p>
+
+      <hr style="margin: 24px 0; border: 0; border-top: 1px solid #dddddd;" />
+
+      <p><strong>Ownership confirmed:</strong> Yes</p>
+      <p><strong>Privacy consent confirmed:</strong> Yes</p>
+      <p><strong>Submitted language:</strong> ${locale.toUpperCase()}</p>
+    </div>
+  `;
+}
+
+function createCustomerConfirmationEmail({
+  name,
+  financingAmount,
+  goldValue,
+  goldLocation,
+  confirmation,
+}: {
+  name: string;
+  financingAmount: string;
+  goldValue: string;
+  goldLocation: string;
+  confirmation: ConfirmationEmail;
+}) {
+  return `
+    <div style="margin: 0; padding: 32px 16px; background: #f4f1e8;">
+      <div style="max-width: 640px; margin: 0 auto; overflow: hidden; background: #ffffff; border: 1px solid #ddd5c2; border-radius: 14px;">
+        <div style="padding: 28px 32px; background: #172136; color: #ffffff;">
+          <p style="margin: 0; color: #d4bc78; font-size: 12px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase;">
+            Gold Bridge Capital
+          </p>
+
+          <h1 style="margin: 10px 0 0; font-family: Georgia, serif; font-size: 28px; line-height: 1.25;">
+            ${escapeHtml(confirmation.subject)}
+          </h1>
+        </div>
+
+        <div style="padding: 32px; font-family: Arial, sans-serif; color: #253047; font-size: 16px; line-height: 1.7;">
+          <p>
+            ${escapeHtml(confirmation.greeting)}
+            ${escapeHtml(name)},
+          </p>
+
+          <p>${escapeHtml(confirmation.introduction)}</p>
+
+          <p>${escapeHtml(confirmation.reviewText)}</p>
+
+          <p>${escapeHtml(confirmation.responseTime)}</p>
+
+          <div style="margin: 28px 0; padding: 20px; background: #f7f4ec; border-left: 4px solid #c7aa60;">
+            <p style="margin: 0 0 12px; font-weight: 700;">
+              ${escapeHtml(confirmation.referenceTitle)}
+            </p>
+
+            <p style="margin: 6px 0;">
+              <strong>${escapeHtml(
+                confirmation.amountLabel
+              )}:</strong>
+              ${escapeHtml(financingAmount)}
+            </p>
+
+            <p style="margin: 6px 0;">
+              <strong>${escapeHtml(
+                confirmation.goldValueLabel
+              )}:</strong>
+              ${escapeHtml(goldValue)}
+            </p>
+
+            <p style="margin: 6px 0;">
+              <strong>${escapeHtml(
+                confirmation.locationLabel
+              )}:</strong>
+              ${escapeHtml(goldLocation)}
+            </p>
+          </div>
+
+          <p style="font-size: 14px; color: #596174;">
+            ${escapeHtml(confirmation.securityNotice)}
+          </p>
+
+          <p style="margin-top: 28px;">
+            ${escapeHtml(confirmation.closing)},<br />
+            <strong>Gold Bridge Capital</strong><br />
+            <a
+              href="mailto:inquiries@goldbridge-capital.com"
+              style="color: #896f2f;"
+            >
+              inquiries@goldbridge-capital.com
+            </a>
+          </p>
+        </div>
+
+        <div style="padding: 18px 32px; background: #172136; color: #aeb6c5; font-family: Arial, sans-serif; font-size: 12px; line-height: 1.6;">
+          This confirmation acknowledges receipt only and does not constitute a financing offer, commitment or establishment of a client relationship.
+        </div>
+      </div>
+    </div>
+  `;
 }
 
 function getSupportedLocale(

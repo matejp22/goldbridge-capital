@@ -19,6 +19,16 @@ type ContactPayload = {
   privacyConfirmed: boolean;
 };
 
+declare global {
+  interface Window {
+    gtag?: (
+      command: "event",
+      eventName: string,
+      parameters?: Record<string, string | number | boolean>
+    ) => void;
+  }
+}
+
 export default function ContactForm() {
   const t = useTranslations("ContactForm");
 
@@ -71,6 +81,12 @@ export default function ContactForm() {
 
       form.reset();
       setStatus("success");
+
+      window.gtag?.("event", "generate_lead", {
+        form_name: "confidential_financing_inquiry",
+        form_location: "landing_page",
+        currency: "EUR",
+      });
     } catch (error) {
       console.error("Contact form submission failed:", error);
 

@@ -1,9 +1,9 @@
-import SiteHeader from "@/components/layout/SiteHeader";
-import HeroSection from "@/components/landing/HeroSection";
-import SiteFooter from "@/components/layout/SiteFooter";
 import { setRequestLocale } from "next-intl/server";
-import ContactForm from "@/components/ContactForm";
-import Icon, { type IconName } from "@/components/shared/Icon";
+
+import SiteHeader from "@/components/layout/SiteHeader";
+import SiteFooter from "@/components/layout/SiteFooter";
+
+import HeroSection from "@/components/landing/HeroSection";
 import InstitutionalStrip from "@/components/landing/InstitutionalStrip";
 import ApproachSection from "@/components/landing/ApproachSection";
 import ClientsSection from "@/components/landing/ClientsSection";
@@ -25,7 +25,7 @@ export default async function Home({ params }: HomeProps) {
   const { locale } = await params;
 
   setRequestLocale(locale);
-  
+
   return (
     <main className="site-shell">
       <SiteHeader />
@@ -35,17 +35,12 @@ export default async function Home({ params }: HomeProps) {
       <ClientsSection />
       <StructureSection />
       <ExampleSection />
-      <ProcessSection />  
+      <ProcessSection />
       <RequirementsSection />
       <FAQSection />
       <InquirySection />
       <ClosingSection />
-
-     
-
-      
-
-     <SiteFooter />
+      <SiteFooter />
     </main>
   );
 }

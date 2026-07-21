@@ -3,23 +3,94 @@ import { Resend } from "resend";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
+const RATE_LIMIT_WINDOW_MS = 15 * 60 * 1000;
+const RATE_LIMIT_MAX_REQUESTS = 5;
+
+type RateLimitEntry = {
+  count: number;
+  resetAt: number;
+};
+
+type ContactPayload = {
+  name?: unknown;
+  company?: unknown;
+  email?: unknown;
+  phone?: unknown;
+  financingAmount?: unknown;
+  goldValue?: unknown;
+  goldAmount?: unknown;
+  goldLocation?: unknown;
+  purpose?: unknown;
+  ownershipConfirmed?: unknown;
+  privacyConfirmed?: unknown;
+  website?: unknown;
+};
+
+const rateLimitStore = new Map<string, RateLimitEntry>();
+
 export async function POST(request: Request) {
   try {
-    const body = await request.json();
+    const clientIp = getClientIp(request);
 
-    const {
-      name,
-      company,
-      email,
-      phone,
-      financingAmount,
-      goldValue,
-      goldAmount,
-      goldLocation,
-      purpose,
-      ownershipConfirmed,
-      privacyConfirmed,
-    } = body;
+    if (isRateLimited(clientIp)) {
+      return NextResponse.json(
+        {
+          error:
+            "Preveč zahtev. Pred ponovnim poskusom počakajte nekaj minut.",
+        },
+        {
+          status: 429,
+          headers: {
+            "Retry-After": String(
+              Math.ceil(RATE_LIMIT_WINDOW_MS / 1000)
+            ),
+          },
+        }
+      );
+    }
+
+    const contentType = request.headers.get("content-type") || "";
+
+    if (!contentType.includes("application/json")) {
+      return NextResponse.json(
+        { error: "Neveljavna oblika zahteve." },
+        { status: 415 }
+      );
+    }
+
+    const body = (await request.json()) as ContactPayload;
+
+    const website = normaliseText(body.website, 200);
+
+    /*
+     * Honeypot:
+     * običajni uporabniki tega polja ne vidijo in ga pustijo praznega.
+     * Če ga avtomatiziran bot izpolni, zahtevo tiho zavrnemo.
+     */
+    if (website) {
+      return NextResponse.json({
+        success: true,
+      });
+    }
+
+    const name = normaliseText(body.name, 120);
+    const company = normaliseText(body.company, 160);
+    const email = normaliseText(body.email, 254).toLowerCase();
+    const phone = normaliseText(body.phone, 60);
+    const financingAmount = normaliseText(
+      body.financingAmount,
+      100
+    );
+    const goldValue = normaliseText(body.goldValue, 100);
+    const goldAmount = normaliseText(body.goldAmount, 120);
+    const goldLocation = normaliseText(body.goldLocation, 180);
+    const purpose = normaliseText(body.purpose, 5000);
+
+    const ownershipConfirmed =
+      body.ownershipConfirmed === true;
+
+    const privacyConfirmed =
+      body.privacyConfirmed === true;
 
     if (
       !name ||
@@ -35,6 +106,30 @@ export async function POST(request: Request) {
       );
     }
 
+    if (!isValidEmail(email)) {
+      return NextResponse.json(
+        { error: "E-poštni naslov ni veljaven." },
+        { status: 400 }
+      );
+    }
+
+    if (name.length < 2) {
+      return NextResponse.json(
+        { error: "Ime je prekratko." },
+        { status: 400 }
+      );
+    }
+
+    if (purpose.length < 20) {
+      return NextResponse.json(
+        {
+          error:
+            "Opis povpraševanja mora vsebovati najmanj 20 znakov.",
+        },
+        { status: 400 }
+      );
+    }
+
     if (!ownershipConfirmed || !privacyConfirmed) {
       return NextResponse.json(
         { error: "Potrebni sta obe potrditvi." },
@@ -45,8 +140,19 @@ export async function POST(request: Request) {
     const recipientEmail = process.env.CONTACT_TO_EMAIL;
 
     if (!recipientEmail) {
+      console.error("CONTACT_TO_EMAIL is not configured.");
+
       return NextResponse.json(
-        { error: "Prejemni e-poštni naslov ni nastavljen." },
+        { error: "Kontaktna storitev trenutno ni na voljo." },
+        { status: 500 }
+      );
+    }
+
+    if (!process.env.RESEND_API_KEY) {
+      console.error("RESEND_API_KEY is not configured.");
+
+      return NextResponse.json(
+        { error: "Kontaktna storitev trenutno ni na voljo." },
         { status: 500 }
       );
     }
@@ -61,9 +167,13 @@ export async function POST(request: Request) {
           <h1 style="font-size: 24px;">Novo zaupno povpraševanje</h1>
 
           <p><strong>Ime in priimek:</strong> ${escapeHtml(name)}</p>
-          <p><strong>Podjetje:</strong> ${escapeHtml(company || "Ni navedeno")}</p>
+          <p><strong>Podjetje:</strong> ${escapeHtml(
+            company || "Ni navedeno"
+          )}</p>
           <p><strong>E-pošta:</strong> ${escapeHtml(email)}</p>
-          <p><strong>Telefon:</strong> ${escapeHtml(phone || "Ni naveden")}</p>
+          <p><strong>Telefon:</strong> ${escapeHtml(
+            phone || "Ni naveden"
+          )}</p>
 
           <hr style="margin: 24px 0; border: 0; border-top: 1px solid #dddddd;" />
 
@@ -79,7 +189,9 @@ export async function POST(request: Request) {
             goldAmount || "Ni navedena"
           )}</p>
 
-          <p><strong>Lokacija zlata:</strong> ${escapeHtml(goldLocation)}</p>
+          <p><strong>Lokacija zlata:</strong> ${escapeHtml(
+            goldLocation
+          )}</p>
 
           <p><strong>Namen financiranja:</strong></p>
           <p>${escapeHtml(purpose).replace(/\n/g, "<br />")}</p>
@@ -113,6 +225,55 @@ export async function POST(request: Request) {
       { status: 500 }
     );
   }
+}
+
+function getClientIp(request: Request) {
+  const forwardedFor = request.headers.get("x-forwarded-for");
+
+  if (forwardedFor) {
+    return forwardedFor.split(",")[0]?.trim() || "unknown";
+  }
+
+  return (
+    request.headers.get("x-real-ip")?.trim() ||
+    request.headers.get("cf-connecting-ip")?.trim() ||
+    "unknown"
+  );
+}
+
+function isRateLimited(identifier: string) {
+  const now = Date.now();
+  const existingEntry = rateLimitStore.get(identifier);
+
+  if (!existingEntry || existingEntry.resetAt <= now) {
+    rateLimitStore.set(identifier, {
+      count: 1,
+      resetAt: now + RATE_LIMIT_WINDOW_MS,
+    });
+
+    return false;
+  }
+
+  if (existingEntry.count >= RATE_LIMIT_MAX_REQUESTS) {
+    return true;
+  }
+
+  existingEntry.count += 1;
+  rateLimitStore.set(identifier, existingEntry);
+
+  return false;
+}
+
+function normaliseText(value: unknown, maximumLength: number) {
+  if (typeof value !== "string") {
+    return "";
+  }
+
+  return value.trim().slice(0, maximumLength);
+}
+
+function isValidEmail(value: string) {
+  return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value);
 }
 
 function escapeHtml(value: unknown) {

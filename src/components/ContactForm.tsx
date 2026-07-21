@@ -17,6 +17,7 @@ type ContactPayload = {
   purpose: string;
   ownershipConfirmed: boolean;
   privacyConfirmed: boolean;
+  website: string;
 };
 
 declare global {
@@ -60,6 +61,7 @@ export default function ContactForm() {
         formData.get("ownershipConfirmed") === "on",
       privacyConfirmed:
         formData.get("privacyConfirmed") === "on",
+      website: String(formData.get("website") || "").trim(),
     };
 
     try {
@@ -106,6 +108,29 @@ export default function ContactForm() {
       onSubmit={handleSubmit}
       noValidate={false}
     >
+      <div
+        aria-hidden="true"
+        style={{
+          position: "absolute",
+          left: "-9999px",
+          width: "1px",
+          height: "1px",
+          overflow: "hidden",
+        }}
+      >
+        <label htmlFor="website">
+          Website
+        </label>
+
+        <input
+          id="website"
+          name="website"
+          type="text"
+          tabIndex={-1}
+          autoComplete="off"
+        />
+      </div>
+
       <div className="form-row">
         <div className="form-field">
           <label htmlFor="name">

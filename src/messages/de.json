@@ -778,4 +778,89 @@
     "title": "12. Datenschutzkontakt",
     "text": "Bei Fragen, Anfragen oder Anliegen zum Datenschutz und zu personenbezogenen Daten kontaktieren Sie:"
   }
+},
+"Terms": {
+  "kicker": "Rechtliche Bedingungen",
+  "title": "Nutzungsbedingungen",
+  "updated": "Zuletzt aktualisiert: Juli 2026",
+  "operator": {
+    "title": "1. Betreiber der Website",
+    "text": "Diese Website wird betrieben von:",
+    "location": "Slowenien",
+    "formationNotice": "Gold Bridge Capital ist derzeit ein Projekt in Gründung und noch keine eigenständig eingetragene juristische Person."
+  },
+  "acceptance": {
+    "title": "2. Annahme dieser Bedingungen",
+    "text": "Durch den Zugriff auf diese Website oder deren Nutzung erklären Sie sich mit diesen Nutzungsbedingungen einverstanden. Wenn Sie diesen Bedingungen nicht zustimmen, sollten Sie die Website nicht nutzen."
+  },
+  "information": {
+    "title": "3. Ausschließlich allgemeine Informationen",
+    "text": "Die Inhalte dieser Website dienen ausschließlich allgemeinen Informationszwecken. Sie sollen die Tätigkeit und den möglichen Transaktionsprozess im Zusammenhang mit Gold Bridge Capital darstellen."
+  },
+  "noOffer": {
+    "title": "4. Kein Finanz-, Rechts- oder Anlageangebot",
+    "text": "Nichts auf dieser Website stellt Finanz-, Rechts-, Steuer- oder Anlageberatung, ein Kreditangebot, ein Wertpapierangebot, eine Aufforderung, Empfehlung oder eine verbindliche Verpflichtung zur Vermittlung oder Bereitstellung einer Finanzierung dar. Jede potenzielle Transaktion unterliegt einer gesonderten Prüfung, Due Diligence, Dokumentation und Genehmigung."
+  },
+  "eligibility": {
+    "title": "5. Eignung und Transaktionsprüfung",
+    "text": "Die Verfügbarkeit einer Finanzierungsstruktur hängt vom Profil des Kunden, der Art und dem Standort der vorgeschlagenen Goldsicherheit, den anwendbaren rechtlichen und Compliance-Anforderungen, den Marktbedingungen und der Genehmigung relevanter unabhängiger Parteien ab. Keine Transaktion wird garantiert."
+  },
+  "inquiries": {
+    "title": "6. Über Anfragen übermittelte Informationen",
+    "introduction": "Mit dem Einreichen einer Anfrage bestätigen Sie, dass:",
+    "items": {
+      "accuracy": "Die bereitgestellten Informationen nach bestem Wissen richtig und vollständig sind.",
+      "authority": "Sie rechtmäßiger Eigentümer der vorgeschlagenen Goldsicherheit sind oder ordnungsgemäß bevollmächtigt sind, im Namen des rechtmäßigen Eigentümers zu handeln.",
+      "lawful": "Die vorgeschlagene Transaktion und die beabsichtigte Mittelverwendung rechtmäßig sind.",
+      "noCommitment": "Das Einreichen einer Anfrage weder eine Kundenbeziehung noch eine Finanzierungszusage oder Verpflichtung einer Partei begründet."
+    }
+  },
+  "thirdParties": {
+    "title": "7. Unabhängige Dritte",
+    "text": "Mögliche Finanzierungs-, Verwahrungs-, Bewertungs-, Rechts-, Compliance-, Versicherungs- und sonstige Transaktionsleistungen können von unabhängigen Dritten erbracht werden. Gold Bridge Capital kontrolliert diese Parteien nicht und ist nicht für deren Entscheidungen, Leistungen, Verfügbarkeit oder vertragliche Verpflichtungen verantwortlich."
+  },
+  "intellectualProperty": {
+    "title": "8. Geistiges Eigentum",
+    "text": "Sofern nicht anders angegeben, stehen Webdesign, Texte, Markenauftritt, Grafiken und sonstige originäre Inhalte im Eigentum des Websitebetreibers oder werden von diesem rechtmäßig genutzt. Eine Vervielfältigung, Verbreitung, Bearbeitung, Veröffentlichung oder kommerzielle Nutzung ohne vorherige schriftliche Genehmigung ist nicht gestattet."
+  },
+  "prohibitedUse": {
+    "title": "9. Unzulässige Nutzung",
+    "introduction": "Sie dürfen diese Website nicht verwenden:",
+    "items": {
+      "unlawful": "Für rechtswidrige, betrügerische oder irreführende Zwecke.",
+      "falseInformation": "Zur Übermittlung falscher, unvollständiger oder nicht autorisierter Informationen.",
+      "security": "Zur Beeinträchtigung der Sicherheit, Verfügbarkeit oder Funktionsweise der Website.",
+      "copying": "Zum Kopieren, Scrapen, Extrahieren oder Wiederverwenden wesentlicher Teile der Website ohne Genehmigung.",
+      "impersonation": "Zur Vortäuschung der Identität einer anderen Person oder zur falschen Darstellung Ihrer Befugnis, Identität oder Eigentumsrechte."
+    }
+  },
+  "availability": {
+    "title": "10. Verfügbarkeit der Website",
+    "text": "Wir bemühen uns, die Website verfügbar und korrekt zu halten, garantieren jedoch keinen ununterbrochenen Zugang, fehlerfreien Betrieb, Vollständigkeit oder dauerhafte Verfügbarkeit. Die Website kann ohne vorherige Ankündigung geändert, ausgesetzt oder eingestellt werden."
+  },
+  "liability": {
+    "title": "11. Haftungsbeschränkung",
+    "text": "Soweit nach anwendbarem Recht zulässig, haftet der Websitebetreiber nicht für direkte oder indirekte Schäden, die aus dem Vertrauen auf die Website, der fehlenden Zugriffsmöglichkeit, der Nutzung von Diensten Dritter, dem Nichtzustandekommen einer vorgeschlagenen Transaktion oder Entscheidungen auf Grundlage der Websiteinhalte entstehen."
+  },
+  "indemnity": {
+    "title": "12. Verantwortung für übermittelte Informationen",
+    "text": "Sie sind für die von Ihnen übermittelten Informationen und Unterlagen verantwortlich. Sie erklären sich dafür verantwortlich, Verluste, Ansprüche oder Kosten zu tragen, die aus wesentlich falschen, irreführenden, rechtswidrigen oder nicht autorisierten Informationen entstehen, die über die Website eingereicht wurden."
+  },
+  "privacy": {
+    "title": "13. Datenschutz",
+    "text": "Personenbezogene Daten, die über die Website übermittelt werden, werden gemäß unserer",
+    "link": "Datenschutzerklärung"
+  },
+  "changes": {
+    "title": "14. Änderungen dieser Bedingungen",
+    "text": "Diese Nutzungsbedingungen können von Zeit zu Zeit aktualisiert werden. Die jeweils aktuelle Fassung wird zusammen mit dem Datum der letzten Aktualisierung auf dieser Seite veröffentlicht."
+  },
+  "law": {
+    "title": "15. Anwendbares Recht",
+    "text": "Diese Nutzungsbedingungen unterliegen dem Recht der Republik Slowenien. Für alle Streitigkeiten im Zusammenhang mit der Nutzung dieser Website sind die zuständigen Gerichte in Slowenien zuständig, sofern zwingendes Recht nichts anderes vorsieht."
+  },
+  "contact": {
+    "title": "16. Kontakt",
+    "text": "Bei Fragen zu diesen Nutzungsbedingungen kontaktieren Sie:"
+  }
 }

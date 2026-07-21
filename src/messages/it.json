@@ -778,4 +778,89 @@
     "title": "12. Contatto privacy",
     "text": "Per domande, richieste o dubbi relativi alla privacy e ai dati personali, contatta:"
   }
+},
+"Terms": {
+  "kicker": "Condizioni legali",
+  "title": "Termini di utilizzo",
+  "updated": "Ultimo aggiornamento: luglio 2026",
+  "operator": {
+    "title": "1. Gestore del sito web",
+    "text": "Questo sito web è gestito da:",
+    "location": "Slovenia",
+    "formationNotice": "Gold Bridge Capital è attualmente un progetto in fase di costituzione e non è ancora una persona giuridica separatamente registrata."
+  },
+  "acceptance": {
+    "title": "2. Accettazione dei presenti termini",
+    "text": "Accedendo o utilizzando questo sito web, accetti di essere vincolato dai presenti Termini di utilizzo. Qualora non accetti tali termini, non dovresti utilizzare il sito web."
+  },
+  "information": {
+    "title": "3. Informazioni di carattere generale",
+    "text": "Il contenuto di questo sito web è fornito esclusivamente a scopo informativo generale. È destinato a presentare le attività e il possibile processo operativo associato a Gold Bridge Capital."
+  },
+  "noOffer": {
+    "title": "4. Nessuna offerta finanziaria, legale o di investimento",
+    "text": "Nulla di quanto contenuto in questo sito web costituisce consulenza finanziaria, legale, fiscale o di investimento, un'offerta di credito, un'offerta di strumenti finanziari, una sollecitazione, una raccomandazione o un impegno vincolante a organizzare o fornire finanziamenti. Qualsiasi potenziale operazione è soggetta a valutazione separata, due diligence, documentazione e approvazione."
+  },
+  "eligibility": {
+    "title": "5. Idoneità e valutazione dell'operazione",
+    "text": "La disponibilità di qualsiasi struttura di finanziamento dipende dal profilo del cliente, dalla natura e dall'ubicazione della garanzia in oro proposta, dai requisiti legali e di conformità applicabili, dalle condizioni di mercato e dall'approvazione delle parti indipendenti pertinenti. Nessuna operazione è garantita."
+  },
+  "inquiries": {
+    "title": "6. Informazioni inviate tramite le richieste",
+    "introduction": "Inviando una richiesta, confermi che:",
+    "items": {
+      "accuracy": "Le informazioni fornite sono accurate e complete per quanto di tua conoscenza.",
+      "authority": "Sei il proprietario legale della garanzia in oro proposta oppure sei debitamente autorizzato ad agire per conto del proprietario legale.",
+      "lawful": "L'operazione proposta e l'uso previsto dei fondi sono leciti.",
+      "noCommitment": "L'invio di una richiesta non crea un rapporto con il cliente, un impegno di finanziamento o un obbligo per alcuna parte."
+    }
+  },
+  "thirdParties": {
+    "title": "7. Terze parti indipendenti",
+    "text": "I potenziali servizi di finanziamento, custodia, valutazione, assistenza legale, conformità, assicurazione e altri servizi relativi all'operazione possono essere forniti da terze parti indipendenti. Gold Bridge Capital non controlla tali soggetti e non è responsabile delle loro decisioni, dei loro servizi, della loro disponibilità o dei loro obblighi contrattuali."
+  },
+  "intellectualProperty": {
+    "title": "8. Proprietà intellettuale",
+    "text": "Salvo diversa indicazione, il design del sito web, i testi, il marchio, la grafica e gli altri contenuti originali sono di proprietà del gestore del sito web o sono utilizzati su licenza. Non è consentito riprodurre, distribuire, modificare, pubblicare o sfruttare commercialmente tali contenuti senza previa autorizzazione scritta."
+  },
+  "prohibitedUse": {
+    "title": "9. Usi vietati",
+    "introduction": "Non puoi utilizzare questo sito web:",
+    "items": {
+      "unlawful": "Per finalità illecite, fraudolente o ingannevoli.",
+      "falseInformation": "Per inviare informazioni false, incomplete o non autorizzate.",
+      "security": "Per interferire con la sicurezza, la disponibilità o il funzionamento del sito web.",
+      "copying": "Per copiare, estrarre, effettuare scraping o riutilizzare parti sostanziali del sito web senza autorizzazione.",
+      "impersonation": "Per impersonare un'altra persona o rappresentare in modo falso la tua autorità, identità o i tuoi diritti di proprietà."
+    }
+  },
+  "availability": {
+    "title": "10. Disponibilità del sito web",
+    "text": "Cerchiamo di mantenere il sito web disponibile e accurato, ma non garantiamo accesso ininterrotto, funzionamento privo di errori, completezza o disponibilità continuativa. Il sito web può essere modificato, sospeso o ritirato senza preavviso."
+  },
+  "liability": {
+    "title": "11. Limitazione di responsabilità",
+    "text": "Nella misura massima consentita dalla legge applicabile, il gestore del sito web non è responsabile per perdite dirette o indirette derivanti dall'affidamento sul sito web, dall'impossibilità di accedervi, dall'utilizzo di servizi di terzi, dal mancato perfezionamento di un'operazione proposta o da decisioni prese sulla base dei contenuti del sito web."
+  },
+  "indemnity": {
+    "title": "12. Responsabilità per le informazioni inviate",
+    "text": "Sei responsabile delle informazioni e dei materiali che invii. Accetti di rispondere di perdite, pretese o costi derivanti da informazioni sostanzialmente false, ingannevoli, illecite o non autorizzate trasmesse tramite il sito web."
+  },
+  "privacy": {
+    "title": "13. Privacy",
+    "text": "I dati personali inviati tramite il sito web vengono trattati in conformità con la nostra",
+    "link": "Informativa sulla privacy"
+  },
+  "changes": {
+    "title": "14. Modifiche ai presenti termini",
+    "text": "I presenti Termini di utilizzo possono essere aggiornati periodicamente. La versione più recente sarà pubblicata su questa pagina insieme alla data dell'ultimo aggiornamento."
+  },
+  "law": {
+    "title": "15. Legge applicabile",
+    "text": "I presenti Termini di utilizzo sono disciplinati dalle leggi della Repubblica di Slovenia. Qualsiasi controversia relativa all'utilizzo di questo sito web sarà soggetta alla competenza dei tribunali competenti in Slovenia, salvo diversa disposizione di norme inderogabili."
+  },
+  "contact": {
+    "title": "16. Contatti",
+    "text": "Per domande relative ai presenti Termini di utilizzo, contatta:"
+  }
 }

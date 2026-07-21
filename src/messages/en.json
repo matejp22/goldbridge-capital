@@ -791,4 +791,89 @@
     "title": "12. Privacy contact",
     "text": "For questions, requests or concerns relating to privacy and personal data, contact:"
   }
+},
+"Terms": {
+  "kicker": "Legal Terms",
+  "title": "Terms of Use",
+  "updated": "Last updated: July 2026",
+  "operator": {
+    "title": "1. Website operator",
+    "text": "This website is operated by:",
+    "location": "Slovenia",
+    "formationNotice": "Gold Bridge Capital is currently a project in formation and is not yet a separately incorporated legal entity."
+  },
+  "acceptance": {
+    "title": "2. Acceptance of these terms",
+    "text": "By accessing or using this website, you agree to be bound by these Terms of Use. If you do not agree with these terms, you should not use the website."
+  },
+  "information": {
+    "title": "3. General information only",
+    "text": "The content of this website is provided for general informational purposes only. It is intended to present the activities and potential transaction process associated with Gold Bridge Capital."
+  },
+  "noOffer": {
+    "title": "4. No financial, legal or investment offer",
+    "text": "Nothing on this website constitutes financial, legal, tax or investment advice, an offer to lend, an offer of securities, a solicitation, a recommendation or a binding commitment to arrange or provide financing. Any potential transaction is subject to separate assessment, due diligence, documentation and approval."
+  },
+  "eligibility": {
+    "title": "5. Eligibility and transaction assessment",
+    "text": "The availability of any financing structure depends on the profile of the client, the nature and location of the proposed gold collateral, applicable legal and compliance requirements, market conditions and the approval of relevant independent parties. No transaction is guaranteed."
+  },
+  "inquiries": {
+    "title": "6. Information submitted through inquiries",
+    "introduction": "When submitting an inquiry, you confirm that:",
+    "items": {
+      "accuracy": "The information provided is accurate and complete to the best of your knowledge.",
+      "authority": "You are the legal owner of the proposed gold collateral or are duly authorised to act on behalf of the legal owner.",
+      "lawful": "The proposed transaction and intended use of funds are lawful.",
+      "noCommitment": "Submission of an inquiry does not create a client relationship, financing commitment or obligation for any party."
+    }
+  },
+  "thirdParties": {
+    "title": "7. Independent third parties",
+    "text": "Potential financing, custody, valuation, legal, compliance, insurance and other transaction services may be provided by independent third parties. Gold Bridge Capital does not control those parties and is not responsible for their decisions, services, availability or contractual obligations."
+  },
+  "intellectualProperty": {
+    "title": "8. Intellectual property",
+    "text": "Unless otherwise stated, the website design, text, branding, graphics and other original content are owned by or licensed to the website operator. You may not reproduce, distribute, modify, publish or commercially exploit such content without prior written permission."
+  },
+  "prohibitedUse": {
+    "title": "9. Prohibited use",
+    "introduction": "You must not use this website:",
+    "items": {
+      "unlawful": "For any unlawful, fraudulent or misleading purpose.",
+      "falseInformation": "To submit false, incomplete or unauthorised information.",
+      "security": "To interfere with the security, availability or operation of the website.",
+      "copying": "To copy, scrape, extract or reuse substantial parts of the website without permission.",
+      "impersonation": "To impersonate another person or misrepresent your authority, identity or ownership rights."
+    }
+  },
+  "availability": {
+    "title": "10. Website availability",
+    "text": "We aim to keep the website available and accurate, but we do not guarantee uninterrupted access, error-free operation, completeness or continued availability. The website may be modified, suspended or withdrawn without prior notice."
+  },
+  "liability": {
+    "title": "11. Limitation of liability",
+    "text": "To the maximum extent permitted by applicable law, the website operator is not liable for any direct or indirect loss arising from reliance on the website, inability to access it, use of third-party services, failure of a proposed transaction to proceed or decisions made on the basis of website content."
+  },
+  "indemnity": {
+    "title": "12. Responsibility for submitted information",
+    "text": "You are responsible for the information and materials you submit. You agree to be responsible for losses, claims or costs arising from materially false, misleading, unlawful or unauthorised information submitted through the website."
+  },
+  "privacy": {
+    "title": "13. Privacy",
+    "text": "Personal data submitted through the website is processed in accordance with our",
+    "link": "Privacy Policy"
+  },
+  "changes": {
+    "title": "14. Changes to these terms",
+    "text": "These Terms of Use may be updated from time to time. The latest version will be published on this page together with the date of the most recent update."
+  },
+  "law": {
+    "title": "15. Governing law",
+    "text": "These Terms of Use are governed by the laws of the Republic of Slovenia. Any dispute relating to the use of this website will be subject to the jurisdiction of the competent courts in Slovenia, unless mandatory law provides otherwise."
+  },
+  "contact": {
+    "title": "16. Contact",
+    "text": "For questions concerning these Terms of Use, contact:"
+  }
 }

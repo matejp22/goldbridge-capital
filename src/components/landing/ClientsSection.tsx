@@ -1,89 +1,82 @@
+"use client";
+
+import { useTranslations } from "next-intl";
+
 import Icon, { type IconName } from "@/components/shared/Icon";
 
 const clientProfiles = [
   {
+    key: "familyOffices",
     icon: "family" as IconName,
-    title: "Family Offices",
-    text: "Private capital structures for families seeking liquidity while preserving ownership of eligible physical gold.",
   },
   {
+    key: "entrepreneurs",
     icon: "entrepreneur" as IconName,
-    title: "Entrepreneurs",
-    text: "Short-term capital for qualified business, acquisition, expansion or bridge-financing requirements.",
   },
   {
+    key: "privateInvestors",
     icon: "investor" as IconName,
-    title: "Private Investors",
-    text: "Individually reviewed financing opportunities secured by documented investment-grade gold.",
   },
   {
+    key: "corporations",
     icon: "corporate" as IconName,
-    title: "Corporations",
-    text: "Structured liquidity solutions for companies with a clearly defined commercial purpose and acceptable collateral.",
   },
-];
+] as const;
 
 export default function ClientsSection() {
+  const t = useTranslations("Clients");
+
   return (
-<section className="section clients-section">
-        <div className="clients-background" aria-hidden="true">
-          <div className="clients-glow" />
-          <div className="clients-line-pattern" />
+    <section className="section clients-section">
+      <div className="clients-background" aria-hidden="true">
+        <div className="clients-glow" />
+        <div className="clients-line-pattern" />
+      </div>
+
+      <div className="container">
+        <div className="section-heading section-heading-centred">
+          <div className="section-kicker section-kicker-centred">
+            <span className="kicker-line" />
+            <span>{t("kicker")}</span>
+            <span className="kicker-line" />
+          </div>
+
+          <h2>
+            {t("title.main")}
+            <span>{t("title.highlight")}</span>
+          </h2>
+
+          <p>{t("introduction")}</p>
         </div>
 
-        <div className="container">
-          <div className="section-heading section-heading-centred">
-            <div className="section-kicker section-kicker-centred">
-              <span className="kicker-line" />
-              <span>Who We Work With</span>
-              <span className="kicker-line" />
-            </div>
+        <div className="client-grid">
+          {clientProfiles.map((profile) => (
+            <article className="client-card" key={profile.key}>
+              <span className="client-card-icon">
+                <Icon name={profile.icon} />
+              </span>
 
-            <h2>
-              Designed for qualified private
-              <span> and corporate clients.</span>
-            </h2>
+              <div>
+                <h3>{t(`profiles.${profile.key}.title`)}</h3>
+                <p>{t(`profiles.${profile.key}.text`)}</p>
+              </div>
 
-            <p>
-              We consider transactions with a legitimate financing purpose,
-              suitable physical gold collateral and complete, verifiable
-              documentation.
-            </p>
-          </div>
+              <span className="client-card-corner" aria-hidden="true" />
+            </article>
+          ))}
+        </div>
 
-          <div className="client-grid">
-            {clientProfiles.map((profile) => (
-              <article className="client-card" key={profile.title}>
-                <span className="client-card-icon">
-                  <Icon name={profile.icon} />
-                </span>
+        <div className="qualification-note">
+          <span className="qualification-note-icon">
+            <Icon name="shield" />
+          </span>
 
-                <div>
-                  <h3>{profile.title}</h3>
-                  <p>{profile.text}</p>
-                </div>
-
-                <span className="client-card-corner" aria-hidden="true" />
-              </article>
-            ))}
-          </div>
-
-          <div className="qualification-note">
-            <span className="qualification-note-icon">
-              <Icon name="shield" />
-            </span>
-
-            <div>
-              <strong>Qualification and compliance</strong>
-              <p>
-                All potential clients, beneficial owners, collateral and uses
-                of funds are subject to applicable identification, ownership,
-                provenance, sanctions, anti-money-laundering and counterparty
-                review requirements.
-              </p>
-            </div>
+          <div>
+            <strong>{t("qualification.title")}</strong>
+            <p>{t("qualification.text")}</p>
           </div>
         </div>
-      </section>
-       );
+      </div>
+    </section>
+  );
 }

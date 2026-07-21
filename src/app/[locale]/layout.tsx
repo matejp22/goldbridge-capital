@@ -54,9 +54,49 @@ export async function generateMetadata({
     namespace: "Metadata",
   });
 
+  const baseUrl = "https://goldbridge-capital.com";
+  const canonicalUrl = `${baseUrl}/${locale}`;
+
   return {
+    metadataBase: new URL(baseUrl),
+
     title: t("title"),
     description: t("description"),
+
+    alternates: {
+      canonical: canonicalUrl,
+      languages: {
+        en: `${baseUrl}/en`,
+        de: `${baseUrl}/de`,
+        it: `${baseUrl}/it`,
+        "x-default": `${baseUrl}/en`,
+      },
+    },
+
+    openGraph: {
+      type: "website",
+      siteName: "Gold Bridge Capital",
+      title: t("title"),
+      description: t("description"),
+      url: canonicalUrl,
+      locale:
+        locale === "de"
+          ? "de_DE"
+          : locale === "it"
+            ? "it_IT"
+            : "en_GB",
+    },
+
+    twitter: {
+      card: "summary_large_image",
+      title: t("title"),
+      description: t("description"),
+    },
+
+    robots: {
+      index: true,
+      follow: true,
+    },
   };
 }
 

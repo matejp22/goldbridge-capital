@@ -193,4 +193,80 @@
       "text": "No transaction proceeds without satisfactory documentation, due diligence and final approval."
     }
   }
+},
+
+"Example": {
+  "kicker": "Illustrative Transaction",
+  "title": {
+    "main": "An example of a potential",
+    "highlight": " gold-backed financing structure."
+  },
+  "introduction": "The following example is provided solely to explain the mechanics of a possible transaction. It is not an offer, commitment, quotation or guarantee of financing.",
+  "case": {
+    "overline": "Illustrative client case",
+    "title": "Short-Term Private Financing",
+    "status": "Example only"
+  },
+  "values": {
+    "collateral": {
+      "label": "Indicative collateral value",
+      "value": "€3,000,000",
+      "note": "Physical investment gold"
+    },
+    "financing": {
+      "label": "Illustrative financing",
+      "value": "€2,000,000",
+      "note": "Subject to approval"
+    }
+  },
+  "details": {
+    "term": {
+      "label": "Illustrative term",
+      "value": "Up to 12 months"
+    },
+    "repayment": {
+      "label": "Indicative repayment",
+      "value": "€2.2M–€2.3M"
+    },
+    "ownership": {
+      "label": "Collateral ownership",
+      "value": "Retained by client"
+    },
+    "custody": {
+      "label": "Custody",
+      "value": "As contractually agreed"
+    }
+  },
+  "footer": "During the agreed financing period, the gold serves as collateral under the executed transaction documents. The precise legal and custody structure depends on the approved counterparties and jurisdiction.",
+  "summary": {
+    "overline": "Indicative overview",
+    "title": "Transaction Summary",
+    "rows": {
+      "goldValue": {
+        "label": "Gold value",
+        "value": "€3,000,000"
+      },
+      "financingAmount": {
+        "label": "Financing amount",
+        "value": "€2,000,000"
+      },
+      "advanceRatio": {
+        "label": "Illustrative advance ratio",
+        "value": "Approx. 67%"
+      },
+      "maximumPeriod": {
+        "label": "Maximum period",
+        "value": "12 months"
+      },
+      "totalRepayment": {
+        "label": "Illustrative total repayment",
+        "value": "€2.2M–€2.3M"
+      }
+    },
+    "note": "Final pricing may include financing costs, professional fees, custody costs, valuation costs and other transaction expenses."
+  },
+  "caveat": {
+    "label": "Important",
+    "text": "Values shown above are hypothetical. Actual collateral eligibility, valuation, advance ratio, duration, pricing, custody arrangements and repayment obligations are determined only after full review and written approval by the relevant parties."
+  }
 }

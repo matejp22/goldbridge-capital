@@ -11,10 +11,12 @@ const locales: SupportedLocale[] = ["en", "de", "it"];
 
 export default function SiteHeader() {
   const t = useTranslations("Header");
-  const locale = useLocale();
+  const locale = useLocale() as SupportedLocale;
 
   const pathname = usePathname();
   const router = useRouter();
+
+  const homeUrl = `/${locale}`;
 
   function changeLocale(nextLocale: SupportedLocale) {
     if (nextLocale === locale) {
@@ -30,7 +32,7 @@ export default function SiteHeader() {
     <header className="site-header">
       <div className="container nav">
         <a
-          href="#top"
+          href={`${homeUrl}#top`}
           className="brand"
           aria-label={t("homeAriaLabel")}
         >
@@ -50,10 +52,21 @@ export default function SiteHeader() {
           className="nav-links"
           aria-label={t("navigationAriaLabel")}
         >
-          <a href="#approach">{t("navigation.approach")}</a>
-          <a href="#structure">{t("navigation.structure")}</a>
-          <a href="#transaction">{t("navigation.example")}</a>
-          <a href="#process">{t("navigation.process")}</a>
+          <a href={`${homeUrl}#approach`}>
+            {t("navigation.approach")}
+          </a>
+
+          <a href={`${homeUrl}#structure`}>
+            {t("navigation.structure")}
+          </a>
+
+          <a href={`${homeUrl}#transaction`}>
+            {t("navigation.example")}
+          </a>
+
+          <a href={`${homeUrl}#process`}>
+            {t("navigation.process")}
+          </a>
         </nav>
 
         <div
@@ -69,7 +82,9 @@ export default function SiteHeader() {
                   ? "language-button language-button-active"
                   : "language-button"
               }
-              aria-current={locale === language ? "page" : undefined}
+              aria-current={
+                locale === language ? "page" : undefined
+              }
               onClick={() => changeLocale(language)}
             >
               {language.toUpperCase()}
@@ -77,7 +92,10 @@ export default function SiteHeader() {
           ))}
         </div>
 
-        <a href="#inquiry" className="nav-cta">
+        <a
+          href={`${homeUrl}#inquiry`}
+          className="nav-cta"
+        >
           <span>{t("cta")}</span>
           <Icon name="arrow" className="button-icon" />
         </a>

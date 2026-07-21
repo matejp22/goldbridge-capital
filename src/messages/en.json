@@ -68,4 +68,40 @@
       }
     }
   }
+},
+
+"Approach": {
+  "kicker": "Why Gold Bridge Capital",
+  "title": {
+    "main": "A considered approach to",
+    "highlight": " gold-backed liquidity."
+  },
+  "introduction": {
+    "first": "Significant private transactions require more than access to capital. They require discretion, credible documentation, suitable counterparties and a structure aligned with the collateral and commercial objective.",
+    "second": "Gold Bridge Capital acts as a transaction facilitator. We support the preparation, assessment and coordination of potential financing opportunities with relevant independent parties."
+  },
+  "advantages": {
+    "confidential": {
+      "number": "01",
+      "title": "Confidential by Design",
+      "text": "Each inquiry is handled discreetly and shared only with the professionals required to assess and structure the proposed transaction."
+    },
+    "international": {
+      "number": "02",
+      "title": "International Access",
+      "text": "We coordinate opportunities with suitable financing, custody, legal and transaction partners according to the requirements of each case."
+    },
+    "tailored": {
+      "number": "03",
+      "title": "Tailored Structures",
+      "text": "Financing terms are developed individually around the collateral, requested capital, intended use of funds and agreed repayment profile."
+    },
+    "review": {
+      "number": "04",
+      "title": "Disciplined Review",
+      "text": "Every opportunity is subject to verification of ownership, provenance, purity, documentation, counterparties and regulatory acceptability."
+    }
+  },
+  "statement": "Our role is to bring clarity, structure and disciplined coordination to complex transactions secured by physical gold.",
+  "signature": "Gold Bridge Capital"
 }

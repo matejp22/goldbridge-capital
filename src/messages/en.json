@@ -356,4 +356,127 @@
     "statLabel": "Primary factor",
     "statValue": "Complete documentation"
   }
+},
+
+"Requirements": {
+  "kicker": "Transaction Requirements",
+  "title": {
+    "main": "What is required for an",
+    "highlight": " initial assessment."
+  },
+  "introduction": "Complete documentation helps establish whether a proposed transaction is suitable for further review. Additional information may be requested depending on the parties, jurisdiction and collateral structure.",
+  "cards": {
+    "collateral": {
+      "number": "01",
+      "title": "Gold Collateral Information",
+      "text": "Clear and verifiable information about the proposed physical investment gold.",
+      "items": {
+        "form": {
+          "title": "Form and quantity",
+          "text": "Bars, ingots or other accepted investment-gold format."
+        },
+        "purity": {
+          "title": "Purity and identification",
+          "text": "Refinery, serial numbers, assay details and available certificates."
+        },
+        "location": {
+          "title": "Current location",
+          "text": "Vault, custodian, bank, logistics provider or other existing storage arrangement."
+        },
+        "value": {
+          "title": "Indicative market value",
+          "text": "Recent valuation, inventory statement or equivalent supporting information."
+        }
+      }
+    },
+    "ownership": {
+      "number": "02",
+      "title": "Ownership & Provenance",
+      "text": "Evidence showing who legally owns the gold and how it was acquired.",
+      "items": {
+        "proof": {
+          "title": "Proof of legal ownership",
+          "text": "Purchase invoices, custody records, title documents or equivalent evidence."
+        },
+        "provenance": {
+          "title": "Source and provenance",
+          "text": "Documentation explaining acquisition history and lawful origin."
+        },
+        "encumbrances": {
+          "title": "Existing encumbrances",
+          "text": "Disclosure of any pledge, lien, financing arrangement or third-party claim."
+        },
+        "authority": {
+          "title": "Authority to transact",
+          "text": "Evidence that the applicant is authorised to offer the gold as collateral."
+        }
+      }
+    },
+    "compliance": {
+      "number": "03",
+      "title": "Client & Compliance Documents",
+      "text": "Identification and corporate information required for applicable compliance review.",
+      "items": {
+        "identification": {
+          "title": "Personal identification",
+          "text": "Valid identification and address documentation for relevant individuals."
+        },
+        "corporate": {
+          "title": "Corporate documents",
+          "text": "Registry extract, constitutional documents and signing authority where applicable."
+        },
+        "beneficialOwnership": {
+          "title": "Beneficial ownership",
+          "text": "Complete disclosure of the ultimate beneficial owners and controlling parties."
+        },
+        "wealth": {
+          "title": "Source of wealth and funds",
+          "text": "Supporting information proportionate to the transaction and applicable requirements."
+        }
+      }
+    },
+    "financing": {
+      "number": "04",
+      "title": "Financing Request",
+      "text": "A clear explanation of the requested capital and proposed repayment plan.",
+      "items": {
+        "amount": {
+          "title": "Requested amount",
+          "text": "Exact or indicative financing amount required by the client."
+        },
+        "purpose": {
+          "title": "Intended use of funds",
+          "text": "Legitimate and sufficiently detailed commercial or private financing purpose."
+        },
+        "term": {
+          "title": "Preferred term",
+          "text": "Required duration, normally within a maximum period of 12 months."
+        },
+        "repayment": {
+          "title": "Repayment strategy",
+          "text": "Credible explanation of how all obligations are expected to be repaid."
+        }
+      }
+    }
+  },
+  "sidebar": {
+    "overline": "Initial review",
+    "title": "Prepare the essential documents before submitting.",
+    "text": "An initial inquiry does not require every definitive document, but it should include enough information to determine whether further assessment is commercially and legally appropriate.",
+    "items": {
+      "ownership": "Clear ownership evidence",
+      "gold": "Verifiable gold documentation",
+      "purpose": "Defined financing purpose",
+      "repayment": "Credible repayment strategy"
+    },
+    "button": "Submit an Inquiry"
+  },
+  "warning": {
+    "title": "Documents are subject to verification",
+    "text": "Submission of information does not create an obligation to arrange, provide or approve financing."
+  },
+  "note": {
+    "label": "Please note",
+    "text": "Depending on the transaction, additional legal opinions, assay reports, independent valuations, tax information, financial statements, custody confirmations or other specialist documents may be required."
+  }
 }

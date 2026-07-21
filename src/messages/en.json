@@ -697,5 +697,5 @@
     "success": "Thank you. Your confidential inquiry has been submitted successfully. Our team will review the information provided and contact you should the transaction meet the initial assessment criteria.",
     "submissionError": "We were unable to submit your inquiry. Please try again.",
     "unexpectedError": "An unexpected error occurred. Please try again."
+    }
   }
-}

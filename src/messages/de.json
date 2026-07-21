@@ -1,3 +1,689 @@
 {
-  "test": "Hallo"
+  "Hero": {
+    "kicker": "Private strukturierte Finanzierung",
+    "title": {
+      "main": "Liquidität erschließen",
+      "highlight": " ohne Ihr Gold zu verkaufen."
+    },
+    "lead": "Gold Bridge Capital vermittelt maßgeschneiderte kurzfristige Finanzierungslösungen, die durch geeignetes physisches Anlagegold besichert sind, für qualifizierte private und gewerbliche Kunden.",
+    "actions": {
+      "discuss": "Transaktion besprechen",
+      "explore": "Struktur ansehen"
+    },
+    "assurances": {
+      "confidential": "Vertrauliche Prüfung",
+      "term": "Laufzeiten bis zu 12 Monaten",
+      "collateral": "Physisches Gold als Sicherheit"
+    },
+    "transaction": {
+      "ariaLabel": "Beispielhafte Finanzierungsstruktur",
+      "overline": "Beispielhafte Struktur",
+      "title": "Private Transaktion",
+      "confidential": "Vertraulich",
+      "goldValueLabel": "Indikativer Goldwert",
+      "goldValue": "€3.000.000",
+      "financingLabel": "Beispielhafte Finanzierung",
+      "financingValue": "€2.000.000",
+      "maximumTermLabel": "Maximale Laufzeit",
+      "maximumTermValue": "Bis zu 12 Monate",
+      "steps": {
+        "verification": {
+          "number": "01",
+          "title": "Goldprüfung",
+          "description": "Eigentum, Form, Reinheit, Herkunft und Dokumentation."
+        },
+        "structuring": {
+          "number": "02",
+          "title": "Transaktionsstrukturierung",
+          "description": "Indikative Konditionen, Due Diligence und vertraglicher Rahmen."
+        },
+        "funding": {
+          "number": "03",
+          "title": "Verwahrung & Finanzierung",
+          "description": "Vereinbarte Verwahrungsregelung mit anschließender Kapitalauszahlung."
+        }
+      },
+      "disclaimer": "Nur zu Illustrationszwecken. Die endgültige Verfügbarkeit und die Konditionen unterliegen der Due Diligence, Dokumentation und Genehmigung."
+    },
+    "discover": "Unseren Ansatz entdecken"
+  },
+  "InstitutionalStrip": {
+    "ariaLabel": "Grundprinzipien",
+    "items": {
+      "collateral": {
+        "title": "Physische Besicherung",
+        "description": "Geeignetes Anlagegold"
+      },
+      "structuring": {
+        "title": "Individuelle Strukturierung",
+        "description": "Kein standardisiertes Retail-Produkt"
+      },
+      "term": {
+        "title": "Definierte Laufzeit",
+        "description": "Kurzfristige Finanzierung bis zu 12 Monaten"
+      },
+      "approval": {
+        "title": "Vorbehaltlich Genehmigung",
+        "description": "Umfassende Due Diligence und Dokumentation"
+      }
+    }
+  },
+  "Approach": {
+    "kicker": "Warum Gold Bridge Capital",
+    "title": {
+      "main": "Ein sorgfältiger Ansatz für",
+      "highlight": " goldbesicherte Liquidität."
+    },
+    "introduction": {
+      "first": "Bedeutende private Transaktionen erfordern mehr als nur Zugang zu Kapital. Sie erfordern Diskretion, belastbare Dokumentation, geeignete Gegenparteien und eine Struktur, die auf die Sicherheit und das wirtschaftliche Ziel abgestimmt ist.",
+      "second": "Gold Bridge Capital agiert als Transaktionsvermittler. Wir unterstützen die Vorbereitung, Prüfung und Koordination potenzieller Finanzierungsmöglichkeiten mit relevanten unabhängigen Parteien."
+    },
+    "advantages": {
+      "confidential": {
+        "number": "01",
+        "title": "Vertraulichkeit von Anfang an",
+        "text": "Jede Anfrage wird diskret behandelt und nur mit den Fachleuten geteilt, die für die Prüfung und Strukturierung der vorgeschlagenen Transaktion erforderlich sind."
+      },
+      "international": {
+        "number": "02",
+        "title": "Internationaler Zugang",
+        "text": "Wir koordinieren Möglichkeiten mit geeigneten Finanzierungs-, Verwahrungs-, Rechts- und Transaktionspartnern entsprechend den Anforderungen des jeweiligen Falls."
+      },
+      "tailored": {
+        "number": "03",
+        "title": "Maßgeschneiderte Strukturen",
+        "text": "Die Finanzierungskonditionen werden individuell auf die Sicherheit, den gewünschten Kapitalbetrag, den Verwendungszweck und das vereinbarte Rückzahlungsprofil abgestimmt."
+      },
+      "review": {
+        "number": "04",
+        "title": "Disziplinierte Prüfung",
+        "text": "Jede Möglichkeit unterliegt der Prüfung von Eigentum, Herkunft, Reinheit, Dokumentation, Gegenparteien und regulatorischer Zulässigkeit."
+      }
+    },
+    "statement": "Unsere Aufgabe ist es, Klarheit, Struktur und disziplinierte Koordination in komplexe Transaktionen zu bringen, die durch physisches Gold besichert sind.",
+    "signature": "Gold Bridge Capital"
+  },
+  "Clients": {
+    "kicker": "Für wen wir tätig sind",
+    "title": {
+      "main": "Konzipiert für qualifizierte private",
+      "highlight": " und gewerbliche Kunden."
+    },
+    "introduction": "Wir prüfen Transaktionen mit legitimem Finanzierungszweck, geeigneter physischer Goldsicherheit und vollständiger, überprüfbarer Dokumentation.",
+    "profiles": {
+      "familyOffices": {
+        "title": "Family Offices",
+        "text": "Private Kapitalstrukturen für Familien, die Liquidität benötigen und gleichzeitig das Eigentum an geeignetem physischem Gold bewahren möchten."
+      },
+      "entrepreneurs": {
+        "title": "Unternehmer",
+        "text": "Kurzfristiges Kapital für qualifizierte Geschäfts-, Akquisitions-, Expansions- oder Brückenfinanzierungsbedürfnisse."
+      },
+      "privateInvestors": {
+        "title": "Private Investoren",
+        "text": "Individuell geprüfte Finanzierungsmöglichkeiten, besichert durch dokumentiertes Anlagegold."
+      },
+      "corporations": {
+        "title": "Unternehmen",
+        "text": "Strukturierte Liquiditätslösungen für Unternehmen mit klar definiertem wirtschaftlichem Zweck und akzeptabler Sicherheit."
+      }
+    },
+    "qualification": {
+      "title": "Qualifikation und Compliance",
+      "text": "Alle potenziellen Kunden, wirtschaftlich Berechtigten, Sicherheiten und Verwendungszwecke unterliegen den jeweils anwendbaren Anforderungen zur Identifizierung, Eigentumsprüfung, Herkunftsprüfung, Sanktionskontrolle, Geldwäscheprävention und Gegenparteiprüfung."
+    }
+  },
+  "Structure": {
+    "kicker": "So funktioniert strukturierte Finanzierung",
+    "title": {
+      "main": "Ein klarer Weg von physischem Gold",
+      "highlight": " zu verfügbarer Liquidität."
+    },
+    "introduction": {
+      "first": "Jede vorgeschlagene Transaktion wird individuell geprüft. Die Struktur hängt von Art und Standort des Goldes, dem gewünschten Finanzierungsbetrag, dem Verwendungszweck und den Anforderungen der jeweiligen Finanzierungs- und Verwahrungspartner ab.",
+      "second": "Die folgende Übersicht zeigt einen typischen Transaktionsablauf. Sie stellt weder ein garantiertes Angebot noch ein standardisiertes Kreditprodukt dar."
+    },
+    "steps": {
+      "collateral": {
+        "number": "01",
+        "label": "Geeignete Sicherheit",
+        "title": "Physisches Anlagegold",
+        "text": "Der Kunde legt geeignetes physisches Gold zusammen mit unterstützenden Eigentums-, Produkt-, Verwahrungs- und Herkunftsnachweisen vor."
+      },
+      "review": {
+        "number": "02",
+        "label": "Vorläufige Prüfung",
+        "title": "Verifizierung & Prüfung",
+        "text": "Dokumentation, Eigentum, Reinheit, Form, Lagerort, wirtschaftlich Berechtigte und Verwendungszweck werden geprüft."
+      },
+      "financing": {
+        "number": "03",
+        "label": "Individuelle Konditionen",
+        "title": "Finanzierungsstruktur",
+        "text": "Auf Grundlage des verifizierten Sicherheitenwerts, des gewünschten Kapitals, der Laufzeit und der Anforderungen der Gegenparteien können indikative Konditionen erstellt werden."
+      },
+      "custody": {
+        "number": "04",
+        "label": "Vereinbarte Regelungen",
+        "title": "Sichere Verwahrung",
+        "text": "Das Gold wird im Rahmen vereinbarter Verwahrungs- und Sicherheitenregelungen bei geeigneten unabhängigen Dienstleistern gehalten."
+      },
+      "release": {
+        "number": "05",
+        "label": "Abschluss",
+        "title": "Kapitalauszahlung",
+        "text": "Nach Unterzeichnung der erforderlichen Vereinbarungen und Erfüllung der Bedingungen kann die genehmigte Finanzierung ausgezahlt werden."
+      }
+    },
+    "principles": {
+      "ownership": {
+        "title": "Eigentum des Kunden",
+        "text": "Das wirtschaftliche Ziel besteht darin, Liquidität freizusetzen, ohne das Gold endgültig zu verkaufen."
+      },
+      "counterparties": {
+        "title": "Unabhängige Gegenparteien",
+        "text": "Verwahrung, Bewertung, Recht, Compliance und Finanzierung können von getrennten professionellen Parteien übernommen werden."
+      },
+      "assessment": {
+        "title": "Einzelfallprüfung",
+        "text": "Keine Transaktion wird ohne zufriedenstellende Dokumentation, Due Diligence und endgültige Genehmigung durchgeführt."
+      }
+    }
+  },
+  "Example": {
+    "kicker": "Beispielhafte Transaktion",
+    "title": {
+      "main": "Ein Beispiel für eine mögliche",
+      "highlight": " goldbesicherte Finanzierungsstruktur."
+    },
+    "introduction": "Das folgende Beispiel dient ausschließlich dazu, die Mechanik einer möglichen Transaktion zu erläutern. Es ist weder ein Angebot noch eine Zusage, ein Kostenvoranschlag oder eine Finanzierungsgarantie.",
+    "case": {
+      "overline": "Beispielhafter Kundenfall",
+      "title": "Kurzfristige private Finanzierung",
+      "status": "Nur Beispiel"
+    },
+    "values": {
+      "collateral": {
+        "label": "Indikativer Sicherheitenwert",
+        "value": "€3.000.000",
+        "note": "Physisches Anlagegold"
+      },
+      "financing": {
+        "label": "Beispielhafte Finanzierung",
+        "value": "€2.000.000",
+        "note": "Vorbehaltlich Genehmigung"
+      }
+    },
+    "details": {
+      "term": {
+        "label": "Beispielhafte Laufzeit",
+        "value": "Bis zu 12 Monate"
+      },
+      "repayment": {
+        "label": "Indikative Rückzahlung",
+        "value": "€2,2 Mio.–€2,3 Mio."
+      },
+      "ownership": {
+        "label": "Eigentum an der Sicherheit",
+        "value": "Verbleibt beim Kunden"
+      },
+      "custody": {
+        "label": "Verwahrung",
+        "value": "Wie vertraglich vereinbart"
+      }
+    },
+    "footer": "Während des vereinbarten Finanzierungszeitraums dient das Gold gemäß den unterzeichneten Transaktionsdokumenten als Sicherheit. Die genaue rechtliche und verwahrungsbezogene Struktur hängt von den genehmigten Gegenparteien und der jeweiligen Rechtsordnung ab.",
+    "summary": {
+      "overline": "Indikative Übersicht",
+      "title": "Transaktionsübersicht",
+      "rows": {
+        "goldValue": {
+          "label": "Goldwert",
+          "value": "€3.000.000"
+        },
+        "financingAmount": {
+          "label": "Finanzierungsbetrag",
+          "value": "€2.000.000"
+        },
+        "advanceRatio": {
+          "label": "Beispielhafte Beleihungsquote",
+          "value": "Ca. 67 %"
+        },
+        "maximumPeriod": {
+          "label": "Maximale Laufzeit",
+          "value": "12 Monate"
+        },
+        "totalRepayment": {
+          "label": "Beispielhafte Gesamtrückzahlung",
+          "value": "€2,2 Mio.–€2,3 Mio."
+        }
+      },
+      "note": "Die endgültige Preisgestaltung kann Finanzierungskosten, professionelle Gebühren, Verwahrungskosten, Bewertungskosten und weitere Transaktionskosten umfassen."
+    },
+    "caveat": {
+      "label": "Wichtig",
+      "text": "Die oben genannten Werte sind hypothetisch. Die tatsächliche Eignung der Sicherheit, Bewertung, Beleihungsquote, Laufzeit, Preisgestaltung, Verwahrungsregelungen und Rückzahlungsverpflichtungen werden erst nach vollständiger Prüfung und schriftlicher Genehmigung durch die relevanten Parteien festgelegt."
+    }
+  },
+  "Process": {
+    "kicker": "Transaktionsprozess",
+    "title": {
+      "main": "Ein disziplinierter Prozess von der",
+      "highlight": " Anfrage bis zum Abschluss."
+    },
+    "introduction": {
+      "first": "Goldbesicherte Finanzierungstransaktionen erfordern einen strukturierten und transparenten Prüfungsprozess. Jede Phase dient dazu festzustellen, ob die vorgeschlagene Sicherheit, das Kundenprofil und der Finanzierungszweck den Anforderungen der relevanten Gegenparteien entsprechen.",
+      "second": "Die Zeitabläufe hängen von der Qualität der Dokumentation, dem Standort der Sicherheit, der rechtlichen Struktur, der Rechtsordnung und der Reaktionsgeschwindigkeit aller beteiligten Parteien ab."
+    },
+    "steps": {
+      "inquiry": {
+        "number": "01",
+        "stage": "Erste Einreichung",
+        "title": "Vertrauliche Anfrage",
+        "text": "Der Kunde reicht eine erste Übersicht der Transaktion ein, einschließlich des gewünschten Finanzierungsbetrags, des Verwendungszwecks und wesentlicher Angaben zur vorgeschlagenen Goldsicherheit.",
+        "items": {
+          "first": "Gewünschter Finanzierungsbetrag",
+          "second": "Zweck und bevorzugte Laufzeit",
+          "third": "Erste Beschreibung der Sicherheit"
+        }
+      },
+      "assessment": {
+        "number": "02",
+        "stage": "Vorläufige Prüfung",
+        "title": "Eignungsprüfung",
+        "text": "Die Möglichkeit wird auf grundlegende Eignung geprüft. Dazu gehören Kundenprofil, wirtschaftlich Berechtigte, Form und Standort der Sicherheit, Dokumentation und wirtschaftliche Begründung.",
+        "items": {
+          "first": "Profil des Kunden und der wirtschaftlich Berechtigten",
+          "second": "Form, Reinheit und Standort der Sicherheit",
+          "third": "Erste Compliance-Eignung"
+        }
+      },
+      "diligence": {
+        "number": "03",
+        "stage": "Detaillierte Verifizierung",
+        "title": "Due Diligence",
+        "text": "Geeignete Möglichkeiten werden einer detaillierteren Prüfung von Dokumenten, Eigentum, Herkunft, Sanktionen, Geldwäscheprävention und Gegenparteien unterzogen.",
+        "items": {
+          "first": "Identitäts- und Unternehmensdokumentation",
+          "second": "Nachweis von Eigentum und Herkunft",
+          "third": "Unabhängige Verifizierung, falls erforderlich"
+        }
+      },
+      "structuring": {
+        "number": "04",
+        "stage": "Kommerzielle Vorbereitung",
+        "title": "Indikative Strukturierung",
+        "text": "Auf Grundlage der verifizierten Informationen können geeignete Parteien eine indikative Transaktionsstruktur für Finanzierungsbetrag, Laufzeit, Preisgestaltung, Sicherheit und Bedingungen ausarbeiten.",
+        "items": {
+          "first": "Indikative Beleihungsquote",
+          "second": "Vorgeschlagene Laufzeit und Rückzahlungsprofil",
+          "third": "Mechanik von Verwahrung und Besicherung"
+        }
+      },
+      "documentation": {
+        "number": "05",
+        "stage": "Rechtlicher Abschluss",
+        "title": "Dokumentation & Verwahrung",
+        "text": "Wird die indikative Struktur akzeptiert, erstellen die relevanten Parteien die endgültigen Vereinbarungen und richten die vereinbarten Verwahrungs- und Sicherheitenregelungen ein.",
+        "items": {
+          "first": "Endgültige Transaktionsvereinbarungen",
+          "second": "Verwahrungs- und Sicherheitenunterlagen",
+          "third": "Bestätigung der Abschlussbedingungen"
+        }
+      },
+      "funding": {
+        "number": "06",
+        "stage": "Transaktionsabschluss",
+        "title": "Auszahlung & Rückzahlung",
+        "text": "Sobald alle Bedingungen erfüllt sind, kann die genehmigte Finanzierung ausgezahlt werden. Anschließend erfüllt der Kunde die vereinbarten Rückzahlungsverpflichtungen gemäß den unterzeichneten Dokumenten.",
+        "items": {
+          "first": "Kapitalauszahlung nach Abschluss",
+          "second": "Vertragliche Überwachung während der Laufzeit",
+          "third": "Freigabe der Sicherheit nach vollständiger Rückzahlung"
+        }
+      }
+    },
+    "timing": {
+      "label": "Indikativer Transaktionszeitrahmen",
+      "title": "Die Qualität der Vorbereitung beeinflusst die Umsetzungsgeschwindigkeit unmittelbar.",
+      "text": "Eine gut dokumentierte Transaktion kann deutlich schneller vorankommen als ein Fall mit unvollständigen Angaben zu Eigentum, Herkunft, Bewertung oder Verwahrung. Eine standardisierte Abschlussfrist kann nicht garantiert werden.",
+      "statLabel": "Wichtigster Faktor",
+      "statValue": "Vollständige Dokumentation"
+    }
+  },
+  "Requirements": {
+    "kicker": "Transaktionsanforderungen",
+    "title": {
+      "main": "Was für eine",
+      "highlight": " erste Prüfung erforderlich ist."
+    },
+    "introduction": "Vollständige Dokumentation hilft festzustellen, ob eine vorgeschlagene Transaktion für eine weitere Prüfung geeignet ist. Je nach Parteien, Rechtsordnung und Sicherheitenstruktur können zusätzliche Informationen angefordert werden.",
+    "cards": {
+      "collateral": {
+        "number": "01",
+        "title": "Informationen zur Goldsicherheit",
+        "text": "Klare und überprüfbare Informationen zum vorgeschlagenen physischen Anlagegold.",
+        "items": {
+          "form": {
+            "title": "Form und Menge",
+            "text": "Barren, Gussbarren oder andere akzeptierte Formen von Anlagegold."
+          },
+          "purity": {
+            "title": "Reinheit und Identifikation",
+            "text": "Raffinerie, Seriennummern, Prüfdetails und verfügbare Zertifikate."
+          },
+          "location": {
+            "title": "Aktueller Standort",
+            "text": "Tresor, Verwahrer, Bank, Logistikdienstleister oder andere bestehende Lagerungsregelung."
+          },
+          "value": {
+            "title": "Indikativer Marktwert",
+            "text": "Aktuelle Bewertung, Bestandsaufstellung oder gleichwertige unterstützende Informationen."
+          }
+        }
+      },
+      "ownership": {
+        "number": "02",
+        "title": "Eigentum & Herkunft",
+        "text": "Nachweise darüber, wem das Gold rechtlich gehört und wie es erworben wurde.",
+        "items": {
+          "proof": {
+            "title": "Nachweis des rechtlichen Eigentums",
+            "text": "Kaufrechnungen, Verwahrungsunterlagen, Eigentumsdokumente oder gleichwertige Nachweise."
+          },
+          "provenance": {
+            "title": "Quelle und Herkunft",
+            "text": "Dokumentation zur Erwerbshistorie und rechtmäßigen Herkunft."
+          },
+          "encumbrances": {
+            "title": "Bestehende Belastungen",
+            "text": "Offenlegung bestehender Verpfändungen, Pfandrechte, Finanzierungsvereinbarungen oder Ansprüche Dritter."
+          },
+          "authority": {
+            "title": "Befugnis zur Transaktion",
+            "text": "Nachweis, dass der Antragsteller berechtigt ist, das Gold als Sicherheit anzubieten."
+          }
+        }
+      },
+      "compliance": {
+        "number": "03",
+        "title": "Kunden- & Compliance-Dokumente",
+        "text": "Identitäts- und Unternehmensinformationen, die für die anwendbare Compliance-Prüfung erforderlich sind.",
+        "items": {
+          "identification": {
+            "title": "Persönliche Identifikation",
+            "text": "Gültige Identitäts- und Adressnachweise für die relevanten Personen."
+          },
+          "corporate": {
+            "title": "Unternehmensdokumente",
+            "text": "Registerauszug, Gründungsdokumente und Zeichnungsberechtigung, soweit anwendbar."
+          },
+          "beneficialOwnership": {
+            "title": "Wirtschaftlich Berechtigte",
+            "text": "Vollständige Offenlegung der letztlich wirtschaftlich Berechtigten und kontrollierenden Personen."
+          },
+          "wealth": {
+            "title": "Herkunft von Vermögen und Mitteln",
+            "text": "Unterstützende Informationen in einem Umfang, der zur Transaktion und den anwendbaren Anforderungen passt."
+          }
+        }
+      },
+      "financing": {
+        "number": "04",
+        "title": "Finanzierungsanfrage",
+        "text": "Eine klare Erläuterung des gewünschten Kapitals und des geplanten Rückzahlungsplans.",
+        "items": {
+          "amount": {
+            "title": "Gewünschter Betrag",
+            "text": "Exakter oder indikativer Finanzierungsbetrag, den der Kunde benötigt."
+          },
+          "purpose": {
+            "title": "Beabsichtigte Mittelverwendung",
+            "text": "Legitimer und ausreichend detaillierter geschäftlicher oder privater Finanzierungszweck."
+          },
+          "term": {
+            "title": "Bevorzugte Laufzeit",
+            "text": "Benötigte Dauer, üblicherweise innerhalb einer maximalen Laufzeit von 12 Monaten."
+          },
+          "repayment": {
+            "title": "Rückzahlungsstrategie",
+            "text": "Plausible Erläuterung, wie sämtliche Verpflichtungen voraussichtlich zurückgezahlt werden."
+          }
+        }
+      }
+    },
+    "sidebar": {
+      "overline": "Erste Prüfung",
+      "title": "Bereiten Sie die wesentlichen Dokumente vor der Einreichung vor.",
+      "text": "Für eine erste Anfrage sind noch nicht alle endgültigen Dokumente erforderlich. Sie sollte jedoch genügend Informationen enthalten, um festzustellen, ob eine weitergehende Prüfung wirtschaftlich und rechtlich sinnvoll ist.",
+      "items": {
+        "ownership": "Klarer Eigentumsnachweis",
+        "gold": "Überprüfbare Golddokumentation",
+        "purpose": "Definierter Finanzierungszweck",
+        "repayment": "Plausible Rückzahlungsstrategie"
+      },
+      "button": "Anfrage einreichen"
+    },
+    "warning": {
+      "title": "Dokumente unterliegen der Verifizierung",
+      "text": "Die Einreichung von Informationen begründet keine Verpflichtung, eine Finanzierung zu arrangieren, bereitzustellen oder zu genehmigen."
+    },
+    "note": {
+      "label": "Bitte beachten",
+      "text": "Je nach Transaktion können zusätzliche Rechtsgutachten, Prüfberichte, unabhängige Bewertungen, Steuerinformationen, Jahresabschlüsse, Verwahrungsbestätigungen oder andere spezialisierte Dokumente erforderlich sein."
+    }
+  },
+  "FAQ": {
+    "kicker": "Häufig gestellte Fragen",
+    "title": {
+      "main": "Wichtige Informationen vor",
+      "highlight": " dem Einreichen einer Anfrage."
+    },
+    "introduction": {
+      "first": "Die folgenden Antworten geben einen allgemeinen Überblick über den möglichen Transaktionsprozess. Jeder Fall bleibt einer individuellen Prüfung, Dokumentation, rechtlichen Strukturierung und Genehmigung vorbehalten.",
+      "second": "Keine Information auf dieser Website ist als verbindliches Angebot, Anlageempfehlung oder Verpflichtung zur Bereitstellung einer Finanzierung zu verstehen."
+    },
+    "items": {
+      "collateral": {
+        "number": "01",
+        "question": "Welche Art von Gold kann als Sicherheit berücksichtigt werden?",
+        "answer": "Transaktionen sollen grundsätzlich klar identifizierbares physisches Anlagegold mit überprüfbarer Reinheit, Eigentum, Herkunft und unterstützender Dokumentation betreffen. Akzeptierte Form, Raffinerie, Barrengröße, Standort und Verwahrungsbedingungen hängen von den Anforderungen der relevanten Transaktionsparteien ab."
+      },
+      "sale": {
+        "number": "02",
+        "question": "Verkauft der Kunde das Gold?",
+        "answer": "Die beabsichtigte Struktur ist eine durch physisches Gold besicherte Finanzierung und kein endgültiger Verkauf. Der Kunde soll rechtlicher Eigentümer bleiben, vorbehaltlich der vertraglichen Sicherungs-, Verwahrungs- und Verwertungsrechte in den endgültigen Transaktionsdokumenten."
+      },
+      "custody": {
+        "number": "03",
+        "question": "Wo wird das Gold während der Finanzierungsdauer verwahrt?",
+        "answer": "Das Gold wird im Rahmen von Verwahrungsregelungen gehalten, die von den relevanten Parteien akzeptiert werden. Je nach Transaktion kann dies eine zugelassene Bank, einen Tresorbetreiber, einen Verwahrer oder einen anderen professionellen Lagerdienstleister in einer vereinbarten Rechtsordnung umfassen."
+      },
+      "amount": {
+        "number": "04",
+        "question": "Wie viel Finanzierung kann verfügbar sein?",
+        "answer": "Der mögliche Finanzierungsbetrag hängt vom unabhängig ermittelten Sicherheitenwert, von Form und Standort des Goldes, den Marktbedingungen, der gewünschten Laufzeit, dem Kundenprofil und den Risikoanforderungen des Finanzierungspartners ab. Eine feste Beleihungsquote kann vor vollständiger Prüfung nicht garantiert werden."
+      },
+      "term": {
+        "number": "05",
+        "question": "Wie lang ist die maximale Finanzierungslaufzeit?",
+        "answer": "Der Schwerpunkt liegt auf kurzfristigen Finanzierungen mit einer Laufzeit von bis zu 12 Monaten. Die genaue Laufzeit wird individuell festgelegt und hängt vom Verwendungszweck, der Rückzahlungsstrategie und der Genehmigung der relevanten Parteien ab."
+      },
+      "pricing": {
+        "number": "06",
+        "question": "Wie werden Preisgestaltung und Transaktionskosten bestimmt?",
+        "answer": "Die Preisgestaltung wird nach Prüfung der Sicherheit und der Transaktion individuell festgelegt. Die Gesamtkosten können Finanzierungskosten, Vermittlungsgebühren, Rechtskosten, Verwahrung, Transport, Versicherung, Prüfung, Bewertung, Compliance und weitere professionelle Aufwendungen umfassen."
+      },
+      "timing": {
+        "number": "07",
+        "question": "Wie schnell kann eine Transaktion abgeschlossen werden?",
+        "answer": "Die Abschlussdauer hängt stark von der Qualität der Dokumentation, dem Standort der Sicherheit, der Eigentumsprüfung, der Compliance-Prüfung, der Bewertung, der rechtlichen Vorbereitung und den Verwahrungsregelungen ab. Ein konkretes Abschlussdatum kann nicht zugesagt werden, bevor alle erforderlichen Informationen geprüft wurden."
+      },
+      "acceptance": {
+        "number": "08",
+        "question": "Wird jede eingereichte Transaktion angenommen?",
+        "answer": "Nein. Jede Anfrage wird individuell geprüft. Gold Bridge Capital und die relevanten unabhängigen Parteien können eine Transaktion in jeder Phase ablehnen, wenn Dokumentation, Compliance, Eignung der Sicherheit, wirtschaftliche Konditionen oder Risikoanforderungen nicht zufriedenstellend sind."
+      },
+      "repayment": {
+        "number": "09",
+        "question": "Was geschieht nach vollständiger Rückzahlung der Finanzierung?",
+        "answer": "Sobald alle Rückzahlungsverpflichtungen, Gebühren und sonstigen vertraglichen Bedingungen vollständig erfüllt sind, wird die Sicherheit gemäß den endgültigen Transaktions- und Verwahrungsdokumenten freigegeben."
+      }
+    },
+    "sidebar": {
+      "overline": "Vertrauliches Gespräch",
+      "title": "Ihre Transaktion kann eine spezifischere Prüfung erfordern.",
+      "text": "Übermitteln Sie eine kurze Übersicht über Ihre Goldsicherheit, Ihren Finanzierungsbedarf und den Verwendungszweck. Die erste Einreichung wird vertraulich geprüft.",
+      "button": "Vertrauliche Anfrage starten"
+    },
+    "disclaimer": {
+      "label": "Wichtige Information",
+      "text": "Gold Bridge Capital übernimmt keine Gewähr dafür, dass für jeden Antragsteller oder jede Transaktion eine Finanzierung verfügbar ist. Jede potenzielle Transaktion bleibt einer zufriedenstellenden Due Diligence, endgültigen Dokumentation und Genehmigung vorbehalten."
+    }
+  },
+  "Inquiry": {
+    "kicker": "Vertrauliche Anfrage",
+    "title": {
+      "main": "Besprechen Sie Ihre geplante",
+      "highlight": " goldbesicherte Transaktion."
+    },
+    "lead": "Übermitteln Sie eine kurze Übersicht über Ihren Finanzierungsbedarf und die vorgeschlagene Goldsicherheit. Die Informationen werden ausschließlich für eine erste Prüfung verwendet, ob die Möglichkeit für eine weitergehende Bewertung geeignet sein könnte.",
+    "principles": {
+      "confidential": {
+        "title": "Vertrauliche Behandlung",
+        "text": "Informationen werden diskret geprüft und nur weitergegeben, soweit dies für die Bewertung erforderlich ist."
+      },
+      "assessment": {
+        "title": "Vorläufige Prüfung",
+        "text": "Die Einreichung hilft festzustellen, ob eine detaillierte Prüfung angemessen ist."
+      },
+      "structuring": {
+        "title": "Individuelle Strukturierung",
+        "text": "Mögliche Konditionen werden entsprechend der konkreten Sicherheit und Transaktion entwickelt."
+      }
+    },
+    "contact": {
+      "label": "Direkte Korrespondenz",
+      "email": "inquiries@goldbridge-capital.com",
+      "notice": "Bitte senden Sie keine Originaldokumente oder hochsensiblen personenbezogenen Informationen per unverschlüsselter E-Mail."
+    },
+    "form": {
+      "overline": "Erste Transaktionsübersicht",
+      "title": "Anfrage einreichen",
+      "security": "Vertraulich",
+      "notice": "Mit dem Absenden dieses Formulars bestätigen Sie, dass die bereitgestellten Informationen nach bestem Wissen richtig sind. Die Einreichung begründet weder eine Kundenbeziehung noch eine Finanzierungszusage oder Verpflichtung einer Partei."
+    }
+  },
+  "Closing": {
+    "overline": "Gold Bridge Capital",
+    "title": {
+      "main": "Strukturierte Liquidität.",
+      "highlight": " Eigentum bewahren."
+    },
+    "text": "Ein diskreter und disziplinierter Ansatz für Finanzierungen, die durch geeignetes physisches Anlagegold besichert sind.",
+    "button": "Transaktion besprechen"
+  },
+  "Header": {
+    "homeAriaLabel": "Gold Bridge Capital Startseite",
+    "brand": {
+      "main": "Gold Bridge",
+      "sub": "Capital"
+    },
+    "navigationAriaLabel": "Hauptnavigation",
+    "navigation": {
+      "approach": "Unser Ansatz",
+      "structure": "So funktioniert es",
+      "example": "Beispiel",
+      "process": "Prozess"
+    },
+    "cta": "Vertrauliche Anfrage"
+  },
+  "Footer": {
+    "homeAriaLabel": "Gold Bridge Capital Startseite",
+    "brand": {
+      "main": "Gold Bridge",
+      "sub": "Capital"
+    },
+    "description": "Gold Bridge Capital unterstützt die Prüfung und Koordination potenzieller kurzfristiger Finanzierungstransaktionen, die durch geeignetes physisches Anlagegold besichert sind.",
+    "email": "inquiries@goldbridge-capital.com",
+    "navigation": {
+      "title": "Navigation",
+      "approach": "Unser Ansatz",
+      "structure": "So funktioniert es",
+      "transaction": "Beispielhafte Transaktion",
+      "process": "Transaktionsprozess",
+      "requirements": "Anforderungen"
+    },
+    "information": {
+      "title": "Informationen",
+      "faq": "Häufig gestellte Fragen",
+      "inquiry": "Vertrauliche Anfrage",
+      "privacyPolicy": "Datenschutzerklärung",
+      "termsOfUse": "Nutzungsbedingungen",
+      "legalNotice": "Impressum"
+    },
+    "disclaimer": {
+      "label": "Wichtige rechtliche Hinweise",
+      "text": "Die Inhalte dieser Website dienen ausschließlich allgemeinen Informationszwecken. Sie stellen weder Finanz-, Rechts-, Steuer- oder Anlageberatung noch ein Kreditangebot, ein Wertpapierangebot oder eine Verpflichtung dar, eine Finanzierung zu arrangieren oder bereitzustellen. Jede potenzielle Transaktion unterliegt einer Due Diligence des Kunden und der Sicherheit, einer Compliance-Prüfung, unabhängigen Verifizierung, endgültiger rechtlicher Dokumentation und Genehmigung durch die relevanten Parteien. Gold Bridge Capital garantiert weder die Verfügbarkeit einer Finanzierung noch den Abschluss einer Transaktion."
+    },
+    "copyright": "© {year} Gold Bridge Capital. Alle Rechte vorbehalten.",
+    "bottomLinks": {
+      "privacy": "Datenschutz",
+      "terms": "Bedingungen",
+      "legal": "Rechtliches"
+    }
+  },
+  "ContactForm": {
+    "fields": {
+      "name": {
+        "label": "Vollständiger Name",
+        "placeholder": "Ihr vollständiger Name"
+      },
+      "company": {
+        "label": "Unternehmen, Family Office oder Organisation",
+        "placeholder": "Name der Organisation"
+      },
+      "email": {
+        "label": "Geschäftliche E-Mail-Adresse",
+        "placeholder": "name@unternehmen.com"
+      },
+      "phone": {
+        "label": "Telefonnummer",
+        "placeholder": "+41 ..."
+      },
+      "financingAmount": {
+        "label": "Gewünschter Finanzierungsbetrag",
+        "placeholder": "z. B. EUR 2.000.000"
+      },
+      "goldValue": {
+        "label": "Geschätzter Marktwert des Goldes",
+        "placeholder": "z. B. EUR 3.000.000"
+      },
+      "goldAmount": {
+        "label": "Goldmenge und Spezifikation",
+        "placeholder": "z. B. 50 kg Anlagegoldbarren"
+      },
+      "goldLocation": {
+        "label": "Aktueller Standort oder Verwahrer des Goldes",
+        "placeholder": "Land, Stadt, Bank oder Tresor"
+      },
+      "purpose": {
+        "label": "Transaktionsübersicht und Finanzierungszweck",
+        "placeholder": "Bitte beschreiben Sie kurz den Zweck der Finanzierung, den bevorzugten Transaktionszeitraum, die Eigentumsstruktur des Goldes und alle relevanten Informationen, die unsere erste Prüfung unterstützen können."
+      }
+    },
+    "confirmations": {
+      "ownership": "Ich bestätige, dass ich rechtmäßiger Eigentümer des Goldes bin oder ordnungsgemäß bevollmächtigt bin, im Namen des rechtmäßigen Eigentümers zu handeln.",
+      "privacy": "Ich stimme der Verarbeitung der bereitgestellten Informationen zum Zweck der Prüfung und Beantwortung dieser vertraulichen Finanzierungsanfrage zu."
+    },
+    "button": {
+      "idle": "Vertrauliche Anfrage absenden",
+      "sending": "Vertrauliche Anfrage wird gesendet..."
+    },
+    "messages": {
+      "success": "Vielen Dank. Ihre vertrauliche Anfrage wurde erfolgreich übermittelt. Unser Team wird die bereitgestellten Informationen prüfen und Sie kontaktieren, sofern die Transaktion die Kriterien der ersten Prüfung erfüllt.",
+      "submissionError": "Ihre Anfrage konnte nicht übermittelt werden. Bitte versuchen Sie es erneut.",
+      "unexpectedError": "Ein unerwarteter Fehler ist aufgetreten. Bitte versuchen Sie es erneut."
+    }
+  }
 }

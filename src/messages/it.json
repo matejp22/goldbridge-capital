@@ -1,3 +1,689 @@
 {
-  "test": "Ciao"
+  "Hero": {
+    "kicker": "Finanza Strutturata Privata",
+    "title": {
+      "main": "Sblocca liquidità",
+      "highlight": " senza vendere il tuo oro."
+    },
+    "lead": "Gold Bridge Capital facilita soluzioni di finanziamento a breve termine su misura, garantite da oro fisico da investimento idoneo, per clienti privati e aziendali qualificati.",
+    "actions": {
+      "discuss": "Discuti la tua operazione",
+      "explore": "Scopri la struttura"
+    },
+    "assurances": {
+      "confidential": "Valutazione riservata",
+      "term": "Durata fino a 12 mesi",
+      "collateral": "Garanzia in oro fisico"
+    },
+    "transaction": {
+      "ariaLabel": "Struttura di finanziamento illustrativa",
+      "overline": "Struttura illustrativa",
+      "title": "Operazione privata",
+      "confidential": "Riservato",
+      "goldValueLabel": "Valore indicativo dell'oro",
+      "goldValue": "€3,000,000",
+      "financingLabel": "Finanziamento illustrativo",
+      "financingValue": "€2,000,000",
+      "maximumTermLabel": "Durata massima",
+      "maximumTermValue": "Fino a 12 mesi",
+      "steps": {
+        "verification": {
+          "number": "01",
+          "title": "Verifica dell'oro",
+          "description": "Proprietà, forma, purezza, provenienza e documentazione."
+        },
+        "structuring": {
+          "number": "02",
+          "title": "Strutturazione dell'operazione",
+          "description": "Termini indicativi, due diligence e quadro contrattuale."
+        },
+        "funding": {
+          "number": "03",
+          "title": "Custodia e finanziamento",
+          "description": "Accordi di custodia concordati seguiti dall'erogazione del capitale."
+        }
+      },
+      "disclaimer": "Informazioni esclusivamente illustrative. Disponibilità e condizioni finali sono soggette a due diligence, documentazione e approvazione."
+    },
+    "discover": "Scopri il nostro approccio"
+  },
+  "InstitutionalStrip": {
+    "ariaLabel": "Principi chiave",
+    "items": {
+      "collateral": {
+        "title": "Garanzia fisica",
+        "description": "Oro da investimento idoneo"
+      },
+      "structuring": {
+        "title": "Strutturazione individuale",
+        "description": "Nessun prodotto retail standardizzato"
+      },
+      "term": {
+        "title": "Durata definita",
+        "description": "Finanziamento a breve termine fino a 12 mesi"
+      },
+      "approval": {
+        "title": "Soggetto ad approvazione",
+        "description": "Due diligence e documentazione complete"
+      }
+    }
+  },
+  "Approach": {
+    "kicker": "Perché Gold Bridge Capital",
+    "title": {
+      "main": "Un approccio ponderato alla",
+      "highlight": " liquidità garantita da oro."
+    },
+    "introduction": {
+      "first": "Le operazioni private di valore significativo richiedono più del semplice accesso al capitale. Richiedono discrezione, documentazione credibile, controparti adeguate e una struttura coerente con la garanzia e l'obiettivo commerciale.",
+      "second": "Gold Bridge Capital agisce come facilitatore dell'operazione. Supportiamo la preparazione, la valutazione e il coordinamento di potenziali opportunità di finanziamento con le parti indipendenti pertinenti."
+    },
+    "advantages": {
+      "confidential": {
+        "number": "01",
+        "title": "Riservatezza per principio",
+        "text": "Ogni richiesta viene gestita con discrezione e condivisa solo con i professionisti necessari per valutare e strutturare l'operazione proposta."
+      },
+      "international": {
+        "number": "02",
+        "title": "Accesso internazionale",
+        "text": "Coordiniamo le opportunità con partner adeguati nei settori del finanziamento, della custodia, legale e delle operazioni, in base ai requisiti di ciascun caso."
+      },
+      "tailored": {
+        "number": "03",
+        "title": "Strutture su misura",
+        "text": "I termini di finanziamento vengono sviluppati individualmente in funzione della garanzia, del capitale richiesto, dell'uso previsto dei fondi e del profilo di rimborso concordato."
+      },
+      "review": {
+        "number": "04",
+        "title": "Valutazione rigorosa",
+        "text": "Ogni opportunità è soggetta alla verifica della proprietà, provenienza, purezza, documentazione, controparti e accettabilità normativa."
+      }
+    },
+    "statement": "Il nostro ruolo è portare chiarezza, struttura e coordinamento rigoroso in operazioni complesse garantite da oro fisico.",
+    "signature": "Gold Bridge Capital"
+  },
+  "Clients": {
+    "kicker": "Con chi lavoriamo",
+    "title": {
+      "main": "Pensato per clienti privati",
+      "highlight": " e aziendali qualificati."
+    },
+    "introduction": "Valutiamo operazioni con una finalità di finanziamento legittima, garanzie in oro fisico idonee e documentazione completa e verificabile.",
+    "profiles": {
+      "familyOffices": {
+        "title": "Family Office",
+        "text": "Strutture di capitale privato per famiglie che cercano liquidità mantenendo la proprietà di oro fisico idoneo."
+      },
+      "entrepreneurs": {
+        "title": "Imprenditori",
+        "text": "Capitale a breve termine per esigenze aziendali, acquisizioni, espansioni o finanziamenti ponte qualificati."
+      },
+      "privateInvestors": {
+        "title": "Investitori privati",
+        "text": "Opportunità di finanziamento valutate individualmente e garantite da oro da investimento documentato."
+      },
+      "corporations": {
+        "title": "Società",
+        "text": "Soluzioni di liquidità strutturate per aziende con una finalità commerciale chiaramente definita e garanzie accettabili."
+      }
+    },
+    "qualification": {
+      "title": "Qualificazione e conformità",
+      "text": "Tutti i potenziali clienti, titolari effettivi, garanzie e utilizzi dei fondi sono soggetti ai requisiti applicabili in materia di identificazione, proprietà, provenienza, sanzioni, antiriciclaggio e verifica delle controparti."
+    }
+  },
+  "Structure": {
+    "kicker": "Come funziona il finanziamento strutturato",
+    "title": {
+      "main": "Un percorso chiaro dall'oro fisico",
+      "highlight": " alla liquidità disponibile."
+    },
+    "introduction": {
+      "first": "Ogni operazione proposta viene valutata individualmente. La struttura dipende dalla natura e dall'ubicazione dell'oro, dall'importo di finanziamento richiesto, dall'uso previsto dei fondi e dai requisiti dei partner finanziari e di custodia pertinenti.",
+      "second": "Lo schema seguente presenta un tipico percorso operativo. Non rappresenta un'offerta garantita né un prodotto di finanziamento standardizzato."
+    },
+    "steps": {
+      "collateral": {
+        "number": "01",
+        "label": "Garanzia idonea",
+        "title": "Oro fisico da investimento",
+        "text": "Il cliente presenta oro fisico idoneo insieme alla documentazione di supporto relativa a proprietà, prodotto, custodia e provenienza."
+      },
+      "review": {
+        "number": "02",
+        "label": "Valutazione preliminare",
+        "title": "Verifica e valutazione",
+        "text": "Vengono esaminati documentazione, proprietà, purezza, forma, luogo di custodia, titolarità effettiva e uso previsto dei fondi."
+      },
+      "financing": {
+        "number": "03",
+        "label": "Termini individuali",
+        "title": "Struttura di finanziamento",
+        "text": "Possono essere predisposti termini indicativi sulla base del valore verificato della garanzia, del capitale richiesto, della durata e dei requisiti delle controparti."
+      },
+      "custody": {
+        "number": "04",
+        "label": "Accordi concordati",
+        "title": "Custodia sicura",
+        "text": "L'oro viene detenuto secondo accordi di custodia e garanzia concordati con fornitori di servizi indipendenti idonei."
+      },
+      "release": {
+        "number": "05",
+        "label": "Completamento",
+        "title": "Erogazione del capitale",
+        "text": "Dopo la firma degli accordi richiesti e il soddisfacimento delle condizioni, il finanziamento approvato può essere erogato."
+      }
+    },
+    "principles": {
+      "ownership": {
+        "title": "Proprietà del cliente",
+        "text": "L'obiettivo commerciale è sbloccare liquidità senza una vendita definitiva dell'oro."
+      },
+      "counterparties": {
+        "title": "Controparti indipendenti",
+        "text": "Le funzioni di custodia, valutazione, assistenza legale, conformità e finanziamento possono essere svolte da parti professionali separate."
+      },
+      "assessment": {
+        "title": "Valutazione caso per caso",
+        "text": "Nessuna operazione procede senza documentazione soddisfacente, due diligence e approvazione finale."
+      }
+    }
+  },
+  "Example": {
+    "kicker": "Operazione illustrativa",
+    "title": {
+      "main": "Un esempio di possibile",
+      "highlight": " struttura di finanziamento garantita da oro."
+    },
+    "introduction": "L'esempio seguente è fornito esclusivamente per spiegare il funzionamento di una possibile operazione. Non costituisce un'offerta, un impegno, un preventivo o una garanzia di finanziamento.",
+    "case": {
+      "overline": "Caso cliente illustrativo",
+      "title": "Finanziamento privato a breve termine",
+      "status": "Solo esempio"
+    },
+    "values": {
+      "collateral": {
+        "label": "Valore indicativo della garanzia",
+        "value": "€3,000,000",
+        "note": "Oro fisico da investimento"
+      },
+      "financing": {
+        "label": "Finanziamento illustrativo",
+        "value": "€2,000,000",
+        "note": "Soggetto ad approvazione"
+      }
+    },
+    "details": {
+      "term": {
+        "label": "Durata illustrativa",
+        "value": "Fino a 12 mesi"
+      },
+      "repayment": {
+        "label": "Rimborso indicativo",
+        "value": "€2.2M–€2.3M"
+      },
+      "ownership": {
+        "label": "Proprietà della garanzia",
+        "value": "Mantenuta dal cliente"
+      },
+      "custody": {
+        "label": "Custodia",
+        "value": "Come concordato contrattualmente"
+      }
+    },
+    "footer": "Durante il periodo di finanziamento concordato, l'oro funge da garanzia ai sensi dei documenti definitivi dell'operazione. La precisa struttura legale e di custodia dipende dalle controparti approvate e dalla giurisdizione.",
+    "summary": {
+      "overline": "Panoramica indicativa",
+      "title": "Riepilogo dell'operazione",
+      "rows": {
+        "goldValue": {
+          "label": "Valore dell'oro",
+          "value": "€3,000,000"
+        },
+        "financingAmount": {
+          "label": "Importo del finanziamento",
+          "value": "€2,000,000"
+        },
+        "advanceRatio": {
+          "label": "Rapporto di anticipo illustrativo",
+          "value": "Circa 67%"
+        },
+        "maximumPeriod": {
+          "label": "Periodo massimo",
+          "value": "12 mesi"
+        },
+        "totalRepayment": {
+          "label": "Rimborso totale illustrativo",
+          "value": "€2.2M–€2.3M"
+        }
+      },
+      "note": "Il prezzo finale può includere costi di finanziamento, compensi professionali, costi di custodia, valutazione e altre spese dell'operazione."
+    },
+    "caveat": {
+      "label": "Importante",
+      "text": "I valori sopra indicati sono ipotetici. L'idoneità effettiva della garanzia, la valutazione, il rapporto di anticipo, la durata, i prezzi, gli accordi di custodia e gli obblighi di rimborso vengono determinati solo dopo una revisione completa e l'approvazione scritta delle parti pertinenti."
+    }
+  },
+  "Process": {
+    "kicker": "Processo dell'operazione",
+    "title": {
+      "main": "Un processo rigoroso dalla",
+      "highlight": " richiesta al completamento."
+    },
+    "introduction": {
+      "first": "Le operazioni di finanziamento garantite da oro richiedono un processo di valutazione strutturato e trasparente. Ogni fase è progettata per stabilire se la garanzia proposta, il profilo del cliente e la finalità del finanziamento soddisfano i requisiti delle controparti pertinenti.",
+      "second": "Le tempistiche dipendono dalla qualità della documentazione, dall'ubicazione della garanzia, dalla struttura legale, dalla giurisdizione e dalla reattività di tutte le parti coinvolte."
+    },
+    "steps": {
+      "inquiry": {
+        "number": "01",
+        "stage": "Presentazione iniziale",
+        "title": "Richiesta riservata",
+        "text": "Il cliente presenta una panoramica iniziale dell'operazione, inclusi l'importo di finanziamento richiesto, l'uso previsto dei fondi e le informazioni essenziali sulla garanzia in oro proposta.",
+        "items": {
+          "first": "Importo di finanziamento richiesto",
+          "second": "Finalità e durata preferita",
+          "third": "Descrizione iniziale della garanzia"
+        }
+      },
+      "assessment": {
+        "number": "02",
+        "stage": "Valutazione preliminare",
+        "title": "Valutazione di idoneità",
+        "text": "L'opportunità viene esaminata per verificarne l'idoneità di base. Ciò include il profilo del cliente, la titolarità effettiva, la forma e l'ubicazione della garanzia, la documentazione e la logica commerciale.",
+        "items": {
+          "first": "Profilo del cliente e dei titolari effettivi",
+          "second": "Forma, purezza e ubicazione della garanzia",
+          "third": "Idoneità preliminare ai requisiti di conformità"
+        }
+      },
+      "diligence": {
+        "number": "03",
+        "stage": "Verifica dettagliata",
+        "title": "Due diligence",
+        "text": "Le opportunità idonee passano a una verifica più approfondita della documentazione, proprietà, provenienza, sanzioni, antiriciclaggio e controparti.",
+        "items": {
+          "first": "Documentazione di identità e societaria",
+          "second": "Prova di proprietà e provenienza",
+          "third": "Verifica indipendente ove richiesta"
+        }
+      },
+      "structuring": {
+        "number": "04",
+        "stage": "Preparazione commerciale",
+        "title": "Strutturazione indicativa",
+        "text": "Sulla base delle informazioni verificate, le parti idonee possono predisporre una struttura indicativa dell'operazione che copra importo del finanziamento, durata, prezzi, garanzia e condizioni.",
+        "items": {
+          "first": "Rapporto di anticipo indicativo",
+          "second": "Durata proposta e profilo di rimborso",
+          "third": "Meccanismi di custodia e garanzia"
+        }
+      },
+      "documentation": {
+        "number": "05",
+        "stage": "Completamento legale",
+        "title": "Documentazione e custodia",
+        "text": "Se la struttura indicativa viene accettata, le parti pertinenti preparano gli accordi definitivi e stabiliscono gli accordi di custodia e garanzia concordati.",
+        "items": {
+          "first": "Accordi definitivi dell'operazione",
+          "second": "Documentazione di custodia e garanzia",
+          "third": "Conferma delle condizioni di completamento"
+        }
+      },
+      "funding": {
+        "number": "06",
+        "stage": "Completamento dell'operazione",
+        "title": "Finanziamento e rimborso",
+        "text": "Una volta soddisfatte tutte le condizioni, il finanziamento approvato può essere erogato. Il cliente adempie quindi agli obblighi di rimborso concordati secondo i documenti definitivi.",
+        "items": {
+          "first": "Erogazione del capitale dopo il completamento",
+          "second": "Monitoraggio contrattuale durante la durata",
+          "third": "Rilascio della garanzia dopo il rimborso completo"
+        }
+      }
+    },
+    "timing": {
+      "label": "Tempistiche indicative dell'operazione",
+      "title": "La qualità della preparazione influenza direttamente la velocità di esecuzione.",
+      "text": "Un'operazione ben documentata può progredire molto più rapidamente di un caso con informazioni incomplete sulla proprietà, provenienza, valutazione o custodia. Non può essere garantita una tempistica standard di completamento.",
+      "statLabel": "Fattore principale",
+      "statValue": "Documentazione completa"
+    }
+  },
+  "Requirements": {
+    "kicker": "Requisiti dell'operazione",
+    "title": {
+      "main": "Cosa serve per una",
+      "highlight": " valutazione iniziale."
+    },
+    "introduction": "Una documentazione completa aiuta a stabilire se un'operazione proposta è idonea a un'ulteriore valutazione. Possono essere richieste informazioni aggiuntive a seconda delle parti, della giurisdizione e della struttura della garanzia.",
+    "cards": {
+      "collateral": {
+        "number": "01",
+        "title": "Informazioni sulla garanzia in oro",
+        "text": "Informazioni chiare e verificabili sull'oro fisico da investimento proposto.",
+        "items": {
+          "form": {
+            "title": "Forma e quantità",
+            "text": "Lingotti, barre o altro formato di oro da investimento accettato."
+          },
+          "purity": {
+            "title": "Purezza e identificazione",
+            "text": "Raffineria, numeri di serie, dati di saggio e certificati disponibili."
+          },
+          "location": {
+            "title": "Ubicazione attuale",
+            "text": "Caveau, custode, banca, operatore logistico o altra struttura di deposito esistente."
+          },
+          "value": {
+            "title": "Valore indicativo di mercato",
+            "text": "Valutazione recente, inventario o informazioni equivalenti di supporto."
+          }
+        }
+      },
+      "ownership": {
+        "number": "02",
+        "title": "Proprietà e provenienza",
+        "text": "Prove che dimostrino chi possiede legalmente l'oro e come è stato acquisito.",
+        "items": {
+          "proof": {
+            "title": "Prova della proprietà legale",
+            "text": "Fatture di acquisto, registri di custodia, titoli di proprietà o prove equivalenti."
+          },
+          "provenance": {
+            "title": "Origine e provenienza",
+            "text": "Documentazione che spieghi la storia dell'acquisizione e l'origine lecita."
+          },
+          "encumbrances": {
+            "title": "Gravami esistenti",
+            "text": "Divulgazione di eventuali pegni, vincoli, accordi di finanziamento o pretese di terzi."
+          },
+          "authority": {
+            "title": "Autorità a operare",
+            "text": "Prova che il richiedente è autorizzato a offrire l'oro come garanzia."
+          }
+        }
+      },
+      "compliance": {
+        "number": "03",
+        "title": "Documenti del cliente e di conformità",
+        "text": "Informazioni identificative e societarie richieste per la verifica di conformità applicabile.",
+        "items": {
+          "identification": {
+            "title": "Identificazione personale",
+            "text": "Documenti di identità validi e prova dell'indirizzo per le persone pertinenti."
+          },
+          "corporate": {
+            "title": "Documenti societari",
+            "text": "Visura, documenti costitutivi e poteri di firma, ove applicabile."
+          },
+          "beneficialOwnership": {
+            "title": "Titolarità effettiva",
+            "text": "Divulgazione completa dei titolari effettivi finali e delle parti controllanti."
+          },
+          "wealth": {
+            "title": "Origine del patrimonio e dei fondi",
+            "text": "Informazioni di supporto proporzionate all'operazione e ai requisiti applicabili."
+          }
+        }
+      },
+      "financing": {
+        "number": "04",
+        "title": "Richiesta di finanziamento",
+        "text": "Una spiegazione chiara del capitale richiesto e del piano di rimborso proposto.",
+        "items": {
+          "amount": {
+            "title": "Importo richiesto",
+            "text": "Importo di finanziamento esatto o indicativo richiesto dal cliente."
+          },
+          "purpose": {
+            "title": "Uso previsto dei fondi",
+            "text": "Finalità commerciale o privata legittima e sufficientemente dettagliata."
+          },
+          "term": {
+            "title": "Durata preferita",
+            "text": "Durata richiesta, normalmente entro un periodo massimo di 12 mesi."
+          },
+          "repayment": {
+            "title": "Strategia di rimborso",
+            "text": "Spiegazione credibile di come si prevede di rimborsare tutti gli obblighi."
+          }
+        }
+      }
+    },
+    "sidebar": {
+      "overline": "Valutazione iniziale",
+      "title": "Prepara i documenti essenziali prima dell'invio.",
+      "text": "Una richiesta iniziale non richiede ogni documento definitivo, ma dovrebbe includere informazioni sufficienti per determinare se un'ulteriore valutazione sia appropriata dal punto di vista commerciale e legale.",
+      "items": {
+        "ownership": "Prova chiara della proprietà",
+        "gold": "Documentazione verificabile dell'oro",
+        "purpose": "Finalità di finanziamento definita",
+        "repayment": "Strategia di rimborso credibile"
+      },
+      "button": "Invia una richiesta"
+    },
+    "warning": {
+      "title": "I documenti sono soggetti a verifica",
+      "text": "L'invio delle informazioni non crea alcun obbligo di organizzare, fornire o approvare un finanziamento."
+    },
+    "note": {
+      "label": "Nota bene",
+      "text": "A seconda dell'operazione, possono essere richiesti ulteriori pareri legali, rapporti di saggio, valutazioni indipendenti, informazioni fiscali, bilanci, conferme di custodia o altri documenti specialistici."
+    }
+  },
+  "FAQ": {
+    "kicker": "Domande frequenti",
+    "title": {
+      "main": "Informazioni essenziali prima",
+      "highlight": " di inviare una richiesta."
+    },
+    "introduction": {
+      "first": "Le risposte riportate di seguito forniscono una panoramica generale del potenziale processo operativo. Ogni caso resta soggetto a valutazione individuale, documentazione, strutturazione legale e approvazione.",
+      "second": "Nessuna informazione presente su questo sito deve essere interpretata come un'offerta vincolante, una raccomandazione di investimento o un impegno a fornire finanziamenti."
+    },
+    "items": {
+      "collateral": {
+        "number": "01",
+        "question": "Quale tipo di oro può essere considerato come garanzia?",
+        "answer": "In generale, le operazioni dovrebbero riguardare oro fisico da investimento chiaramente identificabile, con purezza, proprietà, provenienza e documentazione verificabili. La forma accettata, la raffineria, la dimensione dei lingotti, l'ubicazione e le condizioni di custodia dipendono dai requisiti delle parti coinvolte."
+      },
+      "sale": {
+        "number": "02",
+        "question": "Il cliente vende l'oro?",
+        "answer": "La struttura prevista è un finanziamento garantito da oro fisico, non una vendita definitiva. Il cliente dovrebbe mantenere la proprietà legale, fatte salve le garanzie contrattuali, i diritti di custodia e di escussione stabiliti nei documenti definitivi."
+      },
+      "custody": {
+        "number": "03",
+        "question": "Dove viene custodito l'oro durante il periodo di finanziamento?",
+        "answer": "L'oro viene detenuto secondo accordi di custodia accettati dalle parti pertinenti. A seconda dell'operazione, ciò può coinvolgere una banca approvata, un operatore di caveau, un custode o un altro fornitore professionale di deposito in una giurisdizione concordata."
+      },
+      "amount": {
+        "number": "04",
+        "question": "Quale importo di finanziamento può essere disponibile?",
+        "answer": "L'importo potenziale dipende dal valore della garanzia valutato in modo indipendente, dalla forma e ubicazione dell'oro, dalle condizioni di mercato, dalla durata richiesta, dal profilo del cliente e dai requisiti di rischio della parte finanziatrice. Nessun rapporto di anticipo fisso può essere garantito prima della valutazione completa."
+      },
+      "term": {
+        "number": "05",
+        "question": "Qual è la durata massima del finanziamento?",
+        "answer": "L'obiettivo è un finanziamento a breve termine con durata fino a 12 mesi. La durata precisa viene determinata individualmente e dipende dall'uso previsto dei fondi, dalla strategia di rimborso e dall'approvazione delle parti pertinenti."
+      },
+      "pricing": {
+        "number": "06",
+        "question": "Come vengono determinati i prezzi e i costi dell'operazione?",
+        "answer": "I prezzi vengono stabiliti individualmente dopo la valutazione della garanzia e dell'operazione. I costi totali possono includere oneri finanziari, commissioni di organizzazione, costi legali, custodia, trasporto, assicurazione, saggio, valutazione, conformità e altre spese professionali."
+      },
+      "timing": {
+        "number": "07",
+        "question": "Quanto rapidamente può essere completata un'operazione?",
+        "answer": "I tempi dipendono fortemente dalla qualità della documentazione, dall'ubicazione della garanzia, dalla verifica della proprietà, dalla conformità, dalla valutazione, dalla preparazione legale e dagli accordi di custodia. Non può essere promessa una data specifica prima della valutazione di tutte le informazioni richieste."
+      },
+      "acceptance": {
+        "number": "08",
+        "question": "Ogni operazione presentata viene accettata?",
+        "answer": "No. Ogni richiesta viene valutata individualmente. Gold Bridge Capital e le parti indipendenti pertinenti possono rifiutare un'operazione in qualsiasi fase se documentazione, conformità, idoneità della garanzia, termini commerciali o requisiti di rischio non sono soddisfacenti."
+      },
+      "repayment": {
+        "number": "09",
+        "question": "Cosa accade dopo il rimborso del finanziamento?",
+        "answer": "Una volta pienamente soddisfatti tutti gli obblighi di rimborso, le commissioni e le altre condizioni contrattuali, la garanzia viene rilasciata conformemente ai documenti definitivi dell'operazione e di custodia."
+      }
+    },
+    "sidebar": {
+      "overline": "Discussione riservata",
+      "title": "La tua operazione potrebbe richiedere una valutazione più specifica.",
+      "text": "Fornisci una breve panoramica della garanzia in oro, del fabbisogno finanziario e dell'uso previsto dei fondi. La presentazione iniziale sarà esaminata in modo riservato.",
+      "button": "Avvia una richiesta riservata"
+    },
+    "disclaimer": {
+      "label": "Informazioni importanti",
+      "text": "Gold Bridge Capital non garantisce che il finanziamento sarà disponibile per ogni richiedente o operazione. Ogni potenziale operazione resta soggetta a due diligence soddisfacente, documentazione definitiva e approvazione."
+    }
+  },
+  "Inquiry": {
+    "kicker": "Richiesta riservata",
+    "title": {
+      "main": "Discuti la tua proposta",
+      "highlight": " di operazione garantita da oro."
+    },
+    "lead": "Invia una breve panoramica del tuo fabbisogno finanziario e della garanzia in oro proposta. Le informazioni saranno utilizzate esclusivamente per una valutazione iniziale dell'idoneità dell'opportunità a un ulteriore esame.",
+    "principles": {
+      "confidential": {
+        "title": "Gestione riservata",
+        "text": "Le informazioni vengono esaminate con discrezione e condivise solo ove necessario per la valutazione."
+      },
+      "assessment": {
+        "title": "Valutazione preliminare",
+        "text": "La presentazione aiuta a determinare se sia appropriata una valutazione dettagliata."
+      },
+      "structuring": {
+        "title": "Strutturazione individuale",
+        "text": "I potenziali termini vengono sviluppati in funzione della specifica garanzia e dell'operazione."
+      }
+    },
+    "contact": {
+      "label": "Corrispondenza diretta",
+      "email": "inquiries@goldbridge-capital.com",
+      "notice": "Evita di inviare documenti originali o informazioni personali altamente sensibili tramite email non crittografata."
+    },
+    "form": {
+      "overline": "Panoramica iniziale dell'operazione",
+      "title": "Invia la tua richiesta",
+      "security": "Riservato",
+      "notice": "Inviando questo modulo, confermi che le informazioni fornite sono accurate per quanto di tua conoscenza. L'invio non crea un rapporto con il cliente, un impegno di finanziamento o un obbligo per alcuna parte."
+    }
+  },
+  "Closing": {
+    "overline": "Gold Bridge Capital",
+    "title": {
+      "main": "Liquidità strutturata.",
+      "highlight": " Proprietà preservata."
+    },
+    "text": "Un approccio discreto e rigoroso al finanziamento garantito da oro fisico da investimento idoneo.",
+    "button": "Discuti un'operazione"
+  },
+  "Header": {
+    "homeAriaLabel": "Home di Gold Bridge Capital",
+    "brand": {
+      "main": "Gold Bridge",
+      "sub": "Capital"
+    },
+    "navigationAriaLabel": "Navigazione principale",
+    "navigation": {
+      "approach": "Il nostro approccio",
+      "structure": "Come funziona",
+      "example": "Esempio",
+      "process": "Processo"
+    },
+    "cta": "Richiesta riservata"
+  },
+  "Footer": {
+    "homeAriaLabel": "Home di Gold Bridge Capital",
+    "brand": {
+      "main": "Gold Bridge",
+      "sub": "Capital"
+    },
+    "description": "Gold Bridge Capital facilita la valutazione e il coordinamento di potenziali operazioni di finanziamento a breve termine garantite da oro fisico da investimento idoneo.",
+    "email": "inquiries@goldbridge-capital.com",
+    "navigation": {
+      "title": "Navigazione",
+      "approach": "Il nostro approccio",
+      "structure": "Come funziona",
+      "transaction": "Operazione illustrativa",
+      "process": "Processo dell'operazione",
+      "requirements": "Requisiti"
+    },
+    "information": {
+      "title": "Informazioni",
+      "faq": "Domande frequenti",
+      "inquiry": "Richiesta riservata",
+      "privacyPolicy": "Informativa sulla privacy",
+      "termsOfUse": "Termini di utilizzo",
+      "legalNotice": "Note legali"
+    },
+    "disclaimer": {
+      "label": "Informazioni legali importanti",
+      "text": "Il contenuto di questo sito è fornito esclusivamente a scopo informativo generale. Non costituisce consulenza finanziaria, legale, fiscale o d'investimento, un'offerta di credito, un'offerta di strumenti finanziari o un impegno a organizzare o fornire finanziamenti. Ogni potenziale operazione è soggetta a due diligence sul cliente e sulla garanzia, verifica di conformità, verifica indipendente, documentazione legale definitiva e approvazione delle parti pertinenti. Gold Bridge Capital non garantisce la disponibilità di finanziamento né il completamento di alcuna operazione."
+    },
+    "copyright": "© {year} Gold Bridge Capital. Tutti i diritti riservati.",
+    "bottomLinks": {
+      "privacy": "Privacy",
+      "terms": "Termini",
+      "legal": "Note legali"
+    }
+  },
+  "ContactForm": {
+    "fields": {
+      "name": {
+        "label": "Nome completo",
+        "placeholder": "Il tuo nome completo"
+      },
+      "company": {
+        "label": "Società, Family Office o organizzazione",
+        "placeholder": "Nome dell'organizzazione"
+      },
+      "email": {
+        "label": "Indirizzo email aziendale",
+        "placeholder": "nome@azienda.com"
+      },
+      "phone": {
+        "label": "Numero di telefono",
+        "placeholder": "+39 ..."
+      },
+      "financingAmount": {
+        "label": "Importo di finanziamento richiesto",
+        "placeholder": "es. EUR 2,000,000"
+      },
+      "goldValue": {
+        "label": "Valore di mercato stimato dell'oro",
+        "placeholder": "es. EUR 3,000,000"
+      },
+      "goldAmount": {
+        "label": "Quantità e specifiche dell'oro",
+        "placeholder": "es. 50 kg, lingotti da investimento"
+      },
+      "goldLocation": {
+        "label": "Ubicazione attuale o custode dell'oro",
+        "placeholder": "Paese, città, banca o caveau"
+      },
+      "purpose": {
+        "label": "Panoramica dell'operazione e finalità del finanziamento",
+        "placeholder": "Descrivi brevemente la finalità del finanziamento, la tempistica preferita, la struttura di proprietà dell'oro e qualsiasi informazione utile alla nostra valutazione iniziale."
+      }
+    },
+    "confirmations": {
+      "ownership": "Confermo di essere il proprietario legale dell'oro o di essere debitamente autorizzato ad agire per conto del suo proprietario legale.",
+      "privacy": "Acconsento al trattamento delle informazioni fornite ai fini della valutazione e della risposta a questa richiesta di finanziamento riservata."
+    },
+    "button": {
+      "idle": "Invia richiesta riservata",
+      "sending": "Invio della richiesta riservata..."
+    },
+    "messages": {
+      "success": "Grazie. La tua richiesta riservata è stata inviata con successo. Il nostro team esaminerà le informazioni fornite e ti contatterà qualora l'operazione soddisfi i criteri di valutazione iniziale.",
+      "submissionError": "Non è stato possibile inviare la richiesta. Riprova.",
+      "unexpectedError": "Si è verificato un errore imprevisto. Riprova."
+    }
+  }
 }

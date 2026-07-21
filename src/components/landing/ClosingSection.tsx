@@ -1,3 +1,5 @@
+import Icon from "@/components/shared/Icon";
+
 export default function ClosingSection() {
   return (
 <section className="closing-section">

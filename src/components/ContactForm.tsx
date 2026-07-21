@@ -1,6 +1,7 @@
 "use client";
 
 import { FormEvent, useState } from "react";
+import { useTranslations } from "next-intl";
 
 type FormStatus = "idle" | "sending" | "success" | "error";
 
@@ -19,6 +20,8 @@ type ContactPayload = {
 };
 
 export default function ContactForm() {
+  const t = useTranslations("ContactForm");
+
   const [status, setStatus] = useState<FormStatus>("idle");
   const [errorMessage, setErrorMessage] = useState("");
 
@@ -62,8 +65,7 @@ export default function ContactForm() {
 
       if (!response.ok) {
         throw new Error(
-          result.error ||
-            "We were unable to submit your inquiry. Please try again."
+          result.error || t("messages.submissionError")
         );
       }
 
@@ -75,7 +77,7 @@ export default function ContactForm() {
       setErrorMessage(
         error instanceof Error
           ? error.message
-          : "An unexpected error occurred. Please try again."
+          : t("messages.unexpectedError")
       );
 
       setStatus("error");
@@ -88,24 +90,25 @@ export default function ContactForm() {
       onSubmit={handleSubmit}
       noValidate={false}
     >
-      {/* Client information */}
       <div className="form-row">
         <div className="form-field">
-          <label htmlFor="name">Full Name</label>
+          <label htmlFor="name">
+            {t("fields.name.label")}
+          </label>
 
           <input
             id="name"
             name="name"
             type="text"
             autoComplete="name"
-            placeholder="Your full name"
+            placeholder={t("fields.name.placeholder")}
             required
           />
         </div>
 
         <div className="form-field">
           <label htmlFor="company">
-            Company, Family Office or Organisation
+            {t("fields.company.label")}
           </label>
 
           <input
@@ -113,14 +116,16 @@ export default function ContactForm() {
             name="company"
             type="text"
             autoComplete="organization"
-            placeholder="Organisation name"
+            placeholder={t("fields.company.placeholder")}
           />
         </div>
       </div>
 
       <div className="form-row">
         <div className="form-field">
-          <label htmlFor="email">Business Email Address</label>
+          <label htmlFor="email">
+            {t("fields.email.label")}
+          </label>
 
           <input
             id="email"
@@ -128,13 +133,15 @@ export default function ContactForm() {
             type="email"
             autoComplete="email"
             inputMode="email"
-            placeholder="name@company.com"
+            placeholder={t("fields.email.placeholder")}
             required
           />
         </div>
 
         <div className="form-field">
-          <label htmlFor="phone">Telephone Number</label>
+          <label htmlFor="phone">
+            {t("fields.phone.label")}
+          </label>
 
           <input
             id="phone"
@@ -142,16 +149,15 @@ export default function ContactForm() {
             type="tel"
             autoComplete="tel"
             inputMode="tel"
-            placeholder="+41 ..."
+            placeholder={t("fields.phone.placeholder")}
           />
         </div>
       </div>
 
-      {/* Financing profile */}
       <div className="form-row">
         <div className="form-field">
           <label htmlFor="financingAmount">
-            Requested Financing Amount
+            {t("fields.financingAmount.label")}
           </label>
 
           <input
@@ -159,14 +165,14 @@ export default function ContactForm() {
             name="financingAmount"
             type="text"
             inputMode="decimal"
-            placeholder="e.g. EUR 2,000,000"
+            placeholder={t("fields.financingAmount.placeholder")}
             required
           />
         </div>
 
         <div className="form-field">
           <label htmlFor="goldValue">
-            Estimated Market Value of Gold
+            {t("fields.goldValue.label")}
           </label>
 
           <input
@@ -174,58 +180,55 @@ export default function ContactForm() {
             name="goldValue"
             type="text"
             inputMode="decimal"
-            placeholder="e.g. EUR 3,000,000"
+            placeholder={t("fields.goldValue.placeholder")}
             required
           />
         </div>
       </div>
 
-      {/* Gold profile */}
       <div className="form-row">
         <div className="form-field">
           <label htmlFor="goldAmount">
-            Gold Quantity and Specification
+            {t("fields.goldAmount.label")}
           </label>
 
           <input
             id="goldAmount"
             name="goldAmount"
             type="text"
-            placeholder="e.g. 50 kg, investment-grade bars"
+            placeholder={t("fields.goldAmount.placeholder")}
           />
         </div>
 
         <div className="form-field">
           <label htmlFor="goldLocation">
-            Current Gold Location or Custodian
+            {t("fields.goldLocation.label")}
           </label>
 
           <input
             id="goldLocation"
             name="goldLocation"
             type="text"
-            placeholder="Country, city, bank or vault"
+            placeholder={t("fields.goldLocation.placeholder")}
             required
           />
         </div>
       </div>
 
-      {/* Transaction overview */}
       <div className="form-field form-field-full">
         <label htmlFor="purpose">
-          Transaction Overview and Financing Purpose
+          {t("fields.purpose.label")}
         </label>
 
         <textarea
           id="purpose"
           name="purpose"
           rows={7}
-          placeholder="Please briefly describe the purpose of the financing, the preferred transaction timeframe, the ownership structure of the gold and any relevant information that may assist our initial assessment."
+          placeholder={t("fields.purpose.placeholder")}
           required
         />
       </div>
 
-      {/* Declarations */}
       <label className="checkbox-field">
         <input
           name="ownershipConfirmed"
@@ -233,10 +236,7 @@ export default function ContactForm() {
           required
         />
 
-        <span>
-          I confirm that I am the legal owner of the gold or that I am
-          duly authorised to act on behalf of its legal owner.
-        </span>
+        <span>{t("confirmations.ownership")}</span>
       </label>
 
       <label className="checkbox-field">
@@ -246,11 +246,7 @@ export default function ContactForm() {
           required
         />
 
-        <span>
-          I consent to the processing of the information provided for
-          the purpose of reviewing and responding to this confidential
-          financing inquiry.
-        </span>
+        <span>{t("confirmations.privacy")}</span>
       </label>
 
       <button
@@ -260,8 +256,8 @@ export default function ContactForm() {
         aria-busy={status === "sending"}
       >
         {status === "sending"
-          ? "Submitting Confidential Inquiry..."
-          : "Submit Confidential Inquiry"}
+          ? t("button.sending")
+          : t("button.idle")}
       </button>
 
       {status === "success" && (
@@ -270,10 +266,7 @@ export default function ContactForm() {
           role="status"
           aria-live="polite"
         >
-          Thank you. Your confidential inquiry has been submitted
-          successfully. Our team will review the information provided
-          and contact you should the transaction meet the initial
-          assessment criteria.
+          {t("messages.success")}
         </div>
       )}
 

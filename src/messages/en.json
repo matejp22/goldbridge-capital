@@ -644,4 +644,58 @@
     "terms": "Terms",
     "legal": "Legal"
   }
+},
+
+"ContactForm": {
+  "fields": {
+    "name": {
+      "label": "Full Name",
+      "placeholder": "Your full name"
+    },
+    "company": {
+      "label": "Company, Family Office or Organisation",
+      "placeholder": "Organisation name"
+    },
+    "email": {
+      "label": "Business Email Address",
+      "placeholder": "name@company.com"
+    },
+    "phone": {
+      "label": "Telephone Number",
+      "placeholder": "+41 ..."
+    },
+    "financingAmount": {
+      "label": "Requested Financing Amount",
+      "placeholder": "e.g. EUR 2,000,000"
+    },
+    "goldValue": {
+      "label": "Estimated Market Value of Gold",
+      "placeholder": "e.g. EUR 3,000,000"
+    },
+    "goldAmount": {
+      "label": "Gold Quantity and Specification",
+      "placeholder": "e.g. 50 kg, investment-grade bars"
+    },
+    "goldLocation": {
+      "label": "Current Gold Location or Custodian",
+      "placeholder": "Country, city, bank or vault"
+    },
+    "purpose": {
+      "label": "Transaction Overview and Financing Purpose",
+      "placeholder": "Please briefly describe the purpose of the financing, the preferred transaction timeframe, the ownership structure of the gold and any relevant information that may assist our initial assessment."
+    }
+  },
+  "confirmations": {
+    "ownership": "I confirm that I am the legal owner of the gold or that I am duly authorised to act on behalf of its legal owner.",
+    "privacy": "I consent to the processing of the information provided for the purpose of reviewing and responding to this confidential financing inquiry."
+  },
+  "button": {
+    "idle": "Submit Confidential Inquiry",
+    "sending": "Submitting Confidential Inquiry..."
+  },
+  "messages": {
+    "success": "Thank you. Your confidential inquiry has been submitted successfully. Our team will review the information provided and contact you should the transaction meet the initial assessment criteria.",
+    "submissionError": "We were unable to submit your inquiry. Please try again.",
+    "unexpectedError": "An unexpected error occurred. Please try again."
+  }
 }

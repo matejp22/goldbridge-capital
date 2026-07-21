@@ -1,4 +1,3 @@
-import CookieConsent from "@/components/privacy/CookieConsent";
 import { Inter, Cormorant_Garamond } from "next/font/google";
 import type { Metadata } from "next";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
@@ -8,7 +7,10 @@ import {
 } from "next-intl/server";
 import { notFound } from "next/navigation";
 
+import GoogleAnalytics from "@/components/analytics/GoogleAnalytics";
+import CookieConsent from "@/components/privacy/CookieConsent";
 import { routing } from "@/i18n/routing";
+
 import "../globals.css";
 
 const inter = Inter({
@@ -122,6 +124,7 @@ export default async function LocaleLayout({
         <NextIntlClientProvider>
           {children}
           <CookieConsent />
+          <GoogleAnalytics />
         </NextIntlClientProvider>
       </body>
     </html>

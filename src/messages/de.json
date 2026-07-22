@@ -1,52 +1,52 @@
 {
   "Hero": {
-    "kicker": "Private strukturierte Finanzierung",
-    "title": {
-      "main": "Liquidität erschließen",
-      "highlight": " ohne Ihr Gold zu verkaufen."
-    },
-    "lead": "Gold Bridge Capital vermittelt maßgeschneiderte kurzfristige Finanzierungslösungen, die durch geeignetes physisches Anlagegold besichert sind, für qualifizierte private und gewerbliche Kunden.",
-    "actions": {
-      "discuss": "Transaktion besprechen",
-      "explore": "Struktur ansehen"
-    },
-    "assurances": {
-      "confidential": "Vertrauliche Prüfung",
-      "term": "Laufzeiten bis zu 12 Monaten",
-      "collateral": "Physisches Gold als Sicherheit"
-    },
-    "transaction": {
-      "ariaLabel": "Beispielhafte Finanzierungsstruktur",
-      "overline": "Beispielhafte Struktur",
-      "title": "Private Transaktion",
-      "confidential": "Vertraulich",
-      "goldValueLabel": "Indikativer Goldwert",
-      "goldValue": "€3.000.000",
-      "financingLabel": "Beispielhafte Finanzierung",
-      "financingValue": "€2.000.000",
-      "maximumTermLabel": "Maximale Laufzeit",
-      "maximumTermValue": "Bis zu 12 Monate",
-      "steps": {
-        "verification": {
-          "number": "01",
-          "title": "Goldprüfung",
-          "description": "Eigentum, Form, Reinheit, Herkunft und Dokumentation."
-        },
-        "structuring": {
-          "number": "02",
-          "title": "Transaktionsstrukturierung",
-          "description": "Indikative Konditionen, Due Diligence und vertraglicher Rahmen."
-        },
-        "funding": {
-          "number": "03",
-          "title": "Verwahrung & Finanzierung",
-          "description": "Vereinbarte Verwahrungsregelung mit anschließender Kapitalauszahlung."
-        }
-      },
-      "disclaimer": "Nur zu Illustrationszwecken. Die endgültige Verfügbarkeit und die Konditionen unterliegen der Due Diligence, Dokumentation und Genehmigung."
-    },
-    "discover": "Unseren Ansatz entdecken"
+  "kicker": "Institutionelle Transaktionsbegleitung",
+  "title": {
+    "main": "Liquidität erschließen",
+    "highlight": " ohne Ihr Gold zu verkaufen."
   },
+  "lead": "Gold Bridge Capital unterstützt die vorläufige Vorbereitung und vertrauliche Vorstellung dokumentierter Finanzierungsmöglichkeiten mit Edelmetallbezug zur Prüfung durch geeignete unabhängige Institute.",
+  "actions": {
+    "discuss": "Transaktion besprechen",
+    "explore": "Struktur ansehen"
+  },
+  "assurances": {
+    "confidential": "Vertrauliche Vorprüfung",
+    "term": "Vom Institut festgelegte Konditionen",
+    "collateral": "Verifizierte Edelmetallwerte"
+  },
+  "transaction": {
+    "ariaLabel": "Beispielhafter institutioneller Prüfungsweg",
+    "overline": "Indikativer Prüfungsweg",
+    "title": "Institutionelle Prüfung",
+    "confidential": "Vertraulich",
+    "goldValueLabel": "Vorgeschlagenes Vermögensprofil",
+    "goldValue": "Dokumentierte Edelmetalle",
+    "financingLabel": "Mögliche Finanzierung",
+    "financingValue": "Vorbehaltlich institutioneller Prüfung",
+    "maximumTermLabel": "Wirtschaftliche Konditionen",
+    "maximumTermValue": "Individuell festgelegt",
+    "steps": {
+      "verification": {
+        "number": "01",
+        "title": "Vorläufige Eignung",
+        "description": "Erste Prüfung von Eigentum, Vermögensart, Dokumentation, Rechtsordnung und Verwendungszweck."
+      },
+      "structuring": {
+        "number": "02",
+        "title": "Unabhängige Verifizierung",
+        "description": "Qualifizierte Parteien prüfen Echtheit, Herkunft, Bewertung, Compliance und Verwahrungsanforderungen."
+      },
+      "funding": {
+        "number": "03",
+        "title": "Institutionelle Entscheidung",
+        "description": "Verfügbarkeit, Betrag, Preisgestaltung, Laufzeit und Vertragsstruktur werden ausschließlich vom ausgewählten Institut festgelegt."
+      }
+    },
+    "disclaimer": "Über diese Website wird keine Finanzierung angeboten oder garantiert. Gold Bridge Capital vertritt keine Bank, keinen Kreditgeber und kein Finanzinstitut, sofern dies nicht ausdrücklich schriftlich bestätigt wurde."
+  },
+  "discover": "Unseren Ansatz entdecken"
+},
   "InstitutionalStrip": {
     "ariaLabel": "Grundprinzipien",
     "items": {

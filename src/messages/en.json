@@ -1,52 +1,52 @@
 {
   "Hero": {
-    "kicker": "Private Structured Finance",
-    "title": {
-      "main": "Unlock liquidity",
-      "highlight": " without selling your gold."
-    },
-    "lead": "Gold Bridge Capital facilitates tailored short-term financing solutions secured by eligible physical investment gold for qualified private and corporate clients.",
-    "actions": {
-      "discuss": "Discuss Your Transaction",
-      "explore": "Explore the Structure"
-    },
-    "assurances": {
-      "confidential": "Confidential assessment",
-      "term": "Terms up to 12 months",
-      "collateral": "Physical gold collateral"
-    },
-    "transaction": {
-      "ariaLabel": "Illustrative financing structure",
-      "overline": "Illustrative Structure",
-      "title": "Private Transaction",
-      "confidential": "Confidential",
-      "goldValueLabel": "Indicative gold value",
-      "goldValue": "€3,000,000",
-      "financingLabel": "Illustrative financing",
-      "financingValue": "€2,000,000",
-      "maximumTermLabel": "Maximum term",
-      "maximumTermValue": "Up to 12 months",
-      "steps": {
-        "verification": {
-          "number": "01",
-          "title": "Gold Verification",
-          "description": "Ownership, form, purity, provenance and documentation."
-        },
-        "structuring": {
-          "number": "02",
-          "title": "Transaction Structuring",
-          "description": "Indicative terms, due diligence and contractual framework."
-        },
-        "funding": {
-          "number": "03",
-          "title": "Custody & Funding",
-          "description": "Agreed custody arrangements followed by capital release."
-        }
-      },
-      "disclaimer": "Illustrative information only. Final availability and terms are subject to due diligence, documentation and approval."
-    },
-    "discover": "Discover our approach"
+  "kicker": "Institutional Transaction Facilitation",
+  "title": {
+    "main": "Unlock liquidity",
+    "highlight": " without selling your gold."
   },
+  "lead": "Gold Bridge Capital supports the preliminary preparation and confidential presentation of documented precious-metals financing opportunities for assessment by suitable independent institutions.",
+  "actions": {
+    "discuss": "Discuss Your Transaction",
+    "explore": "Explore the Structure"
+  },
+  "assurances": {
+    "confidential": "Confidential preliminary review",
+    "term": "Institution-defined terms",
+    "collateral": "Verified precious-metals assets"
+  },
+  "transaction": {
+    "ariaLabel": "Illustrative institutional assessment pathway",
+    "overline": "Indicative Assessment Pathway",
+    "title": "Institutional Review",
+    "confidential": "Confidential",
+    "goldValueLabel": "Proposed asset profile",
+    "goldValue": "Documented precious metals",
+    "financingLabel": "Potential financing",
+    "financingValue": "Subject to institutional assessment",
+    "maximumTermLabel": "Commercial terms",
+    "maximumTermValue": "Determined individually",
+    "steps": {
+      "verification": {
+        "number": "01",
+        "title": "Preliminary Eligibility",
+        "description": "Initial review of ownership, asset type, documentation, jurisdiction and proposed purpose."
+      },
+      "structuring": {
+        "number": "02",
+        "title": "Independent Verification",
+        "description": "Qualified parties assess authenticity, provenance, valuation, compliance and custody requirements."
+      },
+      "funding": {
+        "number": "03",
+        "title": "Institutional Decision",
+        "description": "Any availability, amount, pricing, term and contractual structure are determined solely by the selected institution."
+      }
+    },
+    "disclaimer": "No financing is offered or guaranteed through this website. Gold Bridge Capital does not represent any bank, lender or financial institution unless expressly confirmed in writing."
+  },
+  "discover": "Discover our approach"
+},
   "InstitutionalStrip": {
     "ariaLabel": "Key principles",
     "items": {

@@ -1,52 +1,52 @@
 {
   "Hero": {
-    "kicker": "Finanza Strutturata Privata",
-    "title": {
-      "main": "Sblocca liquidità",
-      "highlight": " senza vendere il tuo oro."
-    },
-    "lead": "Gold Bridge Capital facilita soluzioni di finanziamento a breve termine su misura, garantite da oro fisico da investimento idoneo, per clienti privati e aziendali qualificati.",
-    "actions": {
-      "discuss": "Discuti la tua operazione",
-      "explore": "Scopri la struttura"
-    },
-    "assurances": {
-      "confidential": "Valutazione riservata",
-      "term": "Durata fino a 12 mesi",
-      "collateral": "Garanzia in oro fisico"
-    },
-    "transaction": {
-      "ariaLabel": "Struttura di finanziamento illustrativa",
-      "overline": "Struttura illustrativa",
-      "title": "Operazione privata",
-      "confidential": "Riservato",
-      "goldValueLabel": "Valore indicativo dell'oro",
-      "goldValue": "€3,000,000",
-      "financingLabel": "Finanziamento illustrativo",
-      "financingValue": "€2,000,000",
-      "maximumTermLabel": "Durata massima",
-      "maximumTermValue": "Fino a 12 mesi",
-      "steps": {
-        "verification": {
-          "number": "01",
-          "title": "Verifica dell'oro",
-          "description": "Proprietà, forma, purezza, provenienza e documentazione."
-        },
-        "structuring": {
-          "number": "02",
-          "title": "Strutturazione dell'operazione",
-          "description": "Termini indicativi, due diligence e quadro contrattuale."
-        },
-        "funding": {
-          "number": "03",
-          "title": "Custodia e finanziamento",
-          "description": "Accordi di custodia concordati seguiti dall'erogazione del capitale."
-        }
-      },
-      "disclaimer": "Informazioni esclusivamente illustrative. Disponibilità e condizioni finali sono soggette a due diligence, documentazione e approvazione."
-    },
-    "discover": "Scopri il nostro approccio"
+  "kicker": "Facilitazione di operazioni istituzionali",
+  "title": {
+    "main": "Sblocca liquidità",
+    "highlight": " senza vendere il tuo oro."
   },
+  "lead": "Gold Bridge Capital supporta la preparazione preliminare e la presentazione riservata di opportunità di finanziamento documentate legate ai metalli preziosi, affinché siano valutate da istituzioni indipendenti idonee.",
+  "actions": {
+    "discuss": "Discuti la tua operazione",
+    "explore": "Scopri la struttura"
+  },
+  "assurances": {
+    "confidential": "Valutazione preliminare riservata",
+    "term": "Condizioni definite dall'istituzione",
+    "collateral": "Attività in metalli preziosi verificate"
+  },
+  "transaction": {
+    "ariaLabel": "Percorso illustrativo di valutazione istituzionale",
+    "overline": "Percorso di valutazione indicativo",
+    "title": "Valutazione istituzionale",
+    "confidential": "Riservato",
+    "goldValueLabel": "Profilo dell'attività proposta",
+    "goldValue": "Metalli preziosi documentati",
+    "financingLabel": "Finanziamento potenziale",
+    "financingValue": "Soggetto a valutazione istituzionale",
+    "maximumTermLabel": "Condizioni commerciali",
+    "maximumTermValue": "Determinate individualmente",
+    "steps": {
+      "verification": {
+        "number": "01",
+        "title": "Idoneità preliminare",
+        "description": "Prima valutazione di proprietà, tipo di attività, documentazione, giurisdizione e finalità proposta."
+      },
+      "structuring": {
+        "number": "02",
+        "title": "Verifica indipendente",
+        "description": "Parti qualificate valutano autenticità, provenienza, valore, conformità e requisiti di custodia."
+      },
+      "funding": {
+        "number": "03",
+        "title": "Decisione istituzionale",
+        "description": "Disponibilità, importo, prezzi, durata e struttura contrattuale sono determinati esclusivamente dall'istituzione selezionata."
+      }
+    },
+    "disclaimer": "Nessun finanziamento viene offerto o garantito tramite questo sito web. Gold Bridge Capital non rappresenta alcuna banca, finanziatore o istituzione finanziaria, salvo espressa conferma scritta."
+  },
+  "discover": "Scopri il nostro approccio"
+},
   "InstitutionalStrip": {
     "ariaLabel": "Principi chiave",
     "items": {

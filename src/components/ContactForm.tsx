@@ -5,19 +5,26 @@ import { useLocale, useTranslations } from "next-intl";
 
 type FormStatus = "idle" | "sending" | "success" | "error";
 type SupportedLocale = "en" | "de" | "it";
+type CollateralType = "preciousMetals" | "digitalAssets" | "combination";
 
 type ContactPayload = {
   name: string;
   company: string;
   email: string;
   phone: string;
+  collateralType: CollateralType | "";
   financingAmount: string;
-  goldValue: string;
-  goldAmount: string;
-  goldLocation: string;
+  estimatedAssetValue: string;
+  preciousMetalsDescription: string;
+  preciousMetalsLocation: string;
+  digitalAssetsDescription: string;
+  digitalAssetCustody: string;
+  custodyJurisdiction: string;
+  ownershipSource: string;
   purpose: string;
   ownershipConfirmed: boolean;
   privacyConfirmed: boolean;
+  securityConfirmed: boolean;
   website: string;
   locale: SupportedLocale;
 };
@@ -36,8 +43,18 @@ export default function ContactForm() {
   const t = useTranslations("ContactForm");
   const locale = useLocale() as SupportedLocale;
 
+  const [collateralType, setCollateralType] =
+    useState<CollateralType | "">("");
   const [status, setStatus] = useState<FormStatus>("idle");
   const [errorMessage, setErrorMessage] = useState("");
+
+  const includesPreciousMetals =
+    collateralType === "preciousMetals" ||
+    collateralType === "combination";
+
+  const includesDigitalAssets =
+    collateralType === "digitalAssets" ||
+    collateralType === "combination";
 
   async function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -53,17 +70,40 @@ export default function ContactForm() {
       company: String(formData.get("company") || "").trim(),
       email: String(formData.get("email") || "").trim(),
       phone: String(formData.get("phone") || "").trim(),
+      collateralType: String(
+        formData.get("collateralType") || ""
+      ) as CollateralType | "",
       financingAmount: String(
         formData.get("financingAmount") || ""
       ).trim(),
-      goldValue: String(formData.get("goldValue") || "").trim(),
-      goldAmount: String(formData.get("goldAmount") || "").trim(),
-      goldLocation: String(formData.get("goldLocation") || "").trim(),
+      estimatedAssetValue: String(
+        formData.get("estimatedAssetValue") || ""
+      ).trim(),
+      preciousMetalsDescription: String(
+        formData.get("preciousMetalsDescription") || ""
+      ).trim(),
+      preciousMetalsLocation: String(
+        formData.get("preciousMetalsLocation") || ""
+      ).trim(),
+      digitalAssetsDescription: String(
+        formData.get("digitalAssetsDescription") || ""
+      ).trim(),
+      digitalAssetCustody: String(
+        formData.get("digitalAssetCustody") || ""
+      ).trim(),
+      custodyJurisdiction: String(
+        formData.get("custodyJurisdiction") || ""
+      ).trim(),
+      ownershipSource: String(
+        formData.get("ownershipSource") || ""
+      ).trim(),
       purpose: String(formData.get("purpose") || "").trim(),
       ownershipConfirmed:
         formData.get("ownershipConfirmed") === "on",
       privacyConfirmed:
         formData.get("privacyConfirmed") === "on",
+      securityConfirmed:
+        formData.get("securityConfirmed") === "on",
       website: String(formData.get("website") || "").trim(),
       locale,
     };
@@ -86,11 +126,13 @@ export default function ContactForm() {
       }
 
       form.reset();
+      setCollateralType("");
       setStatus("success");
 
       window.gtag?.("event", "generate_lead", {
         form_name: "confidential_financing_inquiry",
         form_location: "landing_page",
+        collateral_type: payload.collateralType,
       });
     } catch (error) {
       console.error("Contact form submission failed:", error);
@@ -106,11 +148,7 @@ export default function ContactForm() {
   }
 
   return (
-    <form
-      className="contact-form"
-      onSubmit={handleSubmit}
-      noValidate={false}
-    >
+    <form className="contact-form" onSubmit={handleSubmit}>
       <div
         aria-hidden="true"
         style={{
@@ -121,10 +159,7 @@ export default function ContactForm() {
           overflow: "hidden",
         }}
       >
-        <label htmlFor="website">
-          Website
-        </label>
-
+        <label htmlFor="website">Website</label>
         <input
           id="website"
           name="website"
@@ -139,7 +174,6 @@ export default function ContactForm() {
           <label htmlFor="name">
             {t("fields.name.label")}
           </label>
-
           <input
             id="name"
             name="name"
@@ -154,7 +188,6 @@ export default function ContactForm() {
           <label htmlFor="company">
             {t("fields.company.label")}
           </label>
-
           <input
             id="company"
             name="company"
@@ -170,7 +203,6 @@ export default function ContactForm() {
           <label htmlFor="email">
             {t("fields.email.label")}
           </label>
-
           <input
             id="email"
             name="email"
@@ -186,7 +218,6 @@ export default function ContactForm() {
           <label htmlFor="phone">
             {t("fields.phone.label")}
           </label>
-
           <input
             id="phone"
             name="phone"
@@ -198,72 +229,186 @@ export default function ContactForm() {
         </div>
       </div>
 
+      <div className="form-field form-field-full">
+        <label htmlFor="collateralType">
+          {t("fields.collateralType.label")}
+        </label>
+        <select
+          id="collateralType"
+          name="collateralType"
+          value={collateralType}
+          onChange={(event) =>
+            setCollateralType(
+              event.target.value as CollateralType | ""
+            )
+          }
+          required
+        >
+          <option value="">
+            {t("fields.collateralType.placeholder")}
+          </option>
+          <option value="preciousMetals">
+            {t(
+              "fields.collateralType.options.preciousMetals"
+            )}
+          </option>
+          <option value="digitalAssets">
+            {t(
+              "fields.collateralType.options.digitalAssets"
+            )}
+          </option>
+          <option value="combination">
+            {t(
+              "fields.collateralType.options.combination"
+            )}
+          </option>
+        </select>
+      </div>
+
       <div className="form-row">
         <div className="form-field">
           <label htmlFor="financingAmount">
             {t("fields.financingAmount.label")}
           </label>
-
           <input
             id="financingAmount"
             name="financingAmount"
             type="text"
             inputMode="decimal"
-            placeholder={t("fields.financingAmount.placeholder")}
+            placeholder={t(
+              "fields.financingAmount.placeholder"
+            )}
             required
           />
         </div>
 
         <div className="form-field">
-          <label htmlFor="goldValue">
-            {t("fields.goldValue.label")}
+          <label htmlFor="estimatedAssetValue">
+            {t("fields.estimatedAssetValue.label")}
           </label>
-
           <input
-            id="goldValue"
-            name="goldValue"
+            id="estimatedAssetValue"
+            name="estimatedAssetValue"
             type="text"
             inputMode="decimal"
-            placeholder={t("fields.goldValue.placeholder")}
+            placeholder={t(
+              "fields.estimatedAssetValue.placeholder"
+            )}
             required
           />
         </div>
       </div>
 
-      <div className="form-row">
-        <div className="form-field">
-          <label htmlFor="goldAmount">
-            {t("fields.goldAmount.label")}
-          </label>
+      {includesPreciousMetals && (
+        <div className="form-row">
+          <div className="form-field">
+            <label htmlFor="preciousMetalsDescription">
+              {t(
+                "fields.preciousMetalsDescription.label"
+              )}
+            </label>
+            <input
+              id="preciousMetalsDescription"
+              name="preciousMetalsDescription"
+              type="text"
+              placeholder={t(
+                "fields.preciousMetalsDescription.placeholder"
+              )}
+              required
+            />
+          </div>
 
-          <input
-            id="goldAmount"
-            name="goldAmount"
-            type="text"
-            placeholder={t("fields.goldAmount.placeholder")}
-          />
+          <div className="form-field">
+            <label htmlFor="preciousMetalsLocation">
+              {t(
+                "fields.preciousMetalsLocation.label"
+              )}
+            </label>
+            <input
+              id="preciousMetalsLocation"
+              name="preciousMetalsLocation"
+              type="text"
+              placeholder={t(
+                "fields.preciousMetalsLocation.placeholder"
+              )}
+              required
+            />
+          </div>
         </div>
+      )}
 
-        <div className="form-field">
-          <label htmlFor="goldLocation">
-            {t("fields.goldLocation.label")}
-          </label>
+      {includesDigitalAssets && (
+        <>
+          <div className="form-row">
+            <div className="form-field">
+              <label htmlFor="digitalAssetsDescription">
+                {t(
+                  "fields.digitalAssetsDescription.label"
+                )}
+              </label>
+              <input
+                id="digitalAssetsDescription"
+                name="digitalAssetsDescription"
+                type="text"
+                placeholder={t(
+                  "fields.digitalAssetsDescription.placeholder"
+                )}
+                required
+              />
+            </div>
 
-          <input
-            id="goldLocation"
-            name="goldLocation"
-            type="text"
-            placeholder={t("fields.goldLocation.placeholder")}
-            required
-          />
-        </div>
+            <div className="form-field">
+              <label htmlFor="digitalAssetCustody">
+                {t("fields.digitalAssetCustody.label")}
+              </label>
+              <input
+                id="digitalAssetCustody"
+                name="digitalAssetCustody"
+                type="text"
+                placeholder={t(
+                  "fields.digitalAssetCustody.placeholder"
+                )}
+                required
+              />
+            </div>
+          </div>
+
+          <div className="form-field form-field-full">
+            <label htmlFor="custodyJurisdiction">
+              {t("fields.custodyJurisdiction.label")}
+            </label>
+            <input
+              id="custodyJurisdiction"
+              name="custodyJurisdiction"
+              type="text"
+              placeholder={t(
+                "fields.custodyJurisdiction.placeholder"
+              )}
+              required
+            />
+          </div>
+        </>
+      )}
+
+      <div className="form-field form-field-full">
+        <label htmlFor="ownershipSource">
+          {t("fields.ownershipSource.label")}
+        </label>
+        <textarea
+          id="ownershipSource"
+          name="ownershipSource"
+          rows={5}
+          placeholder={t(
+            "fields.ownershipSource.placeholder"
+          )}
+          required
+        />
       </div>
 
       <div className="form-field form-field-full">
         <label htmlFor="purpose">
           {t("fields.purpose.label")}
         </label>
-
         <textarea
           id="purpose"
           name="purpose"
@@ -279,7 +424,6 @@ export default function ContactForm() {
           type="checkbox"
           required
         />
-
         <span>{t("confirmations.ownership")}</span>
       </label>
 
@@ -289,8 +433,16 @@ export default function ContactForm() {
           type="checkbox"
           required
         />
-
         <span>{t("confirmations.privacy")}</span>
+      </label>
+
+      <label className="checkbox-field">
+        <input
+          name="securityConfirmed"
+          type="checkbox"
+          required
+        />
+        <span>{t("confirmations.security")}</span>
       </label>
 
       <button

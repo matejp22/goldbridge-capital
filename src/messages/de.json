@@ -1,58 +1,58 @@
 {
   "Hero": {
-  "kicker": "Institutionelle Transaktionsbegleitung",
-  "title": {
-    "main": "Liquidität erschließen",
-    "highlight": " ohne Ihr Gold zu verkaufen."
-  },
-  "lead": "Gold Bridge Capital unterstützt die vorläufige Vorbereitung und vertrauliche Vorstellung dokumentierter Finanzierungsmöglichkeiten mit Edelmetallbezug zur Prüfung durch geeignete unabhängige Institute.",
-  "actions": {
-    "discuss": "Transaktion besprechen",
-    "explore": "Struktur ansehen"
-  },
-  "assurances": {
-    "confidential": "Vertrauliche Vorprüfung",
-    "term": "Vom Institut festgelegte Konditionen",
-    "collateral": "Verifizierte Edelmetallwerte"
-  },
-  "transaction": {
-    "ariaLabel": "Beispielhafter institutioneller Prüfungsweg",
-    "overline": "Indikativer Prüfungsweg",
-    "title": "Institutionelle Prüfung",
-    "confidential": "Vertraulich",
-    "goldValueLabel": "Vorgeschlagenes Vermögensprofil",
-    "goldValue": "Dokumentierte Edelmetalle",
-    "financingLabel": "Mögliche Finanzierung",
-    "financingValue": "Vorbehaltlich institutioneller Prüfung",
-    "maximumTermLabel": "Wirtschaftliche Konditionen",
-    "maximumTermValue": "Individuell festgelegt",
-    "steps": {
-      "verification": {
-        "number": "01",
-        "title": "Vorläufige Eignung",
-        "description": "Erste Prüfung von Eigentum, Vermögensart, Dokumentation, Rechtsordnung und Verwendungszweck."
-      },
-      "structuring": {
-        "number": "02",
-        "title": "Unabhängige Verifizierung",
-        "description": "Qualifizierte Parteien prüfen Echtheit, Herkunft, Bewertung, Compliance und Verwahrungsanforderungen."
-      },
-      "funding": {
-        "number": "03",
-        "title": "Institutionelle Entscheidung",
-        "description": "Verfügbarkeit, Betrag, Preisgestaltung, Laufzeit und Vertragsstruktur werden ausschließlich vom ausgewählten Institut festgelegt."
-      }
+    "kicker": "Institutionelle Transaktionsbegleitung",
+    "title": {
+      "main": "Liquidität erschließen",
+      "highlight": " ohne Ihre strategischen Vermögenswerte zu verkaufen."
     },
-    "disclaimer": "Über diese Website wird keine Finanzierung angeboten oder garantiert. Gold Bridge Capital vertritt keine Bank, keinen Kreditgeber und kein Finanzinstitut, sofern dies nicht ausdrücklich schriftlich bestätigt wurde."
+    "lead": "Gold Bridge Capital unterstützt die vorläufige Vorbereitung und vertrauliche Vorstellung dokumentierter Finanzierungsmöglichkeiten mit Edelmetallen und ausgewählten digitalen Vermögenswerten zur Prüfung durch geeignete unabhängige Institute.",
+    "actions": {
+      "discuss": "Transaktion besprechen",
+      "explore": "Struktur ansehen"
+    },
+    "assurances": {
+      "confidential": "Vertrauliche Vorprüfung",
+      "term": "Vom Institut festgelegte Konditionen",
+      "collateral": "Edelmetalle und digitale Vermögenswerte"
+    },
+    "transaction": {
+      "ariaLabel": "Beispielhafter institutioneller Prüfungsweg",
+      "overline": "Indikativer Prüfungsweg",
+      "title": "Institutionelle Prüfung",
+      "confidential": "Vertraulich",
+      "goldValueLabel": "Vorgeschlagenes Vermögensprofil",
+      "goldValue": "Dokumentierte Edelmetalle",
+      "financingLabel": "Mögliche Finanzierung",
+      "financingValue": "Vorbehaltlich institutioneller Prüfung",
+      "maximumTermLabel": "Wirtschaftliche Konditionen",
+      "maximumTermValue": "Individuell festgelegt",
+      "steps": {
+        "verification": {
+          "number": "01",
+          "title": "Vorläufige Eignung",
+          "description": "Erste Prüfung von Eigentum, Vermögensart, Dokumentation, Rechtsordnung und Verwendungszweck."
+        },
+        "structuring": {
+          "number": "02",
+          "title": "Unabhängige Verifizierung",
+          "description": "Qualifizierte Parteien prüfen Echtheit, Herkunft, Bewertung, Compliance und Verwahrungsanforderungen."
+        },
+        "funding": {
+          "number": "03",
+          "title": "Institutionelle Entscheidung",
+          "description": "Verfügbarkeit, Betrag, Preisgestaltung, Laufzeit und Vertragsstruktur werden ausschließlich vom ausgewählten Institut festgelegt."
+        }
+      },
+      "disclaimer": "Über diese Website wird keine Finanzierung angeboten oder garantiert. Gold Bridge Capital vertritt keine Bank, keinen Kreditgeber und kein Finanzinstitut, sofern dies nicht ausdrücklich schriftlich bestätigt wurde."
+    },
+    "discover": "Unseren Ansatz entdecken"
   },
-  "discover": "Unseren Ansatz entdecken"
-},
   "InstitutionalStrip": {
     "ariaLabel": "Grundprinzipien",
     "items": {
       "collateral": {
-        "title": "Physische Besicherung",
-        "description": "Geeignetes Anlagegold"
+        "title": "Geeignete Sicherheiten",
+        "description": "Geeignete Edelmetalle und ausgewählte digitale Vermögenswerte"
       },
       "structuring": {
         "title": "Individuelle Strukturierung",
@@ -60,7 +60,7 @@
       },
       "term": {
         "title": "Definierte Laufzeit",
-        "description": "Kurzfristige Finanzierung bis zu 12 Monaten"
+        "description": "Institutionell festgelegte Preisgestaltung und Laufzeit"
       },
       "approval": {
         "title": "Vorbehaltlich Genehmigung",
@@ -72,7 +72,7 @@
     "kicker": "Warum Gold Bridge Capital",
     "title": {
       "main": "Ein sorgfältiger Ansatz für",
-      "highlight": " goldbesicherte Liquidität."
+      "highlight": " vermögensbesicherte Liquidität."
     },
     "introduction": {
       "first": "Bedeutende private Transaktionen erfordern mehr als nur Zugang zu Kapital. Sie erfordern Diskretion, belastbare Dokumentation, geeignete Gegenparteien und eine Struktur, die auf die Sicherheit und das wirtschaftliche Ziel abgestimmt ist.",
@@ -100,7 +100,7 @@
         "text": "Jede Möglichkeit unterliegt der Prüfung von Eigentum, Herkunft, Reinheit, Dokumentation, Gegenparteien und regulatorischer Zulässigkeit."
       }
     },
-    "statement": "Unsere Aufgabe ist es, Klarheit, Struktur und disziplinierte Koordination in komplexe Transaktionen zu bringen, die durch physisches Gold besichert sind.",
+    "statement": "Unsere Aufgabe ist es, Klarheit, Struktur und disziplinierte Koordination in komplexe Transaktionen zu bringen, die durch geeignete Edelmetalle und ausgewählte digitale Vermögenswerte besichert sind.",
     "signature": "Gold Bridge Capital"
   },
   "Clients": {
@@ -109,11 +109,11 @@
       "main": "Konzipiert für qualifizierte private",
       "highlight": " und gewerbliche Kunden."
     },
-    "introduction": "Wir prüfen Transaktionen mit legitimem Finanzierungszweck, geeigneter physischer Goldsicherheit und vollständiger, überprüfbarer Dokumentation.",
+    "introduction": "Wir prüfen Transaktionen mit legitimem Finanzierungszweck, geeigneten Edelmetall- oder Digital-Asset-Sicherheiten und vollständiger, überprüfbarer Dokumentation.",
     "profiles": {
       "familyOffices": {
         "title": "Family Offices",
-        "text": "Private Kapitalstrukturen für Familien, die Liquidität benötigen und gleichzeitig das Eigentum an geeignetem physischem Gold bewahren möchten."
+        "text": "Private Kapitalstrukturen für Familien, die Liquidität benötigen und gleichzeitig das Eigentum an geeigneten Edelmetallen oder ausgewählten digitalen Vermögenswerten bewahren möchten."
       },
       "entrepreneurs": {
         "title": "Unternehmer",
@@ -121,7 +121,7 @@
       },
       "privateInvestors": {
         "title": "Private Investoren",
-        "text": "Individuell geprüfte Finanzierungsmöglichkeiten, besichert durch dokumentiertes Anlagegold."
+        "text": "Individuell geprüfte Finanzierungsmöglichkeiten, besichert durch dokumentierte Edelmetalle oder ausgewählte digitale Vermögenswerte."
       },
       "corporations": {
         "title": "Unternehmen",
@@ -136,25 +136,25 @@
   "Structure": {
     "kicker": "So funktioniert strukturierte Finanzierung",
     "title": {
-      "main": "Ein klarer Weg von physischem Gold",
+      "main": "Ein klarer Weg von geeigneten Vermögenswerten",
       "highlight": " zu verfügbarer Liquidität."
     },
     "introduction": {
-      "first": "Jede vorgeschlagene Transaktion wird individuell geprüft. Die Struktur hängt von Art und Standort des Goldes, dem gewünschten Finanzierungsbetrag, dem Verwendungszweck und den Anforderungen der jeweiligen Finanzierungs- und Verwahrungspartner ab.",
+      "first": "Jede vorgeschlagene Transaktion wird individuell geprüft. Die Struktur hängt von Art, Eigentum und Verwahrung der vorgeschlagenen Vermögenswerte, dem gewünschten Finanzierungsbetrag, dem Verwendungszweck und den Anforderungen der jeweiligen Finanzierungs- und Verwahrungspartner ab.",
       "second": "Die folgende Übersicht zeigt einen typischen Transaktionsablauf. Sie stellt weder ein garantiertes Angebot noch ein standardisiertes Kreditprodukt dar."
     },
     "steps": {
       "collateral": {
         "number": "01",
         "label": "Geeignete Sicherheit",
-        "title": "Physisches Anlagegold",
-        "text": "Der Kunde legt geeignetes physisches Gold zusammen mit unterstützenden Eigentums-, Produkt-, Verwahrungs- und Herkunftsnachweisen vor."
+        "title": "Edelmetalle oder digitale Vermögenswerte",
+        "text": "Der Kunde legt geeignete Edelmetalle oder ausgewählte digitale Vermögenswerte zusammen mit unterstützenden Eigentums-, Produkt-, Verwahrungs- und Herkunftsnachweisen vor."
       },
       "review": {
         "number": "02",
         "label": "Vorläufige Prüfung",
         "title": "Verifizierung & Prüfung",
-        "text": "Dokumentation, Eigentum, Reinheit, Form, Lagerort, wirtschaftlich Berechtigte und Verwendungszweck werden geprüft."
+        "text": "Dokumentation, Eigentum, Vermögensmerkmale und Verwahrungsstruktur, wirtschaftlich Berechtigte und Verwendungszweck werden geprüft."
       },
       "financing": {
         "number": "03",
@@ -166,7 +166,7 @@
         "number": "04",
         "label": "Vereinbarte Regelungen",
         "title": "Sichere Verwahrung",
-        "text": "Das Gold wird im Rahmen vereinbarter Verwahrungs- und Sicherheitenregelungen bei geeigneten unabhängigen Dienstleistern gehalten."
+        "text": "Die Sicherheit wird im Rahmen vereinbarter Verwahrungs- und Sicherheitenregelungen bei geeigneten unabhängigen Dienstleistern gehalten."
       },
       "release": {
         "number": "05",
@@ -178,7 +178,7 @@
     "principles": {
       "ownership": {
         "title": "Eigentum des Kunden",
-        "text": "Das wirtschaftliche Ziel besteht darin, Liquidität freizusetzen, ohne das Gold endgültig zu verkaufen."
+        "text": "Das wirtschaftliche Ziel besteht darin, Liquidität freizusetzen, ohne die geeigneten Vermögenswerte endgültig zu verkaufen."
       },
       "counterparties": {
         "title": "Unabhängige Gegenparteien",
@@ -196,7 +196,7 @@
       "main": "Ein möglicher Weg zu einer",
       "highlight": " institutionell geprüften Finanzierung."
     },
-    "introduction": "Dieser Rahmen erläutert, wie ein dokumentierter Edelmetallbestand für die Prüfung durch ein unabhängiges reguliertes Institut vorbereitet werden könnte. Er beschreibt weder ein derzeit verfügbares Produkt noch zugesagte Finanzierungskonditionen.",
+    "introduction": "Dieser Rahmen erläutert, wie ein dokumentierter Edelmetall- oder Digital-Asset-Bestand für die Prüfung durch ein unabhängiges reguliertes Institut vorbereitet werden könnte. Er beschreibt weder ein derzeit verfügbares Produkt noch zugesagte Finanzierungskonditionen.",
     "case": {
       "overline": "Beispielhafter Prüfungsweg",
       "title": "Institutionelle Finanzierungsprüfung",
@@ -205,7 +205,7 @@
     "values": {
       "asset": {
         "label": "Vorgeschlagener Vermögenswert",
-        "value": "Verifizierte Edelmetalle",
+        "value": "Verifizierte geeignete Sicherheiten",
         "note": "Die Eignung muss unabhängig bestätigt werden"
       },
       "assessment": {
@@ -272,7 +272,7 @@
       "highlight": " Anfrage bis zum Abschluss."
     },
     "introduction": {
-      "first": "Goldbesicherte Finanzierungstransaktionen erfordern einen strukturierten und transparenten Prüfungsprozess. Jede Phase dient dazu festzustellen, ob die vorgeschlagene Sicherheit, das Kundenprofil und der Finanzierungszweck den Anforderungen der relevanten Gegenparteien entsprechen.",
+      "first": "Vermögensbesicherte Finanzierungstransaktionen erfordern einen strukturierten und transparenten Prüfungsprozess. Jede Phase dient dazu festzustellen, ob die vorgeschlagene Sicherheit, das Kundenprofil und der Finanzierungszweck den Anforderungen der relevanten Gegenparteien entsprechen.",
       "second": "Die Zeitabläufe hängen von der Qualität der Dokumentation, dem Standort der Sicherheit, der rechtlichen Struktur, der Rechtsordnung und der Reaktionsgeschwindigkeit aller beteiligten Parteien ab."
     },
     "steps": {
@@ -280,7 +280,7 @@
         "number": "01",
         "stage": "Erste Einreichung",
         "title": "Vertrauliche Anfrage",
-        "text": "Der Kunde reicht eine erste Übersicht der Transaktion ein, einschließlich des gewünschten Finanzierungsbetrags, des Verwendungszwecks und wesentlicher Angaben zur vorgeschlagenen Goldsicherheit.",
+        "text": "Der Kunde reicht eine erste Übersicht der Transaktion ein, einschließlich des gewünschten Finanzierungsbetrags, des Verwendungszwecks und wesentlicher Angaben zur vorgeschlagenen Edelmetall- oder Digital-Asset-Sicherheit.",
         "items": {
           "first": "Gewünschter Finanzierungsbetrag",
           "second": "Zweck und bevorzugte Laufzeit",
@@ -294,7 +294,7 @@
         "text": "Die Möglichkeit wird auf grundlegende Eignung geprüft. Dazu gehören Kundenprofil, wirtschaftlich Berechtigte, Form und Standort der Sicherheit, Dokumentation und wirtschaftliche Begründung.",
         "items": {
           "first": "Profil des Kunden und der wirtschaftlich Berechtigten",
-          "second": "Form, Reinheit und Standort der Sicherheit",
+          "second": "Art, Wert und Verwahrung der Sicherheit",
           "third": "Erste Compliance-Eignung"
         }
       },
@@ -361,20 +361,20 @@
     "cards": {
       "collateral": {
         "number": "01",
-        "title": "Informationen zur Goldsicherheit",
-        "text": "Klare und überprüfbare Informationen zum vorgeschlagenen physischen Anlagegold.",
+        "title": "Informationen zur Sicherheit",
+        "text": "Klare und überprüfbare Informationen zum vorgeschlagenen Edelmetallen oder digitalen Vermögenswerten.",
         "items": {
           "form": {
             "title": "Form und Menge",
-            "text": "Barren, Gussbarren oder andere akzeptierte Formen von Anlagegold."
+            "text": "Metallart, Form und Menge oder Art und Menge des digitalen Vermögenswerts."
           },
           "purity": {
             "title": "Reinheit und Identifikation",
-            "text": "Raffinerie, Seriennummern, Prüfdetails und verfügbare Zertifikate."
+            "text": "Raffinerie, Seriennummern und Prüfdaten bei Metallen oder Token, Netzwerk und Konto- beziehungsweise Wallet-Informationen bei digitalen Vermögenswerten."
           },
           "location": {
             "title": "Aktueller Standort",
-            "text": "Tresor, Verwahrer, Bank, Logistikdienstleister oder andere bestehende Lagerungsregelung."
+            "text": "Tresor, Bank, zugelassener Verwahrer, Börse, institutionelles Konto oder Wallet-Struktur."
           },
           "value": {
             "title": "Indikativer Marktwert",
@@ -385,7 +385,7 @@
       "ownership": {
         "number": "02",
         "title": "Eigentum & Herkunft",
-        "text": "Nachweise darüber, wem das Gold rechtlich gehört und wie es erworben wurde.",
+        "text": "Nachweise darüber, wem die Sicherheit rechtlich oder wirtschaftlich gehört und wie es erworben wurde.",
         "items": {
           "proof": {
             "title": "Nachweis des rechtlichen Eigentums",
@@ -401,7 +401,7 @@
           },
           "authority": {
             "title": "Befugnis zur Transaktion",
-            "text": "Nachweis, dass der Antragsteller berechtigt ist, das Gold als Sicherheit anzubieten."
+            "text": "Nachweis, dass der Antragsteller berechtigt ist, die Vermögenswerte als Sicherheit anzubieten."
           }
         }
       },
@@ -458,7 +458,7 @@
       "text": "Für eine erste Anfrage sind noch nicht alle endgültigen Dokumente erforderlich. Sie sollte jedoch genügend Informationen enthalten, um festzustellen, ob eine weitergehende Prüfung wirtschaftlich und rechtlich sinnvoll ist.",
       "items": {
         "ownership": "Klarer Eigentumsnachweis",
-        "gold": "Überprüfbare Golddokumentation",
+        "gold": "Überprüfbare Sicherheitenunterlagen",
         "purpose": "Definierter Finanzierungszweck",
         "repayment": "Plausible Rückzahlungsstrategie"
       },
@@ -470,7 +470,7 @@
     },
     "note": {
       "label": "Bitte beachten",
-      "text": "Je nach Transaktion können zusätzliche Rechtsgutachten, Prüfberichte, unabhängige Bewertungen, Steuerinformationen, Jahresabschlüsse, Verwahrungsbestätigungen oder andere spezialisierte Dokumente erforderlich sein."
+      "text": "Je nach Transaktion können zusätzliche Rechtsgutachten, Prüfberichte, Blockchain-Analysen, unabhängige Bewertungen, Steuerinformationen, Jahresabschlüsse, Verwahrungsbestätigungen oder andere spezialisierte Dokumente erforderlich sein."
     }
   },
   "FAQ": {
@@ -486,33 +486,33 @@
     "items": {
       "collateral": {
         "number": "01",
-        "question": "Welche Art von Gold kann als Sicherheit berücksichtigt werden?",
-        "answer": "Transaktionen sollen grundsätzlich klar identifizierbares physisches Anlagegold mit überprüfbarer Reinheit, Eigentum, Herkunft und unterstützender Dokumentation betreffen. Akzeptierte Form, Raffinerie, Barrengröße, Standort und Verwahrungsbedingungen hängen von den Anforderungen der relevanten Transaktionsparteien ab."
+        "question": "Welche Vermögenswerte können als Sicherheit berücksichtigt werden?",
+        "answer": "Transaktionen sollen grundsätzlich klar identifizierbare physische Edelmetalle und ausgewählte digitale Vermögenswerte mit überprüfbarer Reinheit, Eigentum, Herkunft und unterstützender Dokumentation betreffen. Akzeptierte Form, Raffinerie, Barrengröße, Standort und Verwahrungsbedingungen hängen von den Anforderungen der relevanten Transaktionsparteien ab."
       },
       "sale": {
         "number": "02",
-        "question": "Verkauft der Kunde das Gold?",
-        "answer": "Die beabsichtigte Struktur ist eine durch physisches Gold besicherte Finanzierung und kein endgültiger Verkauf. Der Kunde soll rechtlicher Eigentümer bleiben, vorbehaltlich der vertraglichen Sicherungs-, Verwahrungs- und Verwertungsrechte in den endgültigen Transaktionsdokumenten."
+        "question": "Verkauft der Kunde die Sicherheit?",
+        "answer": "Die beabsichtigte Struktur ist eine durch geeignete Edelmetalle und ausgewählte digitale Vermögenswerte besicherte Finanzierung und kein endgültiger Verkauf. Der Kunde soll rechtlicher Eigentümer bleiben, vorbehaltlich der vertraglichen Sicherungs-, Verwahrungs- und Verwertungsrechte in den endgültigen Transaktionsdokumenten."
       },
       "custody": {
         "number": "03",
-        "question": "Wo wird das Gold während der Finanzierungsdauer verwahrt?",
-        "answer": "Das Gold wird im Rahmen von Verwahrungsregelungen gehalten, die von den relevanten Parteien akzeptiert werden. Je nach Transaktion kann dies eine zugelassene Bank, einen Tresorbetreiber, einen Verwahrer oder einen anderen professionellen Lagerdienstleister in einer vereinbarten Rechtsordnung umfassen."
+        "question": "Wo werden die Vermögenswerte während der Finanzierung gehalten?",
+        "answer": "Die Sicherheit wird im Rahmen von Verwahrungsregelungen gehalten, die von den relevanten Parteien akzeptiert werden. Je nach Transaktion kann dies eine zugelassene Bank, einen Tresorbetreiber, einen Verwahrer oder einen anderen professionellen Lagerdienstleister in einer vereinbarten Rechtsordnung umfassen."
       },
       "amount": {
         "number": "04",
         "question": "Wie viel Finanzierung kann verfügbar sein?",
-        "answer": "Der mögliche Finanzierungsbetrag hängt vom unabhängig ermittelten Sicherheitenwert, von Form und Standort des Goldes, den Marktbedingungen, der gewünschten Laufzeit, dem Kundenprofil und den Risikoanforderungen des Finanzierungspartners ab. Eine feste Beleihungsquote kann vor vollständiger Prüfung nicht garantiert werden."
+        "answer": "Der mögliche Finanzierungsbetrag hängt vom unabhängig ermittelten Sicherheitenwert, von Vermögensart, Liquidität, Volatilität und Verwahrung, den Marktbedingungen, der gewünschten Laufzeit, dem Kundenprofil und den Risikoanforderungen des Finanzierungspartners ab. Eine feste Beleihungsquote kann vor vollständiger Prüfung nicht garantiert werden."
       },
       "term": {
         "number": "05",
         "question": "Wie lang ist die maximale Finanzierungslaufzeit?",
-        "answer": "Der Schwerpunkt liegt auf kurzfristigen Finanzierungen mit einer Laufzeit von bis zu 12 Monaten. Die genaue Laufzeit wird individuell festgelegt und hängt vom Verwendungszweck, der Rückzahlungsstrategie und der Genehmigung der relevanten Parteien ab."
+        "answer": "Die genaue Laufzeit wird vom ausgewählten Institut individuell festgelegt. Die genaue Laufzeit wird individuell festgelegt und hängt vom Verwendungszweck, der Rückzahlungsstrategie und der Genehmigung der relevanten Parteien ab."
       },
       "pricing": {
         "number": "06",
         "question": "Wie werden Preisgestaltung und Transaktionskosten bestimmt?",
-        "answer": "Die Preisgestaltung wird nach Prüfung der Sicherheit und der Transaktion individuell festgelegt. Die Gesamtkosten können Finanzierungskosten, Vermittlungsgebühren, Rechtskosten, Verwahrung, Transport, Versicherung, Prüfung, Bewertung, Compliance und weitere professionelle Aufwendungen umfassen."
+        "answer": "Die Preisgestaltung wird nach Prüfung der Sicherheit und der Transaktion individuell festgelegt. Die Gesamtkosten können Finanzierungskosten, Vermittlungsgebühren, Rechtskosten, Verwahrung, Transport, Versicherung, Prüfung, Bewertung, Blockchain-Analysen, Compliance und weitere professionelle Aufwendungen umfassen."
       },
       "timing": {
         "number": "07",
@@ -533,7 +533,7 @@
     "sidebar": {
       "overline": "Vertrauliches Gespräch",
       "title": "Ihre Transaktion kann eine spezifischere Prüfung erfordern.",
-      "text": "Übermitteln Sie eine kurze Übersicht über Ihre Goldsicherheit, Ihren Finanzierungsbedarf und den Verwendungszweck. Die erste Einreichung wird vertraulich geprüft.",
+      "text": "Übermitteln Sie eine kurze Übersicht über Ihre vorgeschlagene Sicherheit, Ihren Finanzierungsbedarf und den Verwendungszweck. Die erste Einreichung wird vertraulich geprüft.",
       "button": "Vertrauliche Anfrage starten"
     },
     "disclaimer": {
@@ -545,7 +545,7 @@
     "kicker": "Vertrauliche Anfrage",
     "title": {
       "main": "Besprechen Sie Ihre geplante",
-      "highlight": " goldbesicherte Transaktion."
+      "highlight": " vermögensbesicherte Transaktion."
     },
     "lead": "Übermitteln Sie eine kurze Übersicht über Ihren Finanzierungsbedarf und die vorgeschlagene Goldsicherheit. Die Informationen werden ausschließlich für eine erste Prüfung verwendet, ob die Möglichkeit für eine weitergehende Bewertung geeignet sein könnte.",
     "principles": {
@@ -580,7 +580,7 @@
       "main": "Strukturierte Liquidität.",
       "highlight": " Eigentum bewahren."
     },
-    "text": "Ein diskreter und disziplinierter Ansatz für Finanzierungen, die durch geeignetes physisches Anlagegold besichert sind.",
+    "text": "Ein diskreter und disziplinierter Ansatz für Finanzierungen, die durch geeignete Edelmetalle und ausgewählte digitale Vermögenswerte besichert sind.",
     "button": "Transaktion besprechen"
   },
   "Header": {
@@ -604,7 +604,7 @@
       "main": "Gold Bridge",
       "sub": "Capital"
     },
-    "description": "Gold Bridge Capital unterstützt die Prüfung und Koordination potenzieller kurzfristiger Finanzierungstransaktionen, die durch geeignetes physisches Anlagegold besichert sind.",
+    "description": "Gold Bridge Capital unterstützt die Prüfung und Koordination potenzieller kurzfristiger Finanzierungstransaktionen, die durch geeignete Edelmetalle und ausgewählte digitale Vermögenswerte besichert sind.",
     "email": "inquiries@goldbridge-capital.com",
     "navigation": {
       "title": "Navigation",
@@ -652,43 +652,69 @@
         "label": "Telefonnummer",
         "placeholder": "+41 ..."
       },
+      "collateralType": {
+        "label": "Vorgeschlagene Sicherheitenart",
+        "placeholder": "Sicherheitenart auswählen",
+        "options": {
+          "preciousMetals": "Edelmetalle",
+          "digitalAssets": "Digitale Vermögenswerte",
+          "combination": "Kombination aus beiden"
+        }
+      },
       "financingAmount": {
         "label": "Gewünschter Finanzierungsbetrag",
         "placeholder": "z. B. EUR 2.000.000"
       },
-      "goldValue": {
-        "label": "Geschätzter Marktwert des Goldes",
+      "estimatedAssetValue": {
+        "label": "Geschätzter Gesamtwert der Sicherheit",
         "placeholder": "z. B. EUR 3.000.000"
       },
-      "goldAmount": {
-        "label": "Goldmenge und Spezifikation",
-        "placeholder": "z. B. 50 kg Anlagegoldbarren"
+      "preciousMetalsDescription": {
+        "label": "Beschreibung der Edelmetalle",
+        "placeholder": "Art, Form, Menge, Reinheit, Raffinerie und verfügbare Unterlagen"
       },
-      "goldLocation": {
-        "label": "Aktueller Standort oder Verwahrer des Goldes",
-        "placeholder": "Land, Stadt, Bank oder Tresor"
+      "preciousMetalsLocation": {
+        "label": "Standort oder Verwahrer der Edelmetalle",
+        "placeholder": "Land, Stadt, Bank, Tresor oder Verwahrer"
+      },
+      "digitalAssetsDescription": {
+        "label": "Beschreibung der digitalen Vermögenswerte",
+        "placeholder": "Vermögensart, ungefähre Menge, Netzwerk und geschätzter Wert"
+      },
+      "digitalAssetCustody": {
+        "label": "Börse, Verwahrer oder Wallet-Struktur",
+        "placeholder": "Institut, Börse, Verwahrer oder Wallet-Typ — niemals private Schlüssel oder Seed-Phrasen eingeben"
+      },
+      "custodyJurisdiction": {
+        "label": "Verwahrungsrechtsordnung",
+        "placeholder": "Land oder Rechtsordnung des Verwahrers, der Börse oder des Kontos"
+      },
+      "ownershipSource": {
+        "label": "Übersicht zu Eigentum und Herkunft",
+        "placeholder": "Beschreiben Sie Erwerb, Eigentumsnachweis und bestehende Verpfändungen oder Beschränkungen"
       },
       "purpose": {
         "label": "Transaktionsübersicht und Finanzierungszweck",
-        "placeholder": "Bitte beschreiben Sie kurz den Zweck der Finanzierung, den bevorzugten Transaktionszeitraum, die Eigentumsstruktur des Goldes und alle relevanten Informationen, die unsere erste Prüfung unterstützen können."
+        "placeholder": "Beschreiben Sie Zweck, bevorzugten Zeitraum, Rückzahlungsstrategie und relevante Informationen."
       }
     },
     "confirmations": {
-      "ownership": "Ich bestätige, dass ich rechtmäßiger Eigentümer des Goldes bin oder ordnungsgemäß bevollmächtigt bin, im Namen des rechtmäßigen Eigentümers zu handeln.",
-      "privacy": "Ich stimme der Verarbeitung der bereitgestellten Informationen zum Zweck der Prüfung und Beantwortung dieser vertraulichen Finanzierungsanfrage zu."
+      "ownership": "Ich bestätige, dass ich rechtlicher oder wirtschaftlicher Eigentümer der vorgeschlagenen Sicherheit bin oder ordnungsgemäß bevollmächtigt bin, im Namen des Eigentümers zu handeln.",
+      "privacy": "Ich stimme der Verarbeitung der bereitgestellten Informationen zur Prüfung und Beantwortung dieser vertraulichen Anfrage zu.",
+      "security": "Mir ist bewusst, dass ich über dieses Formular oder per E-Mail niemals Passwörter, Seed-Phrasen, private Schlüssel oder Kontozugangsdaten übermitteln darf."
     },
     "button": {
       "idle": "Vertrauliche Anfrage absenden",
       "sending": "Vertrauliche Anfrage wird gesendet..."
     },
     "messages": {
-      "success": "Vielen Dank. Ihre vertrauliche Anfrage wurde erfolgreich übermittelt. Unser Team wird die bereitgestellten Informationen prüfen und Sie kontaktieren, sofern die Transaktion die Kriterien der ersten Prüfung erfüllt.",
+      "success": "Vielen Dank. Ihre vertrauliche Anfrage wurde erfolgreich übermittelt. Wir prüfen die Informationen und kontaktieren Sie, sofern die Möglichkeit für eine weitere Bewertung geeignet ist.",
       "submissionError": "Ihre Anfrage konnte nicht übermittelt werden. Bitte versuchen Sie es erneut.",
       "unexpectedError": "Ein unerwarteter Fehler ist aufgetreten. Bitte versuchen Sie es erneut."
     }
   },
   "Metadata": {
-    "title": "Gold Bridge Capital | Strukturierte Finanzierung mit Goldbesicherung",
+    "title": "Gold Bridge Capital | Finanzierung mit Edelmetallen & digitalen Vermögenswerten",
     "description": "Vertrauliche kurzfristige Finanzierungslösungen, besichert durch geeignetes physisches Anlagegold, für qualifizierte private und gewerbliche Kunden."
   },
   "Privacy": {
@@ -710,7 +736,7 @@
         "email": "Ihre geschäftliche E-Mail-Adresse.",
         "phone": "Ihre Telefonnummer, sofern angegeben.",
         "transaction": "Den gewünschten Finanzierungsbetrag und den vorgesehenen Verwendungszweck.",
-        "gold": "Informationen über Menge, geschätzten Wert, Eigentum und Standort der vorgeschlagenen Goldsicherheit.",
+        "gold": "Informationen über Menge, geschätzten Wert, Eigentum und Standort der vorgeschlagenen Edelmetall- oder Digital-Asset-Sicherheit.",
         "message": "Alle weiteren Informationen, die Sie freiwillig in Ihrer Anfrage oder in der anschließenden Korrespondenz bereitstellen."
       }
     },
@@ -803,14 +829,14 @@
     },
     "eligibility": {
       "title": "5. Eignung und Transaktionsprüfung",
-      "text": "Die Verfügbarkeit einer Finanzierungsstruktur hängt vom Profil des Kunden, der Art und dem Standort der vorgeschlagenen Goldsicherheit, den anwendbaren rechtlichen und Compliance-Anforderungen, den Marktbedingungen und der Genehmigung relevanter unabhängiger Parteien ab. Keine Transaktion wird garantiert."
+      "text": "Die Verfügbarkeit einer Finanzierungsstruktur hängt vom Profil des Kunden, der Art und dem Standort der vorgeschlagenen Edelmetall- oder Digital-Asset-Sicherheit, den anwendbaren rechtlichen und Compliance-Anforderungen, den Marktbedingungen und der Genehmigung relevanter unabhängiger Parteien ab. Keine Transaktion wird garantiert."
     },
     "inquiries": {
       "title": "6. Über Anfragen übermittelte Informationen",
       "introduction": "Mit dem Einreichen einer Anfrage bestätigen Sie, dass:",
       "items": {
         "accuracy": "Die bereitgestellten Informationen nach bestem Wissen richtig und vollständig sind.",
-        "authority": "Sie rechtmäßiger Eigentümer der vorgeschlagenen Goldsicherheit sind oder ordnungsgemäß bevollmächtigt sind, im Namen des rechtmäßigen Eigentümers zu handeln.",
+        "authority": "Sie rechtmäßiger Eigentümer der vorgeschlagenen Edelmetall- oder Digital-Asset-Sicherheit sind oder ordnungsgemäß bevollmächtigt sind, im Namen des rechtmäßigen Eigentümers zu handeln.",
         "lawful": "Die vorgeschlagene Transaktion und die beabsichtigte Mittelverwendung rechtmäßig sind.",
         "noCommitment": "Das Einreichen einer Anfrage weder eine Kundenbeziehung noch eine Finanzierungszusage oder Verpflichtung einer Partei begründet."
       }
@@ -879,7 +905,7 @@
     },
     "services": {
       "title": "3. Art der Dienstleistungen",
-      "text": "Die Website stellt eine potenzielle Dienstleistung zur Vermittlung und Koordination kurzfristiger Finanzierungsmöglichkeiten dar, die durch geeignetes physisches Anlagegold besichert sind. Jede Möglichkeit wird individuell geprüft und kann unabhängige Finanzierungs-, Verwahrungs-, Rechts-, Bewertungs-, Compliance- und weitere professionelle Parteien einbeziehen."
+      "text": "Die Website stellt eine potenzielle Dienstleistung zur Vermittlung und Koordination kurzfristiger Finanzierungsmöglichkeiten dar, die durch geeignete Edelmetalle und ausgewählte digitale Vermögenswerte besichert sind. Jede Möglichkeit wird individuell geprüft und kann unabhängige Finanzierungs-, Verwahrungs-, Rechts-, Bewertungs-, Compliance- und weitere professionelle Parteien einbeziehen."
     },
     "noRegulatedService": {
       "title": "4. Keine regulierte Finanzdienstleistung über diese Website",

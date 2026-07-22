@@ -1,58 +1,58 @@
 {
   "Hero": {
-  "kicker": "Institutional Transaction Facilitation",
-  "title": {
-    "main": "Unlock liquidity",
-    "highlight": " without selling your gold."
-  },
-  "lead": "Gold Bridge Capital supports the preliminary preparation and confidential presentation of documented precious-metals financing opportunities for assessment by suitable independent institutions.",
-  "actions": {
-    "discuss": "Discuss Your Transaction",
-    "explore": "Explore the Structure"
-  },
-  "assurances": {
-    "confidential": "Confidential preliminary review",
-    "term": "Institution-defined terms",
-    "collateral": "Verified precious-metals assets"
-  },
-  "transaction": {
-    "ariaLabel": "Illustrative institutional assessment pathway",
-    "overline": "Indicative Assessment Pathway",
-    "title": "Institutional Review",
-    "confidential": "Confidential",
-    "goldValueLabel": "Proposed asset profile",
-    "goldValue": "Documented precious metals",
-    "financingLabel": "Potential financing",
-    "financingValue": "Subject to institutional assessment",
-    "maximumTermLabel": "Commercial terms",
-    "maximumTermValue": "Determined individually",
-    "steps": {
-      "verification": {
-        "number": "01",
-        "title": "Preliminary Eligibility",
-        "description": "Initial review of ownership, asset type, documentation, jurisdiction and proposed purpose."
-      },
-      "structuring": {
-        "number": "02",
-        "title": "Independent Verification",
-        "description": "Qualified parties assess authenticity, provenance, valuation, compliance and custody requirements."
-      },
-      "funding": {
-        "number": "03",
-        "title": "Institutional Decision",
-        "description": "Any availability, amount, pricing, term and contractual structure are determined solely by the selected institution."
-      }
+    "kicker": "Institutional Transaction Facilitation",
+    "title": {
+      "main": "Unlock liquidity",
+      "highlight": " without selling your strategic assets."
     },
-    "disclaimer": "No financing is offered or guaranteed through this website. Gold Bridge Capital does not represent any bank, lender or financial institution unless expressly confirmed in writing."
+    "lead": "Gold Bridge Capital supports the preliminary preparation and confidential presentation of documented financing opportunities secured by precious metals and selected digital assets for assessment by suitable independent institutions.",
+    "actions": {
+      "discuss": "Discuss Your Transaction",
+      "explore": "Explore the Structure"
+    },
+    "assurances": {
+      "confidential": "Confidential preliminary review",
+      "term": "Institution-defined terms",
+      "collateral": "Precious metals and digital assets"
+    },
+    "transaction": {
+      "ariaLabel": "Illustrative institutional assessment pathway",
+      "overline": "Indicative Assessment Pathway",
+      "title": "Institutional Review",
+      "confidential": "Confidential",
+      "goldValueLabel": "Proposed asset profile",
+      "goldValue": "Documented precious metals",
+      "financingLabel": "Potential financing",
+      "financingValue": "Subject to institutional assessment",
+      "maximumTermLabel": "Commercial terms",
+      "maximumTermValue": "Determined individually",
+      "steps": {
+        "verification": {
+          "number": "01",
+          "title": "Preliminary Eligibility",
+          "description": "Initial review of ownership, asset type, documentation, jurisdiction and proposed purpose."
+        },
+        "structuring": {
+          "number": "02",
+          "title": "Independent Verification",
+          "description": "Qualified parties assess authenticity, provenance, valuation, compliance and custody requirements."
+        },
+        "funding": {
+          "number": "03",
+          "title": "Institutional Decision",
+          "description": "Any availability, amount, pricing, term and contractual structure are determined solely by the selected institution."
+        }
+      },
+      "disclaimer": "No financing is offered or guaranteed through this website. Gold Bridge Capital does not represent any bank, lender or financial institution unless expressly confirmed in writing."
+    },
+    "discover": "Discover our approach"
   },
-  "discover": "Discover our approach"
-},
   "InstitutionalStrip": {
     "ariaLabel": "Key principles",
     "items": {
       "collateral": {
-        "title": "Physical Collateral",
-        "description": "Eligible investment-grade gold"
+        "title": "Eligible Collateral",
+        "description": "Eligible precious metals and selected digital assets"
       },
       "structuring": {
         "title": "Individual Structuring",
@@ -60,7 +60,7 @@
       },
       "term": {
         "title": "Defined Term",
-        "description": "Short-term financing up to 12 months"
+        "description": "Institution-defined pricing and duration"
       },
       "approval": {
         "title": "Subject to Approval",
@@ -72,7 +72,7 @@
     "kicker": "Why Gold Bridge Capital",
     "title": {
       "main": "A considered approach to",
-      "highlight": " gold-backed liquidity."
+      "highlight": " asset-backed liquidity."
     },
     "introduction": {
       "first": "Significant private transactions require more than access to capital. They require discretion, credible documentation, suitable counterparties and a structure aligned with the collateral and commercial objective.",
@@ -100,7 +100,7 @@
         "text": "Every opportunity is subject to verification of ownership, provenance, purity, documentation, counterparties and regulatory acceptability."
       }
     },
-    "statement": "Our role is to bring clarity, structure and disciplined coordination to complex transactions secured by physical gold.",
+    "statement": "Our role is to bring clarity, structure and disciplined coordination to complex transactions secured by eligible precious metals and selected digital assets.",
     "signature": "Gold Bridge Capital"
   },
   "Clients": {
@@ -109,11 +109,11 @@
       "main": "Designed for qualified private",
       "highlight": " and corporate clients."
     },
-    "introduction": "We consider transactions with a legitimate financing purpose, suitable physical gold collateral and complete, verifiable documentation.",
+    "introduction": "We consider transactions with a legitimate financing purpose, suitable precious-metals or digital-asset collateral and complete, verifiable documentation.",
     "profiles": {
       "familyOffices": {
         "title": "Family Offices",
-        "text": "Private capital structures for families seeking liquidity while preserving ownership of eligible physical gold."
+        "text": "Private capital structures for families seeking liquidity while preserving ownership of eligible precious metals or selected digital assets."
       },
       "entrepreneurs": {
         "title": "Entrepreneurs",
@@ -121,7 +121,7 @@
       },
       "privateInvestors": {
         "title": "Private Investors",
-        "text": "Individually reviewed financing opportunities secured by documented investment-grade gold."
+        "text": "Individually reviewed financing opportunities secured by documented precious metals or selected digital assets."
       },
       "corporations": {
         "title": "Corporations",
@@ -136,25 +136,25 @@
   "Structure": {
     "kicker": "How Structured Financing Works",
     "title": {
-      "main": "A clear path from physical gold",
+      "main": "A clear path from eligible assets",
       "highlight": " to available liquidity."
     },
     "introduction": {
-      "first": "Each proposed transaction is reviewed individually. The structure depends on the nature and location of the gold, the requested financing amount, the intended use of funds and the requirements of the relevant financing and custody partners.",
+      "first": "Each proposed transaction is reviewed individually. The structure depends on the nature, ownership and custody of the proposed assets, the requested financing amount, the intended use of funds and the requirements of the relevant financing and custody partners.",
       "second": "The outline below presents a typical transaction pathway. It does not represent a guaranteed offer or a standardised lending product."
     },
     "steps": {
       "collateral": {
         "number": "01",
         "label": "Eligible collateral",
-        "title": "Physical Investment Gold",
-        "text": "The client presents eligible physical gold together with supporting ownership, product, custody and provenance documentation."
+        "title": "Precious Metals or Digital Assets",
+        "text": "The client presents eligible precious metals or selected digital assets together with supporting ownership, product, custody and provenance documentation."
       },
       "review": {
         "number": "02",
         "label": "Preliminary assessment",
         "title": "Verification & Review",
-        "text": "Documentation, ownership, purity, form, storage location, beneficial ownership and intended use of funds are reviewed."
+        "text": "Documentation, ownership, asset characteristics, custody structure, beneficial ownership and intended use of funds are reviewed."
       },
       "financing": {
         "number": "03",
@@ -166,7 +166,7 @@
         "number": "04",
         "label": "Agreed arrangements",
         "title": "Secure Custody",
-        "text": "The gold is held under agreed custody and collateral arrangements with suitable independent service providers."
+        "text": "The collateral is held or controlled under agreed custody and collateral arrangements with suitable independent service providers."
       },
       "release": {
         "number": "05",
@@ -178,7 +178,7 @@
     "principles": {
       "ownership": {
         "title": "Client ownership",
-        "text": "The commercial objective is to unlock liquidity without an outright sale of the gold."
+        "text": "The commercial objective is to unlock liquidity without an outright sale of the eligible assets."
       },
       "counterparties": {
         "title": "Independent counterparties",
@@ -196,7 +196,7 @@
       "main": "A potential pathway for",
       "highlight": " institutionally assessed financing."
     },
-    "introduction": "This framework explains how a documented precious-metals holding could be prepared for review by an independent regulated institution. It does not describe a currently available product or committed financing terms.",
+    "introduction": "This framework explains how a documented precious-metals or digital-asset holding could be prepared for review by an independent regulated institution. It does not describe a currently available product or committed financing terms.",
     "case": {
       "overline": "Illustrative assessment pathway",
       "title": "Institutional Financing Review",
@@ -205,7 +205,7 @@
     "values": {
       "asset": {
         "label": "Proposed asset",
-        "value": "Verified precious metals",
+        "value": "Verified eligible collateral",
         "note": "Eligibility must be independently confirmed"
       },
       "assessment": {
@@ -272,7 +272,7 @@
       "highlight": " inquiry to completion."
     },
     "introduction": {
-      "first": "Gold-backed financing transactions require a structured and transparent review process. Each stage is designed to establish whether the proposed collateral, client profile and financing purpose meet the requirements of the relevant counterparties.",
+      "first": "Asset-backed financing transactions require a structured and transparent review process. Each stage is designed to establish whether the proposed collateral, client profile and financing purpose meet the requirements of the relevant counterparties.",
       "second": "Timelines depend on the quality of documentation, collateral location, legal structure, jurisdiction and responsiveness of all parties involved."
     },
     "steps": {
@@ -280,7 +280,7 @@
         "number": "01",
         "stage": "Initial submission",
         "title": "Confidential Inquiry",
-        "text": "The client submits an initial overview of the transaction, including the requested financing amount, intended use of funds and essential information about the proposed gold collateral.",
+        "text": "The client submits an initial overview of the transaction, including the requested financing amount, intended use of funds and essential information about the proposed precious-metals or digital-asset collateral.",
         "items": {
           "first": "Requested financing amount",
           "second": "Purpose and preferred duration",
@@ -294,7 +294,7 @@
         "text": "The opportunity is screened for basic eligibility. This includes the client profile, beneficial ownership, collateral form, location, documentation and commercial rationale.",
         "items": {
           "first": "Client and beneficial-owner profile",
-          "second": "Collateral form, purity and location",
+          "second": "Collateral type, value and custody",
           "third": "Initial compliance suitability"
         }
       },
@@ -361,20 +361,20 @@
     "cards": {
       "collateral": {
         "number": "01",
-        "title": "Gold Collateral Information",
-        "text": "Clear and verifiable information about the proposed physical investment gold.",
+        "title": "Collateral Information",
+        "text": "Clear and verifiable information about the proposed precious metals or digital assets.",
         "items": {
           "form": {
             "title": "Form and quantity",
-            "text": "Bars, ingots or other accepted investment-gold format."
+            "text": "Metal type, form and quantity, or digital-asset type and amount."
           },
           "purity": {
             "title": "Purity and identification",
-            "text": "Refinery, serial numbers, assay details and available certificates."
+            "text": "Refinery, serial numbers and assay details for metals, or token, network and account or wallet information for digital assets."
           },
           "location": {
             "title": "Current location",
-            "text": "Vault, custodian, bank, logistics provider or other existing storage arrangement."
+            "text": "Vault, bank, approved custodian, exchange, institutional account or wallet structure."
           },
           "value": {
             "title": "Indicative market value",
@@ -385,7 +385,7 @@
       "ownership": {
         "number": "02",
         "title": "Ownership & Provenance",
-        "text": "Evidence showing who legally owns the gold and how it was acquired.",
+        "text": "Evidence showing who legally or beneficially owns the collateral and how it was acquired.",
         "items": {
           "proof": {
             "title": "Proof of legal ownership",
@@ -401,7 +401,7 @@
           },
           "authority": {
             "title": "Authority to transact",
-            "text": "Evidence that the applicant is authorised to offer the gold as collateral."
+            "text": "Evidence that the applicant is authorised to offer the assets as collateral."
           }
         }
       },
@@ -458,7 +458,7 @@
       "text": "An initial inquiry does not require every definitive document, but it should include enough information to determine whether further assessment is commercially and legally appropriate.",
       "items": {
         "ownership": "Clear ownership evidence",
-        "gold": "Verifiable gold documentation",
+        "gold": "Verifiable collateral documentation",
         "purpose": "Defined financing purpose",
         "repayment": "Credible repayment strategy"
       },
@@ -470,7 +470,7 @@
     },
     "note": {
       "label": "Please note",
-      "text": "Depending on the transaction, additional legal opinions, assay reports, independent valuations, tax information, financial statements, custody confirmations or other specialist documents may be required."
+      "text": "Depending on the transaction, additional legal opinions, assay reports, blockchain analytics, independent valuations, tax information, financial statements, custody confirmations or other specialist documents may be required."
     }
   },
   "FAQ": {
@@ -486,33 +486,33 @@
     "items": {
       "collateral": {
         "number": "01",
-        "question": "What type of gold may be considered as collateral?",
-        "answer": "Transactions are generally expected to involve clearly identifiable physical investment gold with verifiable purity, ownership, provenance and supporting documentation. The accepted form, refinery, bar size, location and custody conditions depend on the requirements of the relevant transaction parties."
+        "question": "Which assets may be considered as collateral?",
+        "answer": "Potential collateral may include clearly identifiable physical investment-grade precious metals and selected digital assets accepted by the relevant institution with verifiable purity, ownership, provenance and supporting documentation. The accepted form, refinery, bar size, location and custody conditions depend on the requirements of the relevant transaction parties."
       },
       "sale": {
         "number": "02",
-        "question": "Does the client sell the gold?",
-        "answer": "The intended structure is financing secured by physical gold rather than an outright sale. The client is expected to retain legal ownership, subject to the contractual security, custody and enforcement rights established in the final transaction documents."
+        "question": "Does the client sell the collateral?",
+        "answer": "The intended structure is financing secured by eligible precious metals and selected digital assets rather than an outright sale. The client is expected to retain legal ownership, subject to the contractual security, custody and enforcement rights established in the final transaction documents."
       },
       "custody": {
         "number": "03",
-        "question": "Where is the gold held during the financing period?",
-        "answer": "The gold is held under custody arrangements accepted by the relevant parties. Depending on the transaction, this may involve an approved bank, vault operator, custodian or other professional storage provider in an agreed jurisdiction."
+        "question": "Where are the assets held during the financing period?",
+        "answer": "The collateral is held or controlled under custody arrangements accepted by the relevant parties. Depending on the transaction, this may involve an approved bank, vault operator, custodian or other professional storage provider in an agreed jurisdiction."
       },
       "amount": {
         "number": "04",
         "question": "How much financing may be available?",
-        "answer": "The potential financing amount depends on the independently assessed collateral value, form and location of the gold, market conditions, requested term, client profile and risk requirements of the financing party. No fixed advance ratio can be guaranteed before full review."
+        "answer": "The potential financing amount depends on the independently assessed collateral value, asset type, liquidity, volatility and custody, market conditions, requested term, client profile and risk requirements of the financing party. No fixed advance ratio can be guaranteed before full review."
       },
       "term": {
         "number": "05",
         "question": "What is the maximum financing term?",
-        "answer": "The intended focus is short-term financing with a duration of up to 12 months. The precise term is determined individually and depends on the proposed use of funds, repayment strategy and approval of the relevant parties."
+        "answer": "The precise term is determined individually by the selected institution. The precise term is determined individually and depends on the proposed use of funds, repayment strategy and approval of the relevant parties."
       },
       "pricing": {
         "number": "06",
         "question": "How are pricing and transaction costs determined?",
-        "answer": "Pricing is established individually after review of the collateral and transaction. Total costs may include financing charges, arrangement fees, legal costs, custody, transportation, insurance, assay, valuation, compliance and other professional expenses."
+        "answer": "Pricing is established individually after review of the collateral and transaction. Total costs may include financing charges, arrangement fees, legal costs, custody, transportation, insurance, assay, valuation, blockchain analytics, compliance and other professional expenses."
       },
       "timing": {
         "number": "07",
@@ -533,7 +533,7 @@
     "sidebar": {
       "overline": "Confidential discussion",
       "title": "Your transaction may require a more specific assessment.",
-      "text": "Provide a concise overview of your gold collateral, financing requirement and intended use of funds. The initial submission will be reviewed confidentially.",
+      "text": "Provide a concise overview of your proposed collateral, financing requirement and intended use of funds. The initial submission will be reviewed confidentially.",
       "button": "Start a Confidential Inquiry"
     },
     "disclaimer": {
@@ -545,9 +545,9 @@
     "kicker": "Confidential Inquiry",
     "title": {
       "main": "Discuss your proposed",
-      "highlight": " gold-backed transaction."
+      "highlight": " asset-backed transaction."
     },
-    "lead": "Submit a concise overview of your financing requirement and proposed gold collateral. The information will be used solely for an initial assessment of whether the opportunity may be suitable for further review.",
+    "lead": "Submit a concise overview of your financing requirement and proposed precious-metals or digital-asset collateral. The information will be used solely for an initial assessment of whether the opportunity may be suitable for further review.",
     "principles": {
       "confidential": {
         "title": "Confidential handling",
@@ -580,7 +580,7 @@
       "main": "Structured liquidity.",
       "highlight": " Preserved ownership."
     },
-    "text": "A discreet and disciplined approach to financing secured by eligible physical investment gold.",
+    "text": "A discreet and disciplined approach to financing secured by eligible precious metals and selected digital assets.",
     "button": "Discuss a Transaction"
   },
   "Header": {
@@ -604,7 +604,7 @@
       "main": "Gold Bridge",
       "sub": "Capital"
     },
-    "description": "Gold Bridge Capital facilitates the assessment and coordination of potential short-term financing transactions secured by eligible physical investment gold.",
+    "description": "Gold Bridge Capital facilitates the assessment and coordination of potential short-term financing transactions secured by eligible precious metals and selected digital assets.",
     "email": "inquiries@goldbridge-capital.com",
     "navigation": {
       "title": "Navigation",
@@ -652,44 +652,70 @@
         "label": "Telephone Number",
         "placeholder": "+41 ..."
       },
+      "collateralType": {
+        "label": "Proposed Collateral Type",
+        "placeholder": "Select collateral type",
+        "options": {
+          "preciousMetals": "Precious metals",
+          "digitalAssets": "Digital assets",
+          "combination": "Combination of both"
+        }
+      },
       "financingAmount": {
         "label": "Requested Financing Amount",
         "placeholder": "e.g. EUR 2,000,000"
       },
-      "goldValue": {
-        "label": "Estimated Market Value of Gold",
+      "estimatedAssetValue": {
+        "label": "Estimated Total Collateral Value",
         "placeholder": "e.g. EUR 3,000,000"
       },
-      "goldAmount": {
-        "label": "Gold Quantity and Specification",
-        "placeholder": "e.g. 50 kg, investment-grade bars"
+      "preciousMetalsDescription": {
+        "label": "Precious Metals Description",
+        "placeholder": "Type, form, quantity, purity, refinery and available documentation"
       },
-      "goldLocation": {
-        "label": "Current Gold Location or Custodian",
-        "placeholder": "Country, city, bank or vault"
+      "preciousMetalsLocation": {
+        "label": "Precious Metals Location or Custodian",
+        "placeholder": "Country, city, bank, vault or custodian"
+      },
+      "digitalAssetsDescription": {
+        "label": "Digital Assets Description",
+        "placeholder": "Asset type, approximate quantity, network and estimated value"
+      },
+      "digitalAssetCustody": {
+        "label": "Exchange, Custodian or Wallet Structure",
+        "placeholder": "Institution, exchange, custodian or wallet type — never enter private keys or seed phrases"
+      },
+      "custodyJurisdiction": {
+        "label": "Custody Jurisdiction",
+        "placeholder": "Country or jurisdiction of the custodian, exchange or account"
+      },
+      "ownershipSource": {
+        "label": "Ownership and Source Overview",
+        "placeholder": "Describe acquisition, ownership evidence and any pledge or restriction"
       },
       "purpose": {
         "label": "Transaction Overview and Financing Purpose",
-        "placeholder": "Please briefly describe the purpose of the financing, the preferred transaction timeframe, the ownership structure of the gold and any relevant information that may assist our initial assessment."
+        "placeholder": "Describe the purpose, preferred timeframe, repayment strategy and relevant information."
       }
     },
     "confirmations": {
-      "ownership": "I confirm that I am the legal owner of the gold or that I am duly authorised to act on behalf of its legal owner.",
-      "privacy": "I consent to the processing of the information provided for the purpose of reviewing and responding to this confidential financing inquiry."
+      "ownership": "I confirm that I am the legal or beneficial owner of the proposed collateral or am duly authorised to act on behalf of its owner.",
+      "privacy": "I consent to the processing of the information provided for reviewing and responding to this confidential inquiry.",
+      "security": "I understand that I must never submit passwords, seed phrases, private keys or account login credentials through this form or by email."
     },
     "button": {
       "idle": "Submit Confidential Inquiry",
       "sending": "Submitting Confidential Inquiry..."
     },
     "messages": {
-      "success": "Thank you. Your confidential inquiry has been submitted successfully. Our team will review the information provided and contact you should the transaction meet the initial assessment criteria.",
+      "success": "Thank you. Your confidential inquiry has been submitted successfully. We will review the information provided and contact you if the opportunity is suitable for further assessment.",
       "submissionError": "We were unable to submit your inquiry. Please try again.",
       "unexpectedError": "An unexpected error occurred. Please try again."
     }
   },
   "Metadata": {
-    "title": "Gold Bridge Capital | Gold-Backed Structured Financing",
-    "description": "Confidential short-term financing solutions secured by eligible physical investment gold for qualified private and corporate clients."
+    "title": "Gold Bridge Capital | Precious Metals & Digital Asset Financing",
+    "description": "Confidential short-term financing solutions secured by eligible precious metals and selected digital assets for qualified private and corporate clients."
   },
   "Privacy": {
     "kicker": "Privacy & Data Protection",
@@ -710,7 +736,7 @@
         "email": "Your business email address.",
         "phone": "Your telephone number, if provided.",
         "transaction": "The requested financing amount and intended use of funds.",
-        "gold": "Information concerning the quantity, estimated value, ownership and location of the proposed gold collateral.",
+        "gold": "Information concerning the quantity, estimated value, ownership and location of the proposed precious-metals or digital-asset collateral.",
         "message": "Any additional information you voluntarily provide in your inquiry or subsequent correspondence."
       }
     },
@@ -803,14 +829,14 @@
     },
     "eligibility": {
       "title": "5. Eligibility and transaction assessment",
-      "text": "The availability of any financing structure depends on the profile of the client, the nature and location of the proposed gold collateral, applicable legal and compliance requirements, market conditions and the approval of relevant independent parties. No transaction is guaranteed."
+      "text": "The availability of any financing structure depends on the profile of the client, the nature and location of the proposed precious-metals or digital-asset collateral, applicable legal and compliance requirements, market conditions and the approval of relevant independent parties. No transaction is guaranteed."
     },
     "inquiries": {
       "title": "6. Information submitted through inquiries",
       "introduction": "When submitting an inquiry, you confirm that:",
       "items": {
         "accuracy": "The information provided is accurate and complete to the best of your knowledge.",
-        "authority": "You are the legal owner of the proposed gold collateral or are duly authorised to act on behalf of the legal owner.",
+        "authority": "You are the legal owner of the proposed precious-metals or digital-asset collateral or are duly authorised to act on behalf of the legal owner.",
         "lawful": "The proposed transaction and intended use of funds are lawful.",
         "noCommitment": "Submission of an inquiry does not create a client relationship, financing commitment or obligation for any party."
       }
@@ -879,7 +905,7 @@
     },
     "services": {
       "title": "3. Nature of the services",
-      "text": "The website presents a potential transaction-facilitation and coordination service relating to short-term financing opportunities secured by eligible physical investment gold. Each opportunity is reviewed individually and may involve independent financing, custody, legal, valuation, compliance and other professional parties."
+      "text": "The website presents a potential transaction-facilitation and coordination service relating to short-term financing opportunities secured by eligible precious metals and selected digital assets. Each opportunity is reviewed individually and may involve independent financing, custody, legal, valuation, compliance and other professional parties."
     },
     "noRegulatedService": {
       "title": "4. No regulated financial service offered through the website",

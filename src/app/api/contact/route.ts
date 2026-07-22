@@ -7,6 +7,10 @@ const RATE_LIMIT_WINDOW_MS = 15 * 60 * 1000;
 const RATE_LIMIT_MAX_REQUESTS = 5;
 
 type SupportedLocale = "en" | "de" | "it";
+type CollateralType =
+  | "preciousMetals"
+  | "digitalAssets"
+  | "combination";
 
 type RateLimitEntry = {
   count: number;
@@ -18,13 +22,19 @@ type ContactPayload = {
   company?: unknown;
   email?: unknown;
   phone?: unknown;
+  collateralType?: unknown;
   financingAmount?: unknown;
-  goldValue?: unknown;
-  goldAmount?: unknown;
-  goldLocation?: unknown;
+  estimatedAssetValue?: unknown;
+  preciousMetalsDescription?: unknown;
+  preciousMetalsLocation?: unknown;
+  digitalAssetsDescription?: unknown;
+  digitalAssetCustody?: unknown;
+  custodyJurisdiction?: unknown;
+  ownershipSource?: unknown;
   purpose?: unknown;
   ownershipConfirmed?: unknown;
   privacyConfirmed?: unknown;
+  securityConfirmed?: unknown;
   website?: unknown;
   locale?: unknown;
 };
@@ -33,9 +43,13 @@ type ErrorMessages = {
   rateLimit: string;
   invalidRequest: string;
   requiredFields: string;
+  invalidCollateralType: string;
+  preciousMetalsRequired: string;
+  digitalAssetsRequired: string;
   invalidEmail: string;
   shortName: string;
   shortPurpose: string;
+  shortOwnershipSource: string;
   confirmations: string;
   unavailable: string;
   emailFailed: string;
@@ -49,24 +63,42 @@ type ConfirmationEmail = {
   reviewText: string;
   responseTime: string;
   referenceTitle: string;
+  collateralTypeLabel: string;
   amountLabel: string;
-  goldValueLabel: string;
-  locationLabel: string;
+  assetValueLabel: string;
+  custodyLabel: string;
   securityNotice: string;
+  riskNotice: string;
   closing: string;
+  receiptDisclaimer: string;
+  collateralTypes: Record<CollateralType, string>;
 };
 
-const messages: Record<SupportedLocale, ErrorMessages> = {
+const messages: Record<
+  SupportedLocale,
+  ErrorMessages
+> = {
   en: {
     rateLimit:
       "Too many requests. Please wait a few minutes before trying again.",
     invalidRequest: "Invalid request format.",
-    requiredFields: "Please complete all required fields.",
-    invalidEmail: "Please enter a valid email address.",
+    requiredFields:
+      "Please complete all required fields.",
+    invalidCollateralType:
+      "Please select a valid collateral type.",
+    preciousMetalsRequired:
+      "Please provide the required precious-metals information.",
+    digitalAssetsRequired:
+      "Please provide the required digital-asset and custody information.",
+    invalidEmail:
+      "Please enter a valid email address.",
     shortName: "The name entered is too short.",
     shortPurpose:
       "The inquiry description must contain at least 20 characters.",
-    confirmations: "Both confirmations are required.",
+    shortOwnershipSource:
+      "The ownership and source overview must contain at least 20 characters.",
+    confirmations:
+      "All confirmations are required.",
     unavailable:
       "The contact service is currently unavailable.",
     emailFailed:
@@ -81,13 +113,22 @@ const messages: Record<SupportedLocale, ErrorMessages> = {
     invalidRequest: "Ungültiges Anfrageformat.",
     requiredFields:
       "Bitte füllen Sie alle Pflichtfelder aus.",
+    invalidCollateralType:
+      "Bitte wählen Sie eine gültige Sicherheitenart.",
+    preciousMetalsRequired:
+      "Bitte geben Sie die erforderlichen Informationen zu den Edelmetallen an.",
+    digitalAssetsRequired:
+      "Bitte geben Sie die erforderlichen Informationen zu digitalen Vermögenswerten und deren Verwahrung an.",
     invalidEmail:
       "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
-    shortName: "Der eingegebene Name ist zu kurz.",
+    shortName:
+      "Der eingegebene Name ist zu kurz.",
     shortPurpose:
       "Die Beschreibung der Anfrage muss mindestens 20 Zeichen enthalten.",
+    shortOwnershipSource:
+      "Die Übersicht zu Eigentum und Herkunft muss mindestens 20 Zeichen enthalten.",
     confirmations:
-      "Beide Bestätigungen sind erforderlich.",
+      "Alle Bestätigungen sind erforderlich.",
     unavailable:
       "Der Kontaktservice ist derzeit nicht verfügbar.",
     emailFailed:
@@ -99,16 +140,26 @@ const messages: Record<SupportedLocale, ErrorMessages> = {
   it: {
     rateLimit:
       "Troppe richieste. Attendi alcuni minuti prima di riprovare.",
-    invalidRequest: "Formato della richiesta non valido.",
+    invalidRequest:
+      "Formato della richiesta non valido.",
     requiredFields:
       "Compila tutti i campi obbligatori.",
+    invalidCollateralType:
+      "Seleziona un tipo di garanzia valido.",
+    preciousMetalsRequired:
+      "Fornisci le informazioni richieste sui metalli preziosi.",
+    digitalAssetsRequired:
+      "Fornisci le informazioni richieste sugli asset digitali e sulla custodia.",
     invalidEmail:
       "Inserisci un indirizzo e-mail valido.",
-    shortName: "Il nome inserito è troppo breve.",
+    shortName:
+      "Il nome inserito è troppo breve.",
     shortPurpose:
       "La descrizione della richiesta deve contenere almeno 20 caratteri.",
+    shortOwnershipSource:
+      "La panoramica di proprietà e origine deve contenere almeno 20 caratteri.",
     confirmations:
-      "Sono necessarie entrambe le conferme.",
+      "Sono necessarie tutte le conferme.",
     unavailable:
       "Il servizio di contatto non è attualmente disponibile.",
     emailFailed:
@@ -131,14 +182,26 @@ const confirmationEmails: Record<
     reviewText:
       "The information provided will now be reviewed on a preliminary and confidential basis.",
     responseTime:
-      "We will contact you after the initial assessment if the transaction appears to meet the relevant financing criteria.",
+      "We will contact you after the initial assessment if the opportunity appears suitable for further institutional review.",
     referenceTitle: "Inquiry summary",
+    collateralTypeLabel: "Proposed collateral",
     amountLabel: "Requested financing amount",
-    goldValueLabel: "Estimated gold value",
-    locationLabel: "Gold location",
+    assetValueLabel:
+      "Estimated collateral value",
+    custodyLabel: "Custody overview",
     securityNotice:
-      "For your security, please do not send passwords, private keys, banking credentials or original ownership documents by email unless specifically requested through an agreed secure channel.",
+      "Never send passwords, seed phrases, private keys, account login credentials or original ownership documents by email unless specifically requested through an agreed secure channel.",
+    riskNotice:
+      "Digital assets may be subject to material price volatility, additional-collateral requirements and contractual liquidation rights. Any such terms would be determined solely by the selected institution.",
     closing: "Kind regards",
+    receiptDisclaimer:
+      "This confirmation acknowledges receipt only and does not constitute a financing offer, commitment, recommendation or establishment of a client relationship.",
+    collateralTypes: {
+      preciousMetals: "Precious metals",
+      digitalAssets: "Digital assets",
+      combination:
+        "Precious metals and digital assets",
+    },
   },
 
   de: {
@@ -150,14 +213,30 @@ const confirmationEmails: Record<
     reviewText:
       "Die übermittelten Informationen werden nun vorläufig und vertraulich geprüft.",
     responseTime:
-      "Nach der ersten Prüfung werden wir Sie kontaktieren, sofern die Transaktion die relevanten Finanzierungskriterien grundsätzlich erfüllt.",
-    referenceTitle: "Zusammenfassung Ihrer Anfrage",
-    amountLabel: "Gewünschter Finanzierungsbetrag",
-    goldValueLabel: "Geschätzter Goldwert",
-    locationLabel: "Standort des Goldes",
+      "Nach der ersten Prüfung kontaktieren wir Sie, sofern die Möglichkeit für eine weitergehende institutionelle Prüfung geeignet erscheint.",
+    referenceTitle:
+      "Zusammenfassung Ihrer Anfrage",
+    collateralTypeLabel:
+      "Vorgeschlagene Sicherheit",
+    amountLabel:
+      "Gewünschter Finanzierungsbetrag",
+    assetValueLabel:
+      "Geschätzter Sicherheitenwert",
+    custodyLabel: "Verwahrungsübersicht",
     securityNotice:
-      "Bitte senden Sie zu Ihrer Sicherheit keine Passwörter, privaten Schlüssel, Bankzugangsdaten oder Originalnachweise zum Eigentum per E-Mail, sofern dies nicht ausdrücklich über einen vereinbarten sicheren Kanal angefordert wurde.",
+      "Senden Sie niemals Passwörter, Seed-Phrasen, private Schlüssel, Kontozugangsdaten oder Originalnachweise per E-Mail, sofern dies nicht ausdrücklich über einen vereinbarten sicheren Kanal angefordert wurde.",
+    riskNotice:
+      "Digitale Vermögenswerte können erheblichen Kursschwankungen, Nachbesicherungsanforderungen und vertraglichen Liquidationsrechten unterliegen. Solche Konditionen würden ausschließlich vom ausgewählten Institut festgelegt.",
     closing: "Mit freundlichen Grüßen",
+    receiptDisclaimer:
+      "Diese Bestätigung bestätigt ausschließlich den Eingang und stellt weder ein Finanzierungsangebot, eine Zusage, eine Empfehlung noch die Begründung einer Kundenbeziehung dar.",
+    collateralTypes: {
+      preciousMetals: "Edelmetalle",
+      digitalAssets:
+        "Digitale Vermögenswerte",
+      combination:
+        "Edelmetalle und digitale Vermögenswerte",
+    },
   },
 
   it: {
@@ -169,18 +248,37 @@ const confirmationEmails: Record<
     reviewText:
       "Le informazioni fornite saranno ora esaminate in via preliminare e riservata.",
     responseTime:
-      "Ti contatteremo dopo la valutazione iniziale qualora l’operazione risulti compatibile con i criteri di finanziamento applicabili.",
-    referenceTitle: "Riepilogo della richiesta",
-    amountLabel: "Importo del finanziamento richiesto",
-    goldValueLabel: "Valore stimato dell’oro",
-    locationLabel: "Ubicazione dell’oro",
+      "Ti contatteremo dopo la valutazione iniziale qualora l’opportunità risulti idonea a un ulteriore esame istituzionale.",
+    referenceTitle:
+      "Riepilogo della richiesta",
+    collateralTypeLabel:
+      "Garanzia proposta",
+    amountLabel:
+      "Importo del finanziamento richiesto",
+    assetValueLabel:
+      "Valore stimato della garanzia",
+    custodyLabel:
+      "Panoramica della custodia",
     securityNotice:
-      "Per la tua sicurezza, non inviare tramite e-mail password, chiavi private, credenziali bancarie o documenti originali di proprietà, salvo espressa richiesta attraverso un canale sicuro concordato.",
+      "Non inviare mai tramite e-mail password, seed phrase, chiavi private, credenziali di accesso o documenti originali di proprietà, salvo espressa richiesta attraverso un canale sicuro concordato.",
+    riskNotice:
+      "Gli asset digitali possono essere soggetti a significativa volatilità, richieste di garanzie aggiuntive e diritti contrattuali di liquidazione. Tali condizioni sarebbero determinate esclusivamente dall’istituzione selezionata.",
     closing: "Cordiali saluti",
+    receiptDisclaimer:
+      "Questa conferma attesta esclusivamente la ricezione e non costituisce un’offerta di finanziamento, un impegno, una raccomandazione o l’instaurazione di un rapporto con il cliente.",
+    collateralTypes: {
+      preciousMetals: "Metalli preziosi",
+      digitalAssets: "Asset digitali",
+      combination:
+        "Metalli preziosi e asset digitali",
+    },
   },
 };
 
-const rateLimitStore = new Map<string, RateLimitEntry>();
+const rateLimitStore = new Map<
+  string,
+  RateLimitEntry
+>();
 
 export async function POST(request: Request) {
   let locale: SupportedLocale = "en";
@@ -191,14 +289,14 @@ export async function POST(request: Request) {
 
     if (isRateLimited(clientIp)) {
       return NextResponse.json(
-        {
-          error: t.rateLimit,
-        },
+        { error: t.rateLimit },
         {
           status: 429,
           headers: {
             "Retry-After": String(
-              Math.ceil(RATE_LIMIT_WINDOW_MS / 1000)
+              Math.ceil(
+                RATE_LIMIT_WINDOW_MS / 1000
+              )
             ),
           },
         }
@@ -215,12 +313,16 @@ export async function POST(request: Request) {
       );
     }
 
-    const body = (await request.json()) as ContactPayload;
+    const body =
+      (await request.json()) as ContactPayload;
 
     locale = getSupportedLocale(body.locale);
     t = messages[locale];
 
-    const website = normaliseText(body.website, 200);
+    const website = normaliseText(
+      body.website,
+      200
+    );
 
     if (website) {
       return NextResponse.json({
@@ -229,37 +331,110 @@ export async function POST(request: Request) {
     }
 
     const name = normaliseText(body.name, 120);
-    const company = normaliseText(body.company, 160);
-    const email = normaliseText(body.email, 254).toLowerCase();
+    const company = normaliseText(
+      body.company,
+      160
+    );
+    const email = normaliseText(
+      body.email,
+      254
+    ).toLowerCase();
     const phone = normaliseText(body.phone, 60);
+
+    const collateralType =
+      getCollateralType(body.collateralType);
+
     const financingAmount = normaliseText(
       body.financingAmount,
       100
     );
-    const goldValue = normaliseText(body.goldValue, 100);
-    const goldAmount = normaliseText(body.goldAmount, 120);
-    const goldLocation = normaliseText(
-      body.goldLocation,
-      180
+    const estimatedAssetValue = normaliseText(
+      body.estimatedAssetValue,
+      100
     );
-    const purpose = normaliseText(body.purpose, 5000);
+    const preciousMetalsDescription =
+      normaliseText(
+        body.preciousMetalsDescription,
+        500
+      );
+    const preciousMetalsLocation =
+      normaliseText(
+        body.preciousMetalsLocation,
+        250
+      );
+    const digitalAssetsDescription =
+      normaliseText(
+        body.digitalAssetsDescription,
+        500
+      );
+    const digitalAssetCustody =
+      normaliseText(
+        body.digitalAssetCustody,
+        300
+      );
+    const custodyJurisdiction =
+      normaliseText(
+        body.custodyJurisdiction,
+        160
+      );
+    const ownershipSource = normaliseText(
+      body.ownershipSource,
+      3000
+    );
+    const purpose = normaliseText(
+      body.purpose,
+      5000
+    );
 
     const ownershipConfirmed =
       body.ownershipConfirmed === true;
-
     const privacyConfirmed =
       body.privacyConfirmed === true;
+    const securityConfirmed =
+      body.securityConfirmed === true;
 
     if (
       !name ||
       !email ||
       !financingAmount ||
-      !goldValue ||
-      !goldLocation ||
+      !estimatedAssetValue ||
+      !ownershipSource ||
       !purpose
     ) {
       return NextResponse.json(
         { error: t.requiredFields },
+        { status: 400 }
+      );
+    }
+
+    if (!collateralType) {
+      return NextResponse.json(
+        { error: t.invalidCollateralType },
+        { status: 400 }
+      );
+    }
+
+    if (
+      (collateralType === "preciousMetals" ||
+        collateralType === "combination") &&
+      (!preciousMetalsDescription ||
+        !preciousMetalsLocation)
+    ) {
+      return NextResponse.json(
+        { error: t.preciousMetalsRequired },
+        { status: 400 }
+      );
+    }
+
+    if (
+      (collateralType === "digitalAssets" ||
+        collateralType === "combination") &&
+      (!digitalAssetsDescription ||
+        !digitalAssetCustody ||
+        !custodyJurisdiction)
+    ) {
+      return NextResponse.json(
+        { error: t.digitalAssetsRequired },
         { status: 400 }
       );
     }
@@ -278,6 +453,13 @@ export async function POST(request: Request) {
       );
     }
 
+    if (ownershipSource.length < 20) {
+      return NextResponse.json(
+        { error: t.shortOwnershipSource },
+        { status: 400 }
+      );
+    }
+
     if (purpose.length < 20) {
       return NextResponse.json(
         { error: t.shortPurpose },
@@ -285,7 +467,11 @@ export async function POST(request: Request) {
       );
     }
 
-    if (!ownershipConfirmed || !privacyConfirmed) {
+    if (
+      !ownershipConfirmed ||
+      !privacyConfirmed ||
+      !securityConfirmed
+    ) {
       return NextResponse.json(
         { error: t.confirmations },
         { status: 400 }
@@ -309,25 +495,31 @@ export async function POST(request: Request) {
       );
     }
 
-    const inquiryResult = await resend.emails.send({
-      from:
-        "Gold Bridge Capital <inquiries@goldbridge-capital.com>",
-      to: [recipientEmail],
-      replyTo: email,
-      subject: `New financing inquiry – ${name}`,
-      html: createInternalInquiryEmail({
-        name,
-        company,
-        email,
-        phone,
-        financingAmount,
-        goldValue,
-        goldAmount,
-        goldLocation,
-        purpose,
-        locale,
-      }),
-    });
+    const inquiryResult =
+      await resend.emails.send({
+        from:
+          "Gold Bridge Capital <inquiries@goldbridge-capital.com>",
+        to: [recipientEmail],
+        replyTo: email,
+        subject: `New financing inquiry – ${name}`,
+        html: createInternalInquiryEmail({
+          name,
+          company,
+          email,
+          phone,
+          collateralType,
+          financingAmount,
+          estimatedAssetValue,
+          preciousMetalsDescription,
+          preciousMetalsLocation,
+          digitalAssetsDescription,
+          digitalAssetCustody,
+          custodyJurisdiction,
+          ownershipSource,
+          purpose,
+          locale,
+        }),
+      });
 
     if (inquiryResult.error) {
       console.error(
@@ -344,6 +536,14 @@ export async function POST(request: Request) {
     const confirmation =
       confirmationEmails[locale];
 
+    const custodySummary = [
+      preciousMetalsLocation,
+      digitalAssetCustody,
+      custodyJurisdiction,
+    ]
+      .filter(Boolean)
+      .join(" | ");
+
     const confirmationResult =
       await resend.emails.send({
         from:
@@ -354,19 +554,15 @@ export async function POST(request: Request) {
         subject: confirmation.subject,
         html: createCustomerConfirmationEmail({
           name,
+          collateralType,
           financingAmount,
-          goldValue,
-          goldLocation,
+          estimatedAssetValue,
+          custodySummary,
           confirmation,
         }),
       });
 
     if (confirmationResult.error) {
-      /*
-       * Povpraševanje je bilo že uspešno prejeto.
-       * Zato stranki ne vrnemo napake in ne povzročimo
-       * ponovne oddaje istega povpraševanja.
-       */
       console.error(
         "Resend confirmation email error:",
         confirmationResult.error
@@ -394,10 +590,15 @@ function createInternalInquiryEmail({
   company,
   email,
   phone,
+  collateralType,
   financingAmount,
-  goldValue,
-  goldAmount,
-  goldLocation,
+  estimatedAssetValue,
+  preciousMetalsDescription,
+  preciousMetalsLocation,
+  digitalAssetsDescription,
+  digitalAssetCustody,
+  custodyJurisdiction,
+  ownershipSource,
   purpose,
   locale,
 }: {
@@ -405,10 +606,15 @@ function createInternalInquiryEmail({
   company: string;
   email: string;
   phone: string;
+  collateralType: CollateralType;
   financingAmount: string;
-  goldValue: string;
-  goldAmount: string;
-  goldLocation: string;
+  estimatedAssetValue: string;
+  preciousMetalsDescription: string;
+  preciousMetalsLocation: string;
+  digitalAssetsDescription: string;
+  digitalAssetCustody: string;
+  custodyJurisdiction: string;
+  ownershipSource: string;
   purpose: string;
   locale: SupportedLocale;
 }) {
@@ -427,23 +633,50 @@ function createInternalInquiryEmail({
 
       <hr style="margin: 24px 0; border: 0; border-top: 1px solid #dddddd;" />
 
+      <p><strong>Collateral type:</strong> ${escapeHtml(
+        collateralType
+      )}</p>
+
       <p><strong>Requested financing amount:</strong> ${escapeHtml(
         financingAmount
       )}</p>
 
-      <p><strong>Estimated gold value:</strong> ${escapeHtml(
-        goldValue
+      <p><strong>Estimated collateral value:</strong> ${escapeHtml(
+        estimatedAssetValue
       )}</p>
 
-      <p><strong>Gold quantity:</strong> ${escapeHtml(
-        goldAmount || "Not provided"
+      <p><strong>Precious metals:</strong> ${escapeHtml(
+        preciousMetalsDescription ||
+          "Not applicable"
       )}</p>
 
-      <p><strong>Gold location:</strong> ${escapeHtml(
-        goldLocation
+      <p><strong>Precious-metals location:</strong> ${escapeHtml(
+        preciousMetalsLocation ||
+          "Not applicable"
       )}</p>
 
-      <p><strong>Financing purpose:</strong></p>
+      <p><strong>Digital assets:</strong> ${escapeHtml(
+        digitalAssetsDescription ||
+          "Not applicable"
+      )}</p>
+
+      <p><strong>Digital-asset custody:</strong> ${escapeHtml(
+        digitalAssetCustody ||
+          "Not applicable"
+      )}</p>
+
+      <p><strong>Custody jurisdiction:</strong> ${escapeHtml(
+        custodyJurisdiction ||
+          "Not applicable"
+      )}</p>
+
+      <p><strong>Ownership and source overview:</strong></p>
+      <p>${escapeHtml(ownershipSource).replace(
+        /\n/g,
+        "<br />"
+      )}</p>
+
+      <p><strong>Transaction and financing purpose:</strong></p>
       <p>${escapeHtml(purpose).replace(
         /\n/g,
         "<br />"
@@ -453,6 +686,7 @@ function createInternalInquiryEmail({
 
       <p><strong>Ownership confirmed:</strong> Yes</p>
       <p><strong>Privacy consent confirmed:</strong> Yes</p>
+      <p><strong>Security warning confirmed:</strong> Yes</p>
       <p><strong>Submitted language:</strong> ${locale.toUpperCase()}</p>
     </div>
   `;
@@ -460,15 +694,17 @@ function createInternalInquiryEmail({
 
 function createCustomerConfirmationEmail({
   name,
+  collateralType,
   financingAmount,
-  goldValue,
-  goldLocation,
+  estimatedAssetValue,
+  custodySummary,
   confirmation,
 }: {
   name: string;
+  collateralType: CollateralType;
   financingAmount: string;
-  goldValue: string;
-  goldLocation: string;
+  estimatedAssetValue: string;
+  custodySummary: string;
   confirmation: ConfirmationEmail;
 }) {
   return `
@@ -490,15 +726,34 @@ function createCustomerConfirmationEmail({
             ${escapeHtml(name)},
           </p>
 
-          <p>${escapeHtml(confirmation.introduction)}</p>
+          <p>${escapeHtml(
+            confirmation.introduction
+          )}</p>
 
-          <p>${escapeHtml(confirmation.reviewText)}</p>
+          <p>${escapeHtml(
+            confirmation.reviewText
+          )}</p>
 
-          <p>${escapeHtml(confirmation.responseTime)}</p>
+          <p>${escapeHtml(
+            confirmation.responseTime
+          )}</p>
 
           <div style="margin: 28px 0; padding: 20px; background: #f7f4ec; border-left: 4px solid #c7aa60;">
             <p style="margin: 0 0 12px; font-weight: 700;">
-              ${escapeHtml(confirmation.referenceTitle)}
+              ${escapeHtml(
+                confirmation.referenceTitle
+              )}
+            </p>
+
+            <p style="margin: 6px 0;">
+              <strong>${escapeHtml(
+                confirmation.collateralTypeLabel
+              )}:</strong>
+              ${escapeHtml(
+                confirmation.collateralTypes[
+                  collateralType
+                ]
+              )}
             </p>
 
             <p style="margin: 6px 0;">
@@ -510,25 +765,40 @@ function createCustomerConfirmationEmail({
 
             <p style="margin: 6px 0;">
               <strong>${escapeHtml(
-                confirmation.goldValueLabel
+                confirmation.assetValueLabel
               )}:</strong>
-              ${escapeHtml(goldValue)}
+              ${escapeHtml(
+                estimatedAssetValue
+              )}
             </p>
 
             <p style="margin: 6px 0;">
               <strong>${escapeHtml(
-                confirmation.locationLabel
+                confirmation.custodyLabel
               )}:</strong>
-              ${escapeHtml(goldLocation)}
+              ${escapeHtml(
+                custodySummary ||
+                  "Not provided"
+              )}
             </p>
           </div>
 
           <p style="font-size: 14px; color: #596174;">
-            ${escapeHtml(confirmation.securityNotice)}
+            ${escapeHtml(
+              confirmation.securityNotice
+            )}
+          </p>
+
+          <p style="font-size: 14px; color: #596174;">
+            ${escapeHtml(
+              confirmation.riskNotice
+            )}
           </p>
 
           <p style="margin-top: 28px;">
-            ${escapeHtml(confirmation.closing)},<br />
+            ${escapeHtml(
+              confirmation.closing
+            )},<br />
             <strong>Gold Bridge Capital</strong><br />
             <a
               href="mailto:inquiries@goldbridge-capital.com"
@@ -540,7 +810,9 @@ function createCustomerConfirmationEmail({
         </div>
 
         <div style="padding: 18px 32px; background: #172136; color: #aeb6c5; font-family: Arial, sans-serif; font-size: 12px; line-height: 1.6;">
-          This confirmation acknowledges receipt only and does not constitute a financing offer, commitment or establishment of a client relationship.
+          ${escapeHtml(
+            confirmation.receiptDisclaimer
+          )}
         </div>
       </div>
     </div>
@@ -559,6 +831,20 @@ function getSupportedLocale(
   }
 
   return "en";
+}
+
+function getCollateralType(
+  value: unknown
+): CollateralType | null {
+  if (
+    value === "preciousMetals" ||
+    value === "digitalAssets" ||
+    value === "combination"
+  ) {
+    return value;
+  }
+
+  return null;
 }
 
 function getClientIp(request: Request) {
@@ -592,7 +878,8 @@ function isRateLimited(identifier: string) {
   ) {
     rateLimitStore.set(identifier, {
       count: 1,
-      resetAt: now + RATE_LIMIT_WINDOW_MS,
+      resetAt:
+        now + RATE_LIMIT_WINDOW_MS,
     });
 
     return false;
@@ -606,7 +893,10 @@ function isRateLimited(identifier: string) {
   }
 
   existingEntry.count += 1;
-  rateLimitStore.set(identifier, existingEntry);
+  rateLimitStore.set(
+    identifier,
+    existingEntry
+  );
 
   return false;
 }
@@ -619,11 +909,15 @@ function normaliseText(
     return "";
   }
 
-  return value.trim().slice(0, maximumLength);
+  return value
+    .trim()
+    .slice(0, maximumLength);
 }
 
 function isValidEmail(value: string) {
-  return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value);
+  return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(
+    value
+  );
 }
 
 function escapeHtml(value: unknown) {

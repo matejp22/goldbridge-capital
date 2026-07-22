@@ -191,78 +191,78 @@
     }
   },
   "Example": {
-    "kicker": "Operazione illustrativa",
+    "kicker": "Quadro istituzionale indicativo",
     "title": {
-      "main": "Un esempio di possibile",
-      "highlight": " struttura di finanziamento garantita da oro."
+      "main": "Un possibile percorso verso un",
+      "highlight": " finanziamento valutato da un'istituzione."
     },
-    "introduction": "L'esempio seguente è fornito esclusivamente per spiegare il funzionamento di una possibile operazione. Non costituisce un'offerta, un impegno, un preventivo o una garanzia di finanziamento.",
+    "introduction": "Questo quadro illustra come una posizione documentata in metalli preziosi potrebbe essere preparata per la valutazione da parte di un'istituzione regolamentata indipendente. Non descrive un prodotto attualmente disponibile né condizioni di finanziamento già impegnate.",
     "case": {
-      "overline": "Caso cliente illustrativo",
-      "title": "Finanziamento privato a breve termine",
-      "status": "Solo esempio"
+      "overline": "Percorso di valutazione illustrativo",
+      "title": "Valutazione istituzionale del finanziamento",
+      "status": "Soggetto ad approvazione"
     },
     "values": {
-      "collateral": {
-        "label": "Valore indicativo della garanzia",
-        "value": "€3,000,000",
-        "note": "Oro fisico da investimento"
+      "asset": {
+        "label": "Attività proposta",
+        "value": "Metalli preziosi verificati",
+        "note": "L'idoneità deve essere confermata in modo indipendente"
       },
-      "financing": {
-        "label": "Finanziamento illustrativo",
-        "value": "€2,000,000",
-        "note": "Soggetto ad approvazione"
+      "assessment": {
+        "label": "Possibile esito",
+        "value": "Condizioni istituzionali individuali",
+        "note": "Solo dopo valutazione completa e approvazione scritta"
       }
     },
     "details": {
-      "term": {
-        "label": "Durata illustrativa",
-        "value": "Fino a 12 mesi"
+      "asset": {
+        "label": "Tipo di attività",
+        "value": "Definito dall'istituzione"
       },
-      "repayment": {
-        "label": "Rimborso indicativo",
-        "value": "€2.2M–€2.3M"
+      "verification": {
+        "label": "Verifica",
+        "value": "Indipendente e documentata"
       },
-      "ownership": {
-        "label": "Proprietà della garanzia",
-        "value": "Mantenuta dal cliente"
+      "assessment": {
+        "label": "Decisione sul finanziamento",
+        "value": "Caso per caso"
       },
       "custody": {
         "label": "Custodia",
-        "value": "Come concordato contrattualmente"
+        "value": "Soggetta ai requisiti istituzionali"
       }
     },
-    "footer": "Durante il periodo di finanziamento concordato, l'oro funge da garanzia ai sensi dei documenti definitivi dell'operazione. La precisa struttura legale e di custodia dipende dalle controparti approvate e dalla giurisdizione.",
+    "footer": "Qualsiasi valutazione, verifica dell'autenticità, analisi della provenienza, controllo di conformità, accordo di custodia e decisione di finanziamento sarebbe eseguito o approvato da parti indipendenti qualificate.",
     "summary": {
       "overline": "Panoramica indicativa",
-      "title": "Riepilogo dell'operazione",
+      "title": "Valutazione istituzionale",
       "rows": {
-        "goldValue": {
-          "label": "Valore dell'oro",
-          "value": "€3,000,000"
+        "assetEligibility": {
+          "label": "Idoneità dell'attività",
+          "value": "Da confermare"
         },
-        "financingAmount": {
-          "label": "Importo del finanziamento",
-          "value": "€2,000,000"
+        "financingAvailability": {
+          "label": "Disponibilità del finanziamento",
+          "value": "Non garantita"
         },
         "advanceRatio": {
-          "label": "Rapporto di anticipo illustrativo",
-          "value": "Circa 67%"
+          "label": "Rapporto di anticipo",
+          "value": "Determinato individualmente"
         },
-        "maximumPeriod": {
-          "label": "Periodo massimo",
-          "value": "12 mesi"
+        "term": {
+          "label": "Durata",
+          "value": "Da concordare con l'istituzione"
         },
-        "totalRepayment": {
-          "label": "Rimborso totale illustrativo",
-          "value": "€2.2M–€2.3M"
+        "pricing": {
+          "label": "Prezzi e commissioni",
+          "value": "Secondo condizioni formali"
         }
       },
-      "note": "Il prezzo finale può includere costi di finanziamento, compensi professionali, costi di custodia, valutazione e altre spese dell'operazione."
+      "note": "Importo, rapporto di anticipo, durata, prezzi, struttura di custodia o approvazione non possono essere indicati prima che un'istituzione qualificata abbia completato la propria valutazione ed emesso condizioni scritte."
     },
     "caveat": {
       "label": "Importante",
-      "text": "I valori sopra indicati sono ipotetici. L'idoneità effettiva della garanzia, la valutazione, il rapporto di anticipo, la durata, i prezzi, gli accordi di custodia e gli obblighi di rimborso vengono determinati solo dopo una revisione completa e l'approvazione scritta delle parti pertinenti."
+      "text": "Gold Bridge Capital non rappresenta attualmente alcuna banca, finanziatore o istituzione finanziaria, salvo espressa conferma scritta. Nessun finanziamento viene offerto o garantito tramite questo sito web. Qualsiasi futura operazione resterebbe soggetta a verifica indipendente, controllo di conformità, approvazione istituzionale e documentazione contrattuale definitiva."
     }
   },
   "Process": {

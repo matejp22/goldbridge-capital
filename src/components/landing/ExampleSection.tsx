@@ -5,18 +5,18 @@ import { useTranslations } from "next-intl";
 import Icon from "@/components/shared/Icon";
 
 const detailKeys = [
-  "term",
-  "repayment",
-  "ownership",
+  "asset",
+  "verification",
+  "assessment",
   "custody",
 ] as const;
 
 const summaryKeys = [
-  "goldValue",
-  "financingAmount",
+  "assetEligibility",
+  "financingAvailability",
   "advanceRatio",
-  "maximumPeriod",
-  "totalRepayment",
+  "term",
+  "pricing",
 ] as const;
 
 export default function ExampleSection() {
@@ -62,9 +62,9 @@ export default function ExampleSection() {
 
             <div className="example-values">
               <div className="example-value example-value-primary">
-                <span>{t("values.collateral.label")}</span>
-                <strong>{t("values.collateral.value")}</strong>
-                <small>{t("values.collateral.note")}</small>
+                <span>{t("values.asset.label")}</span>
+                <strong>{t("values.asset.value")}</strong>
+                <small>{t("values.asset.note")}</small>
               </div>
 
               <div className="example-value-arrow" aria-hidden="true">
@@ -72,9 +72,9 @@ export default function ExampleSection() {
               </div>
 
               <div className="example-value">
-                <span>{t("values.financing.label")}</span>
-                <strong>{t("values.financing.value")}</strong>
-                <small>{t("values.financing.note")}</small>
+                <span>{t("values.assessment.label")}</span>
+                <strong>{t("values.assessment.value")}</strong>
+                <small>{t("values.assessment.note")}</small>
               </div>
             </div>
 

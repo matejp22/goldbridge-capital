@@ -191,78 +191,78 @@
     }
   },
   "Example": {
-    "kicker": "Beispielhafte Transaktion",
+    "kicker": "Indikativer institutioneller Rahmen",
     "title": {
-      "main": "Ein Beispiel für eine mögliche",
-      "highlight": " goldbesicherte Finanzierungsstruktur."
+      "main": "Ein möglicher Weg zu einer",
+      "highlight": " institutionell geprüften Finanzierung."
     },
-    "introduction": "Das folgende Beispiel dient ausschließlich dazu, die Mechanik einer möglichen Transaktion zu erläutern. Es ist weder ein Angebot noch eine Zusage, ein Kostenvoranschlag oder eine Finanzierungsgarantie.",
+    "introduction": "Dieser Rahmen erläutert, wie ein dokumentierter Edelmetallbestand für die Prüfung durch ein unabhängiges reguliertes Institut vorbereitet werden könnte. Er beschreibt weder ein derzeit verfügbares Produkt noch zugesagte Finanzierungskonditionen.",
     "case": {
-      "overline": "Beispielhafter Kundenfall",
-      "title": "Kurzfristige private Finanzierung",
-      "status": "Nur Beispiel"
+      "overline": "Beispielhafter Prüfungsweg",
+      "title": "Institutionelle Finanzierungsprüfung",
+      "status": "Vorbehaltlich Genehmigung"
     },
     "values": {
-      "collateral": {
-        "label": "Indikativer Sicherheitenwert",
-        "value": "€3.000.000",
-        "note": "Physisches Anlagegold"
+      "asset": {
+        "label": "Vorgeschlagener Vermögenswert",
+        "value": "Verifizierte Edelmetalle",
+        "note": "Die Eignung muss unabhängig bestätigt werden"
       },
-      "financing": {
-        "label": "Beispielhafte Finanzierung",
-        "value": "€2.000.000",
-        "note": "Vorbehaltlich Genehmigung"
+      "assessment": {
+        "label": "Mögliches Ergebnis",
+        "value": "Individuelle institutionelle Konditionen",
+        "note": "Erst nach vollständiger Prüfung und schriftlicher Genehmigung"
       }
     },
     "details": {
-      "term": {
-        "label": "Beispielhafte Laufzeit",
-        "value": "Bis zu 12 Monate"
+      "asset": {
+        "label": "Art des Vermögenswerts",
+        "value": "Vom Institut festgelegt"
       },
-      "repayment": {
-        "label": "Indikative Rückzahlung",
-        "value": "€2,2 Mio.–€2,3 Mio."
+      "verification": {
+        "label": "Verifizierung",
+        "value": "Unabhängig und dokumentiert"
       },
-      "ownership": {
-        "label": "Eigentum an der Sicherheit",
-        "value": "Verbleibt beim Kunden"
+      "assessment": {
+        "label": "Finanzierungsentscheidung",
+        "value": "Einzelfallbezogen"
       },
       "custody": {
         "label": "Verwahrung",
-        "value": "Wie vertraglich vereinbart"
+        "value": "Nach institutionellen Anforderungen"
       }
     },
-    "footer": "Während des vereinbarten Finanzierungszeitraums dient das Gold gemäß den unterzeichneten Transaktionsdokumenten als Sicherheit. Die genaue rechtliche und verwahrungsbezogene Struktur hängt von den genehmigten Gegenparteien und der jeweiligen Rechtsordnung ab.",
+    "footer": "Bewertung, Echtheitsprüfung, Herkunftsprüfung, Compliance-Prüfung, Verwahrung und Finanzierungsentscheidung würden von qualifizierten unabhängigen Parteien durchgeführt oder genehmigt.",
     "summary": {
       "overline": "Indikative Übersicht",
-      "title": "Transaktionsübersicht",
+      "title": "Institutionelle Beurteilung",
       "rows": {
-        "goldValue": {
-          "label": "Goldwert",
-          "value": "€3.000.000"
+        "assetEligibility": {
+          "label": "Eignung des Vermögenswerts",
+          "value": "Noch zu bestätigen"
         },
-        "financingAmount": {
-          "label": "Finanzierungsbetrag",
-          "value": "€2.000.000"
+        "financingAvailability": {
+          "label": "Verfügbarkeit der Finanzierung",
+          "value": "Nicht garantiert"
         },
         "advanceRatio": {
-          "label": "Beispielhafte Beleihungsquote",
-          "value": "Ca. 67 %"
+          "label": "Beleihungsquote",
+          "value": "Individuell festgelegt"
         },
-        "maximumPeriod": {
-          "label": "Maximale Laufzeit",
-          "value": "12 Monate"
+        "term": {
+          "label": "Laufzeit",
+          "value": "Vom Institut zu vereinbaren"
         },
-        "totalRepayment": {
-          "label": "Beispielhafte Gesamtrückzahlung",
-          "value": "€2,2 Mio.–€2,3 Mio."
+        "pricing": {
+          "label": "Preisgestaltung und Gebühren",
+          "value": "Gemäß formellen Konditionen"
         }
       },
-      "note": "Die endgültige Preisgestaltung kann Finanzierungskosten, professionelle Gebühren, Verwahrungskosten, Bewertungskosten und weitere Transaktionskosten umfassen."
+      "note": "Betrag, Beleihungsquote, Laufzeit, Preisgestaltung, Verwahrungsstruktur oder Genehmigung können erst genannt werden, nachdem ein qualifiziertes Institut seine eigene Prüfung abgeschlossen und schriftliche Konditionen erteilt hat."
     },
     "caveat": {
       "label": "Wichtig",
-      "text": "Die oben genannten Werte sind hypothetisch. Die tatsächliche Eignung der Sicherheit, Bewertung, Beleihungsquote, Laufzeit, Preisgestaltung, Verwahrungsregelungen und Rückzahlungsverpflichtungen werden erst nach vollständiger Prüfung und schriftlicher Genehmigung durch die relevanten Parteien festgelegt."
+      "text": "Gold Bridge Capital vertritt derzeit keine Bank, keinen Kreditgeber und kein Finanzinstitut, sofern dies nicht ausdrücklich schriftlich bestätigt wurde. Über diese Website wird keine Finanzierung angeboten oder garantiert. Jede zukünftige Transaktion würde einer unabhängigen Verifizierung, Compliance-Prüfung, institutionellen Genehmigung und endgültigen Vertragsdokumentation unterliegen."
     }
   },
   "Process": {

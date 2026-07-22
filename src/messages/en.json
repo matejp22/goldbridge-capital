@@ -191,78 +191,78 @@
     }
   },
   "Example": {
-    "kicker": "Illustrative Transaction",
+    "kicker": "Indicative Institutional Framework",
     "title": {
-      "main": "An example of a potential",
-      "highlight": " gold-backed financing structure."
+      "main": "A potential pathway for",
+      "highlight": " institutionally assessed financing."
     },
-    "introduction": "The following example is provided solely to explain the mechanics of a possible transaction. It is not an offer, commitment, quotation or guarantee of financing.",
+    "introduction": "This framework explains how a documented precious-metals holding could be prepared for review by an independent regulated institution. It does not describe a currently available product or committed financing terms.",
     "case": {
-      "overline": "Illustrative client case",
-      "title": "Short-Term Private Financing",
-      "status": "Example only"
+      "overline": "Illustrative assessment pathway",
+      "title": "Institutional Financing Review",
+      "status": "Subject to approval"
     },
     "values": {
-      "collateral": {
-        "label": "Indicative collateral value",
-        "value": "€3,000,000",
-        "note": "Physical investment gold"
+      "asset": {
+        "label": "Proposed asset",
+        "value": "Verified precious metals",
+        "note": "Eligibility must be independently confirmed"
       },
-      "financing": {
-        "label": "Illustrative financing",
-        "value": "€2,000,000",
-        "note": "Subject to approval"
+      "assessment": {
+        "label": "Potential outcome",
+        "value": "Individual institutional terms",
+        "note": "Only after full assessment and written approval"
       }
     },
     "details": {
-      "term": {
-        "label": "Illustrative term",
-        "value": "Up to 12 months"
+      "asset": {
+        "label": "Asset type",
+        "value": "Defined by the institution"
       },
-      "repayment": {
-        "label": "Indicative repayment",
-        "value": "€2.2M–€2.3M"
+      "verification": {
+        "label": "Verification",
+        "value": "Independent and documented"
       },
-      "ownership": {
-        "label": "Collateral ownership",
-        "value": "Retained by client"
+      "assessment": {
+        "label": "Financing decision",
+        "value": "Case-by-case"
       },
       "custody": {
         "label": "Custody",
-        "value": "As contractually agreed"
+        "value": "Subject to institutional requirements"
       }
     },
-    "footer": "During the agreed financing period, the gold serves as collateral under the executed transaction documents. The precise legal and custody structure depends on the approved counterparties and jurisdiction.",
+    "footer": "Any valuation, authenticity review, provenance assessment, compliance review, custody arrangement and financing decision would be performed or approved by qualified independent parties.",
     "summary": {
       "overline": "Indicative overview",
-      "title": "Transaction Summary",
+      "title": "Institutional Assessment",
       "rows": {
-        "goldValue": {
-          "label": "Gold value",
-          "value": "€3,000,000"
+        "assetEligibility": {
+          "label": "Asset eligibility",
+          "value": "To be confirmed"
         },
-        "financingAmount": {
-          "label": "Financing amount",
-          "value": "€2,000,000"
+        "financingAvailability": {
+          "label": "Financing availability",
+          "value": "Not guaranteed"
         },
         "advanceRatio": {
-          "label": "Illustrative advance ratio",
-          "value": "Approx. 67%"
+          "label": "Advance ratio",
+          "value": "Determined individually"
         },
-        "maximumPeriod": {
-          "label": "Maximum period",
-          "value": "12 months"
+        "term": {
+          "label": "Term",
+          "value": "Agreed by the institution"
         },
-        "totalRepayment": {
-          "label": "Illustrative total repayment",
-          "value": "€2.2M–€2.3M"
+        "pricing": {
+          "label": "Pricing and fees",
+          "value": "Based on formal terms"
         }
       },
-      "note": "Final pricing may include financing costs, professional fees, custody costs, valuation costs and other transaction expenses."
+      "note": "No amount, advance ratio, duration, pricing, custody structure or approval can be stated before a qualified institution completes its own review and issues written terms."
     },
     "caveat": {
       "label": "Important",
-      "text": "Values shown above are hypothetical. Actual collateral eligibility, valuation, advance ratio, duration, pricing, custody arrangements and repayment obligations are determined only after full review and written approval by the relevant parties."
+      "text": "Gold Bridge Capital does not currently represent any bank, lender or financial institution unless expressly confirmed in writing. No financing is offered or guaranteed through this website. Any future transaction would remain subject to independent verification, compliance review, institutional approval and definitive contractual documentation."
     }
   },
   "Process": {

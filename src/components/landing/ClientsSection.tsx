@@ -6,20 +6,28 @@ import Icon, { type IconName } from "@/components/shared/Icon";
 
 const clientProfiles = [
   {
-    key: "familyOffices",
-    icon: "family" as IconName,
+    key: "hotelOwners",
+    icon: "corporate" as IconName,
   },
   {
-    key: "entrepreneurs",
-    icon: "entrepreneur" as IconName,
+    key: "developers",
+    icon: "structure" as IconName,
   },
   {
     key: "privateInvestors",
     icon: "investor" as IconName,
   },
   {
-    key: "corporations",
-    icon: "corporate" as IconName,
+    key: "familyOffices",
+    icon: "family" as IconName,
+  },
+  {
+    key: "capitalProviders",
+    icon: "capital" as IconName,
+  },
+  {
+    key: "strategicBuyers",
+    icon: "network" as IconName,
   },
 ] as const;
 
@@ -27,7 +35,7 @@ export default function ClientsSection() {
   const t = useTranslations("Clients");
 
   return (
-    <section className="section clients-section">
+    <section id="clients" className="section clients-section">
       <div className="clients-background" aria-hidden="true">
         <div className="clients-glow" />
         <div className="clients-line-pattern" />

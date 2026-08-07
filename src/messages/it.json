@@ -246,35 +246,43 @@
     "signature": "Gold Bridge Capital"
   },
   "Clients": {
-    "kicker": "Con chi lavoriamo",
-    "title": {
-      "main": "Pensato per clienti privati",
-      "highlight": " e aziendali qualificati."
+  "kicker": "Chi supportiamo",
+  "title": {
+    "main": "Connettiamo proprietari, sviluppatori,",
+    "highlight": " investitori e capitale."
+  },
+  "introduction": "Gold Bridge Capital valuta opportunità selezionate che coinvolgono soggetti qualificati o adeguatamente assistiti, con un obiettivo commerciale legittimo, documentazione credibile e una chiara logica dell'operazione.",
+  "profiles": {
+    "hotelOwners": {
+      "title": "Proprietari di hotel & resort",
+      "text": "Proprietari che valutano una dismissione riservata, ricapitalizzazione, partnership strategica o presentazione a potenziali investitori e acquirenti rilevanti."
     },
-    "introduction": "Valutiamo operazioni con una finalità di finanziamento legittima, garanzie idonee in metalli preziosi o asset digitali e documentazione completa e verificabile.",
-    "profiles": {
-      "familyOffices": {
-        "title": "Family Office",
-        "text": "Strutture di capitale privato per famiglie che cercano liquidità mantenendo la proprietà di metalli preziosi idonei o determinati asset digitali."
-      },
-      "entrepreneurs": {
-        "title": "Imprenditori",
-        "text": "Capitale a breve termine per esigenze aziendali, acquisizioni, espansioni o finanziamenti ponte qualificati."
-      },
-      "privateInvestors": {
-        "title": "Investitori privati",
-        "text": "Opportunità di finanziamento valutate individualmente e garantite da metalli preziosi documentati o determinati asset digitali."
-      },
-      "corporations": {
-        "title": "Società",
-        "text": "Soluzioni di liquidità strutturate per aziende con una finalità commerciale chiaramente definita e garanzie accettabili."
-      }
+    "developers": {
+      "title": "Sviluppatori Hospitality",
+      "text": "Sponsor e sviluppatori alla ricerca di debito, equity, capitale joint venture o controparti strategiche adeguate per progetti hospitality selezionati."
     },
-    "qualification": {
-      "title": "Qualificazione e conformità",
-      "text": "Tutti i potenziali clienti, titolari effettivi, garanzie e utilizzi dei fondi sono soggetti ai requisiti applicabili in materia di identificazione, proprietà, provenienza, sanzioni, antiriciclaggio e verifica delle controparti."
+    "privateInvestors": {
+      "title": "Investitori privati",
+      "text": "Investitori qualificati che valutano opportunità selezionate dirette, presentate privatamente o off-market nel settore hospitality e private market."
+    },
+    "familyOffices": {
+      "title": "Family Office",
+      "text": "Strutture di investimento private che valutano opportunità selezionate nei settori hospitality, sviluppo e operazioni garantite da asset."
+    },
+    "capitalProviders": {
+      "title": "Fornitori di capitale",
+      "text": "Banche, operatori di private credit, finanziatori alternativi, gruppi di investimento e altre fonti professionali di capitale che valutano opportunità idonee."
+    },
+    "strategicBuyers": {
+      "title": "Acquirenti strategici & operatori",
+      "text": "Gruppi alberghieri, operatori, investitori immobiliari e soggetti strategici che valutano acquisizioni, sviluppi o partnership."
     }
   },
+  "qualification": {
+    "title": "Qualificazione e preparazione dell'operazione",
+    "text": "Ogni potenziale opportunità resta soggetta alla verifica della proprietà o del mandato, valutazione commerciale, documentazione, requisiti di conformità e criteri indipendenti delle controparti pertinenti."
+  }
+},
   "Structure": {
     "kicker": "Come funziona il finanziamento strutturato",
     "title": {
@@ -731,13 +739,12 @@
       "main": "Gold Bridge",
       "sub": "Capital"
     },
-    "navigationAriaLabel": "Navigazione principale",
     "navigation": {
-      "approach": "Il nostro approccio",
-      "structure": "Come funziona",
-      "example": "Esempio",
-      "process": "Processo"
-    },
+  "focus": "Il nostro focus",
+  "realEstate": "Hospitality Real Estate",
+  "development": "Development",
+  "process": "Processo"
+},
     "cta": "Richiesta riservata"
   },
   "Footer": {

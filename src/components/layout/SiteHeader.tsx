@@ -49,25 +49,26 @@ export default function SiteHeader() {
         </a>
 
         <nav
-          className="nav-links"
-          aria-label={t("navigationAriaLabel")}
-        >
-          <a href={`${homeUrl}#approach`}>
-            {t("navigation.approach")}
-          </a>
+          <nav
+  className="nav-links"
+  aria-label={t("navigationAriaLabel")}
+>
+  <a href={`${homeUrl}#focus`}>
+    {t("navigation.focus")}
+  </a>
 
-          <a href={`${homeUrl}#structure`}>
-            {t("navigation.structure")}
-          </a>
+  <a href={`${homeUrl}#hospitality-real-estate`}>
+    {t("navigation.realEstate")}
+  </a>
 
-          <a href={`${homeUrl}#transaction`}>
-            {t("navigation.example")}
-          </a>
+  <a href={`${homeUrl}#hospitality-development`}>
+    {t("navigation.development")}
+  </a>
 
-          <a href={`${homeUrl}#process`}>
-            {t("navigation.process")}
-          </a>
-        </nav>
+  <a href={`${homeUrl}#process`}>
+    {t("navigation.process")}
+  </a>
+</nav>
 
         <div
           className="language-switcher"

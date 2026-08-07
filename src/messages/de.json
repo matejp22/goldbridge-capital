@@ -246,35 +246,43 @@
     "signature": "Gold Bridge Capital"
   },
   "Clients": {
-    "kicker": "Für wen wir tätig sind",
-    "title": {
-      "main": "Konzipiert für qualifizierte private",
-      "highlight": " und gewerbliche Kunden."
+  "kicker": "Für wen wir tätig werden",
+  "title": {
+    "main": "Wir verbinden Eigentümer, Entwickler,",
+    "highlight": " Investoren und Kapital."
+  },
+  "introduction": "Gold Bridge Capital prüft ausgewählte Möglichkeiten mit qualifizierten oder entsprechend beratenen Parteien, einem legitimen wirtschaftlichen Ziel, belastbarer Dokumentation und einer klaren Transaktionslogik.",
+  "profiles": {
+    "hotelOwners": {
+      "title": "Hotel- & Resort-Eigentümer",
+      "text": "Eigentümer, die einen vertraulichen Verkauf, eine Rekapitalisierung, strategische Partnerschaft oder Vorstellung bei potenziell relevanten Investoren und Käufern erwägen."
     },
-    "introduction": "Wir prüfen Transaktionen mit legitimem Finanzierungszweck, geeigneten Edelmetall- oder Digital-Asset-Sicherheiten und vollständiger, überprüfbarer Dokumentation.",
-    "profiles": {
-      "familyOffices": {
-        "title": "Family Offices",
-        "text": "Private Kapitalstrukturen für Familien, die Liquidität benötigen und gleichzeitig das Eigentum an geeigneten Edelmetallen oder ausgewählten digitalen Vermögenswerten bewahren möchten."
-      },
-      "entrepreneurs": {
-        "title": "Unternehmer",
-        "text": "Kurzfristiges Kapital für qualifizierte Geschäfts-, Akquisitions-, Expansions- oder Brückenfinanzierungsbedürfnisse."
-      },
-      "privateInvestors": {
-        "title": "Private Investoren",
-        "text": "Individuell geprüfte Finanzierungsmöglichkeiten, besichert durch dokumentierte Edelmetalle oder ausgewählte digitale Vermögenswerte."
-      },
-      "corporations": {
-        "title": "Unternehmen",
-        "text": "Strukturierte Liquiditätslösungen für Unternehmen mit klar definiertem wirtschaftlichem Zweck und akzeptabler Sicherheit."
-      }
+    "developers": {
+      "title": "Hospitality-Entwickler",
+      "text": "Sponsoren und Entwickler auf der Suche nach geeignetem Fremd- oder Eigenkapital, Joint-Venture-Kapital oder strategischen Gegenparteien für ausgewählte Hospitality-Projekte."
     },
-    "qualification": {
-      "title": "Qualifikation und Compliance",
-      "text": "Alle potenziellen Kunden, wirtschaftlich Berechtigten, Sicherheiten und Verwendungszwecke unterliegen den jeweils anwendbaren Anforderungen zur Identifizierung, Eigentumsprüfung, Herkunftsprüfung, Sanktionskontrolle, Geldwäscheprävention und Gegenparteiprüfung."
+    "privateInvestors": {
+      "title": "Private Investoren",
+      "text": "Qualifizierte Investoren, die ausgewählte direkte, privat vorgestellte oder Off-Market-Möglichkeiten im Hospitality- und Private-Market-Bereich prüfen."
+    },
+    "familyOffices": {
+      "title": "Family Offices",
+      "text": "Private Investmentstrukturen, die ausgewählte Hospitality-, Entwicklungs- und vermögensbesicherte Transaktionsmöglichkeiten prüfen."
+    },
+    "capitalProviders": {
+      "title": "Kapitalgeber",
+      "text": "Banken, Private-Credit-Anbieter, alternative Kreditgeber, Investmentgruppen und andere professionelle Kapitalquellen, die geeignete Möglichkeiten prüfen."
+    },
+    "strategicBuyers": {
+      "title": "Strategische Käufer & Betreiber",
+      "text": "Hotelgruppen, Betreiber, Immobilieninvestoren und strategische Parteien, die Akquisitionen, Entwicklungen oder Partnerschaften prüfen."
     }
   },
+  "qualification": {
+    "title": "Qualifikation und Transaktionsreife",
+    "text": "Jede potenzielle Möglichkeit bleibt der Prüfung von Eigentum oder Mandat, wirtschaftlicher Bewertung, Dokumentation, Compliance-Anforderungen und den unabhängigen Kriterien der relevanten Gegenparteien vorbehalten."
+  }
+},
   "Structure": {
     "kicker": "So funktioniert strukturierte Finanzierung",
     "title": {
@@ -731,13 +739,12 @@
       "main": "Gold Bridge",
       "sub": "Capital"
     },
-    "navigationAriaLabel": "Hauptnavigation",
     "navigation": {
-      "approach": "Unser Ansatz",
-      "structure": "So funktioniert es",
-      "example": "Beispiel",
-      "process": "Prozess"
-    },
+  "focus": "Unser Fokus",
+  "realEstate": "Hospitality Immobilien",
+  "development": "Development",
+  "process": "Prozess"
+},
     "cta": "Vertrauliche Anfrage"
   },
   "Footer": {

@@ -246,35 +246,43 @@
     "signature": "Gold Bridge Capital"
   },
   "Clients": {
-    "kicker": "Who We Work With",
-    "title": {
-      "main": "Designed for qualified private",
-      "highlight": " and corporate clients."
+  "kicker": "Who We Support",
+  "title": {
+    "main": "Connecting owners, developers,",
+    "highlight": " investors and capital."
+  },
+  "introduction": "Gold Bridge Capital considers selected opportunities involving qualified or appropriately advised parties with a legitimate commercial objective, credible documentation and a clear transaction rationale.",
+  "profiles": {
+    "hotelOwners": {
+      "title": "Hotel & Resort Owners",
+      "text": "Owners considering a confidential disposal, recapitalisation, strategic partnership or introduction to potentially relevant investors and buyers."
     },
-    "introduction": "We consider transactions with a legitimate financing purpose, suitable precious-metals or digital-asset collateral and complete, verifiable documentation.",
-    "profiles": {
-      "familyOffices": {
-        "title": "Family Offices",
-        "text": "Private capital structures for families seeking liquidity while preserving ownership of eligible precious metals or selected digital assets."
-      },
-      "entrepreneurs": {
-        "title": "Entrepreneurs",
-        "text": "Short-term capital for qualified business, acquisition, expansion or bridge-financing requirements."
-      },
-      "privateInvestors": {
-        "title": "Private Investors",
-        "text": "Individually reviewed financing opportunities secured by documented precious metals or selected digital assets."
-      },
-      "corporations": {
-        "title": "Corporations",
-        "text": "Structured liquidity solutions for companies with a clearly defined commercial purpose and acceptable collateral."
-      }
+    "developers": {
+      "title": "Hospitality Developers",
+      "text": "Sponsors and developers seeking suitable debt, equity, joint-venture capital or strategic counterparties for selected hospitality projects."
     },
-    "qualification": {
-      "title": "Qualification and compliance",
-      "text": "All potential clients, beneficial owners, collateral and uses of funds are subject to applicable identification, ownership, provenance, sanctions, anti-money-laundering and counterparty review requirements."
+    "privateInvestors": {
+      "title": "Private Investors",
+      "text": "Qualified investors considering selected direct, privately introduced or off-market hospitality and private-market opportunities."
+    },
+    "familyOffices": {
+      "title": "Family Offices",
+      "text": "Private investment groups assessing selected hospitality, development and asset-backed transaction opportunities."
+    },
+    "capitalProviders": {
+      "title": "Capital Providers",
+      "text": "Banks, private-credit providers, alternative lenders, investment groups and other professional capital sources assessing suitable opportunities."
+    },
+    "strategicBuyers": {
+      "title": "Strategic Buyers & Operators",
+      "text": "Hotel groups, operators, real estate investors and strategic parties considering acquisitions, developments or partnerships."
     }
   },
+  "qualification": {
+    "title": "Qualification and transaction readiness",
+    "text": "Every potential opportunity remains subject to ownership or mandate verification, commercial assessment, documentation, compliance requirements and the independent criteria of the relevant counterparties."
+  }
+},
   "Structure": {
     "kicker": "How Structured Financing Works",
     "title": {
@@ -731,13 +739,12 @@
       "main": "Gold Bridge",
       "sub": "Capital"
     },
-    "navigationAriaLabel": "Primary navigation",
     "navigation": {
-      "approach": "Our Approach",
-      "structure": "How It Works",
-      "example": "Example",
-      "process": "Process"
-    },
+  "focus": "Our Focus",
+  "realEstate": "Hospitality Real Estate",
+  "development": "Development",
+  "process": "Process"
+},
     "cta": "Confidential Inquiry"
   },
   "Footer": {

@@ -1,73 +1,73 @@
 {
   "Hero": {
-    "kicker": "Facilitazione di operazioni istituzionali",
-    "title": {
-      "main": "Sblocca liquidità",
-      "highlight": " senza vendere i tuoi asset strategici."
-    },
-    "lead": "Gold Bridge Capital supporta la preparazione preliminare e la presentazione riservata di opportunità di finanziamento documentate garantite da metalli preziosi e determinati asset digitali, affinché siano valutate da istituzioni indipendenti idonee.",
-    "actions": {
-      "discuss": "Discuti la tua operazione",
-      "explore": "Scopri la struttura"
-    },
-    "assurances": {
-      "confidential": "Valutazione preliminare riservata",
-      "term": "Condizioni definite dall'istituzione",
-      "collateral": "Metalli preziosi e asset digitali"
-    },
-    "transaction": {
-      "ariaLabel": "Percorso illustrativo di valutazione istituzionale",
-      "overline": "Percorso di valutazione indicativo",
-      "title": "Valutazione istituzionale",
-      "confidential": "Riservato",
-      "goldValueLabel": "Profilo dell'attività proposta",
-      "goldValue": "Metalli preziosi documentati",
-      "financingLabel": "Finanziamento potenziale",
-      "financingValue": "Soggetto a valutazione istituzionale",
-      "maximumTermLabel": "Condizioni commerciali",
-      "maximumTermValue": "Determinate individualmente",
-      "steps": {
-        "verification": {
-          "number": "01",
-          "title": "Idoneità preliminare",
-          "description": "Prima valutazione di proprietà, tipo di attività, documentazione, giurisdizione e finalità proposta."
-        },
-        "structuring": {
-          "number": "02",
-          "title": "Verifica indipendente",
-          "description": "Parti qualificate valutano autenticità, provenienza, valore, conformità e requisiti di custodia."
-        },
-        "funding": {
-          "number": "03",
-          "title": "Decisione istituzionale",
-          "description": "Disponibilità, importo, prezzi, durata e struttura contrattuale sono determinati esclusivamente dall'istituzione selezionata."
-        }
-      },
-      "disclaimer": "Nessun finanziamento viene offerto o garantito tramite questo sito web. Gold Bridge Capital non rappresenta alcuna banca, finanziatore o istituzione finanziaria, salvo espressa conferma scritta."
-    },
-    "discover": "Scopri il nostro approccio"
+  "kicker": "Private Capital & Hospitality Transactions",
+  "title": {
+    "main": "Connettere capitale,",
+    "highlight": " asset e opportunità."
   },
-  "InstitutionalStrip": {
-    "ariaLabel": "Principi chiave",
-    "items": {
-      "collateral": {
-        "title": "Garanzie idonee",
-        "description": "Metalli preziosi idonei e determinati asset digitali"
+  "lead": "Gold Bridge Capital è un facilitatore indipendente di operazioni focalizzato su finanziamenti garantiti da asset, hospitality real estate e progetti di sviluppo hospitality. Supportiamo la preparazione, la presentazione e il coordinamento riservato di operazioni private-market selezionate.",
+  "actions": {
+    "discuss": "Discuti un'opportunità",
+    "explore": "Scopri il nostro focus"
+  },
+  "assurances": {
+    "confidential": "Valutazione riservata",
+    "term": "Opportunità selezionate",
+    "collateral": "Controparti indipendenti"
+  },
+  "transaction": {
+    "ariaLabel": "Aree di interesse di Gold Bridge Capital",
+    "overline": "Il nostro focus",
+    "title": "Opportunità Private Market",
+    "confidential": "Riservato",
+    "goldValueLabel": "Focus delle operazioni",
+    "goldValue": "Capitale & Hospitality",
+    "financingLabel": "Aree principali",
+    "financingValue": "Finanziamento · Real Estate · Development",
+    "maximumTermLabel": "Il nostro ruolo",
+    "maximumTermValue": "Facilitazione indipendente",
+    "steps": {
+      "verification": {
+        "number": "01",
+        "title": "Finanziamento garantito da asset",
+        "description": "Opportunità di finanziamento garantite da metalli preziosi idonei e determinati asset digitali."
       },
       "structuring": {
-        "title": "Strutturazione individuale",
-        "description": "Nessun prodotto retail standardizzato"
+        "number": "02",
+        "title": "Hospitality Real Estate",
+        "description": "Opportunità selezionate di acquisizione e dismissione relative a hotel, resort e asset hospitality."
       },
-      "term": {
-        "title": "Durata definita",
-        "description": "Prezzi e durata definiti dall’istituzione"
-      },
-      "approval": {
-        "title": "Soggetto ad approvazione",
-        "description": "Due diligence e documentazione complete"
+      "funding": {
+        "number": "03",
+        "title": "Hospitality Development",
+        "description": "Progetti selezionati alla ricerca di debito, equity, capitale joint venture o controparti strategiche."
       }
-    }
+    },
+    "disclaimer": "Gold Bridge Capital non fornisce direttamente servizi bancari, di credito, investimento, assistenza legale o intermediazione regolamentata. Le operazioni restano soggette a valutazione indipendente, normativa applicabile, due diligence e documentazione definitiva."
   },
+  "discover": "Scopri il nostro focus"
+},
+  "InstitutionalStrip": {
+  "ariaLabel": "Principi operativi di Gold Bridge Capital",
+  "items": {
+    "collateral": {
+      "title": "Opportunità selezionate",
+      "description": "Situazioni documentate con una logica commerciale credibile"
+    },
+    "structuring": {
+      "title": "Approccio riservato",
+      "description": "Presentazioni controllate secondo il principio need-to-know"
+    },
+    "term": {
+      "title": "Prospettiva internazionale",
+      "description": "Opportunità europee e transfrontaliere selezionate"
+    },
+    "approval": {
+      "title": "Esecuzione indipendente",
+      "description": "Funzioni specialistiche e regolamentate affidate a soggetti idonei"
+    }
+  }
+},
 
   "Focus": {
   "kicker": "Il nostro focus",

@@ -5,8 +5,11 @@ import SiteFooter from "@/components/layout/SiteFooter";
 
 import HeroSection from "@/components/landing/HeroSection";
 import InstitutionalStrip from "@/components/landing/InstitutionalStrip";
+import FocusSection from "@/components/landing/FocusSection";
 import ApproachSection from "@/components/landing/ApproachSection";
 import ClientsSection from "@/components/landing/ClientsSection";
+import HospitalityRealEstateSection from "@/components/landing/HospitalityRealEstateSection";
+import HospitalityDevelopmentSection from "@/components/landing/HospitalityDevelopmentSection";
 import StructureSection from "@/components/landing/StructureSection";
 import ExampleSection from "@/components/landing/ExampleSection";
 import ProcessSection from "@/components/landing/ProcessSection";
@@ -29,17 +32,27 @@ export default async function Home({ params }: HomeProps) {
   return (
     <main className="site-shell">
       <SiteHeader />
+
       <HeroSection />
       <InstitutionalStrip />
+
+      <FocusSection />
+
       <ApproachSection />
       <ClientsSection />
+
+      <HospitalityRealEstateSection />
+      <HospitalityDevelopmentSection />
+
       <StructureSection />
       <ExampleSection />
       <ProcessSection />
       <RequirementsSection />
       <FAQSection />
+
       <InquirySection />
       <ClosingSection />
+
       <SiteFooter />
     </main>
   );

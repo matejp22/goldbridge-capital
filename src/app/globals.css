@@ -5308,3 +5308,810 @@ textarea {
 /*
   GLOBALS.CSS COMPLETE
 */
+
+/* =========================================================
+   GOLD BRIDGE CAPITAL 2.0
+   FOCUS / HOSPITALITY REAL ESTATE / DEVELOPMENT
+   ========================================================= */
+
+/* =========================================================
+   FOCUS
+   ========================================================= */
+
+.focus-section {
+  overflow: hidden;
+  background: var(--white);
+}
+
+.focus-background {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.focus-glow {
+  position: absolute;
+  top: -260px;
+  left: 50%;
+  width: 760px;
+  height: 760px;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    rgba(198, 165, 92, 0.1),
+    transparent 68%
+  );
+  transform: translateX(-50%);
+}
+
+.focus-grid-pattern {
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(
+      rgba(10, 22, 40, 0.018) 1px,
+      transparent 1px
+    ),
+    linear-gradient(
+      90deg,
+      rgba(10, 22, 40, 0.018) 1px,
+      transparent 1px
+    );
+  background-size: 92px 92px;
+  mask-image: radial-gradient(
+    circle at center,
+    black,
+    transparent 82%
+  );
+}
+
+.focus-grid {
+  position: relative;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.focus-card {
+  position: relative;
+  min-height: 440px;
+  overflow: hidden;
+  padding: 34px;
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-lg);
+  background:
+    radial-gradient(
+      circle at 100% 0%,
+      rgba(198, 165, 92, 0.08),
+      transparent 34%
+    ),
+    rgba(255, 255, 255, 0.82);
+  box-shadow: 0 18px 54px rgba(6, 16, 30, 0.05);
+  transition:
+    transform var(--transition-base),
+    border-color var(--transition-base),
+    box-shadow var(--transition-base);
+}
+
+.focus-card:hover {
+  transform: translateY(-8px);
+  border-color: rgba(198, 165, 92, 0.44);
+  box-shadow: var(--shadow-soft);
+}
+
+.focus-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 48px;
+}
+
+.focus-card-icon {
+  display: inline-flex;
+  width: 58px;
+  height: 58px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(198, 165, 92, 0.38);
+  border-radius: 50%;
+  background: rgba(198, 165, 92, 0.06);
+  color: var(--gold-500);
+}
+
+.focus-card-icon svg {
+  width: 25px;
+  height: 25px;
+}
+
+.focus-card-number {
+  color: rgba(10, 22, 40, 0.28);
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.35rem;
+  font-weight: 600;
+}
+
+.focus-card-overline {
+  display: block;
+  margin-bottom: 12px;
+  color: var(--gold-500);
+  font-size: 0.62rem;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.focus-card h3 {
+  margin-bottom: 20px;
+  color: var(--navy-900);
+  font-family: "Cormorant Garamond", serif;
+  font-size: 2.35rem;
+  font-weight: 600;
+  line-height: 1.02;
+}
+
+.focus-card > p {
+  margin-bottom: 34px;
+  color: var(--text-medium);
+  font-size: 0.86rem;
+  line-height: 1.78;
+}
+
+.focus-card-link {
+  position: relative;
+  z-index: 2;
+  display: inline-flex;
+  align-items: center;
+  gap: 11px;
+  color: var(--navy-900);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  transition: color var(--transition-fast);
+}
+
+.focus-card-link svg {
+  width: 17px;
+  height: 17px;
+  color: var(--gold-500);
+  transition: transform var(--transition-base);
+}
+
+.focus-card-link:hover {
+  color: var(--gold-500);
+}
+
+.focus-card-link:hover svg {
+  transform: translateX(4px);
+}
+
+.focus-card-decoration {
+  position: absolute;
+  right: -70px;
+  bottom: -70px;
+  width: 190px;
+  height: 190px;
+  border: 1px solid rgba(198, 165, 92, 0.1);
+  border-radius: 50%;
+}
+
+.focus-note {
+  position: relative;
+  z-index: 2;
+  display: grid;
+  max-width: 1000px;
+  grid-template-columns: 50px 1fr;
+  gap: 18px;
+  align-items: center;
+  margin: 42px auto 0;
+  padding: 26px 30px;
+  border: 1px solid rgba(198, 165, 92, 0.24);
+  border-radius: var(--radius-md);
+  background: rgba(198, 165, 92, 0.05);
+}
+
+.focus-note-icon {
+  display: inline-flex;
+  width: 46px;
+  height: 46px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(198, 165, 92, 0.3);
+  border-radius: 50%;
+  color: var(--gold-500);
+}
+
+.focus-note-icon svg {
+  width: 20px;
+  height: 20px;
+}
+
+.focus-note p {
+  margin-bottom: 0;
+  color: var(--text-medium);
+  font-size: 0.76rem;
+  line-height: 1.7;
+}
+
+/* =========================================================
+   HOSPITALITY REAL ESTATE
+   ========================================================= */
+
+.hospitality-real-estate-section {
+  overflow: hidden;
+  background: var(--paper-warm);
+}
+
+.hospitality-real-estate-background {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.hospitality-real-estate-glow {
+  position: absolute;
+  top: -180px;
+  right: -180px;
+  width: 620px;
+  height: 620px;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    rgba(198, 165, 92, 0.1),
+    transparent 70%
+  );
+}
+
+.hospitality-real-estate-orbit {
+  position: absolute;
+  top: 120px;
+  right: -160px;
+  width: 500px;
+  height: 500px;
+  border: 1px solid rgba(198, 165, 92, 0.09);
+  border-radius: 50%;
+}
+
+.hospitality-real-estate-layout {
+  position: relative;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(320px, 0.75fr);
+  gap: 26px;
+  align-items: stretch;
+}
+
+.hospitality-services-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+}
+
+.hospitality-service-card {
+  position: relative;
+  min-height: 290px;
+  padding: 30px;
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-md);
+  background: rgba(255, 255, 255, 0.78);
+  box-shadow: 0 12px 40px rgba(6, 16, 30, 0.04);
+  transition:
+    transform var(--transition-base),
+    border-color var(--transition-base),
+    box-shadow var(--transition-base);
+}
+
+.hospitality-service-card:hover {
+  transform: translateY(-6px);
+  border-color: rgba(198, 165, 92, 0.42);
+  box-shadow: var(--shadow-soft);
+}
+
+.hospitality-service-icon {
+  display: inline-flex;
+  width: 52px;
+  height: 52px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 32px;
+  border: 1px solid rgba(198, 165, 92, 0.36);
+  border-radius: 50%;
+  background: rgba(198, 165, 92, 0.06);
+  color: var(--gold-500);
+}
+
+.hospitality-service-icon svg {
+  width: 22px;
+  height: 22px;
+}
+
+.hospitality-service-number {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  color: rgba(10, 22, 40, 0.26);
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.hospitality-service-card h3 {
+  margin-bottom: 15px;
+  color: var(--navy-900);
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.85rem;
+  font-weight: 600;
+  line-height: 1.08;
+}
+
+.hospitality-service-card p {
+  margin-bottom: 0;
+  color: var(--text-medium);
+  font-size: 0.8rem;
+  line-height: 1.72;
+}
+
+.hospitality-assets-card {
+  padding: 36px;
+  border: 1px solid rgba(255, 255, 255, 0.11);
+  border-radius: var(--radius-lg);
+  background:
+    radial-gradient(
+      circle at 100% 0%,
+      rgba(198, 165, 92, 0.15),
+      transparent 36%
+    ),
+    var(--navy-900);
+  box-shadow: var(--shadow-medium);
+}
+
+.hospitality-assets-overline {
+  display: block;
+  margin-bottom: 12px;
+  color: var(--gold-400);
+  font-size: 0.62rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.hospitality-assets-card h3 {
+  margin-bottom: 18px;
+  color: var(--white);
+  font-family: "Cormorant Garamond", serif;
+  font-size: 2.25rem;
+  font-weight: 600;
+  line-height: 1.05;
+}
+
+.hospitality-assets-card > p {
+  margin-bottom: 28px;
+  color: rgba(255, 255, 255, 0.48);
+  font-size: 0.8rem;
+  line-height: 1.72;
+}
+
+.hospitality-assets-list {
+  display: grid;
+  gap: 13px;
+  margin-bottom: 32px;
+}
+
+.hospitality-asset-item {
+  display: grid;
+  grid-template-columns: 25px 1fr;
+  gap: 11px;
+  align-items: center;
+}
+
+.hospitality-asset-item > span {
+  display: inline-flex;
+  width: 23px;
+  height: 23px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(198, 165, 92, 0.3);
+  border-radius: 50%;
+  color: var(--gold-400);
+}
+
+.hospitality-asset-item svg {
+  width: 13px;
+  height: 13px;
+}
+
+.hospitality-asset-item p {
+  margin-bottom: 0;
+  color: rgba(255, 255, 255, 0.68);
+  font-size: 0.76rem;
+}
+
+.hospitality-assets-card .button {
+  width: 100%;
+}
+
+.hospitality-legal-note {
+  position: relative;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  gap: 26px;
+  align-items: start;
+  margin-top: 30px;
+  padding: 26px 30px;
+  border-left: 2px solid var(--gold-500);
+  background: rgba(198, 165, 92, 0.06);
+}
+
+.hospitality-legal-note span {
+  color: var(--gold-500);
+  font-size: 0.64rem;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.hospitality-legal-note p {
+  margin-bottom: 0;
+  color: var(--text-medium);
+  font-size: 0.75rem;
+  line-height: 1.7;
+}
+
+/* =========================================================
+   HOSPITALITY DEVELOPMENT
+   ========================================================= */
+
+.hospitality-development-section {
+  overflow: hidden;
+  background: var(--navy-900);
+}
+
+.hospitality-development-background {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.hospitality-development-glow-one {
+  position: absolute;
+  top: -250px;
+  left: -190px;
+  width: 680px;
+  height: 680px;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    rgba(45, 84, 135, 0.22),
+    transparent 70%
+  );
+}
+
+.hospitality-development-glow-two {
+  position: absolute;
+  right: -200px;
+  bottom: -240px;
+  width: 650px;
+  height: 650px;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    rgba(198, 165, 92, 0.13),
+    transparent 69%
+  );
+}
+
+.hospitality-development-grid-pattern {
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(
+      rgba(255, 255, 255, 0.022) 1px,
+      transparent 1px
+    ),
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.022) 1px,
+      transparent 1px
+    );
+  background-size: 88px 88px;
+}
+
+.hospitality-development-section .section-heading h2 {
+  color: var(--white);
+}
+
+.hospitality-development-section .section-introduction {
+  color: rgba(255, 255, 255, 0.54);
+}
+
+.hospitality-development-layout {
+  position: relative;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: minmax(320px, 0.68fr) minmax(0, 1.32fr);
+  gap: 24px;
+}
+
+.development-project-card {
+  padding: 36px;
+  border: 1px solid rgba(198, 165, 92, 0.25);
+  border-radius: var(--radius-lg);
+  background: rgba(198, 165, 92, 0.055);
+}
+
+.development-project-overline {
+  display: block;
+  margin-bottom: 12px;
+  color: var(--gold-400);
+  font-size: 0.62rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.development-project-card h3 {
+  margin-bottom: 18px;
+  color: var(--white);
+  font-family: "Cormorant Garamond", serif;
+  font-size: 2.25rem;
+  font-weight: 600;
+  line-height: 1.05;
+}
+
+.development-project-card > p {
+  margin-bottom: 28px;
+  color: rgba(255, 255, 255, 0.48);
+  font-size: 0.8rem;
+  line-height: 1.72;
+}
+
+.development-project-list {
+  display: grid;
+  gap: 13px;
+}
+
+.development-project-item {
+  display: grid;
+  grid-template-columns: 25px 1fr;
+  gap: 11px;
+  align-items: center;
+}
+
+.development-project-item > span {
+  display: inline-flex;
+  width: 23px;
+  height: 23px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(198, 165, 92, 0.3);
+  border-radius: 50%;
+  color: var(--gold-400);
+}
+
+.development-project-item svg {
+  width: 13px;
+  height: 13px;
+}
+
+.development-project-item p {
+  margin-bottom: 0;
+  color: rgba(255, 255, 255, 0.67);
+  font-size: 0.75rem;
+}
+
+.development-capital-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+}
+
+.development-capital-card {
+  min-height: 300px;
+  padding: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: var(--radius-md);
+  background: linear-gradient(
+    145deg,
+    rgba(255, 255, 255, 0.065),
+    rgba(255, 255, 255, 0.02)
+  );
+  transition:
+    transform var(--transition-base),
+    border-color var(--transition-base),
+    background-color var(--transition-base);
+}
+
+.development-capital-card:hover {
+  transform: translateY(-6px);
+  border-color: rgba(198, 165, 92, 0.4);
+  background: rgba(255, 255, 255, 0.07);
+}
+
+.development-capital-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.development-capital-icon {
+  display: inline-flex;
+  width: 52px;
+  height: 52px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(198, 165, 92, 0.34);
+  border-radius: 50%;
+  background: rgba(198, 165, 92, 0.06);
+  color: var(--gold-400);
+}
+
+.development-capital-icon svg {
+  width: 22px;
+  height: 22px;
+}
+
+.development-capital-number {
+  color: rgba(255, 255, 255, 0.24);
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.development-capital-card h3 {
+  margin-bottom: 15px;
+  color: var(--white);
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.9rem;
+  font-weight: 600;
+  line-height: 1.06;
+}
+
+.development-capital-card p {
+  margin-bottom: 0;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.8rem;
+  line-height: 1.72;
+}
+
+.development-bottom {
+  position: relative;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 40px;
+  align-items: center;
+  margin-top: 34px;
+  padding: 34px 36px;
+  border: 1px solid rgba(198, 165, 92, 0.24);
+  border-radius: var(--radius-md);
+  background: rgba(198, 165, 92, 0.05);
+}
+
+.development-bottom-label {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--gold-400);
+  font-size: 0.61rem;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.development-bottom h3 {
+  margin-bottom: 8px;
+  color: var(--white);
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.9rem;
+  font-weight: 600;
+}
+
+.development-bottom p {
+  max-width: 760px;
+  margin-bottom: 0;
+  color: rgba(255, 255, 255, 0.46);
+  font-size: 0.76rem;
+  line-height: 1.68;
+}
+
+/* =========================================================
+   GBC 2.0 RESPONSIVE
+   ========================================================= */
+
+@media (max-width: 1180px) {
+  .focus-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .focus-card:last-child {
+    grid-column: 1 / -1;
+    min-height: 350px;
+  }
+
+  .hospitality-real-estate-layout,
+  .hospitality-development-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .hospitality-assets-card,
+  .development-project-card {
+    max-width: none;
+  }
+}
+
+@media (max-width: 760px) {
+  .focus-grid,
+  .hospitality-services-grid,
+  .development-capital-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .focus-card:last-child {
+    grid-column: auto;
+  }
+
+  .focus-card {
+    min-height: auto;
+  }
+
+  .focus-note {
+    grid-template-columns: 1fr;
+  }
+
+  .hospitality-legal-note {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .development-bottom {
+    grid-template-columns: 1fr;
+  }
+
+  .development-bottom .button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 560px) {
+  .focus-card,
+  .hospitality-service-card,
+  .hospitality-assets-card,
+  .development-project-card,
+  .development-capital-card {
+    padding: 24px 22px;
+  }
+
+  .focus-card-top {
+    margin-bottom: 34px;
+  }
+
+  .focus-card h3 {
+    font-size: 2rem;
+  }
+
+  .hospitality-service-card,
+  .development-capital-card {
+    min-height: auto;
+  }
+
+  .hospitality-service-card h3,
+  .development-capital-card h3 {
+    font-size: 1.7rem;
+  }
+
+  .hospitality-assets-card h3,
+  .development-project-card h3 {
+    font-size: 2rem;
+  }
+
+  .development-bottom {
+    padding: 26px 22px;
+  }
+}

@@ -68,6 +68,148 @@
       }
     }
   },
+
+  "Focus": {
+  "kicker": "Unser Fokus",
+  "title": {
+    "main": "Drei Bereiche.",
+    "highlight": " Ein disziplinierter Transaktionsansatz."
+  },
+  "introduction": "Gold Bridge Capital konzentriert sich auf ausgewählte Situationen, in denen Vermögenswerte, Kapital und Gegenparteien effizient und vertraulich zusammengeführt werden müssen. Unsere Aufgabe ist es, die Möglichkeit vorzubereiten, potenziell relevante Parteien zu identifizieren und den Weg zu einer möglichen Transaktion zu koordinieren.",
+  "areas": {
+    "financing": {
+      "number": "01",
+      "overline": "Vermögensbesicherte Finanzierung",
+      "title": "Liquidität auf Basis geeigneter Vermögenswerte.",
+      "text": "Wir prüfen dokumentierte Finanzierungsmöglichkeiten, die durch geeignete Edelmetalle und ausgewählte digitale Vermögenswerte besichert sind, und koordinieren gegebenenfalls deren Vorstellung bei geeigneten unabhängigen Finanzierungspartnern.",
+      "button": "Finanzierung entdecken"
+    },
+    "realEstate": {
+      "number": "02",
+      "overline": "Hospitality Real Estate",
+      "title": "Ausgewählte Hospitality-Immobilien.",
+      "text": "Wir prüfen vertrauliche Ankaufs- und Verkaufschancen im Bereich Hotels, Resorts und anderer Hospitality-Objekte, bei denen diskrete Vorstellungen und Transaktionskoordination Mehrwert schaffen können.",
+      "button": "Immobilien entdecken"
+    },
+    "development": {
+      "number": "03",
+      "overline": "Hospitality Development",
+      "title": "Projekte auf der Suche nach Kapital und Partnern.",
+      "text": "Wir prüfen ausgewählte Hospitality-Entwicklungen, die Fremdkapital, Eigenkapital, Joint-Venture-Kapital, strategische Investoren, Betreiber oder andere geeignete professionelle Gegenparteien suchen.",
+      "button": "Development entdecken"
+    }
+  },
+  "note": "Gold Bridge Capital agiert als unabhängiger Transaktionsvermittler. Finanzierungs-, Anlage-, Makler-, Rechts-, Bewertungs- und andere regulierte Dienstleistungen werden dort, wo erforderlich, von entsprechend zugelassenen unabhängigen Parteien erbracht."
+},
+"HospitalityRealEstate": {
+  "kicker": "Hospitality Real Estate",
+  "title": {
+    "main": "Ausgewählte Hospitality-Immobilien.",
+    "highlight": " Vertraulich vorgestellt."
+  },
+  "introduction": {
+    "first": "Gold Bridge Capital prüft ausgewählte Hospitality-Immobilienchancen, bei denen Eigentümer, Investoren und Käufer von vertraulichen Vorstellungen und strukturierter Transaktionskoordination profitieren können.",
+    "second": "Unsere Rolle kann die vorläufige Aufbereitung der Möglichkeit, die Identifikation potenziell relevanter Gegenparteien und die Koordination von Vorstellungen zwischen bevollmächtigten Parteien und professionellen Beteiligten umfassen."
+  },
+  "services": {
+    "sellSide": {
+      "number": "01",
+      "title": "Sell-Side Opportunities",
+      "text": "Wir können Eigentümer oder autorisierte Vertreter dabei unterstützen, ausgewählte Hospitality-Objekte für eine vertrauliche Vorstellung gegenüber potenziell relevanten Käufern, Investoren oder strategischen Parteien vorzubereiten."
+    },
+    "buySide": {
+      "number": "02",
+      "title": "Buy-Side Requirements",
+      "text": "Wir können Akquisitionskriterien qualifizierter Investoren berücksichtigen und Hospitality-Objekte identifizieren, die möglicherweise zu deren wirtschaftlichen Anforderungen passen."
+    },
+    "offMarket": {
+      "number": "03",
+      "title": "Privat & Off-Market",
+      "text": "Bestimmte Möglichkeiten können diskret oder privat vorgestellt werden, vorbehaltlich der Zustimmung des jeweiligen Eigentümers oder autorisierten Vertreters."
+    },
+    "coordination": {
+      "number": "04",
+      "title": "Transaktionskoordination",
+      "text": "Wo sinnvoll, unterstützen wir die Koordination vorläufiger Vorstellungen zwischen Parteien, Investoren und relevanten unabhängigen professionellen Beratern."
+    }
+  },
+  "assets": {
+    "overline": "Mögliche Asset-Typen",
+    "title": "Hospitality-Möglichkeiten, die wir prüfen können.",
+    "text": "Jede Möglichkeit wird individuell auf Grundlage von Eigentum, Standort, wirtschaftlicher Logik, Dokumentation und Gegenparteirelevanz geprüft.",
+    "items": {
+      "hotels": "Hotels",
+      "resorts": "Resorts",
+      "boutique": "Boutique-Hotels",
+      "aparthotels": "Aparthotels",
+      "serviced": "Serviced Apartments",
+      "portfolios": "Hospitality-Portfolios",
+      "valueAdd": "Value-Add- und Repositionierungsobjekte",
+      "developmentLand": "Grundstücke mit Hospitality-Entwicklungspotenzial"
+    },
+    "button": "Möglichkeit einreichen"
+  },
+  "notice": {
+    "label": "Wichtig",
+    "text": "Gold Bridge Capital stellt sich in Rechtsordnungen, in denen eine spezielle Zulassung erforderlich ist, nicht als lizenzierter Immobilienmakler dar. Regulierte Makler- oder Agenturtätigkeiten müssen dort, wo erforderlich, von entsprechend zugelassenen Parteien ausgeübt werden."
+  }
+},
+"HospitalityDevelopment": {
+  "kicker": "Hospitality Development",
+  "title": {
+    "main": "Hospitality-Projekte mit",
+    "highlight": " potenziellem Kapital verbinden."
+  },
+  "introduction": {
+    "first": "Hospitality-Entwicklungen können eine Kombination aus Sponsor-Kapital, Eigenkapital, Fremdkapital, strategischen Partnern, Betreibern und spezialisiertem Know-how erfordern.",
+    "second": "Gold Bridge Capital prüft ausgewählte Projekte, bei denen das wirtschaftliche Konzept, die Eigentums- oder Standortkontrollposition und der Entwicklungsstand weit genug fortgeschritten sind, um fundierte Gespräche mit potenziellen Gegenparteien zu ermöglichen."
+  },
+  "projects": {
+    "overline": "Ausgewählte Projekttypen",
+    "title": "Hospitality-Entwicklungsmöglichkeiten.",
+    "text": "Projekte werden individuell geprüft und müssen eine plausible wirtschaftliche Logik, identifizierbare Parteien und ausreichende unterstützende Informationen aufweisen.",
+    "items": {
+      "newHotels": "Neue Hotelentwicklungen",
+      "resorts": "Resort-Entwicklungen",
+      "conversions": "Hotelkonversionen",
+      "redevelopments": "Redevelopment-Projekte",
+      "repositioning": "Repositionierungsprojekte",
+      "extensions": "Hotelerweiterungen",
+      "mixedUse": "Mixed-Use-Hospitality",
+      "brandedResidences": "Branded Residences",
+      "developmentLand": "Hospitality-Entwicklungsgrundstücke"
+    }
+  },
+  "capital": {
+    "debt": {
+      "number": "01",
+      "title": "Fremdkapital",
+      "text": "Potenzielle Vorstellungen bei geeigneten Banken, Private-Credit-Anbietern, alternativen Kreditgebern oder anderen professionellen Fremdkapitalpartnern."
+    },
+    "equity": {
+      "number": "02",
+      "title": "Eigenkapital",
+      "text": "Potenzielle Vorstellungen bei Family Offices, privaten Investoren, Investmentgruppen oder anderen relevanten Eigenkapitalquellen."
+    },
+    "jointVenture": {
+      "number": "03",
+      "title": "Joint Ventures",
+      "text": "Ausgewählte Situationen, in denen ein Entwickler, Sponsor oder Grundstückseigentümer einen finanziellen oder strategischen Partner für ein Hospitality-Projekt sucht."
+    },
+    "strategic": {
+      "number": "04",
+      "title": "Strategische Partner",
+      "text": "Potenzielle Vorstellungen bei Hotelbetreibern, Marken, Entwicklern, Asset Managern oder anderen relevanten Hospitality-Gegenparteien."
+    }
+  },
+  "bottom": {
+    "label": "Kapitalvermittlung",
+    "title": "Ein Projekt muss für eine ernsthafte Prüfung bereit sein.",
+    "text": "Gold Bridge Capital garantiert weder Fundraising noch Finanzierung, Investorenbeteiligung oder Transaktionsabschluss. Potenzielle Gegenparteien führen ihre eigene Prüfung, Due Diligence sowie Investitions- oder Kreditentscheidung durch.",
+    "button": "Projekt besprechen"
+  }
+},
+
   "Approach": {
     "kicker": "Warum Gold Bridge Capital",
     "title": {

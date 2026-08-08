@@ -284,137 +284,137 @@
   }
 },
   "Structure": {
-    "kicker": "So funktioniert strukturierte Finanzierung",
-    "title": {
-      "main": "Ein klarer Weg von geeigneten Vermögenswerten",
-      "highlight": " zu verfügbarer Liquidität."
+  "kicker": "Transaktionsrahmen",
+  "title": {
+    "main": "Ein klarer Weg von der Möglichkeit",
+    "highlight": " zur potenziellen Transaktion."
+  },
+  "introduction": {
+    "first": "Jede Möglichkeit wird individuell geprüft. Der Prozess hängt von der Art des Vermögenswerts, Projekts oder Finanzierungsbedarfs, der Befugnis der relevanten Parteien, der verfügbaren Dokumentation und den Kriterien potenzieller Gegenparteien ab.",
+    "second": "Der folgende Rahmen zeigt einen typischen Transaktionsweg und stellt weder ein garantiertes Mandat noch eine Finanzierungszusage, Investitionsentscheidung oder ein bestimmtes Transaktionsergebnis dar."
+  },
+  "steps": {
+    "collateral": {
+      "number": "01",
+      "label": "Möglichkeit",
+      "title": "Erste Einreichung",
+      "text": "Der Kunde, Eigentümer, Sponsor oder autorisierte Vertreter stellt den Vermögenswert, das Projekt oder die Finanzierungsmöglichkeit zusammen mit den wesentlichen wirtschaftlichen Informationen vor."
     },
-    "introduction": {
-      "first": "Jede vorgeschlagene Transaktion wird individuell geprüft. Die Struktur hängt von Art, Eigentum und Verwahrung der vorgeschlagenen Vermögenswerte, dem gewünschten Finanzierungsbetrag, dem Verwendungszweck und den Anforderungen der jeweiligen Finanzierungs- und Verwahrungspartner ab.",
-      "second": "Die folgende Übersicht zeigt einen typischen Transaktionsablauf. Sie stellt weder ein garantiertes Angebot noch ein standardisiertes Kreditprodukt dar."
+    "review": {
+      "number": "02",
+      "label": "Vorläufige Prüfung",
+      "title": "Verifizierung & Prüfung",
+      "text": "Eigentum oder Befugnis, wirtschaftliche Logik, Dokumentation, Transaktionsziel und relevante Einschränkungen werden geprüft."
     },
-    "steps": {
-      "collateral": {
-        "number": "01",
-        "label": "Geeignete Sicherheit",
-        "title": "Edelmetalle oder digitale Vermögenswerte",
-        "text": "Der Kunde legt geeignete Edelmetalle oder ausgewählte digitale Vermögenswerte zusammen mit unterstützenden Eigentums-, Produkt-, Verwahrungs- und Herkunftsnachweisen vor."
-      },
-      "review": {
-        "number": "02",
-        "label": "Vorläufige Prüfung",
-        "title": "Verifizierung & Prüfung",
-        "text": "Dokumentation, Eigentum, Vermögensmerkmale und Verwahrungsstruktur, wirtschaftlich Berechtigte und Verwendungszweck werden geprüft."
-      },
-      "financing": {
-        "number": "03",
-        "label": "Individuelle Konditionen",
-        "title": "Finanzierungsstruktur",
-        "text": "Auf Grundlage des verifizierten Sicherheitenwerts, des gewünschten Kapitals, der Laufzeit und der Anforderungen der Gegenparteien können indikative Konditionen erstellt werden."
-      },
-      "custody": {
-        "number": "04",
-        "label": "Vereinbarte Regelungen",
-        "title": "Sichere Verwahrung",
-        "text": "Die Sicherheit wird im Rahmen vereinbarter Verwahrungs- und Sicherheitenregelungen bei geeigneten unabhängigen Dienstleistern gehalten."
-      },
-      "release": {
-        "number": "05",
-        "label": "Abschluss",
-        "title": "Kapitalauszahlung",
-        "text": "Nach Unterzeichnung der erforderlichen Vereinbarungen und Erfüllung der Bedingungen kann die genehmigte Finanzierung ausgezahlt werden."
-      }
+    "financing": {
+      "number": "03",
+      "label": "Vorbereitung",
+      "title": "Transaktionspositionierung",
+      "text": "Die Möglichkeit wird zu einem klaren vorläufigen Profil aufbereitet, das für die Prüfung durch potenziell relevante Investoren, Kreditgeber, Käufer oder strategische Parteien geeignet ist."
     },
-    "principles": {
-      "ownership": {
-        "title": "Eigentum des Kunden",
-        "text": "Das wirtschaftliche Ziel besteht darin, Liquidität freizusetzen, ohne die geeigneten Vermögenswerte endgültig zu verkaufen."
-      },
-      "counterparties": {
-        "title": "Unabhängige Gegenparteien",
-        "text": "Verwahrung, Bewertung, Recht, Compliance und Finanzierung können von getrennten professionellen Parteien übernommen werden."
-      },
-      "assessment": {
-        "title": "Einzelfallprüfung",
-        "text": "Keine Transaktion wird ohne zufriedenstellende Dokumentation, Due Diligence und endgültige Genehmigung durchgeführt."
-      }
+    "custody": {
+      "number": "04",
+      "label": "Vorstellungen",
+      "title": "Einbindung von Gegenparteien",
+      "text": "Wo angemessen und autorisiert, können ausgewählte Gegenparteien vertraulich angesprochen und mit der Möglichkeit bekannt gemacht werden."
+    },
+    "release": {
+      "number": "05",
+      "label": "Mögliches Ergebnis",
+      "title": "Due Diligence & Abschluss",
+      "text": "Entsteht gegenseitiges Interesse, setzen die relevanten Parteien und professionellen Berater die unabhängige Due Diligence, Verhandlung und endgültige Dokumentation fort."
     }
   },
+  "principles": {
+    "ownership": {
+      "title": "Verifizierte Befugnis",
+      "text": "Die Person, die eine Möglichkeit einreicht, sollte über Eigentum, Kontrolle oder eine geeignete Befugnis zur Präsentation verfügen."
+    },
+    "counterparties": {
+      "title": "Unabhängige Gegenparteien",
+      "text": "Investoren, Käufer, Kreditgeber, Berater und andere professionelle Parteien treffen ihre eigenen unabhängigen Entscheidungen."
+    },
+    "assessment": {
+      "title": "Einzelfallprüfung",
+      "text": "Keine Möglichkeit wird automatisch weitergeführt und kein Transaktionsergebnis kann garantiert werden."
+    }
+  }
+},
   "Example": {
-    "kicker": "Indikativer institutioneller Rahmen",
-    "title": {
-      "main": "Ein möglicher Weg zu einer",
-      "highlight": " institutionell geprüften Finanzierung."
+  "kicker": "Indikativer Transaktionsrahmen",
+  "title": {
+    "main": "Jede Möglichkeit folgt",
+    "highlight": " ihrem eigenen Transaktionsweg."
+  },
+  "introduction": "Dieser Rahmen zeigt, wie eine dokumentierte Finanzierungs-, Hospitality-Immobilien- oder Entwicklungsmöglichkeit von der ersten Einreichung bis zur unabhängigen Prüfung durch Gegenparteien fortschreiten kann. Er beschreibt keine zugesagte Transaktion.",
+  "case": {
+    "overline": "Beispielhafter Transaktionsweg",
+    "title": "Prüfung einer Private-Market-Möglichkeit",
+    "status": "Vorbehaltlich Prüfung"
+  },
+  "values": {
+    "asset": {
+      "label": "Möglichkeit",
+      "value": "Dokumentierte Transaktion",
+      "note": "Vermögenswert, Immobilie, Projekt oder Finanzierungsbedarf"
     },
-    "introduction": "Dieser Rahmen erläutert, wie ein dokumentierter Edelmetall- oder Digital-Asset-Bestand für die Prüfung durch ein unabhängiges reguliertes Institut vorbereitet werden könnte. Er beschreibt weder ein derzeit verfügbares Produkt noch zugesagte Finanzierungskonditionen.",
-    "case": {
-      "overline": "Beispielhafter Prüfungsweg",
-      "title": "Institutionelle Finanzierungsprüfung",
-      "status": "Vorbehaltlich Genehmigung"
-    },
-    "values": {
-      "asset": {
-        "label": "Vorgeschlagener Vermögenswert",
-        "value": "Verifizierte geeignete Sicherheiten",
-        "note": "Die Eignung muss unabhängig bestätigt werden"
-      },
-      "assessment": {
-        "label": "Mögliches Ergebnis",
-        "value": "Individuelle institutionelle Konditionen",
-        "note": "Erst nach vollständiger Prüfung und schriftlicher Genehmigung"
-      }
-    },
-    "details": {
-      "asset": {
-        "label": "Art des Vermögenswerts",
-        "value": "Vom Institut festgelegt"
-      },
-      "verification": {
-        "label": "Verifizierung",
-        "value": "Unabhängig und dokumentiert"
-      },
-      "assessment": {
-        "label": "Finanzierungsentscheidung",
-        "value": "Einzelfallbezogen"
-      },
-      "custody": {
-        "label": "Verwahrung",
-        "value": "Nach institutionellen Anforderungen"
-      }
-    },
-    "footer": "Bewertung, Echtheitsprüfung, Herkunftsprüfung, Compliance-Prüfung, Verwahrung und Finanzierungsentscheidung würden von qualifizierten unabhängigen Parteien durchgeführt oder genehmigt.",
-    "summary": {
-      "overline": "Indikative Übersicht",
-      "title": "Institutionelle Beurteilung",
-      "rows": {
-        "assetEligibility": {
-          "label": "Eignung des Vermögenswerts",
-          "value": "Noch zu bestätigen"
-        },
-        "financingAvailability": {
-          "label": "Verfügbarkeit der Finanzierung",
-          "value": "Nicht garantiert"
-        },
-        "advanceRatio": {
-          "label": "Beleihungsquote",
-          "value": "Individuell festgelegt"
-        },
-        "term": {
-          "label": "Laufzeit",
-          "value": "Vom Institut zu vereinbaren"
-        },
-        "pricing": {
-          "label": "Preisgestaltung und Gebühren",
-          "value": "Gemäß formellen Konditionen"
-        }
-      },
-      "note": "Betrag, Beleihungsquote, Laufzeit, Preisgestaltung, Verwahrungsstruktur oder Genehmigung können erst genannt werden, nachdem ein qualifiziertes Institut seine eigene Prüfung abgeschlossen und schriftliche Konditionen erteilt hat."
-    },
-    "caveat": {
-      "label": "Wichtig",
-      "text": "Gold Bridge Capital vertritt derzeit keine Bank, keinen Kreditgeber und kein Finanzinstitut, sofern dies nicht ausdrücklich schriftlich bestätigt wurde. Über diese Website wird keine Finanzierung angeboten oder garantiert. Jede zukünftige Transaktion würde einer unabhängigen Verifizierung, Compliance-Prüfung, institutionellen Genehmigung und endgültigen Vertragsdokumentation unterliegen."
+    "assessment": {
+      "label": "Mögliches Ergebnis",
+      "value": "Unabhängige Transaktionskonditionen",
+      "note": "Erst nach Prüfung und Vereinbarung durch die Gegenparteien"
     }
   },
+  "details": {
+    "asset": {
+      "label": "Art der Möglichkeit",
+      "value": "Durch die Transaktion definiert"
+    },
+    "verification": {
+      "label": "Befugnis & Dokumentation",
+      "value": "Noch zu verifizieren"
+    },
+    "assessment": {
+      "label": "Entscheidung der Gegenpartei",
+      "value": "Unabhängig"
+    },
+    "custody": {
+      "label": "Umsetzungsstruktur",
+      "value": "Transaktionsspezifisch"
+    }
+  },
+  "footer": "Bewertung, Finanzierung, Investition, Erwerb, rechtliche, maklerbezogene, Due-Diligence- und andere spezialisierte Funktionen werden, soweit erforderlich, von relevanten unabhängigen Parteien erbracht oder genehmigt.",
+  "summary": {
+    "overline": "Indikative Übersicht",
+    "title": "Transaktionsprüfung",
+    "rows": {
+      "assetEligibility": {
+        "label": "Eignung der Möglichkeit",
+        "value": "Noch zu bestätigen"
+      },
+      "financingAvailability": {
+        "label": "Interesse von Gegenparteien",
+        "value": "Nicht garantiert"
+      },
+      "advanceRatio": {
+        "label": "Bewertung",
+        "value": "Falls erforderlich unabhängig bestimmt"
+      },
+      "term": {
+        "label": "Wirtschaftliche Konditionen",
+        "value": "Im Einzelfall zu verhandeln"
+      },
+      "pricing": {
+        "label": "Abschluss",
+        "value": "Vorbehaltlich endgültiger Vereinbarungen"
+      }
+    },
+    "note": "Bewertung, Finanzierungsbetrag, Kaufpreis, Investitionszusage, wirtschaftliche Konditionen oder Transaktionszeitplan können nicht garantiert werden, bevor die relevanten unabhängigen Parteien ihre eigene Prüfung abgeschlossen haben."
+  },
+  "caveat": {
+    "label": "Wichtig",
+    "text": "Gold Bridge Capital agiert als unabhängiger Transaktionsvermittler. Weder Finanzierung, Investition, Erwerb, Verkauf, Joint-Venture-Beteiligung noch der Abschluss einer Transaktion werden garantiert. Alle Möglichkeiten bleiben einer unabhängigen Prüfung, Due Diligence, anwendbaren Regulierung und endgültigen Vertragsdokumentation vorbehalten."
+  }
+},
   "Process": {
   "kicker": "Transaktionsprozess",
   "title": {
@@ -502,127 +502,127 @@
   }
 },
   "Requirements": {
-    "kicker": "Transaktionsanforderungen",
-    "title": {
-      "main": "Was für eine",
-      "highlight": " erste Prüfung erforderlich ist."
-    },
-    "introduction": "Vollständige Dokumentation hilft festzustellen, ob eine vorgeschlagene Transaktion für eine weitere Prüfung geeignet ist. Je nach Parteien, Rechtsordnung und Sicherheitenstruktur können zusätzliche Informationen angefordert werden.",
-    "cards": {
-      "collateral": {
-        "number": "01",
-        "title": "Informationen zur Sicherheit",
-        "text": "Klare und überprüfbare Informationen zum vorgeschlagenen Edelmetallen oder digitalen Vermögenswerten.",
-        "items": {
-          "form": {
-            "title": "Form und Menge",
-            "text": "Metallart, Form und Menge oder Art und Menge des digitalen Vermögenswerts."
-          },
-          "purity": {
-            "title": "Reinheit und Identifikation",
-            "text": "Raffinerie, Seriennummern und Prüfdaten bei Metallen oder Token, Netzwerk und Konto- beziehungsweise Wallet-Informationen bei digitalen Vermögenswerten."
-          },
-          "location": {
-            "title": "Aktueller Standort",
-            "text": "Tresor, Bank, zugelassener Verwahrer, Börse, institutionelles Konto oder Wallet-Struktur."
-          },
-          "value": {
-            "title": "Indikativer Marktwert",
-            "text": "Aktuelle Bewertung, Bestandsaufstellung oder gleichwertige unterstützende Informationen."
-          }
-        }
-      },
-      "ownership": {
-        "number": "02",
-        "title": "Eigentum & Herkunft",
-        "text": "Nachweise darüber, wem die Sicherheit rechtlich oder wirtschaftlich gehört und wie es erworben wurde.",
-        "items": {
-          "proof": {
-            "title": "Nachweis des rechtlichen Eigentums",
-            "text": "Kaufrechnungen, Verwahrungsunterlagen, Eigentumsdokumente oder gleichwertige Nachweise."
-          },
-          "provenance": {
-            "title": "Quelle und Herkunft",
-            "text": "Dokumentation zur Erwerbshistorie und rechtmäßigen Herkunft."
-          },
-          "encumbrances": {
-            "title": "Bestehende Belastungen",
-            "text": "Offenlegung bestehender Verpfändungen, Pfandrechte, Finanzierungsvereinbarungen oder Ansprüche Dritter."
-          },
-          "authority": {
-            "title": "Befugnis zur Transaktion",
-            "text": "Nachweis, dass der Antragsteller berechtigt ist, die Vermögenswerte als Sicherheit anzubieten."
-          }
-        }
-      },
-      "compliance": {
-        "number": "03",
-        "title": "Kunden- & Compliance-Dokumente",
-        "text": "Identitäts- und Unternehmensinformationen, die für die anwendbare Compliance-Prüfung erforderlich sind.",
-        "items": {
-          "identification": {
-            "title": "Persönliche Identifikation",
-            "text": "Gültige Identitäts- und Adressnachweise für die relevanten Personen."
-          },
-          "corporate": {
-            "title": "Unternehmensdokumente",
-            "text": "Registerauszug, Gründungsdokumente und Zeichnungsberechtigung, soweit anwendbar."
-          },
-          "beneficialOwnership": {
-            "title": "Wirtschaftlich Berechtigte",
-            "text": "Vollständige Offenlegung der letztlich wirtschaftlich Berechtigten und kontrollierenden Personen."
-          },
-          "wealth": {
-            "title": "Herkunft von Vermögen und Mitteln",
-            "text": "Unterstützende Informationen in einem Umfang, der zur Transaktion und den anwendbaren Anforderungen passt."
-          }
-        }
-      },
-      "financing": {
-        "number": "04",
-        "title": "Finanzierungsanfrage",
-        "text": "Eine klare Erläuterung des gewünschten Kapitals und des geplanten Rückzahlungsplans.",
-        "items": {
-          "amount": {
-            "title": "Gewünschter Betrag",
-            "text": "Exakter oder indikativer Finanzierungsbetrag, den der Kunde benötigt."
-          },
-          "purpose": {
-            "title": "Beabsichtigte Mittelverwendung",
-            "text": "Legitimer und ausreichend detaillierter geschäftlicher oder privater Finanzierungszweck."
-          },
-          "term": {
-            "title": "Bevorzugte Laufzeit",
-            "text": "Bevorzugte Laufzeit, vorbehaltlich der Prüfung, Risikoanforderungen und formellen Konditionen des ausgewählten Instituts."
-          },
-          "repayment": {
-            "title": "Rückzahlungsstrategie",
-            "text": "Plausible Erläuterung, wie sämtliche Verpflichtungen voraussichtlich zurückgezahlt werden."
-          }
+  "kicker": "Anforderungen an Möglichkeiten",
+  "title": {
+    "main": "Starke Möglichkeiten beginnen mit",
+    "highlight": " glaubwürdigen Informationen."
+  },
+  "introduction": "Die erforderlichen Informationen hängen von der Art der Transaktion ab. Eine erste Einreichung sollte genügend Details enthalten, um Eigentum oder Befugnis, wirtschaftliche Logik, Qualität der Dokumentation und potenzielle Gegenparteirelevanz beurteilen zu können.",
+  "cards": {
+    "collateral": {
+      "number": "01",
+      "title": "Übersicht der Möglichkeit",
+      "text": "Eine klare Beschreibung des Vermögenswerts, der Immobilie, des Projekts oder des Finanzierungsbedarfs.",
+      "items": {
+        "form": {
+          "title": "Art der Möglichkeit",
+          "text": "Vermögensbesicherte Finanzierung, Hospitality-Immobilie, Akquisitionsbedarf, Entwicklungsprojekt oder eine andere relevante Transaktion."
+        },
+        "purity": {
+          "title": "Standort und Struktur",
+          "text": "Relevante Rechtsordnung, Standort des Vermögenswerts oder Projekts und grundlegende Transaktionsstruktur."
+        },
+        "location": {
+          "title": "Indikativer Wert",
+          "text": "Geschätzter Vermögenswert, Kaufpreisvorstellung, Projektkosten oder Finanzierungsbedarf, soweit anwendbar."
+        },
+        "value": {
+          "title": "Wirtschaftliches Ziel",
+          "text": "Klare Erläuterung der beabsichtigten Transaktion und des gewünschten Ergebnisses."
         }
       }
     },
-    "sidebar": {
-      "overline": "Erste Prüfung",
-      "title": "Bereiten Sie die wesentlichen Dokumente vor der Einreichung vor.",
-      "text": "Für eine erste Anfrage sind noch nicht alle endgültigen Dokumente erforderlich. Sie sollte jedoch genügend Informationen enthalten, um festzustellen, ob eine weitergehende Prüfung wirtschaftlich und rechtlich sinnvoll ist.",
+    "ownership": {
+      "number": "02",
+      "title": "Eigentum & Befugnis",
+      "text": "Nachweise dafür, dass die Möglichkeit von einem Eigentümer, Hauptbeteiligten oder entsprechend autorisierten Vertreter präsentiert wird.",
       "items": {
-        "ownership": "Klarer Eigentumsnachweis",
-        "gold": "Überprüfbare Sicherheitenunterlagen",
-        "purpose": "Definierter Finanzierungszweck",
-        "repayment": "Plausible Rückzahlungsstrategie"
-      },
-      "button": "Anfrage einreichen"
+        "proof": {
+          "title": "Eigentum oder Kontrolle",
+          "text": "Relevante Nachweise über Eigentum, Grundstückskontrolle, Vermögenseigentum oder vertragliche Befugnis."
+        },
+        "provenance": {
+          "title": "Befugnis zur Vorstellung",
+          "text": "Ist der Einreicher nicht Eigentümer, sollte die Art seiner Befugnis oder Beziehung offengelegt werden."
+        },
+        "encumbrances": {
+          "title": "Bestehende Verpflichtungen",
+          "text": "Relevante Schulden, Pfandrechte, Belastungen, Exklusivitätsvereinbarungen oder Ansprüche Dritter sollten offengelegt werden."
+        },
+        "authority": {
+          "title": "Identifikation des Hauptbeteiligten",
+          "text": "Der relevante Eigentümer, Sponsor, das Unternehmen oder der wirtschaftlich Berechtigte sollte identifizierbar sein."
+        }
+      }
     },
-    "warning": {
-      "title": "Dokumente unterliegen der Verifizierung",
-      "text": "Die Einreichung von Informationen begründet keine Verpflichtung, eine Finanzierung zu arrangieren, bereitzustellen oder zu genehmigen."
+    "compliance": {
+      "number": "03",
+      "title": "Unterstützende Dokumentation",
+      "text": "Ausreichende Dokumentation für eine vorläufige wirtschaftliche und gegenparteibezogene Prüfung.",
+      "items": {
+        "identification": {
+          "title": "Unternehmens- oder Personendaten",
+          "text": "Grundlegende Identifikation des relevanten Hauptbeteiligten, Unternehmens, Sponsors oder der Eigentumsstruktur."
+        },
+        "corporate": {
+          "title": "Wirtschaftliche Dokumentation",
+          "text": "Finanzielle, operative, projektbezogene, vermögensbezogene oder transaktionsbezogene Informationen passend zur Möglichkeit."
+        },
+        "beneficialOwnership": {
+          "title": "Eigentumsstruktur",
+          "text": "Relevante Informationen zu wirtschaftlich Berechtigten oder Kontrolle, soweit erforderlich."
+        },
+        "wealth": {
+          "title": "Zusätzliche Prüfung",
+          "text": "Im weiteren Verlauf können zusätzliche rechtliche, finanzielle, technische oder Compliance-Informationen angefordert werden."
+        }
+      }
     },
-    "note": {
-      "label": "Bitte beachten",
-      "text": "Je nach Transaktion können zusätzliche Rechtsgutachten, Prüfberichte, Blockchain-Analysen, unabhängige Bewertungen, Steuerinformationen, Jahresabschlüsse, Verwahrungsbestätigungen oder andere spezialisierte Dokumente erforderlich sein."
+    "financing": {
+      "number": "04",
+      "title": "Transaktionsziel",
+      "text": "Eine klare Erläuterung dessen, was die relevante Partei erreichen möchte.",
+      "items": {
+        "amount": {
+          "title": "Kapital- oder Preisvorstellung",
+          "text": "Gewünschte Finanzierung, Kaufpreisvorstellung, Eigenkapitalbedarf, Investitionsbetrag oder eine andere relevante wirtschaftliche Erwartung."
+        },
+        "purpose": {
+          "title": "Zweck der Transaktion",
+          "text": "Verkauf, Erwerb, Finanzierung, Entwicklung, Rekapitalisierung, Joint Venture oder ein anderes legitimes Ziel."
+        },
+        "term": {
+          "title": "Zeitliche Erwartungen",
+          "text": "Bevorzugter Transaktionszeitraum, vorbehaltlich Due Diligence, Gegenparteien und endgültiger Vereinbarungen."
+        },
+        "repayment": {
+          "title": "Umsetzungsstrategie",
+          "text": "Relevante Rückzahlungs-, Exit-, Abschluss- oder Transaktionsstrategie abhängig von der Art der Möglichkeit."
+        }
+      }
     }
   },
+  "sidebar": {
+    "overline": "Erste Prüfung",
+    "title": "Bereiten Sie die wesentlichen Informationen vor der Einreichung vor.",
+    "text": "Für eine erste Anfrage ist kein vollständiger Due-Diligence-Datenraum erforderlich, sie sollte jedoch genügend Informationen für eine sinnvolle Vorprüfung enthalten.",
+    "items": {
+      "ownership": "Klares Eigentum oder klare Befugnis",
+      "gold": "Glaubwürdige wirtschaftliche Informationen",
+      "purpose": "Definiertes Transaktionsziel",
+      "repayment": "Relevante unterstützende Dokumentation"
+    },
+    "button": "Möglichkeit einreichen"
+  },
+  "warning": {
+    "title": "Informationen unterliegen der Verifizierung",
+    "text": "Die Einreichung einer Möglichkeit stellt weder Annahme, Vertretung, Finanzierungsgenehmigung, Investitionszusage noch eine Verpflichtung zur Vorstellung gegenüber Dritten dar."
+  },
+  "note": {
+    "label": "Bitte beachten",
+    "text": "Je nach Möglichkeit können zusätzliche Rechtsgutachten, Bewertungen, Jahresabschlüsse, Betriebsdaten, Eigentumsunterlagen, Planungsinformationen, technische Berichte, Finanzierungsnachweise, Compliance-Informationen oder andere spezialisierte Unterlagen erforderlich sein."
+  }
+},
   "FAQ": {
     "kicker": "Häufig gestellte Fragen",
     "title": {

@@ -284,137 +284,137 @@
   }
 },
   "Structure": {
-    "kicker": "Come funziona il finanziamento strutturato",
-    "title": {
-      "main": "Un percorso chiaro da attività idonee",
-      "highlight": " alla liquidità disponibile."
+  "kicker": "Quadro dell'operazione",
+  "title": {
+    "main": "Un percorso chiaro dall'opportunità",
+    "highlight": " alla potenziale operazione."
+  },
+  "introduction": {
+    "first": "Ogni opportunità viene valutata individualmente. Il processo dipende dalla natura dell'asset, del progetto o del fabbisogno finanziario, dall'autorità delle parti coinvolte, dalla documentazione disponibile e dai criteri delle potenziali controparti.",
+    "second": "Il quadro seguente illustra un tipico percorso operativo e non rappresenta un mandato garantito, un impegno di finanziamento, una decisione di investimento o un risultato certo."
+  },
+  "steps": {
+    "collateral": {
+      "number": "01",
+      "label": "Opportunità",
+      "title": "Presentazione iniziale",
+      "text": "Il cliente, proprietario, sponsor o rappresentante autorizzato presenta l'asset, il progetto o l'opportunità di finanziamento insieme alle informazioni commerciali essenziali."
     },
-    "introduction": {
-      "first": "Ogni operazione proposta viene valutata individualmente. La struttura dipende dalla categoria, proprietà e custodia delle attività proposte, dall'importo di finanziamento richiesto, dall'uso previsto dei fondi e dai requisiti dei partner finanziari e di custodia pertinenti.",
-      "second": "Lo schema seguente presenta un tipico percorso operativo. Non rappresenta un'offerta garantita né un prodotto di finanziamento standardizzato."
+    "review": {
+      "number": "02",
+      "label": "Valutazione preliminare",
+      "title": "Verifica & valutazione",
+      "text": "Vengono valutati proprietà o autorità, logica commerciale, documentazione, obiettivo dell'operazione e vincoli rilevanti."
     },
-    "steps": {
-      "collateral": {
-        "number": "01",
-        "label": "Garanzia idonea",
-        "title": "Metalli preziosi o asset digitali",
-        "text": "Il cliente presenta metalli preziosi idonei o determinati asset digitali insieme alla documentazione di supporto relativa a proprietà, prodotto, custodia e provenienza."
-      },
-      "review": {
-        "number": "02",
-        "label": "Valutazione preliminare",
-        "title": "Verifica e valutazione",
-        "text": "Vengono esaminati documentazione, proprietà, caratteristiche dell’attività e struttura di custodia, titolarità effettiva e uso previsto dei fondi."
-      },
-      "financing": {
-        "number": "03",
-        "label": "Termini individuali",
-        "title": "Struttura di finanziamento",
-        "text": "Possono essere predisposti termini indicativi sulla base del valore verificato della garanzia, del capitale richiesto, della durata e dei requisiti delle controparti."
-      },
-      "custody": {
-        "number": "04",
-        "label": "Accordi concordati",
-        "title": "Custodia sicura",
-        "text": "La garanzia viene detenuta o controllata secondo accordi di custodia e garanzia concordati con fornitori di servizi indipendenti idonei."
-      },
-      "release": {
-        "number": "05",
-        "label": "Completamento",
-        "title": "Erogazione del capitale",
-        "text": "Dopo la firma degli accordi richiesti e il soddisfacimento delle condizioni, il finanziamento approvato può essere erogato."
-      }
+    "financing": {
+      "number": "03",
+      "label": "Preparazione",
+      "title": "Posizionamento dell'operazione",
+      "text": "L'opportunità viene organizzata in un chiaro profilo preliminare adatto alla valutazione da parte di potenziali investitori, finanziatori, acquirenti o soggetti strategici."
     },
-    "principles": {
-      "ownership": {
-        "title": "Proprietà del cliente",
-        "text": "L'obiettivo commerciale è sbloccare liquidità senza una vendita definitiva delle attività idonee."
-      },
-      "counterparties": {
-        "title": "Controparti indipendenti",
-        "text": "Le funzioni di custodia, valutazione, assistenza legale, conformità e finanziamento possono essere svolte da parti professionali separate."
-      },
-      "assessment": {
-        "title": "Valutazione caso per caso",
-        "text": "Nessuna operazione procede senza documentazione soddisfacente, due diligence e approvazione finale."
-      }
+    "custody": {
+      "number": "04",
+      "label": "Presentazioni",
+      "title": "Coinvolgimento delle controparti",
+      "text": "Ove appropriato e autorizzato, controparti selezionate possono essere contattate e introdotte all'opportunità in modo riservato."
+    },
+    "release": {
+      "number": "05",
+      "label": "Potenziale risultato",
+      "title": "Due Diligence & completamento",
+      "text": "Se emerge interesse reciproco, le parti principali e i consulenti professionali procedono con due diligence indipendente, negoziazione e documentazione definitiva."
     }
   },
+  "principles": {
+    "ownership": {
+      "title": "Autorità verificata",
+      "text": "Il soggetto che presenta un'opportunità dovrebbe disporre della proprietà, del controllo o dell'adeguata autorità per presentarla."
+    },
+    "counterparties": {
+      "title": "Controparti indipendenti",
+      "text": "Investitori, acquirenti, finanziatori, consulenti e altri soggetti professionali assumono decisioni indipendenti."
+    },
+    "assessment": {
+      "title": "Valutazione caso per caso",
+      "text": "Nessuna opportunità procede automaticamente e nessun risultato dell'operazione può essere garantito."
+    }
+  }
+},
   "Example": {
-    "kicker": "Quadro istituzionale indicativo",
-    "title": {
-      "main": "Un possibile percorso verso un",
-      "highlight": " finanziamento valutato da un'istituzione."
+  "kicker": "Quadro indicativo dell'operazione",
+  "title": {
+    "main": "Ogni opportunità segue",
+    "highlight": " il proprio percorso operativo."
+  },
+  "introduction": "Questo quadro illustra come un'opportunità documentata di finanziamento, hospitality real estate o sviluppo possa procedere dalla presentazione iniziale alla valutazione indipendente delle controparti. Non descrive un'operazione già impegnata.",
+  "case": {
+    "overline": "Percorso operativo illustrativo",
+    "title": "Valutazione di un'opportunità Private Market",
+    "status": "Soggetto a valutazione"
+  },
+  "values": {
+    "asset": {
+      "label": "Opportunità",
+      "value": "Operazione documentata",
+      "note": "Asset, immobile, progetto o fabbisogno finanziario"
     },
-    "introduction": "Questo quadro illustra come una posizione documentata in metalli preziosi o asset digitali potrebbe essere preparata per la valutazione da parte di un'istituzione regolamentata indipendente. Non descrive un prodotto attualmente disponibile né condizioni di finanziamento già impegnate.",
-    "case": {
-      "overline": "Percorso di valutazione illustrativo",
-      "title": "Valutazione istituzionale del finanziamento",
-      "status": "Soggetto ad approvazione"
-    },
-    "values": {
-      "asset": {
-        "label": "Attività proposta",
-        "value": "Garanzie idonee verificate",
-        "note": "L'idoneità deve essere confermata in modo indipendente"
-      },
-      "assessment": {
-        "label": "Possibile esito",
-        "value": "Condizioni istituzionali individuali",
-        "note": "Solo dopo valutazione completa e approvazione scritta"
-      }
-    },
-    "details": {
-      "asset": {
-        "label": "Tipo di attività",
-        "value": "Definito dall'istituzione"
-      },
-      "verification": {
-        "label": "Verifica",
-        "value": "Indipendente e documentata"
-      },
-      "assessment": {
-        "label": "Decisione sul finanziamento",
-        "value": "Caso per caso"
-      },
-      "custody": {
-        "label": "Custodia",
-        "value": "Soggetta ai requisiti istituzionali"
-      }
-    },
-    "footer": "Qualsiasi valutazione, verifica dell'autenticità, analisi della provenienza, controllo di conformità, accordo di custodia e decisione di finanziamento sarebbe eseguito o approvato da parti indipendenti qualificate.",
-    "summary": {
-      "overline": "Panoramica indicativa",
-      "title": "Valutazione istituzionale",
-      "rows": {
-        "assetEligibility": {
-          "label": "Idoneità dell'attività",
-          "value": "Da confermare"
-        },
-        "financingAvailability": {
-          "label": "Disponibilità del finanziamento",
-          "value": "Non garantita"
-        },
-        "advanceRatio": {
-          "label": "Rapporto di anticipo",
-          "value": "Determinato individualmente"
-        },
-        "term": {
-          "label": "Durata",
-          "value": "Da concordare con l'istituzione"
-        },
-        "pricing": {
-          "label": "Prezzi e commissioni",
-          "value": "Secondo condizioni formali"
-        }
-      },
-      "note": "Importo, rapporto di anticipo, durata, prezzi, struttura di custodia o approvazione non possono essere indicati prima che un'istituzione qualificata abbia completato la propria valutazione ed emesso condizioni scritte."
-    },
-    "caveat": {
-      "label": "Importante",
-      "text": "Gold Bridge Capital non rappresenta attualmente alcuna banca, finanziatore o istituzione finanziaria, salvo espressa conferma scritta. Nessun finanziamento viene offerto o garantito tramite questo sito web. Qualsiasi futura operazione resterebbe soggetta a verifica indipendente, controllo di conformità, approvazione istituzionale e documentazione contrattuale definitiva."
+    "assessment": {
+      "label": "Potenziale risultato",
+      "value": "Condizioni indipendenti dell'operazione",
+      "note": "Solo dopo valutazione e accordo delle controparti"
     }
   },
+  "details": {
+    "asset": {
+      "label": "Tipo di opportunità",
+      "value": "Definito dall'operazione"
+    },
+    "verification": {
+      "label": "Autorità & documentazione",
+      "value": "Da verificare"
+    },
+    "assessment": {
+      "label": "Decisione della controparte",
+      "value": "Indipendente"
+    },
+    "custody": {
+      "label": "Struttura di esecuzione",
+      "value": "Specifica dell'operazione"
+    }
+  },
+  "footer": "Valutazione, finanziamento, investimento, acquisizione, assistenza legale, intermediazione, due diligence e altre funzioni specialistiche sono svolte o approvate, ove necessario, dalle parti indipendenti pertinenti.",
+  "summary": {
+    "overline": "Panoramica indicativa",
+    "title": "Valutazione dell'operazione",
+    "rows": {
+      "assetEligibility": {
+        "label": "Idoneità dell'opportunità",
+        "value": "Da confermare"
+      },
+      "financingAvailability": {
+        "label": "Interesse delle controparti",
+        "value": "Non garantito"
+      },
+      "advanceRatio": {
+        "label": "Valutazione",
+        "value": "Determinata indipendentemente ove richiesto"
+      },
+      "term": {
+        "label": "Condizioni commerciali",
+        "value": "Negoziate caso per caso"
+      },
+      "pricing": {
+        "label": "Completamento",
+        "value": "Soggetto ad accordi definitivi"
+      }
+    },
+    "note": "Valutazione, importo di finanziamento, prezzo di acquisizione, impegno di investimento, condizioni commerciali o tempistiche dell'operazione non possono essere garantiti prima che le parti indipendenti pertinenti completino la propria valutazione."
+  },
+  "caveat": {
+    "label": "Importante",
+    "text": "Gold Bridge Capital opera come facilitatore indipendente di operazioni. Non garantisce finanziamento, investimento, acquisizione, vendita, partecipazione in joint venture o completamento di alcuna operazione. Tutte le opportunità restano soggette a valutazione indipendente, due diligence, normativa applicabile e documentazione contrattuale definitiva."
+  }
+},
   "Process": {
   "kicker": "Processo dell'operazione",
   "title": {
@@ -502,127 +502,127 @@
   }
 },
   "Requirements": {
-    "kicker": "Requisiti dell'operazione",
-    "title": {
-      "main": "Cosa serve per una",
-      "highlight": " valutazione iniziale."
-    },
-    "introduction": "Una documentazione completa aiuta a stabilire se un'operazione proposta è idonea a un'ulteriore valutazione. Possono essere richieste informazioni aggiuntive a seconda delle parti, della giurisdizione e della struttura della garanzia.",
-    "cards": {
-      "collateral": {
-        "number": "01",
-        "title": "Informazioni sulla garanzia",
-        "text": "Informazioni chiare e verificabili sui metalli preziosi o asset digitali proposti.",
-        "items": {
-          "form": {
-            "title": "Forma e quantità",
-            "text": "Tipo, forma e quantità del metallo oppure tipo e quantità dell’asset digitale."
-          },
-          "purity": {
-            "title": "Purezza e identificazione",
-            "text": "Raffineria, numeri di serie e dati di saggio per i metalli, oppure token, rete e informazioni su conto o wallet per gli asset digitali."
-          },
-          "location": {
-            "title": "Ubicazione attuale",
-            "text": "Caveau, banca, custode approvato, exchange, conto istituzionale o struttura di wallet."
-          },
-          "value": {
-            "title": "Valore indicativo di mercato",
-            "text": "Valutazione recente, inventario o informazioni equivalenti di supporto."
-          }
-        }
-      },
-      "ownership": {
-        "number": "02",
-        "title": "Proprietà e provenienza",
-        "text": "Prove che dimostrino chi possiede legalmente o economicamente la garanzia e come è stato acquisito.",
-        "items": {
-          "proof": {
-            "title": "Prova della proprietà legale",
-            "text": "Fatture di acquisto, registri di custodia, titoli di proprietà o prove equivalenti."
-          },
-          "provenance": {
-            "title": "Origine e provenienza",
-            "text": "Documentazione che spieghi la storia dell'acquisizione e l'origine lecita."
-          },
-          "encumbrances": {
-            "title": "Gravami esistenti",
-            "text": "Divulgazione di eventuali pegni, vincoli, accordi di finanziamento o pretese di terzi."
-          },
-          "authority": {
-            "title": "Autorità a operare",
-            "text": "Prova che il richiedente è autorizzato a offrire le attività come garanzia."
-          }
-        }
-      },
-      "compliance": {
-        "number": "03",
-        "title": "Documenti del cliente e di conformità",
-        "text": "Informazioni identificative e societarie richieste per la verifica di conformità applicabile.",
-        "items": {
-          "identification": {
-            "title": "Identificazione personale",
-            "text": "Documenti di identità validi e prova dell'indirizzo per le persone pertinenti."
-          },
-          "corporate": {
-            "title": "Documenti societari",
-            "text": "Visura, documenti costitutivi e poteri di firma, ove applicabile."
-          },
-          "beneficialOwnership": {
-            "title": "Titolarità effettiva",
-            "text": "Divulgazione completa dei titolari effettivi finali e delle parti controllanti."
-          },
-          "wealth": {
-            "title": "Origine del patrimonio e dei fondi",
-            "text": "Informazioni di supporto proporzionate all'operazione e ai requisiti applicabili."
-          }
-        }
-      },
-      "financing": {
-        "number": "04",
-        "title": "Richiesta di finanziamento",
-        "text": "Una spiegazione chiara del capitale richiesto e del piano di rimborso proposto.",
-        "items": {
-          "amount": {
-            "title": "Importo richiesto",
-            "text": "Importo di finanziamento esatto o indicativo richiesto dal cliente."
-          },
-          "purpose": {
-            "title": "Uso previsto dei fondi",
-            "text": "Finalità commerciale o privata legittima e sufficientemente dettagliata."
-          },
-          "term": {
-            "title": "Durata preferita",
-            "text": "Durata preferita, soggetta alla valutazione, ai requisiti di rischio e alle condizioni formali dell'istituzione selezionata."
-          },
-          "repayment": {
-            "title": "Strategia di rimborso",
-            "text": "Spiegazione credibile di come si prevede di rimborsare tutti gli obblighi."
-          }
+  "kicker": "Requisiti dell'opportunità",
+  "title": {
+    "main": "Le opportunità solide iniziano con",
+    "highlight": " informazioni credibili."
+  },
+  "introduction": "Le informazioni richieste dipendono dal tipo di operazione. Una presentazione iniziale dovrebbe contenere dettagli sufficienti per valutare proprietà o autorità, logica commerciale, qualità della documentazione e potenziale rilevanza per le controparti.",
+  "cards": {
+    "collateral": {
+      "number": "01",
+      "title": "Panoramica dell'opportunità",
+      "text": "Una descrizione chiara dell'asset, dell'immobile, del progetto o del fabbisogno finanziario.",
+      "items": {
+        "form": {
+          "title": "Tipo di opportunità",
+          "text": "Finanziamento garantito da asset, immobile hospitality, esigenza di acquisizione, progetto di sviluppo o altra operazione rilevante."
+        },
+        "purity": {
+          "title": "Ubicazione e struttura",
+          "text": "Giurisdizione rilevante, ubicazione dell'asset o del progetto e struttura di base dell'operazione."
+        },
+        "location": {
+          "title": "Valore indicativo",
+          "text": "Valore stimato dell'asset, prezzo richiesto, costo del progetto o fabbisogno finanziario, ove applicabile."
+        },
+        "value": {
+          "title": "Obiettivo commerciale",
+          "text": "Spiegazione chiara dell'operazione prevista e del risultato desiderato."
         }
       }
     },
-    "sidebar": {
-      "overline": "Valutazione iniziale",
-      "title": "Prepara i documenti essenziali prima dell'invio.",
-      "text": "Una richiesta iniziale non richiede ogni documento definitivo, ma dovrebbe includere informazioni sufficienti per determinare se un'ulteriore valutazione sia appropriata dal punto di vista commerciale e legale.",
+    "ownership": {
+      "number": "02",
+      "title": "Proprietà & autorità",
+      "text": "Prove che dimostrino che l'opportunità è presentata da un proprietario, soggetto principale o rappresentante adeguatamente autorizzato.",
       "items": {
-        "ownership": "Prova chiara della proprietà",
-        "gold": "Documentazione verificabile della garanzia",
-        "purpose": "Finalità di finanziamento definita",
-        "repayment": "Strategia di rimborso credibile"
-      },
-      "button": "Invia una richiesta"
+        "proof": {
+          "title": "Proprietà o controllo",
+          "text": "Prova pertinente di proprietà, controllo del terreno, titolarità dell'asset o autorità contrattuale."
+        },
+        "provenance": {
+          "title": "Autorità a presentare",
+          "text": "Se chi presenta non è il proprietario, deve essere indicata la natura della sua autorità o relazione."
+        },
+        "encumbrances": {
+          "title": "Obblighi esistenti",
+          "text": "Debiti, vincoli, gravami, accordi di esclusiva o pretese di terzi rilevanti dovrebbero essere dichiarati."
+        },
+        "authority": {
+          "title": "Identificazione del soggetto principale",
+          "text": "Il proprietario, sponsor, società o beneficiario effettivo rilevante dovrebbe essere identificabile."
+        }
+      }
     },
-    "warning": {
-      "title": "I documenti sono soggetti a verifica",
-      "text": "L'invio delle informazioni non crea alcun obbligo di organizzare, fornire o approvare un finanziamento."
+    "compliance": {
+      "number": "03",
+      "title": "Documentazione di supporto",
+      "text": "Documentazione sufficiente per consentire una valutazione commerciale preliminare e delle controparti.",
+      "items": {
+        "identification": {
+          "title": "Informazioni societarie o personali",
+          "text": "Identificazione di base del soggetto principale, società, sponsor o struttura proprietaria rilevante."
+        },
+        "corporate": {
+          "title": "Documentazione commerciale",
+          "text": "Informazioni finanziarie, operative, progettuali, relative agli asset o all'operazione adeguate all'opportunità."
+        },
+        "beneficialOwnership": {
+          "title": "Struttura proprietaria",
+          "text": "Informazioni rilevanti sulla titolarità effettiva o sul controllo, ove richiesto."
+        },
+        "wealth": {
+          "title": "Ulteriore due diligence",
+          "text": "Con il progredire dell'opportunità possono essere richieste ulteriori informazioni legali, finanziarie, tecniche o di conformità."
+        }
+      }
     },
-    "note": {
-      "label": "Nota bene",
-      "text": "A seconda dell'operazione, possono essere richiesti ulteriori pareri legali, rapporti di saggio, analisi blockchain, valutazioni indipendenti, informazioni fiscali, bilanci, conferme di custodia o altri documenti specialistici."
+    "financing": {
+      "number": "04",
+      "title": "Obiettivo dell'operazione",
+      "text": "Una spiegazione chiara di ciò che il soggetto principale intende ottenere.",
+      "items": {
+        "amount": {
+          "title": "Aspettativa di capitale o prezzo",
+          "text": "Finanziamento richiesto, prezzo di vendita, fabbisogno equity, importo di investimento o altra aspettativa commerciale rilevante."
+        },
+        "purpose": {
+          "title": "Finalità dell'operazione",
+          "text": "Vendita, acquisizione, finanziamento, sviluppo, ricapitalizzazione, joint venture o altro obiettivo legittimo."
+        },
+        "term": {
+          "title": "Aspettative temporali",
+          "text": "Tempistica preferita dell'operazione, soggetta a due diligence, controparti e accordi definitivi."
+        },
+        "repayment": {
+          "title": "Strategia di esecuzione",
+          "text": "Strategia di rimborso, exit, completamento o altra strategia pertinente in funzione della natura dell'opportunità."
+        }
+      }
     }
   },
+  "sidebar": {
+    "overline": "Valutazione iniziale",
+    "title": "Prepara le informazioni essenziali prima dell'invio.",
+    "text": "Una richiesta iniziale non richiede una data room completa di due diligence, ma dovrebbe contenere informazioni sufficienti per una valutazione preliminare significativa.",
+    "items": {
+      "ownership": "Proprietà o autorità chiara",
+      "gold": "Informazioni commerciali credibili",
+      "purpose": "Obiettivo dell'operazione definito",
+      "repayment": "Documentazione di supporto pertinente"
+    },
+    "button": "Presenta un'opportunità"
+  },
+  "warning": {
+    "title": "Le informazioni sono soggette a verifica",
+    "text": "La presentazione di un'opportunità non costituisce accettazione, rappresentanza, approvazione di finanziamento, impegno di investimento né obbligo di presentarla a terzi."
+  },
+  "note": {
+    "label": "Nota bene",
+    "text": "A seconda dell'opportunità, possono essere richiesti ulteriori pareri legali, valutazioni, bilanci, dati operativi, documenti di proprietà, informazioni urbanistiche, relazioni tecniche, prove di disponibilità finanziaria, evidenze di finanziamento, informazioni di conformità o altri materiali specialistici."
+  }
+},
   "FAQ": {
     "kicker": "Domande frequenti",
     "title": {

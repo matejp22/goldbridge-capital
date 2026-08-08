@@ -42,7 +42,10 @@ export default function StructureSection() {
   const t = useTranslations("Structure");
 
   return (
-    <section id="structure" className="section structure-section">
+    <section
+  id="asset-backed-financing"
+  className="section structure-section"
+>
       <div className="structure-background" aria-hidden="true">
         <div className="structure-glow structure-glow-left" />
         <div className="structure-glow structure-glow-right" />

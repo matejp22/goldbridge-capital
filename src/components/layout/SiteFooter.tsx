@@ -60,13 +60,13 @@ export default function SiteFooter() {
               {t("navigation.approach")}
             </a>
 
-            <a href={`${homeUrl}#structure`}>
-              {t("navigation.structure")}
-            </a>
+            <a href={`${homeUrl}#asset-backed-financing`}>
+  {t("navigation.structure")}
+</a>
 
-            <a href={`${homeUrl}#transaction`}>
-              {t("navigation.transaction")}
-            </a>
+            <a href={`${homeUrl}#hospitality-real-estate`}>
+  {t("navigation.transaction")}
+</a>
 
             <a href={`${homeUrl}#process`}>
               {t("navigation.process")}

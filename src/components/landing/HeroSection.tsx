@@ -37,9 +37,9 @@ export default function HeroSection() {
               <Icon name="arrow" className="button-icon" />
             </a>
 
-            <a href="#structure" className="button button-secondary">
-              {t("actions.explore")}
-            </a>
+            <a href="#focus" className="button button-secondary">
+  {t("actions.explore")}
+</a>
           </div>
 
           <div className="hero-assurances">
@@ -184,7 +184,7 @@ export default function HeroSection() {
       <div className="container hero-bottom">
         <div className="hero-bottom-line" />
 
-        <a href="#approach" className="scroll-indicator">
+        <a href="#focus" className="scroll-indicator">
           <span>{t("discover")}</span>
           <span className="scroll-line" />
         </a>

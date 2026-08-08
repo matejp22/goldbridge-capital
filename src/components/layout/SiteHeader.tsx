@@ -49,7 +49,6 @@ export default function SiteHeader() {
         </a>
 
         <nav
-          <nav
   className="nav-links"
   aria-label={t("navigationAriaLabel")}
 >

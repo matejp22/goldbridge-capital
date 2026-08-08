@@ -1,738 +1,736 @@
 {
   "Hero": {
-  "kicker": "Private Capital & Hospitality Transactions",
-  "title": {
-    "main": "Connecting capital,",
-    "highlight": " assets and opportunity."
+    "kicker": "Asset-Backed Financing & Hospitality Transactions",
+    "title": {
+      "main": "Connecting capital,",
+      "highlight": " assets and opportunity."
+    },
+    "lead": "Gold Bridge Capital is an independent transaction facilitator focused on asset-backed financing, hospitality real estate and hospitality development opportunities. We support the confidential preparation, introduction and coordination of selected private-market transactions.",
+    "actions": {
+      "discuss": "Discuss an Opportunity",
+      "explore": "Explore Our Focus"
+    },
+    "assurances": {
+      "confidential": "Confidential review",
+      "term": "Selected opportunities",
+      "collateral": "Independent counterparties"
+    },
+    "transaction": {
+      "ariaLabel": "Gold Bridge Capital areas of focus",
+      "overline": "Our Focus",
+      "title": "Private-Market Opportunities",
+      "confidential": "Confidential",
+      "goldValueLabel": "Transaction focus",
+      "goldValue": "Capital & Hospitality",
+      "financingLabel": "Core verticals",
+      "financingValue": "Financing · Real Estate · Development",
+      "maximumTermLabel": "Our role",
+      "maximumTermValue": "Independent facilitation",
+      "steps": {
+        "verification": {
+          "number": "01",
+          "title": "Asset-Backed Financing",
+          "description": "Financing opportunities secured by eligible precious metals and selected digital assets."
+        },
+        "structuring": {
+          "number": "02",
+          "title": "Hospitality Real Estate",
+          "description": "Selected acquisition and disposal opportunities involving hotels, resorts and hospitality assets."
+        },
+        "funding": {
+          "number": "03",
+          "title": "Hospitality Development",
+          "description": "Selected development projects seeking debt, equity, joint-venture capital or strategic counterparties."
+        }
+      },
+      "disclaimer": "Gold Bridge Capital does not itself provide banking, lending, investment, legal or regulated brokerage services. Transactions remain subject to independent assessment, applicable regulation, due diligence and definitive documentation."
+    },
+    "discover": "Discover our focus"
   },
-  "lead": "Gold Bridge Capital is an independent transaction facilitator focused on asset-backed financing, hospitality real estate and hospitality development opportunities. We support the confidential preparation, introduction and coordination of selected private-market transactions.",
-  "actions": {
-    "discuss": "Discuss an Opportunity",
-    "explore": "Explore Our Focus"
-  },
-  "assurances": {
-    "confidential": "Confidential review",
-    "term": "Selected opportunities",
-    "collateral": "Independent counterparties"
-  },
-  "transaction": {
-    "ariaLabel": "Gold Bridge Capital areas of focus",
-    "overline": "Our Focus",
-    "title": "Private-Market Opportunities",
-    "confidential": "Confidential",
-    "goldValueLabel": "Transaction focus",
-    "goldValue": "Capital & Hospitality",
-    "financingLabel": "Core verticals",
-    "financingValue": "Financing · Real Estate · Development",
-    "maximumTermLabel": "Our role",
-    "maximumTermValue": "Independent facilitation",
-    "steps": {
-      "verification": {
-        "number": "01",
-        "title": "Asset-Backed Financing",
-        "description": "Financing opportunities secured by eligible precious metals and selected digital assets."
+  "InstitutionalStrip": {
+    "ariaLabel": "Gold Bridge Capital transaction principles",
+    "items": {
+      "collateral": {
+        "title": "Selected Opportunities",
+        "description": "Commercially credible and documented situations"
       },
       "structuring": {
-        "number": "02",
-        "title": "Hospitality Real Estate",
-        "description": "Selected acquisition and disposal opportunities involving hotels, resorts and hospitality assets."
-      },
-      "funding": {
-        "number": "03",
-        "title": "Hospitality Development",
-        "description": "Selected development projects seeking debt, equity, joint-venture capital or strategic counterparties."
-      }
-    },
-    "disclaimer": "Gold Bridge Capital does not itself provide banking, lending, investment, legal or regulated brokerage services. Transactions remain subject to independent assessment, applicable regulation, due diligence and definitive documentation."
-  },
-  "discover": "Discover our focus"
-},
-  "InstitutionalStrip": {
-  "ariaLabel": "Gold Bridge Capital transaction principles",
-  "items": {
-    "collateral": {
-      "title": "Selected Opportunities",
-      "description": "Commercially credible and documented situations"
-    },
-    "structuring": {
-      "title": "Confidential Approach",
-      "description": "Controlled and need-to-know introductions"
-    },
-    "term": {
-      "title": "International Perspective",
-      "description": "European and selected cross-border opportunities"
-    },
-    "approval": {
-      "title": "Independent Execution",
-      "description": "Specialist and regulated functions handled where required"
-    }
-  }
-},
-
-  "Focus": {
-  "kicker": "Our Focus",
-  "title": {
-    "main": "Three areas.",
-    "highlight": " One disciplined transaction approach."
-  },
-  "introduction": "Gold Bridge Capital focuses on selected situations where assets, capital and counterparties need to be connected efficiently and confidentially. Our role is to help prepare the opportunity, identify potentially relevant parties and coordinate the path toward a possible transaction.",
-  "areas": {
-    "financing": {
-      "number": "01",
-      "overline": "Asset-Backed Financing",
-      "title": "Liquidity backed by eligible assets.",
-      "text": "We review documented financing opportunities secured by eligible precious metals and selected digital assets and, where appropriate, coordinate their presentation to suitable independent financing counterparties.",
-      "button": "Explore Financing"
-    },
-    "realEstate": {
-      "number": "02",
-      "overline": "Hospitality Real Estate",
-      "title": "Selected hospitality assets.",
-      "text": "We consider confidential acquisition and disposal opportunities involving hotels, resorts and other hospitality assets where discreet introductions and transaction coordination may add value.",
-      "button": "Explore Real Estate"
-    },
-    "development": {
-      "number": "03",
-      "overline": "Hospitality Development",
-      "title": "Projects seeking capital and partners.",
-      "text": "We consider selected hospitality developments seeking debt, equity, joint-venture capital, strategic investors, operators or other relevant professional counterparties.",
-      "button": "Explore Development"
-    }
-  },
-  "note": "Gold Bridge Capital acts as an independent transaction facilitator. Financing, investment, brokerage, legal, valuation and other regulated services are performed by appropriately authorised independent parties where required."
-},
-"HospitalityRealEstate": {
-  "kicker": "Hospitality Real Estate",
-  "title": {
-    "main": "Selected hospitality assets.",
-    "highlight": " Confidentially introduced."
-  },
-  "introduction": {
-    "first": "Gold Bridge Capital considers selected hospitality real estate opportunities where owners, investors and buyers may benefit from confidential introductions and structured transaction coordination.",
-    "second": "Our role may include preliminary opportunity preparation, identifying potentially relevant counterparties and coordinating introductions between authorised principals and professional parties."
-  },
-  "services": {
-    "sellSide": {
-      "number": "01",
-      "title": "Sell-Side Opportunities",
-      "text": "We may assist owners or authorised representatives in preparing selected hospitality opportunities for confidential presentation to potentially relevant buyers, investors or strategic parties."
-    },
-    "buySide": {
-      "number": "02",
-      "title": "Buy-Side Requirements",
-      "text": "We may consider acquisition criteria from qualified investors and identify hospitality assets that could potentially align with their commercial requirements."
-    },
-    "offMarket": {
-      "number": "03",
-      "title": "Private & Off-Market",
-      "text": "Certain opportunities may be considered on a discreet or privately introduced basis, subject to the authority of the relevant owner or authorised representative."
-    },
-    "coordination": {
-      "number": "04",
-      "title": "Transaction Coordination",
-      "text": "Where appropriate, we help coordinate preliminary introductions between principals, investors and relevant independent professional advisers."
-    }
-  },
-  "assets": {
-    "overline": "Potential Asset Types",
-    "title": "Hospitality opportunities we may consider.",
-    "text": "Each opportunity is reviewed individually based on ownership, location, commercial rationale, documentation and counterparty relevance.",
-    "items": {
-      "hotels": "Hotels",
-      "resorts": "Resorts",
-      "boutique": "Boutique hotels",
-      "aparthotels": "Aparthotels",
-      "serviced": "Serviced apartments",
-      "portfolios": "Hospitality portfolios",
-      "valueAdd": "Value-add and repositioning assets",
-      "developmentLand": "Land with hospitality development potential"
-    },
-    "button": "Submit an Opportunity"
-  },
-  "notice": {
-    "label": "Important",
-    "text": "Gold Bridge Capital does not represent itself as a licensed real estate broker in jurisdictions where specific authorisation is required. Any regulated brokerage or agency activity must be performed by appropriately authorised parties where applicable."
-  }
-},
-"HospitalityDevelopment": {
-  "kicker": "Hospitality Development",
-  "title": {
-    "main": "Connecting hospitality projects",
-    "highlight": " with potential capital."
-  },
-  "introduction": {
-    "first": "Hospitality developments may require a combination of sponsor capital, equity, debt, strategic partners, operators and specialist expertise.",
-    "second": "Gold Bridge Capital considers selected projects where the commercial proposition, ownership or site-control position and development status are sufficiently advanced for meaningful discussions with potential counterparties."
-  },
-  "projects": {
-    "overline": "Selected Project Types",
-    "title": "Hospitality development opportunities.",
-    "text": "Projects are assessed individually and must present a credible commercial rationale, identifiable principals and sufficient supporting information.",
-    "items": {
-      "newHotels": "New hotel developments",
-      "resorts": "Resort developments",
-      "conversions": "Hotel conversions",
-      "redevelopments": "Redevelopment projects",
-      "repositioning": "Repositioning opportunities",
-      "extensions": "Hotel extensions",
-      "mixedUse": "Mixed-use hospitality",
-      "brandedResidences": "Branded residences",
-      "developmentLand": "Hospitality development land"
-    }
-  },
-  "capital": {
-    "debt": {
-      "number": "01",
-      "title": "Debt Capital",
-      "text": "Potential introductions to suitable banks, private credit providers, alternative lenders or other professional debt counterparties."
-    },
-    "equity": {
-      "number": "02",
-      "title": "Equity Capital",
-      "text": "Potential introductions to family offices, private investors, investment groups or other relevant equity capital sources."
-    },
-    "jointVenture": {
-      "number": "03",
-      "title": "Joint Ventures",
-      "text": "Selected situations where a developer, sponsor or landowner is seeking a financial or strategic partner for a hospitality project."
-    },
-    "strategic": {
-      "number": "04",
-      "title": "Strategic Parties",
-      "text": "Potential introductions involving hotel operators, brands, developers, asset managers or other relevant hospitality counterparties."
-    }
-  },
-  "bottom": {
-    "label": "Capital Introduction",
-    "title": "A project must be ready for serious review.",
-    "text": "Gold Bridge Capital does not guarantee fundraising, financing, investor participation or transaction completion. Potential counterparties conduct their own assessment, due diligence and investment or credit decisions.",
-    "button": "Discuss a Project"
-  }
-},
-
-  "Approach": {
-  "kicker": "Why Gold Bridge Capital",
-  "title": {
-    "main": "A disciplined approach to",
-    "highlight": " private-market transactions."
-  },
-  "introduction": {
-    "first": "Significant private-market transactions require more than access to capital or assets. They require credible information, appropriate counterparties, discretion and disciplined coordination.",
-    "second": "Gold Bridge Capital supports selected opportunities by helping organise the commercial proposition, identify potentially relevant parties and coordinate confidential introductions."
-  },
-  "advantages": {
-    "confidential": {
-      "number": "01",
-      "title": "Confidential by Design",
-      "text": "Sensitive opportunities are handled discreetly and shared selectively with parties relevant to the proposed transaction."
-    },
-    "international": {
-      "number": "02",
-      "title": "Cross-Border Perspective",
-      "text": "We consider opportunities across selected jurisdictions and coordinate with suitable independent specialists where local expertise or authorisation is required."
-    },
-    "tailored": {
-      "number": "03",
-      "title": "Transaction Preparation",
-      "text": "We help organise essential commercial information so that an opportunity can be understood and assessed efficiently by relevant counterparties."
-    },
-    "review": {
-      "number": "04",
-      "title": "Counterparty Alignment",
-      "text": "The objective is to identify investors, lenders, buyers or strategic parties whose profile and transaction criteria may align with the opportunity."
-    }
-  },
-  "statement": "Our role is to bring structure, credibility and disciplined coordination to selected private-market opportunities.",
-  "signature": "Gold Bridge Capital"
-},
-  "Clients": {
-  "kicker": "Who We Support",
-  "title": {
-    "main": "Connecting owners, developers,",
-    "highlight": " investors and capital."
-  },
-  "introduction": "Gold Bridge Capital considers selected opportunities involving qualified or appropriately advised parties with a legitimate commercial objective, credible documentation and a clear transaction rationale.",
-  "profiles": {
-    "hotelOwners": {
-      "title": "Hotel & Resort Owners",
-      "text": "Owners considering a confidential disposal, recapitalisation, strategic partnership or introduction to potentially relevant investors and buyers."
-    },
-    "developers": {
-      "title": "Hospitality Developers",
-      "text": "Sponsors and developers seeking suitable debt, equity, joint-venture capital or strategic counterparties for selected hospitality projects."
-    },
-    "privateInvestors": {
-      "title": "Private Investors",
-      "text": "Qualified investors considering selected direct, privately introduced or off-market hospitality and private-market opportunities."
-    },
-    "familyOffices": {
-      "title": "Family Offices",
-      "text": "Private investment groups assessing selected hospitality, development and asset-backed transaction opportunities."
-    },
-    "capitalProviders": {
-      "title": "Capital Providers",
-      "text": "Banks, private-credit providers, alternative lenders, investment groups and other professional capital sources assessing suitable opportunities."
-    },
-    "strategicBuyers": {
-      "title": "Strategic Buyers & Operators",
-      "text": "Hotel groups, operators, real estate investors and strategic parties considering acquisitions, developments or partnerships."
-    }
-  },
-  "qualification": {
-    "title": "Qualification and transaction readiness",
-    "text": "Every potential opportunity remains subject to ownership or mandate verification, commercial assessment, documentation, compliance requirements and the independent criteria of the relevant counterparties."
-  }
-},
-  "Structure": {
-  "kicker": "Transaction Framework",
-  "title": {
-    "main": "A clear path from opportunity",
-    "highlight": " to potential transaction."
-  },
-  "introduction": {
-    "first": "Each opportunity is reviewed individually. The process depends on the nature of the asset, project or financing requirement, the authority of the relevant parties, available documentation and the criteria of potential counterparties.",
-    "second": "The framework below illustrates a typical transaction path and does not represent a guaranteed mandate, financing commitment, investment decision or transaction outcome."
-  },
-  "steps": {
-    "collateral": {
-      "number": "01",
-      "label": "Opportunity",
-      "title": "Initial Submission",
-      "text": "The client, owner, sponsor or authorised representative presents the asset, project or financing opportunity together with the essential commercial information."
-    },
-    "review": {
-      "number": "02",
-      "label": "Preliminary assessment",
-      "title": "Verification & Review",
-      "text": "Ownership or authority, commercial rationale, documentation, transaction objective and relevant constraints are reviewed."
-    },
-    "financing": {
-      "number": "03",
-      "label": "Preparation",
-      "title": "Transaction Positioning",
-      "text": "The opportunity is organised into a clear preliminary profile suitable for review by potentially relevant investors, lenders, buyers or strategic parties."
-    },
-    "custody": {
-      "number": "04",
-      "label": "Introductions",
-      "title": "Counterparty Engagement",
-      "text": "Where appropriate and authorised, selected counterparties may be approached and introduced to the opportunity on a confidential basis."
-    },
-    "release": {
-      "number": "05",
-      "label": "Potential outcome",
-      "title": "Due Diligence & Completion",
-      "text": "If mutual interest develops, the relevant principals and professional advisers proceed with independent due diligence, negotiation and definitive documentation."
-    }
-  },
-  "principles": {
-    "ownership": {
-      "title": "Verified authority",
-      "text": "The person submitting an opportunity should have ownership, control or appropriate authority to present it."
-    },
-    "counterparties": {
-      "title": "Independent counterparties",
-      "text": "Investors, buyers, lenders, advisers and other professional parties make their own independent decisions."
-    },
-    "assessment": {
-      "title": "Case-by-case assessment",
-      "text": "No opportunity proceeds automatically and no transaction outcome can be guaranteed."
-    }
-  }
-},
-  "Example": {
-  "kicker": "Indicative Transaction Framework",
-  "title": {
-    "main": "Every opportunity follows",
-    "highlight": " its own transaction path."
-  },
-  "introduction": "This framework illustrates how a documented financing, hospitality real estate or development opportunity may progress from initial submission to independent counterparty review. It does not describe a committed transaction.",
-  "case": {
-    "overline": "Illustrative transaction pathway",
-    "title": "Private-Market Opportunity Review",
-    "status": "Subject to assessment"
-  },
-  "values": {
-    "asset": {
-      "label": "Opportunity",
-      "value": "Documented transaction",
-      "note": "Asset, property, project or financing requirement"
-    },
-    "assessment": {
-      "label": "Potential outcome",
-      "value": "Independent transaction terms",
-      "note": "Only after counterparty review and agreement"
-    }
-  },
-  "details": {
-    "asset": {
-      "label": "Opportunity type",
-      "value": "Defined by the transaction"
-    },
-    "verification": {
-      "label": "Authority & documentation",
-      "value": "To be verified"
-    },
-    "assessment": {
-      "label": "Counterparty decision",
-      "value": "Independent"
-    },
-    "custody": {
-      "label": "Execution structure",
-      "value": "Transaction-specific"
-    }
-  },
-  "footer": "Valuation, financing, investment, acquisition, legal, brokerage, due diligence and other specialist functions are performed or approved by relevant independent parties where required.",
-  "summary": {
-    "overline": "Indicative overview",
-    "title": "Transaction Assessment",
-    "rows": {
-      "assetEligibility": {
-        "label": "Opportunity eligibility",
-        "value": "To be confirmed"
-      },
-      "financingAvailability": {
-        "label": "Counterparty interest",
-        "value": "Not guaranteed"
-      },
-      "advanceRatio": {
-        "label": "Valuation",
-        "value": "Independently determined where required"
+        "title": "Confidential Approach",
+        "description": "Controlled and need-to-know introductions"
       },
       "term": {
-        "label": "Commercial terms",
-        "value": "Negotiated case by case"
+        "title": "International Perspective",
+        "description": "European and selected cross-border opportunities"
       },
-      "pricing": {
-        "label": "Completion",
-        "value": "Subject to definitive agreements"
-      }
-    },
-    "note": "No valuation, financing amount, acquisition price, investment commitment, commercial term or transaction timeline can be guaranteed before relevant independent parties complete their own review."
-  },
-  "caveat": {
-    "label": "Important",
-    "text": "Gold Bridge Capital acts as an independent transaction facilitator. It does not guarantee financing, investment, acquisition, sale, joint-venture participation or completion of any transaction. All opportunities remain subject to independent assessment, due diligence, applicable regulation and definitive contractual documentation."
-  }
-},
-  "Process": {
-  "kicker": "Transaction Process",
-  "title": {
-    "main": "From opportunity to",
-    "highlight": " relevant counterparties."
-  },
-  "introduction": {
-    "first": "Each transaction begins with a preliminary review of the opportunity, its commercial rationale, ownership or authority, documentation and potential counterparty relevance.",
-    "second": "The process varies depending on whether the opportunity involves asset-backed financing, hospitality real estate, development capital or another private-market transaction."
-  },
-  "steps": {
-    "inquiry": {
-      "number": "01",
-      "stage": "Initial submission",
-      "title": "Confidential Opportunity Submission",
-      "text": "The client, owner, sponsor or authorised representative submits a concise overview of the proposed transaction.",
-      "items": {
-        "first": "Nature of the opportunity",
-        "second": "Commercial objective",
-        "third": "Essential supporting information"
-      }
-    },
-    "assessment": {
-      "number": "02",
-      "stage": "Preliminary assessment",
-      "title": "Opportunity Review",
-      "text": "We assess whether the opportunity appears sufficiently credible, documented and aligned with the current focus of Gold Bridge Capital.",
-      "items": {
-        "first": "Ownership or authority",
-        "second": "Commercial rationale",
-        "third": "Initial documentation quality"
-      }
-    },
-    "diligence": {
-      "number": "03",
-      "stage": "Information preparation",
-      "title": "Transaction Preparation",
-      "text": "Relevant information is organised into a clear preliminary opportunity profile suitable for review by potential counterparties.",
-      "items": {
-        "first": "Key commercial information",
-        "second": "Transaction structure",
-        "third": "Supporting documentation"
-      }
-    },
-    "structuring": {
-      "number": "04",
-      "stage": "Counterparty selection",
-      "title": "Counterparty Identification",
-      "text": "Potentially relevant investors, lenders, buyers, operators or professional counterparties may be identified based on the characteristics of the opportunity.",
-      "items": {
-        "first": "Investor or buyer relevance",
-        "second": "Capital or financing fit",
-        "third": "Strategic alignment"
-      }
-    },
-    "documentation": {
-      "number": "05",
-      "stage": "Confidential introduction",
-      "title": "Selected Introductions",
-      "text": "Where appropriate and authorised, the opportunity may be introduced confidentially to selected counterparties for independent review.",
-      "items": {
-        "first": "Controlled disclosure",
-        "second": "Direct principal contact",
-        "third": "Independent assessment"
-      }
-    },
-    "funding": {
-      "number": "06",
-      "stage": "Transaction coordination",
-      "title": "Due Diligence & Completion",
-      "text": "If mutual interest develops, the relevant principals and professional advisers proceed with due diligence, negotiation, documentation and potential completion.",
-      "items": {
-        "first": "Independent due diligence",
-        "second": "Commercial negotiation",
-        "third": "Definitive agreements"
+      "approval": {
+        "title": "Independent Execution",
+        "description": "Specialist and regulated functions handled where required"
       }
     }
   },
-  "timing": {
-    "label": "Transaction readiness",
-    "title": "Preparation quality directly influences execution.",
-    "text": "Well-prepared opportunities with clear authority, credible commercial information and supporting documentation can be assessed more efficiently. No specific timeline or transaction outcome can be guaranteed.",
-    "statLabel": "Primary factor",
-    "statValue": "Credible documentation"
-  }
-},
-  "Requirements": {
-  "kicker": "Opportunity Requirements",
-  "title": {
-    "main": "Strong opportunities begin with",
-    "highlight": " credible information."
+  "Focus": {
+    "kicker": "Our Focus",
+    "title": {
+      "main": "Three areas.",
+      "highlight": " One disciplined transaction approach."
+    },
+    "introduction": "Gold Bridge Capital focuses on selected situations where assets, capital and counterparties need to be connected efficiently and confidentially. Our role is to help prepare the opportunity, identify potentially relevant parties and coordinate the path toward a possible transaction.",
+    "areas": {
+      "financing": {
+        "number": "01",
+        "overline": "Asset-Backed Financing",
+        "title": "Liquidity backed by eligible assets.",
+        "text": "We review documented financing opportunities secured by eligible precious metals and selected digital assets and, where appropriate, coordinate their presentation to suitable independent financing counterparties.",
+        "button": "Explore Financing"
+      },
+      "realEstate": {
+        "number": "02",
+        "overline": "Hospitality Real Estate",
+        "title": "Selected hospitality assets.",
+        "text": "We consider confidential acquisition and disposal opportunities involving hotels, resorts and other hospitality assets where discreet introductions and transaction coordination may add value.",
+        "button": "Explore Real Estate"
+      },
+      "development": {
+        "number": "03",
+        "overline": "Hospitality Development",
+        "title": "Projects seeking capital and partners.",
+        "text": "We consider selected hospitality developments seeking debt, equity, joint-venture capital, strategic investors, operators or other relevant professional counterparties.",
+        "button": "Explore Development"
+      }
+    },
+    "note": "Gold Bridge Capital acts as an independent transaction facilitator. Financing, investment, brokerage, legal, valuation and other regulated services are performed by appropriately authorised independent parties where required."
   },
-  "introduction": "The information required depends on the type of transaction. An initial submission should provide enough detail to assess ownership or authority, commercial rationale, documentation quality and potential counterparty relevance.",
-  "cards": {
-    "collateral": {
-      "number": "01",
-      "title": "Opportunity Overview",
-      "text": "A clear description of the asset, property, project or financing requirement.",
-      "items": {
-        "form": {
-          "title": "Opportunity type",
-          "text": "Asset-backed financing, hospitality property, acquisition requirement, development project or another relevant transaction."
-        },
-        "purity": {
-          "title": "Location and structure",
-          "text": "Relevant jurisdiction, asset or project location and basic transaction structure."
-        },
-        "location": {
-          "title": "Indicative value",
-          "text": "Estimated asset value, asking price, project cost or financing requirement, where applicable."
-        },
-        "value": {
-          "title": "Commercial objective",
-          "text": "Clear explanation of the intended transaction and desired outcome."
-        }
+  "HospitalityRealEstate": {
+    "kicker": "Hospitality Real Estate",
+    "title": {
+      "main": "Selected hospitality assets.",
+      "highlight": " Confidentially introduced."
+    },
+    "introduction": {
+      "first": "Gold Bridge Capital considers selected hospitality real estate opportunities where owners, investors and buyers may benefit from confidential introductions and structured transaction coordination.",
+      "second": "Our role may include preliminary opportunity preparation, identifying potentially relevant counterparties and coordinating introductions between authorised principals and professional parties."
+    },
+    "services": {
+      "sellSide": {
+        "number": "01",
+        "title": "Sell-Side Opportunities",
+        "text": "We may assist owners or authorised representatives in preparing selected hospitality opportunities for confidential presentation to potentially relevant buyers, investors or strategic parties."
+      },
+      "buySide": {
+        "number": "02",
+        "title": "Buy-Side Requirements",
+        "text": "We may consider acquisition criteria from qualified investors and identify hospitality assets that could potentially align with their commercial requirements."
+      },
+      "offMarket": {
+        "number": "03",
+        "title": "Private & Off-Market",
+        "text": "Certain opportunities may be considered on a discreet or privately introduced basis, subject to the authority of the relevant owner or authorised representative."
+      },
+      "coordination": {
+        "number": "04",
+        "title": "Transaction Coordination",
+        "text": "Where appropriate, we help coordinate preliminary introductions between principals, investors and relevant independent professional advisers."
       }
     },
-    "ownership": {
-      "number": "02",
-      "title": "Ownership & Authority",
-      "text": "Evidence showing that the opportunity is being presented by an owner, principal or appropriately authorised representative.",
+    "assets": {
+      "overline": "Potential Asset Types",
+      "title": "Hospitality opportunities we may consider.",
+      "text": "Each opportunity is reviewed individually based on ownership, location, commercial rationale, documentation and counterparty relevance.",
       "items": {
-        "proof": {
-          "title": "Ownership or control",
-          "text": "Relevant proof of ownership, land control, asset ownership or contractual authority."
-        },
-        "provenance": {
-          "title": "Authority to introduce",
-          "text": "Where the submitter is not the owner, the nature of their authority or relationship should be disclosed."
-        },
-        "encumbrances": {
-          "title": "Existing obligations",
-          "text": "Relevant debt, liens, encumbrances, exclusivity arrangements or third-party claims should be disclosed."
-        },
-        "authority": {
-          "title": "Principal identification",
-          "text": "The relevant owner, sponsor, company or beneficial principal should be identifiable."
-        }
+        "hotels": "Hotels",
+        "resorts": "Resorts",
+        "boutique": "Boutique hotels",
+        "aparthotels": "Aparthotels",
+        "serviced": "Serviced apartments",
+        "portfolios": "Hospitality portfolios",
+        "valueAdd": "Value-add and repositioning assets",
+        "developmentLand": "Land with hospitality development potential"
+      },
+      "button": "Submit an Opportunity"
+    },
+    "notice": {
+      "label": "Important",
+      "text": "Gold Bridge Capital does not represent itself as a licensed real estate broker in jurisdictions where specific authorisation is required. Any regulated brokerage or agency activity must be performed by appropriately authorised parties where applicable."
+    }
+  },
+  "HospitalityDevelopment": {
+    "kicker": "Hospitality Development",
+    "title": {
+      "main": "Connecting hospitality projects",
+      "highlight": " with potential capital."
+    },
+    "introduction": {
+      "first": "Hospitality developments may require a combination of sponsor capital, equity, debt, strategic partners, operators and specialist expertise.",
+      "second": "Gold Bridge Capital considers selected projects where the commercial proposition, ownership or site-control position and development status are sufficiently advanced for meaningful discussions with potential counterparties."
+    },
+    "projects": {
+      "overline": "Selected Project Types",
+      "title": "Hospitality development opportunities.",
+      "text": "Projects are assessed individually and must present a credible commercial rationale, identifiable principals and sufficient supporting information.",
+      "items": {
+        "newHotels": "New hotel developments",
+        "resorts": "Resort developments",
+        "conversions": "Hotel conversions",
+        "redevelopments": "Redevelopment projects",
+        "repositioning": "Repositioning opportunities",
+        "extensions": "Hotel extensions",
+        "mixedUse": "Mixed-use hospitality",
+        "brandedResidences": "Branded residences",
+        "developmentLand": "Hospitality development land"
       }
     },
-    "compliance": {
-      "number": "03",
-      "title": "Supporting Documentation",
-      "text": "Sufficient documentation to allow a preliminary commercial and counterparty assessment.",
-      "items": {
-        "identification": {
-          "title": "Corporate or personal information",
-          "text": "Basic identification of the relevant principal, company, sponsor or ownership structure."
-        },
-        "corporate": {
-          "title": "Commercial documentation",
-          "text": "Financial, operating, project, asset or transaction information appropriate to the opportunity."
-        },
-        "beneficialOwnership": {
-          "title": "Ownership structure",
-          "text": "Relevant beneficial ownership or control information where required."
-        },
-        "wealth": {
-          "title": "Additional diligence",
-          "text": "Further legal, financial, technical or compliance information may be requested as the opportunity progresses."
-        }
+    "capital": {
+      "debt": {
+        "number": "01",
+        "title": "Debt Capital",
+        "text": "Potential introductions to suitable banks, private credit providers, alternative lenders or other professional debt counterparties."
+      },
+      "equity": {
+        "number": "02",
+        "title": "Equity Capital",
+        "text": "Potential introductions to family offices, private investors, investment groups or other relevant equity capital sources."
+      },
+      "jointVenture": {
+        "number": "03",
+        "title": "Joint Ventures",
+        "text": "Selected situations where a developer, sponsor or landowner is seeking a financial or strategic partner for a hospitality project."
+      },
+      "strategic": {
+        "number": "04",
+        "title": "Strategic Parties",
+        "text": "Potential introductions involving hotel operators, brands, developers, asset managers or other relevant hospitality counterparties."
       }
     },
-    "financing": {
-      "number": "04",
-      "title": "Transaction Objective",
-      "text": "A clear explanation of what the relevant principal is seeking to achieve.",
-      "items": {
-        "amount": {
-          "title": "Capital or price expectation",
-          "text": "Requested financing, asking price, equity requirement, investment amount or other relevant commercial expectation."
+    "bottom": {
+      "label": "Capital Introduction",
+      "title": "A project must be ready for serious review.",
+      "text": "Gold Bridge Capital does not guarantee fundraising, financing, investor participation or transaction completion. Potential counterparties conduct their own assessment, due diligence and investment or credit decisions.",
+      "button": "Discuss a Project"
+    }
+  },
+  "Approach": {
+    "kicker": "Why Gold Bridge Capital",
+    "title": {
+      "main": "A disciplined approach to",
+      "highlight": " private-market transactions."
+    },
+    "introduction": {
+      "first": "Significant private-market transactions require more than access to capital or assets. They require credible information, appropriate counterparties, discretion and disciplined coordination.",
+      "second": "Gold Bridge Capital supports selected opportunities by helping organise the commercial proposition, identify potentially relevant parties and coordinate confidential introductions."
+    },
+    "advantages": {
+      "confidential": {
+        "number": "01",
+        "title": "Confidential by Design",
+        "text": "Sensitive opportunities are handled discreetly and shared selectively with parties relevant to the proposed transaction."
+      },
+      "international": {
+        "number": "02",
+        "title": "Cross-Border Perspective",
+        "text": "We consider opportunities across selected jurisdictions and coordinate with suitable independent specialists where local expertise or authorisation is required."
+      },
+      "tailored": {
+        "number": "03",
+        "title": "Transaction Preparation",
+        "text": "We help organise essential commercial information so that an opportunity can be understood and assessed efficiently by relevant counterparties."
+      },
+      "review": {
+        "number": "04",
+        "title": "Counterparty Alignment",
+        "text": "The objective is to identify investors, lenders, buyers or strategic parties whose profile and transaction criteria may align with the opportunity."
+      }
+    },
+    "statement": "Our role is to bring structure, credibility and disciplined coordination to selected private-market opportunities.",
+    "signature": "Gold Bridge Capital"
+  },
+  "Clients": {
+    "kicker": "Who We Support",
+    "title": {
+      "main": "Connecting owners, developers,",
+      "highlight": " investors and capital."
+    },
+    "introduction": "Gold Bridge Capital considers selected opportunities involving qualified or appropriately advised parties with a legitimate commercial objective, credible documentation and a clear transaction rationale.",
+    "profiles": {
+      "hotelOwners": {
+        "title": "Hotel & Resort Owners",
+        "text": "Owners considering a confidential disposal, recapitalisation, strategic partnership or introduction to potentially relevant investors and buyers."
+      },
+      "developers": {
+        "title": "Hospitality Developers",
+        "text": "Sponsors and developers seeking suitable debt, equity, joint-venture capital or strategic counterparties for selected hospitality projects."
+      },
+      "privateInvestors": {
+        "title": "Private Investors",
+        "text": "Qualified investors considering selected direct, privately introduced or off-market hospitality and private-market opportunities."
+      },
+      "familyOffices": {
+        "title": "Family Offices",
+        "text": "Private investment groups assessing selected hospitality, development and asset-backed transaction opportunities."
+      },
+      "capitalProviders": {
+        "title": "Capital Providers",
+        "text": "Banks, private-credit providers, alternative lenders, investment groups and other professional capital sources assessing suitable opportunities."
+      },
+      "strategicBuyers": {
+        "title": "Strategic Buyers & Operators",
+        "text": "Hotel groups, operators, real estate investors and strategic parties considering acquisitions, developments or partnerships."
+      }
+    },
+    "qualification": {
+      "title": "Qualification and transaction readiness",
+      "text": "Every potential opportunity remains subject to ownership or mandate verification, commercial assessment, documentation, compliance requirements and the independent criteria of the relevant counterparties."
+    }
+  },
+  "Structure": {
+    "kicker": "Transaction Framework",
+    "title": {
+      "main": "A clear path from opportunity",
+      "highlight": " to potential transaction."
+    },
+    "introduction": {
+      "first": "Each opportunity is reviewed individually. The process depends on the nature of the asset, project or financing requirement, the authority of the relevant parties, available documentation and the criteria of potential counterparties.",
+      "second": "The framework below illustrates a typical transaction path and does not represent a guaranteed mandate, financing commitment, investment decision or transaction outcome."
+    },
+    "steps": {
+      "collateral": {
+        "number": "01",
+        "label": "Opportunity",
+        "title": "Initial Submission",
+        "text": "The client, owner, sponsor or authorised representative presents the asset, project or financing opportunity together with the essential commercial information."
+      },
+      "review": {
+        "number": "02",
+        "label": "Preliminary assessment",
+        "title": "Verification & Review",
+        "text": "Ownership or authority, commercial rationale, documentation, transaction objective and relevant constraints are reviewed."
+      },
+      "financing": {
+        "number": "03",
+        "label": "Preparation",
+        "title": "Transaction Positioning",
+        "text": "The opportunity is organised into a clear preliminary profile suitable for review by potentially relevant investors, lenders, buyers or strategic parties."
+      },
+      "custody": {
+        "number": "04",
+        "label": "Introductions",
+        "title": "Counterparty Engagement",
+        "text": "Where appropriate and authorised, selected counterparties may be approached and introduced to the opportunity on a confidential basis."
+      },
+      "release": {
+        "number": "05",
+        "label": "Potential outcome",
+        "title": "Due Diligence & Completion",
+        "text": "If mutual interest develops, the relevant principals and professional advisers proceed with independent due diligence, negotiation and definitive documentation."
+      }
+    },
+    "principles": {
+      "ownership": {
+        "title": "Verified authority",
+        "text": "The person submitting an opportunity should have ownership, control or appropriate authority to present it."
+      },
+      "counterparties": {
+        "title": "Independent counterparties",
+        "text": "Investors, buyers, lenders, advisers and other professional parties make their own independent decisions."
+      },
+      "assessment": {
+        "title": "Case-by-case assessment",
+        "text": "No opportunity proceeds automatically and no transaction outcome can be guaranteed."
+      }
+    }
+  },
+  "Example": {
+    "kicker": "Indicative Transaction Framework",
+    "title": {
+      "main": "Every opportunity follows",
+      "highlight": " its own transaction path."
+    },
+    "introduction": "This framework illustrates how a documented financing, hospitality real estate or development opportunity may progress from initial submission to independent counterparty review. It does not describe a committed transaction.",
+    "case": {
+      "overline": "Illustrative transaction pathway",
+      "title": "Private-Market Opportunity Review",
+      "status": "Subject to assessment"
+    },
+    "values": {
+      "asset": {
+        "label": "Opportunity",
+        "value": "Documented transaction",
+        "note": "Asset, property, project or financing requirement"
+      },
+      "assessment": {
+        "label": "Potential outcome",
+        "value": "Independent transaction terms",
+        "note": "Only after counterparty review and agreement"
+      }
+    },
+    "details": {
+      "asset": {
+        "label": "Opportunity type",
+        "value": "Defined by the transaction"
+      },
+      "verification": {
+        "label": "Authority & documentation",
+        "value": "To be verified"
+      },
+      "assessment": {
+        "label": "Counterparty decision",
+        "value": "Independent"
+      },
+      "custody": {
+        "label": "Execution structure",
+        "value": "Transaction-specific"
+      }
+    },
+    "footer": "Valuation, financing, investment, acquisition, legal, brokerage, due diligence and other specialist functions are performed or approved by relevant independent parties where required.",
+    "summary": {
+      "overline": "Indicative overview",
+      "title": "Transaction Assessment",
+      "rows": {
+        "assetEligibility": {
+          "label": "Opportunity eligibility",
+          "value": "To be confirmed"
         },
-        "purpose": {
-          "title": "Purpose of transaction",
-          "text": "Sale, acquisition, financing, development, recapitalisation, joint venture or another legitimate objective."
+        "financingAvailability": {
+          "label": "Counterparty interest",
+          "value": "Not guaranteed"
+        },
+        "advanceRatio": {
+          "label": "Valuation",
+          "value": "Independently determined where required"
         },
         "term": {
-          "title": "Timing expectations",
-          "text": "Preferred transaction timing, subject to due diligence, counterparties and definitive agreements."
+          "label": "Commercial terms",
+          "value": "Negotiated case by case"
         },
-        "repayment": {
-          "title": "Execution strategy",
-          "text": "Relevant repayment, exit, completion or transaction strategy depending on the nature of the opportunity."
+        "pricing": {
+          "label": "Completion",
+          "value": "Subject to definitive agreements"
+        }
+      },
+      "note": "No valuation, financing amount, acquisition price, investment commitment, commercial term or transaction timeline can be guaranteed before relevant independent parties complete their own review."
+    },
+    "caveat": {
+      "label": "Important",
+      "text": "Gold Bridge Capital acts as an independent transaction facilitator. It does not guarantee financing, investment, acquisition, sale, joint-venture participation or completion of any transaction. All opportunities remain subject to independent assessment, due diligence, applicable regulation and definitive contractual documentation."
+    }
+  },
+  "Process": {
+    "kicker": "Transaction Process",
+    "title": {
+      "main": "From opportunity to",
+      "highlight": " relevant counterparties."
+    },
+    "introduction": {
+      "first": "Each transaction begins with a preliminary review of the opportunity, its commercial rationale, ownership or authority, documentation and potential counterparty relevance.",
+      "second": "The process varies depending on whether the opportunity involves asset-backed financing, hospitality real estate, development capital or another private-market transaction."
+    },
+    "steps": {
+      "inquiry": {
+        "number": "01",
+        "stage": "Initial submission",
+        "title": "Confidential Opportunity Submission",
+        "text": "The client, owner, sponsor or authorised representative submits a concise overview of the proposed transaction.",
+        "items": {
+          "first": "Nature of the opportunity",
+          "second": "Commercial objective",
+          "third": "Essential supporting information"
+        }
+      },
+      "assessment": {
+        "number": "02",
+        "stage": "Preliminary assessment",
+        "title": "Opportunity Review",
+        "text": "We assess whether the opportunity appears sufficiently credible, documented and aligned with the current focus of Gold Bridge Capital.",
+        "items": {
+          "first": "Ownership or authority",
+          "second": "Commercial rationale",
+          "third": "Initial documentation quality"
+        }
+      },
+      "diligence": {
+        "number": "03",
+        "stage": "Information preparation",
+        "title": "Transaction Preparation",
+        "text": "Relevant information is organised into a clear preliminary opportunity profile suitable for review by potential counterparties.",
+        "items": {
+          "first": "Key commercial information",
+          "second": "Transaction structure",
+          "third": "Supporting documentation"
+        }
+      },
+      "structuring": {
+        "number": "04",
+        "stage": "Counterparty selection",
+        "title": "Counterparty Identification",
+        "text": "Potentially relevant investors, lenders, buyers, operators or professional counterparties may be identified based on the characteristics of the opportunity.",
+        "items": {
+          "first": "Investor or buyer relevance",
+          "second": "Capital or financing fit",
+          "third": "Strategic alignment"
+        }
+      },
+      "documentation": {
+        "number": "05",
+        "stage": "Confidential introduction",
+        "title": "Selected Introductions",
+        "text": "Where appropriate and authorised, the opportunity may be introduced confidentially to selected counterparties for independent review.",
+        "items": {
+          "first": "Controlled disclosure",
+          "second": "Direct principal contact",
+          "third": "Independent assessment"
+        }
+      },
+      "funding": {
+        "number": "06",
+        "stage": "Transaction coordination",
+        "title": "Due Diligence & Completion",
+        "text": "If mutual interest develops, the relevant principals and professional advisers proceed with due diligence, negotiation, documentation and potential completion.",
+        "items": {
+          "first": "Independent due diligence",
+          "second": "Commercial negotiation",
+          "third": "Definitive agreements"
         }
       }
-    }
-  },
-  "sidebar": {
-    "overline": "Initial review",
-    "title": "Prepare the essential information before submitting.",
-    "text": "An initial inquiry does not require a full due-diligence data room, but it should provide enough information for a meaningful preliminary assessment.",
-    "items": {
-      "ownership": "Clear ownership or authority",
-      "gold": "Credible commercial information",
-      "purpose": "Defined transaction objective",
-      "repayment": "Relevant supporting documentation"
-    },
-    "button": "Submit an Opportunity"
-  },
-  "warning": {
-    "title": "Information is subject to verification",
-    "text": "Submission of an opportunity does not constitute acceptance, representation, financing approval, investment commitment or an obligation to introduce it to third parties."
-  },
-  "note": {
-    "label": "Please note",
-    "text": "Depending on the opportunity, additional legal opinions, valuations, financial statements, operating data, title documents, planning information, technical reports, proof of funds, financing evidence, compliance information or other specialist materials may be required."
-  }
-},
- "FAQ": {
-  "kicker": "Frequently Asked Questions",
-  "title": {
-    "main": "Selected questions about",
-    "highlight": " our transaction approach."
-  },
-  "introduction": {
-    "first": "Gold Bridge Capital focuses on preliminary transaction preparation, confidential introductions and coordination across selected private-market opportunities.",
-    "second": "The answers below explain the general framework for asset-backed financing, hospitality real estate and hospitality development transactions."
-  },
-  "items": {
-    "collateral": {
-      "number": "01",
-      "question": "What does Gold Bridge Capital do?",
-      "answer": "Gold Bridge Capital acts as an independent transaction facilitator. We help prepare selected opportunities, identify potentially relevant counterparties and coordinate confidential introductions."
-    },
-    "sale": {
-      "number": "02",
-      "question": "Does Gold Bridge Capital provide financing directly?",
-      "answer": "No. Any financing would be provided by independent banks, lenders, private-credit providers or other professional financing counterparties."
-    },
-    "custody": {
-      "number": "03",
-      "question": "Does Gold Bridge Capital invest directly in hospitality projects?",
-      "answer": "Gold Bridge Capital does not currently represent itself as an investment fund or principal investor. We may facilitate introductions to potential investors, capital providers or strategic parties."
-    },
-    "amount": {
-      "number": "04",
-      "question": "Do you sell hotels or hospitality properties?",
-      "answer": "We may facilitate confidential introductions involving selected hospitality assets, subject to applicable law and the authority of the relevant owner or representative. Where regulated brokerage activity is required, appropriately authorised professionals must perform those activities."
-    },
-    "term": {
-      "number": "05",
-      "question": "Do you work with off-market opportunities?",
-      "answer": "Yes. Selected privately introduced or off-market opportunities may be considered where the relevant owner or authorised representative has permitted confidential presentation."
-    },
-    "pricing": {
-      "number": "06",
-      "question": "Which hospitality projects may be considered?",
-      "answer": "We may consider selected hotels, resorts, conversions, redevelopment projects, mixed-use hospitality, branded residences, development land and other credible projects with identifiable principals and sufficient supporting documentation."
     },
     "timing": {
-      "number": "07",
-      "question": "Can you introduce investors or capital for a hospitality development?",
-      "answer": "Potential introductions to suitable investors, lenders, joint-venture partners or strategic parties may be considered. No fundraising, financing or investment outcome can be guaranteed."
-    },
-    "acceptance": {
-      "number": "08",
-      "question": "Which digital assets may qualify for asset-backed financing?",
-      "answer": "Eligibility is determined entirely by the relevant independent financing institution and may depend on liquidity, volatility, custody, jurisdiction, compliance requirements and institutional policy."
-    },
-    "repayment": {
-      "number": "09",
-      "question": "Do you guarantee a buyer, investor, lender or transaction?",
-      "answer": "No. Every opportunity remains subject to independent interest, assessment, due diligence, negotiation, applicable regulation and definitive agreements."
+      "label": "Transaction readiness",
+      "title": "Preparation quality directly influences execution.",
+      "text": "Well-prepared opportunities with clear authority, credible commercial information and supporting documentation can be assessed more efficiently. No specific timeline or transaction outcome can be guaranteed.",
+      "statLabel": "Primary factor",
+      "statValue": "Credible documentation"
     }
   },
-  "sidebar": {
-    "overline": "Need to discuss a situation?",
-    "title": "Every transaction is different.",
-    "text": "If your opportunity does not fit neatly into one category, a preliminary confidential discussion may help determine whether it falls within the current focus of Gold Bridge Capital.",
+  "Requirements": {
+    "kicker": "Opportunity Requirements",
+    "title": {
+      "main": "Strong opportunities begin with",
+      "highlight": " credible information."
+    },
+    "introduction": "The information required depends on the type of transaction. An initial submission should provide enough detail to assess ownership or authority, commercial rationale, documentation quality and potential counterparty relevance.",
+    "cards": {
+      "collateral": {
+        "number": "01",
+        "title": "Opportunity Overview",
+        "text": "A clear description of the asset, property, project or financing requirement.",
+        "items": {
+          "form": {
+            "title": "Opportunity type",
+            "text": "Asset-backed financing, hospitality property, acquisition requirement, development project or another relevant transaction."
+          },
+          "purity": {
+            "title": "Location and structure",
+            "text": "Relevant jurisdiction, asset or project location and basic transaction structure."
+          },
+          "location": {
+            "title": "Indicative value",
+            "text": "Estimated asset value, asking price, project cost or financing requirement, where applicable."
+          },
+          "value": {
+            "title": "Commercial objective",
+            "text": "Clear explanation of the intended transaction and desired outcome."
+          }
+        }
+      },
+      "ownership": {
+        "number": "02",
+        "title": "Ownership & Authority",
+        "text": "Evidence showing that the opportunity is being presented by an owner, principal or appropriately authorised representative.",
+        "items": {
+          "proof": {
+            "title": "Ownership or control",
+            "text": "Relevant proof of ownership, land control, asset ownership or contractual authority."
+          },
+          "provenance": {
+            "title": "Authority to introduce",
+            "text": "Where the submitter is not the owner, the nature of their authority or relationship should be disclosed."
+          },
+          "encumbrances": {
+            "title": "Existing obligations",
+            "text": "Relevant debt, liens, encumbrances, exclusivity arrangements or third-party claims should be disclosed."
+          },
+          "authority": {
+            "title": "Principal identification",
+            "text": "The relevant owner, sponsor, company or beneficial principal should be identifiable."
+          }
+        }
+      },
+      "compliance": {
+        "number": "03",
+        "title": "Supporting Documentation",
+        "text": "Sufficient documentation to allow a preliminary commercial and counterparty assessment.",
+        "items": {
+          "identification": {
+            "title": "Corporate or personal information",
+            "text": "Basic identification of the relevant principal, company, sponsor or ownership structure."
+          },
+          "corporate": {
+            "title": "Commercial documentation",
+            "text": "Financial, operating, project, asset or transaction information appropriate to the opportunity."
+          },
+          "beneficialOwnership": {
+            "title": "Ownership structure",
+            "text": "Relevant beneficial ownership or control information where required."
+          },
+          "wealth": {
+            "title": "Additional diligence",
+            "text": "Further legal, financial, technical or compliance information may be requested as the opportunity progresses."
+          }
+        }
+      },
+      "financing": {
+        "number": "04",
+        "title": "Transaction Objective",
+        "text": "A clear explanation of what the relevant principal is seeking to achieve.",
+        "items": {
+          "amount": {
+            "title": "Capital or price expectation",
+            "text": "Requested financing, asking price, equity requirement, investment amount or other relevant commercial expectation."
+          },
+          "purpose": {
+            "title": "Purpose of transaction",
+            "text": "Sale, acquisition, financing, development, recapitalisation, joint venture or another legitimate objective."
+          },
+          "term": {
+            "title": "Timing expectations",
+            "text": "Preferred transaction timing, subject to due diligence, counterparties and definitive agreements."
+          },
+          "repayment": {
+            "title": "Execution strategy",
+            "text": "Relevant repayment, exit, completion or transaction strategy depending on the nature of the opportunity."
+          }
+        }
+      }
+    },
+    "sidebar": {
+      "overline": "Initial review",
+      "title": "Prepare the essential information before submitting.",
+      "text": "An initial inquiry does not require a full due-diligence data room, but it should provide enough information for a meaningful preliminary assessment.",
+      "items": {
+        "ownership": "Clear ownership or authority",
+        "gold": "Credible commercial information",
+        "purpose": "Defined transaction objective",
+        "repayment": "Relevant supporting documentation"
+      },
+      "button": "Submit an Opportunity"
+    },
+    "warning": {
+      "title": "Information is subject to verification",
+      "text": "Submission of an opportunity does not constitute acceptance, representation, financing approval, investment commitment or an obligation to introduce it to third parties."
+    },
+    "note": {
+      "label": "Please note",
+      "text": "Depending on the opportunity, additional legal opinions, valuations, financial statements, operating data, title documents, planning information, technical reports, proof of funds, financing evidence, compliance information or other specialist materials may be required."
+    }
+  },
+  "FAQ": {
+    "kicker": "Frequently Asked Questions",
+    "title": {
+      "main": "Selected questions about",
+      "highlight": " our transaction approach."
+    },
+    "introduction": {
+      "first": "Gold Bridge Capital focuses on preliminary transaction preparation, confidential introductions and coordination across selected private-market opportunities.",
+      "second": "The answers below explain the general framework for asset-backed financing, hospitality real estate and hospitality development transactions."
+    },
+    "items": {
+      "collateral": {
+        "number": "01",
+        "question": "What does Gold Bridge Capital do?",
+        "answer": "Gold Bridge Capital acts as an independent transaction facilitator. We help prepare selected opportunities, identify potentially relevant counterparties and coordinate confidential introductions."
+      },
+      "sale": {
+        "number": "02",
+        "question": "Does Gold Bridge Capital provide financing directly?",
+        "answer": "No. Any financing would be provided by independent banks, lenders, private-credit providers or other professional financing counterparties."
+      },
+      "custody": {
+        "number": "03",
+        "question": "Does Gold Bridge Capital invest directly in hospitality projects?",
+        "answer": "Gold Bridge Capital does not currently represent itself as an investment fund or principal investor. We may facilitate introductions to potential investors, capital providers or strategic parties."
+      },
+      "amount": {
+        "number": "04",
+        "question": "Do you sell hotels or hospitality properties?",
+        "answer": "We may facilitate confidential introductions involving selected hospitality assets, subject to applicable law and the authority of the relevant owner or representative. Where regulated brokerage activity is required, appropriately authorised professionals must perform those activities."
+      },
+      "term": {
+        "number": "05",
+        "question": "Do you work with off-market opportunities?",
+        "answer": "Yes. Selected privately introduced or off-market opportunities may be considered where the relevant owner or authorised representative has permitted confidential presentation."
+      },
+      "pricing": {
+        "number": "06",
+        "question": "Which hospitality projects may be considered?",
+        "answer": "We may consider selected hotels, resorts, conversions, redevelopment projects, mixed-use hospitality, branded residences, development land and other credible projects with identifiable principals and sufficient supporting documentation."
+      },
+      "timing": {
+        "number": "07",
+        "question": "Can you introduce investors or capital for a hospitality development?",
+        "answer": "Potential introductions to suitable investors, lenders, joint-venture partners or strategic parties may be considered. No fundraising, financing or investment outcome can be guaranteed."
+      },
+      "acceptance": {
+        "number": "08",
+        "question": "Which digital assets may qualify for asset-backed financing?",
+        "answer": "Eligibility is determined entirely by the relevant independent financing institution and may depend on liquidity, volatility, custody, jurisdiction, compliance requirements and institutional policy."
+      },
+      "repayment": {
+        "number": "09",
+        "question": "Do you guarantee a buyer, investor, lender or transaction?",
+        "answer": "No. Every opportunity remains subject to independent interest, assessment, due diligence, negotiation, applicable regulation and definitive agreements."
+      }
+    },
+    "sidebar": {
+      "overline": "Need to discuss a situation?",
+      "title": "Every transaction is different.",
+      "text": "If your opportunity does not fit neatly into one category, a preliminary confidential discussion may help determine whether it falls within the current focus of Gold Bridge Capital.",
+      "button": "Discuss an Opportunity"
+    },
+    "disclaimer": {
+      "label": "Important",
+      "text": "The information on this website is general and does not constitute financing, investment, legal, tax, valuation or regulated brokerage advice."
+    }
+  },
+  "Inquiry": {
+    "kicker": "Confidential Inquiry",
+    "title": {
+      "main": "Submit a financing, hospitality",
+      "highlight": " or development opportunity."
+    },
+    "lead": "Provide a concise overview of the proposed transaction. The information will be reviewed solely to determine whether the opportunity may be suitable for further assessment or a potential confidential introduction.",
+    "principles": {
+      "confidential": {
+        "title": "Confidential Review",
+        "text": "Initial information is handled discreetly and assessed on a need-to-know basis."
+      },
+      "assessment": {
+        "title": "Preliminary Assessment",
+        "text": "We review commercial rationale, ownership or authority, documentation quality and potential counterparty relevance."
+      },
+      "structuring": {
+        "title": "Transaction-Specific Process",
+        "text": "The information requested changes automatically depending on the nature of the opportunity."
+      }
+    },
+    "contact": {
+      "label": "Direct Correspondence",
+      "email": "inquiries@goldbridge-capital.com",
+      "notice": "For sensitive or detailed due-diligence materials, please contact us first so an appropriate method of exchange can be agreed."
+    },
+    "form": {
+      "overline": "Initial Opportunity Submission",
+      "title": "Confidential Transaction Inquiry",
+      "security": "Secure First Step",
+      "notice": "Please provide only the information required for a preliminary review. Do not submit passwords, private keys, seed phrases, login credentials, original ownership documents or highly sensitive due-diligence materials through this form."
+    }
+  },
+  "Closing": {
+    "overline": "Gold Bridge Capital",
+    "title": {
+      "main": "Capital. Assets.",
+      "highlight": " Opportunity."
+    },
+    "text": "A confidential and disciplined approach to selected asset-backed financing, hospitality real estate and hospitality development transactions.",
     "button": "Discuss an Opportunity"
   },
-  "disclaimer": {
-    "label": "Important",
-    "text": "The information on this website is general and does not constitute financing, investment, legal, tax, valuation or regulated brokerage advice."
-  }
-},
-  "Inquiry": {
-  "kicker": "Confidential Inquiry",
-  "title": {
-    "main": "Submit a financing, hospitality",
-    "highlight": " or development opportunity."
-  },
-  "lead": "Provide a concise overview of the proposed transaction. The information will be reviewed solely to determine whether the opportunity may be suitable for further assessment or a potential confidential introduction.",
-  "principles": {
-    "confidential": {
-      "title": "Confidential Review",
-      "text": "Initial information is handled discreetly and assessed on a need-to-know basis."
-    },
-    "assessment": {
-      "title": "Preliminary Assessment",
-      "text": "We review commercial rationale, ownership or authority, documentation quality and potential counterparty relevance."
-    },
-    "structuring": {
-      "title": "Transaction-Specific Process",
-      "text": "The information requested changes automatically depending on the nature of the opportunity."
-    }
-  },
-  "contact": {
-    "label": "Direct Correspondence",
-    "email": "inquiries@goldbridge-capital.com",
-    "notice": "For sensitive or detailed due-diligence materials, please contact us first so an appropriate method of exchange can be agreed."
-  },
-  "form": {
-    "overline": "Initial Opportunity Submission",
-    "title": "Confidential Transaction Inquiry",
-    "security": "Secure First Step",
-    "notice": "Please provide only the information required for a preliminary review. Do not submit passwords, private keys, seed phrases, login credentials, original ownership documents or highly sensitive due-diligence materials through this form."
-  }
-},
-  "Closing": {
-  "overline": "Gold Bridge Capital",
-  "title": {
-    "main": "Capital. Assets.",
-    "highlight": " Opportunity."
-  },
-  "text": "A confidential and disciplined approach to selected asset-backed financing, hospitality real estate and hospitality development transactions.",
-  "button": "Discuss an Opportunity"
-},
   "Header": {
     "homeAriaLabel": "Gold Bridge Capital home",
     "brand": {
@@ -740,263 +738,263 @@
       "sub": "Capital"
     },
     "navigation": {
-  "focus": "Our Focus",
-  "realEstate": "Hospitality Real Estate",
-  "development": "Development",
-  "process": "Process"
-},
+      "focus": "Our Focus",
+      "realEstate": "Hospitality Real Estate",
+      "development": "Development",
+      "process": "Process"
+    },
     "cta": "Confidential Inquiry"
   },
   "Footer": {
-  "homeAriaLabel": "Gold Bridge Capital home",
-  "brand": {
-    "main": "Gold Bridge",
-    "sub": "Capital"
-  },
-  "description": "Gold Bridge Capital is an independent transaction facilitator focused on asset-backed financing, hospitality real estate and hospitality development opportunities.",
-  "email": "inquiries@goldbridge-capital.com",
-  "navigation": {
-    "title": "Navigation",
-    "approach": "Why Gold Bridge Capital",
-    "structure": "Asset-Backed Financing",
-    "transaction": "Hospitality Real Estate",
-    "process": "Transaction Process",
-    "requirements": "Opportunity Requirements"
-  },
-  "information": {
-    "title": "Information",
-    "faq": "FAQ",
-    "inquiry": "Confidential Inquiry",
-    "privacyPolicy": "Privacy Policy",
-    "termsOfUse": "Terms of Use",
-    "legalNotice": "Legal Notice"
-  },
-  "disclaimer": {
-    "label": "Important information",
-    "text": "Gold Bridge Capital acts as an independent transaction facilitator and does not itself provide banking, lending, investment, legal, tax, valuation or regulated brokerage services. Where regulated or specialist services are required, these must be performed by appropriately authorised independent parties. No financing, investment, acquisition, sale or transaction outcome is guaranteed."
-  },
-  "copyright": "© {year} Gold Bridge Capital. All rights reserved.",
-  "bottomLinks": {
-    "privacy": "Privacy",
-    "terms": "Terms",
-    "legal": "Legal",
-    "cookieSettings": "Cookie Settings"
-  }
-},
-  "ContactForm": {
-  "fields": {
-    "name": {
-      "label": "Full Name",
-      "placeholder": "Your full name"
+    "homeAriaLabel": "Gold Bridge Capital home",
+    "brand": {
+      "main": "Gold Bridge",
+      "sub": "Capital"
     },
-    "company": {
-      "label": "Company or Organisation",
-      "placeholder": "Company, Family Office or organisation"
+    "description": "Gold Bridge Capital is an independent transaction facilitator focused on asset-backed financing, hospitality real estate and hospitality development opportunities.",
+    "email": "inquiries@goldbridge-capital.com",
+    "navigation": {
+      "title": "Navigation",
+      "approach": "Why Gold Bridge Capital",
+      "structure": "Asset-Backed Financing",
+      "transaction": "Hospitality Real Estate",
+      "process": "Transaction Process",
+      "requirements": "Opportunity Requirements"
     },
-    "email": {
-      "label": "Email Address",
-      "placeholder": "name@company.com"
+    "information": {
+      "title": "Information",
+      "faq": "FAQ",
+      "inquiry": "Confidential Inquiry",
+      "privacyPolicy": "Privacy Policy",
+      "termsOfUse": "Terms of Use",
+      "legalNotice": "Legal Notice"
     },
-    "phone": {
-      "label": "Telephone Number",
-      "placeholder": "+41 ..."
+    "disclaimer": {
+      "label": "Important information",
+      "text": "Gold Bridge Capital acts as an independent transaction facilitator and does not itself provide banking, lending, investment, legal, tax, valuation or regulated brokerage services. Where regulated or specialist services are required, these must be performed by appropriately authorised independent parties. No financing, investment, acquisition, sale or transaction outcome is guaranteed."
     },
-    "inquiryType": {
-      "label": "Nature of Inquiry",
-      "placeholder": "Select the type of opportunity",
-      "options": {
-        "assetBackedFinancing": "Asset-Backed Financing",
-        "hospitalitySale": "Hospitality Property for Sale",
-        "hospitalityAcquisition": "Hospitality Acquisition",
-        "hospitalityDevelopment": "Hospitality Development Project"
-      }
-    },
-    "collateralType": {
-      "label": "Proposed Collateral Type",
-      "placeholder": "Select collateral type",
-      "options": {
-        "preciousMetals": "Precious Metals",
-        "digitalAssets": "Digital Assets",
-        "combination": "Combination of Both"
-      }
-    },
-    "financingAmount": {
-      "label": "Requested Financing Amount",
-      "placeholder": "e.g. EUR 2,000,000"
-    },
-    "estimatedAssetValue": {
-      "label": "Estimated Total Collateral Value",
-      "placeholder": "e.g. EUR 3,000,000"
-    },
-    "preciousMetalsDescription": {
-      "label": "Precious Metals Description",
-      "placeholder": "Type, form, quantity, purity, refinery and available documentation"
-    },
-    "preciousMetalsLocation": {
-      "label": "Precious Metals Location or Custodian",
-      "placeholder": "Country, city, bank, vault or custodian"
-    },
-    "digitalAssetsDescription": {
-      "label": "Digital Assets Description",
-      "placeholder": "Asset type, approximate quantity, network and estimated value"
-    },
-    "digitalAssetCustody": {
-      "label": "Exchange, Custodian or Wallet Structure",
-      "placeholder": "Institution, exchange, custodian or wallet type — never enter private keys or seed phrases"
-    },
-    "custodyJurisdiction": {
-      "label": "Custody Jurisdiction",
-      "placeholder": "Country or jurisdiction of the custodian, exchange or account"
-    },
-    "ownershipSource": {
-      "label": "Ownership & Source Overview",
-      "placeholder": "Describe acquisition, evidence of ownership and any existing pledges or restrictions"
-    },
-    "purpose": {
-      "label": "Transaction Overview & Financing Purpose",
-      "placeholder": "Describe the purpose, preferred timing, repayment strategy and any information relevant to the proposed financing"
-    },
-    "propertyName": {
-      "label": "Property Name",
-      "placeholder": "Hotel, resort or project name, if applicable"
-    },
-    "propertyType": {
-      "label": "Property Type",
-      "placeholder": "e.g. Hotel, resort, aparthotel, boutique hotel"
-    },
-    "propertyLocation": {
-      "label": "Property Location",
-      "placeholder": "City, region and country"
-    },
-    "propertyKeys": {
-      "label": "Number of Rooms / Keys",
-      "placeholder": "e.g. 85"
-    },
-    "askingPrice": {
-      "label": "Indicative Asking Price",
-      "placeholder": "e.g. EUR 18,000,000"
-    },
-    "marketStatus": {
-      "label": "Current Market Status",
-      "placeholder": "Select current status",
-      "options": {
-        "offMarket": "Off-Market",
-        "privatelyMarketed": "Privately Marketed",
-        "publiclyMarketed": "Publicly Marketed"
-      }
-    },
-    "annualRevenue": {
-      "label": "Annual Revenue",
-      "placeholder": "Most recent annual revenue, if available"
-    },
-    "ebitdaNoi": {
-      "label": "EBITDA / NOI",
-      "placeholder": "Most recent EBITDA or NOI, if available"
-    },
-    "operatorBrand": {
-      "label": "Operator / Brand",
-      "placeholder": "Operator, hotel brand or unbranded"
-    },
-    "ownershipStructure": {
-      "label": "Ownership Structure",
-      "placeholder": "e.g. Freehold, leasehold or other structure"
-    },
-    "propertyAuthority": {
-      "label": "Ownership / Authority to Introduce",
-      "placeholder": "Explain whether you are the owner or describe your authority or relationship to the owner"
-    },
-    "propertyOverview": {
-      "label": "Property & Transaction Overview",
-      "placeholder": "Describe the asset, operating situation, transaction rationale, development potential and other relevant information"
-    },
-    "acquisitionMarkets": {
-      "label": "Target Markets",
-      "placeholder": "Countries, cities or regions of interest"
-    },
-    "acquisitionPropertyType": {
-      "label": "Target Property Type",
-      "placeholder": "e.g. Luxury hotel, resort, aparthotel, value-add hospitality"
-    },
-    "investmentRange": {
-      "label": "Investment Range",
-      "placeholder": "e.g. EUR 10,000,000 – 30,000,000"
-    },
-    "acquisitionCriteria": {
-      "label": "Acquisition Criteria",
-      "placeholder": "Describe target locations, asset profile, size, investment strategy, operating preferences and other relevant criteria"
-    },
-    "developmentLocation": {
-      "label": "Project Location",
-      "placeholder": "City, region and country"
-    },
-    "developmentProjectType": {
-      "label": "Project Type",
-      "placeholder": "e.g. Hotel, resort, conversion, branded residences"
-    },
-    "developmentStage": {
-      "label": "Development Stage",
-      "placeholder": "e.g. Concept, planning, permitted, under construction"
-    },
-    "developmentKeys": {
-      "label": "Planned Rooms / Keys",
-      "placeholder": "e.g. 120"
-    },
-    "landControl": {
-      "label": "Land Ownership / Control",
-      "placeholder": "Describe ownership, option, lease, SPA or other site-control arrangement"
-    },
-    "planningStatus": {
-      "label": "Planning / Permit Status",
-      "placeholder": "Describe zoning, planning permissions, building permits and current status"
-    },
-    "totalDevelopmentCost": {
-      "label": "Total Development Cost",
-      "placeholder": "e.g. EUR 45,000,000"
-    },
-    "capitalInvested": {
-      "label": "Capital Invested to Date",
-      "placeholder": "Sponsor capital already invested, if applicable"
-    },
-    "debtRequired": {
-      "label": "Debt Required",
-      "placeholder": "Requested debt financing, if applicable"
-    },
-    "equityRequired": {
-      "label": "Equity / JV Capital Required",
-      "placeholder": "Required equity or joint-venture capital, if applicable"
-    },
-    "developmentOperatorBrand": {
-      "label": "Operator / Brand Status",
-      "placeholder": "Existing operator, brand discussions, LOI or currently unbranded"
-    },
-    "developmentOverview": {
-      "label": "Development & Capital Overview",
-      "placeholder": "Describe the project, sponsor position, development concept, capital requirement, timeline and relevant commercial information"
+    "copyright": "© {year} Gold Bridge Capital. All rights reserved.",
+    "bottomLinks": {
+      "privacy": "Privacy",
+      "terms": "Terms",
+      "legal": "Legal",
+      "cookieSettings": "Cookie Settings"
     }
   },
-  "confirmations": {
-    "authority": "I confirm that I am the relevant principal, owner or authorised representative, or that I am otherwise authorised to submit this opportunity for preliminary review.",
-    "privacy": "I consent to the processing of the information provided for the purpose of reviewing and responding to this confidential inquiry.",
-    "security": "I understand that I must not submit passwords, seed phrases, private keys, login credentials, original ownership documents or sensitive due-diligence materials through this form."
+  "ContactForm": {
+    "fields": {
+      "name": {
+        "label": "Full Name",
+        "placeholder": "Your full name"
+      },
+      "company": {
+        "label": "Company or Organisation",
+        "placeholder": "Company, Family Office or organisation"
+      },
+      "email": {
+        "label": "Email Address",
+        "placeholder": "name@company.com"
+      },
+      "phone": {
+        "label": "Telephone Number",
+        "placeholder": "+41 ..."
+      },
+      "inquiryType": {
+        "label": "Nature of Inquiry",
+        "placeholder": "Select the type of opportunity",
+        "options": {
+          "assetBackedFinancing": "Asset-Backed Financing",
+          "hospitalitySale": "Hospitality Property for Sale",
+          "hospitalityAcquisition": "Hospitality Acquisition",
+          "hospitalityDevelopment": "Hospitality Development Project"
+        }
+      },
+      "collateralType": {
+        "label": "Proposed Collateral Type",
+        "placeholder": "Select collateral type",
+        "options": {
+          "preciousMetals": "Precious Metals",
+          "digitalAssets": "Digital Assets",
+          "combination": "Combination of Both"
+        }
+      },
+      "financingAmount": {
+        "label": "Requested Financing Amount",
+        "placeholder": "e.g. EUR 2,000,000"
+      },
+      "estimatedAssetValue": {
+        "label": "Estimated Total Collateral Value",
+        "placeholder": "e.g. EUR 3,000,000"
+      },
+      "preciousMetalsDescription": {
+        "label": "Precious Metals Description",
+        "placeholder": "Type, form, quantity, purity, refinery and available documentation"
+      },
+      "preciousMetalsLocation": {
+        "label": "Precious Metals Location or Custodian",
+        "placeholder": "Country, city, bank, vault or custodian"
+      },
+      "digitalAssetsDescription": {
+        "label": "Digital Assets Description",
+        "placeholder": "Asset type, approximate quantity, network and estimated value"
+      },
+      "digitalAssetCustody": {
+        "label": "Exchange, Custodian or Wallet Structure",
+        "placeholder": "Institution, exchange, custodian or wallet type — never enter private keys or seed phrases"
+      },
+      "custodyJurisdiction": {
+        "label": "Custody Jurisdiction",
+        "placeholder": "Country or jurisdiction of the custodian, exchange or account"
+      },
+      "ownershipSource": {
+        "label": "Ownership & Source Overview",
+        "placeholder": "Describe acquisition, evidence of ownership and any existing pledges or restrictions"
+      },
+      "purpose": {
+        "label": "Transaction Overview & Financing Purpose",
+        "placeholder": "Describe the purpose, preferred timing, repayment strategy and any information relevant to the proposed financing"
+      },
+      "propertyName": {
+        "label": "Property Name",
+        "placeholder": "Hotel, resort or project name, if applicable"
+      },
+      "propertyType": {
+        "label": "Property Type",
+        "placeholder": "e.g. Hotel, resort, aparthotel, boutique hotel"
+      },
+      "propertyLocation": {
+        "label": "Property Location",
+        "placeholder": "City, region and country"
+      },
+      "propertyKeys": {
+        "label": "Number of Rooms / Keys",
+        "placeholder": "e.g. 85"
+      },
+      "askingPrice": {
+        "label": "Indicative Asking Price",
+        "placeholder": "e.g. EUR 18,000,000"
+      },
+      "marketStatus": {
+        "label": "Current Market Status",
+        "placeholder": "Select current status",
+        "options": {
+          "offMarket": "Off-Market",
+          "privatelyMarketed": "Privately Marketed",
+          "publiclyMarketed": "Publicly Marketed"
+        }
+      },
+      "annualRevenue": {
+        "label": "Annual Revenue",
+        "placeholder": "Most recent annual revenue, if available"
+      },
+      "ebitdaNoi": {
+        "label": "EBITDA / NOI",
+        "placeholder": "Most recent EBITDA or NOI, if available"
+      },
+      "operatorBrand": {
+        "label": "Operator / Brand",
+        "placeholder": "Operator, hotel brand or unbranded"
+      },
+      "ownershipStructure": {
+        "label": "Ownership Structure",
+        "placeholder": "e.g. Freehold, leasehold or other structure"
+      },
+      "propertyAuthority": {
+        "label": "Ownership / Authority to Introduce",
+        "placeholder": "Explain whether you are the owner or describe your authority or relationship to the owner"
+      },
+      "propertyOverview": {
+        "label": "Property & Transaction Overview",
+        "placeholder": "Describe the asset, operating situation, transaction rationale, development potential and other relevant information"
+      },
+      "acquisitionMarkets": {
+        "label": "Target Markets",
+        "placeholder": "Countries, cities or regions of interest"
+      },
+      "acquisitionPropertyType": {
+        "label": "Target Property Type",
+        "placeholder": "e.g. Luxury hotel, resort, aparthotel, value-add hospitality"
+      },
+      "investmentRange": {
+        "label": "Investment Range",
+        "placeholder": "e.g. EUR 10,000,000 – 30,000,000"
+      },
+      "acquisitionCriteria": {
+        "label": "Acquisition Criteria",
+        "placeholder": "Describe target locations, asset profile, size, investment strategy, operating preferences and other relevant criteria"
+      },
+      "developmentLocation": {
+        "label": "Project Location",
+        "placeholder": "City, region and country"
+      },
+      "developmentProjectType": {
+        "label": "Project Type",
+        "placeholder": "e.g. Hotel, resort, conversion, branded residences"
+      },
+      "developmentStage": {
+        "label": "Development Stage",
+        "placeholder": "e.g. Concept, planning, permitted, under construction"
+      },
+      "developmentKeys": {
+        "label": "Planned Rooms / Keys",
+        "placeholder": "e.g. 120"
+      },
+      "landControl": {
+        "label": "Land Ownership / Control",
+        "placeholder": "Describe ownership, option, lease, SPA or other site-control arrangement"
+      },
+      "planningStatus": {
+        "label": "Planning / Permit Status",
+        "placeholder": "Describe zoning, planning permissions, building permits and current status"
+      },
+      "totalDevelopmentCost": {
+        "label": "Total Development Cost",
+        "placeholder": "e.g. EUR 45,000,000"
+      },
+      "capitalInvested": {
+        "label": "Capital Invested to Date",
+        "placeholder": "Sponsor capital already invested, if applicable"
+      },
+      "debtRequired": {
+        "label": "Debt Required",
+        "placeholder": "Requested debt financing, if applicable"
+      },
+      "equityRequired": {
+        "label": "Equity / JV Capital Required",
+        "placeholder": "Required equity or joint-venture capital, if applicable"
+      },
+      "developmentOperatorBrand": {
+        "label": "Operator / Brand Status",
+        "placeholder": "Existing operator, brand discussions, LOI or currently unbranded"
+      },
+      "developmentOverview": {
+        "label": "Development & Capital Overview",
+        "placeholder": "Describe the project, sponsor position, development concept, capital requirement, timeline and relevant commercial information"
+      }
+    },
+    "confirmations": {
+      "authority": "I confirm that I am the relevant principal, owner or authorised representative, or that I am otherwise authorised to submit this opportunity for preliminary review.",
+      "privacy": "I consent to the processing of the information provided for the purpose of reviewing and responding to this confidential inquiry.",
+      "security": "I understand that I must not submit passwords, seed phrases, private keys, login credentials, original ownership documents or sensitive due-diligence materials through this form."
+    },
+    "button": {
+      "idle": "Submit Confidential Inquiry",
+      "sending": "Submitting Confidential Inquiry..."
+    },
+    "messages": {
+      "success": "Thank you. Your confidential inquiry has been received successfully. The information provided will be reviewed on a preliminary basis and we will contact you if the opportunity appears suitable for further assessment.",
+      "submissionError": "We were unable to submit your inquiry. Please try again.",
+      "unexpectedError": "An unexpected error occurred. Please try again."
+    }
   },
-  "button": {
-    "idle": "Submit Confidential Inquiry",
-    "sending": "Submitting Confidential Inquiry..."
-  },
-  "messages": {
-    "success": "Thank you. Your confidential inquiry has been received successfully. The information provided will be reviewed on a preliminary basis and we will contact you if the opportunity appears suitable for further assessment.",
-    "submissionError": "We were unable to submit your inquiry. Please try again.",
-    "unexpectedError": "An unexpected error occurred. Please try again."
-  }
-},
   "Metadata": {
-  "title": "Gold Bridge Capital | Asset-Backed Financing & Hospitality Transactions",
-  "description": "Independent transaction facilitation across asset-backed financing, hospitality real estate and hospitality development opportunities."
-},
+    "title": "Gold Bridge Capital | Asset-Backed Financing & Hospitality Transactions",
+    "description": "Independent transaction facilitation across asset-backed financing, hospitality real estate and hospitality development opportunities."
+  },
   "Privacy": {
     "kicker": "Privacy & Data Protection",
     "title": "Privacy Policy",
-    "updated": "Last updated: July 2026",
+    "updated": "Last updated: August 2026",
     "controller": {
       "title": "1. Data controller",
       "introduction": "The controller responsible for the processing of personal data through this website is:",
@@ -1011,25 +1009,25 @@
         "company": "Your company, family office or organisation.",
         "email": "Your business email address.",
         "phone": "Your telephone number, if provided.",
-        "transaction": "The requested financing amount and intended use of funds.",
-        "gold": "Information concerning the quantity, estimated value, ownership and location of the proposed precious-metals or digital-asset collateral.",
-        "message": "Any additional information you voluntarily provide in your inquiry or subsequent correspondence."
+        "transaction": "Information relating to the proposed transaction, including asset-backed financing requirements, hospitality properties, acquisition criteria or development opportunities.",
+        "gold": "Information about proposed precious-metals or digital-asset collateral, including estimated value, location, custody arrangement, jurisdiction and ownership or source information where applicable.",
+        "message": "Information you provide about ownership or authority, property or project characteristics, commercial objectives, financing or capital requirements, transaction rationale, operating information and any additional information you voluntarily provide in your inquiry or subsequent correspondence."
       }
     },
     "purpose": {
       "title": "3. How we use personal data",
       "introduction": "We process personal data only where necessary for the following purposes:",
       "items": {
-        "review": "To review and assess a submitted financing inquiry.",
-        "response": "To respond to questions and communicate about a potential transaction.",
-        "communication": "To maintain relevant pre-contractual and business correspondence.",
-        "security": "To protect the website, communications and parties involved from misuse, fraud or unlawful activity.",
-        "legal": "To comply with applicable legal, regulatory and compliance obligations."
+        "review": "To receive, review and preliminarily assess confidential inquiries and proposed transactions.",
+        "response": "To respond to questions and communicate with relevant principals, owners, sponsors, authorised representatives or other inquiry submitters.",
+        "communication": "To prepare, coordinate or facilitate potential confidential introductions to relevant independent counterparties where appropriate.",
+        "security": "To protect the website, communications and parties involved from misuse, fraud, unlawful activity or security threats.",
+        "legal": "To comply with applicable legal, regulatory, compliance and record-keeping obligations and to protect legitimate business interests."
       }
     },
     "legalBasis": {
       "title": "4. Legal basis for processing",
-      "text": "Personal data submitted through the inquiry form is processed primarily because it is necessary to take steps at your request before potentially entering into a business relationship. Where appropriate, processing may also be based on our legitimate interests in responding to inquiries, protecting our operations and complying with legal obligations."
+      "text": "Personal data submitted through the inquiry form is processed primarily because it is necessary to take steps at your request before potentially entering into a business relationship or considering a proposed transaction. Where appropriate, processing may also be based on our legitimate interests in responding to inquiries, evaluating opportunities, coordinating potential introductions, protecting our operations and complying with legal obligations."
     },
     "recipients": {
       "title": "5. Recipients and service providers",
@@ -1037,10 +1035,10 @@
       "items": {
         "email": "Email and communication service providers used to receive and respond to inquiries.",
         "railway": "Railway and its infrastructure providers, which host and operate the website.",
-        "professionals": "Professional advisers or potential transaction counterparties where necessary for a confidential preliminary assessment and where an appropriate basis for disclosure exists.",
+        "professionals": "Selected independent banks, lenders, investors, buyers, operators, professional advisers, service providers or other potential transaction counterparties where this is reasonably necessary to assess or progress a proposed transaction and where an appropriate basis for disclosure exists.",
         "authorities": "Public authorities where disclosure is required by law."
       },
-      "noSale": "We do not sell personal data to third parties."
+      "noSale": "We do not sell personal data to third parties and do not share inquiry information indiscriminately."
     },
     "transfers": {
       "title": "6. International data transfers",
@@ -1048,7 +1046,7 @@
     },
     "retention": {
       "title": "7. Data retention",
-      "text": "Information submitted through a financing inquiry is generally retained for no longer than 12 months after the last relevant communication, unless a longer period is necessary because a business relationship develops, legal obligations apply, or information is required for the establishment, exercise or defence of legal claims."
+      "text": "Information submitted through a confidential inquiry is generally retained for no longer than 12 months after the last relevant communication, unless a longer period is necessary because a business relationship develops, legal or regulatory obligations apply, or information is required for the establishment, exercise or defence of legal claims."
     },
     "rights": {
       "title": "8. Your data protection rights",
@@ -1070,7 +1068,7 @@
     },
     "security": {
       "title": "10. Data security",
-      "text": "Reasonable technical and organisational measures are used to protect personal data against unauthorised access, loss, misuse, alteration or disclosure. However, no internet transmission or electronic storage system can be guaranteed to be completely secure."
+      "text": "Reasonable technical and organisational measures are used to protect personal data against unauthorised access, loss, misuse, alteration or disclosure. However, no internet transmission or electronic storage system can be guaranteed to be completely secure. Users should not submit passwords, seed phrases, private keys, login credentials, original ownership documents or highly sensitive due-diligence materials through the website inquiry form."
     },
     "changes": {
       "title": "11. Changes to this policy",
@@ -1084,7 +1082,7 @@
   "Terms": {
     "kicker": "Legal Terms",
     "title": "Terms of Use",
-    "updated": "Last updated: July 2026",
+    "updated": "Last updated: August 2026",
     "operator": {
       "title": "1. Website operator",
       "text": "This website is operated by:",
@@ -1097,29 +1095,29 @@
     },
     "information": {
       "title": "3. General information only",
-      "text": "The content of this website is provided for general informational purposes only. It is intended to present the activities and potential transaction process associated with Gold Bridge Capital."
+      "text": "The content of this website is provided for general informational purposes only. It describes the activities and preliminary transaction-facilitation framework associated with Gold Bridge Capital across asset-backed financing, hospitality real estate and hospitality development opportunities."
     },
     "noOffer": {
-      "title": "4. No financial, legal or investment offer",
-      "text": "Nothing on this website constitutes financial, legal, tax or investment advice, an offer to lend, an offer of securities, a solicitation, a recommendation or a binding commitment to arrange or provide financing. Any potential transaction is subject to separate assessment, due diligence, documentation and approval."
+      "title": "4. No offer, advice or commitment",
+      "text": "Nothing on this website constitutes financial, investment, legal, tax, valuation or regulated brokerage advice, an offer to lend, an offer of securities, a solicitation, a recommendation, an investment commitment, an acquisition commitment or a binding obligation to arrange, finance, purchase, sell or complete any transaction. Any potential transaction remains subject to separate assessment, due diligence, applicable law, documentation and approval by the relevant independent parties."
     },
     "eligibility": {
       "title": "5. Eligibility and transaction assessment",
-      "text": "The availability of any financing structure depends on the profile of the client, the nature and location of the proposed precious-metals or digital-asset collateral, applicable legal and compliance requirements, market conditions and the approval of relevant independent parties. No transaction is guaranteed."
+      "text": "Any proposed transaction is assessed individually. Suitability may depend on ownership or authority, the nature and location of the relevant asset or project, available documentation, commercial rationale, applicable legal and compliance requirements, market conditions and the independent criteria of relevant counterparties. No transaction is guaranteed."
     },
     "inquiries": {
       "title": "6. Information submitted through inquiries",
       "introduction": "When submitting an inquiry, you confirm that:",
       "items": {
         "accuracy": "The information provided is accurate and complete to the best of your knowledge.",
-        "authority": "You are the legal owner of the proposed precious-metals or digital-asset collateral or are duly authorised to act on behalf of the legal owner.",
-        "lawful": "The proposed transaction and intended use of funds are lawful.",
-        "noCommitment": "Submission of an inquiry does not create a client relationship, financing commitment or obligation for any party."
+        "authority": "You are the relevant owner, principal, sponsor or appropriately authorised representative, or otherwise have sufficient authority to submit the opportunity for preliminary review.",
+        "lawful": "The proposed transaction, asset, project and intended commercial purpose are lawful to the best of your knowledge.",
+        "noCommitment": "Submission of an inquiry does not create a client relationship, brokerage mandate, advisory relationship, financing commitment, investment commitment or obligation for Gold Bridge Capital or any third party."
       }
     },
     "thirdParties": {
       "title": "7. Independent third parties",
-      "text": "Potential financing, custody, valuation, legal, compliance, insurance and other transaction services may be provided by independent third parties. Gold Bridge Capital does not control those parties and is not responsible for their decisions, services, availability or contractual obligations."
+      "text": "Potential financing, investment, acquisition, custody, valuation, legal, tax, compliance, brokerage, technical, operating and other specialist services may be provided by independent third parties. Gold Bridge Capital does not control their decisions and does not guarantee their availability, approval, services or contractual obligations. Where activities require regulated real-estate brokerage, financial intermediation, investment services, legal advice or another regulated professional service, such activities must be carried out by appropriately authorised independent professionals where required by applicable law."
     },
     "intellectualProperty": {
       "title": "8. Intellectual property",
@@ -1142,11 +1140,11 @@
     },
     "liability": {
       "title": "11. Limitation of liability",
-      "text": "To the maximum extent permitted by applicable law, the website operator is not liable for any direct or indirect loss arising from reliance on the website, inability to access it, use of third-party services, failure of a proposed transaction to proceed or decisions made on the basis of website content."
+      "text": "To the maximum extent permitted by applicable law, the website operator is not liable for any direct or indirect loss arising from reliance on the website, inability to access it, use of third-party services, market movements, regulatory decisions, failure of a proposed transaction to proceed or decisions made on the basis of website content. Digital assets may be subject to significant price volatility, custody risk, jurisdictional restrictions, additional-collateral requirements and contractual liquidation rights. Eligibility and transaction terms are determined independently by the relevant institution or counterparty."
     },
     "indemnity": {
       "title": "12. Responsibility for submitted information",
-      "text": "You are responsible for the information and materials you submit. You agree to be responsible for losses, claims or costs arising from materially false, misleading, unlawful or unauthorised information submitted through the website."
+      "text": "You are responsible for the information and materials you submit. You agree to be responsible for losses, claims or costs arising from materially false, misleading, unlawful or unauthorised information, or from submitting an opportunity without sufficient ownership, authority or permission."
     },
     "privacy": {
       "title": "13. Privacy",
@@ -1169,7 +1167,7 @@
   "Legal": {
     "kicker": "Legal Information",
     "title": "Legal Notice",
-    "updated": "Last updated: July 2026",
+    "updated": "Last updated: August 2026",
     "operator": {
       "title": "1. Website operator",
       "location": "Slovenia",
@@ -1181,23 +1179,23 @@
     },
     "services": {
       "title": "3. Nature of the services",
-      "text": "The website presents a potential transaction-facilitation and coordination service relating to short-term financing opportunities secured by eligible precious metals and selected digital assets. Each opportunity is reviewed individually and may involve independent financing, custody, legal, valuation, compliance and other professional parties."
+      "text": "Gold Bridge Capital is an independent transaction-facilitation project focused on selected asset-backed financing, hospitality real estate and hospitality development opportunities. Its role may include preliminary opportunity preparation, identifying potentially relevant independent counterparties and coordinating confidential introductions between authorised principals and professional parties."
     },
     "noRegulatedService": {
-      "title": "4. No regulated financial service offered through the website",
-      "text": "The website does not itself provide banking, deposit-taking, investment, securities, payment, custody, legal or tax services. Nothing on the website constitutes a regulated financial product, a public offer, investment advice or a binding commitment to arrange or provide financing."
+      "title": "4. No regulated service offered through the website",
+      "text": "Gold Bridge Capital does not itself operate as a bank, lender, deposit-taking institution, investment fund, investment adviser, law firm or regulated real-estate broker unless expressly stated otherwise and legally authorised. Nothing on this website constitutes a regulated financial product, public offer, investment advice, legal advice, brokerage mandate or binding commitment to arrange, provide, acquire, sell or complete any transaction."
     },
     "thirdParties": {
       "title": "5. Independent third parties",
-      "text": "Any financing, custody, valuation, legal, compliance, insurance or related transaction services may be provided by independent third parties under separate agreements. Their decisions, approvals, services and contractual obligations remain their own responsibility."
+      "text": "Where regulated financial, investment, brokerage, legal, valuation, custody, compliance, technical or other professional services are required, they must be performed by appropriately authorised independent professionals or institutions. Their decisions, approvals, services and contractual obligations remain their own responsibility."
     },
     "accuracy": {
       "title": "6. Accuracy of information",
-      "text": "Reasonable efforts are made to keep the information on this website accurate and current. However, no representation or warranty is made regarding completeness, accuracy, availability or suitability for a particular purpose."
+      "text": "Reasonable efforts are made to keep the information on this website accurate and current. However, no representation or warranty is made regarding completeness, accuracy, availability or suitability for a particular purpose. No reference on this website to banks, investors, lenders, buyers, operators, advisers or other potential counterparties should be interpreted as evidence of a partnership, mandate, representation agreement or institutional relationship unless expressly confirmed in writing."
     },
     "liability": {
       "title": "7. Limitation of liability",
-      "text": "To the maximum extent permitted by applicable law, the website operator is not responsible for losses arising from reliance on website content, interruption or unavailability of the website, third-party services, market movements, regulatory decisions or the failure of any proposed transaction to proceed."
+      "text": "To the maximum extent permitted by applicable law, the website operator is not responsible for losses arising from reliance on website content, interruption or unavailability of the website, third-party services, market movements, digital-asset volatility, regulatory decisions or the failure of any proposed financing, investment, acquisition, sale, development or other transaction to proceed."
     },
     "links": {
       "title": "8. External links",

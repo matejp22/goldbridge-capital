@@ -28,19 +28,19 @@ const metadataByLocale: Record<
   en: {
     title: "Terms of Use | Gold Bridge Capital",
     description:
-      "Read the terms governing access to and use of the Gold Bridge Capital website and its confidential financing inquiry service.",
+      "Read the terms governing access to and use of the Gold Bridge Capital website and its confidential transaction inquiry process.",
     ogLocale: "en_US",
   },
   de: {
     title: "Nutzungsbedingungen | Gold Bridge Capital",
     description:
-      "Lesen Sie die Bedingungen für den Zugriff auf die Website von Gold Bridge Capital und die Nutzung des vertraulichen Finanzierungsanfrage-Services.",
+      "Lesen Sie die Bedingungen für den Zugriff auf die Website von Gold Bridge Capital und die Nutzung des vertraulichen Transaktionsanfrage-Prozesses.",
     ogLocale: "de_DE",
   },
   it: {
     title: "Termini di utilizzo | Gold Bridge Capital",
     description:
-      "Consulta i termini che regolano l’accesso al sito Gold Bridge Capital e l’utilizzo del servizio riservato di richiesta di finanziamento.",
+      "Consulta i termini che regolano l’accesso al sito Gold Bridge Capital e l’utilizzo del processo riservato di richiesta relativo alle operazioni.",
     ogLocale: "it_IT",
   },
 };

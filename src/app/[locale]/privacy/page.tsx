@@ -28,19 +28,19 @@ const metadataByLocale: Record<
   en: {
     title: "Privacy Policy | Gold Bridge Capital",
     description:
-      "Learn how Gold Bridge Capital collects, uses, protects and retains personal data submitted through its confidential financing inquiry form.",
+      "Learn how Gold Bridge Capital collects, uses, protects and retains personal data submitted through confidential transaction inquiries.",
     ogLocale: "en_US",
   },
   de: {
     title: "Datenschutzerklärung | Gold Bridge Capital",
     description:
-      "Erfahren Sie, wie Gold Bridge Capital personenbezogene Daten aus vertraulichen Finanzierungsanfragen erhebt, verwendet, schützt und speichert.",
+      "Erfahren Sie, wie Gold Bridge Capital personenbezogene Daten aus vertraulichen Transaktionsanfragen erhebt, verwendet, schützt und speichert.",
     ogLocale: "de_DE",
   },
   it: {
     title: "Informativa sulla privacy | Gold Bridge Capital",
     description:
-      "Scopri come Gold Bridge Capital raccoglie, utilizza, protegge e conserva i dati personali inviati tramite il modulo di richiesta di finanziamento.",
+      "Scopri come Gold Bridge Capital raccoglie, utilizza, protegge e conserva i dati personali inviati tramite richieste riservate relative a operazioni.",
     ogLocale: "it_IT",
   },
 };

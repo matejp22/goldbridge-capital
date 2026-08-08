@@ -629,41 +629,53 @@
     "main": "Ausgewählte Fragen zu",
     "highlight": " unserem Transaktionsansatz."
   },
-  "introduction": "Gold Bridge Capital konzentriert sich auf die vorläufige Transaktionsvorbereitung, vertrauliche Vorstellungen und Koordination. Die folgenden Antworten erläutern den allgemeinen Rahmen für vermögensbesicherte Finanzierung und Hospitality-Möglichkeiten.",
+  "introduction": {
+    "first": "Gold Bridge Capital konzentriert sich auf die vorläufige Transaktionsvorbereitung, vertrauliche Vorstellungen und die Koordination ausgewählter Private-Market-Möglichkeiten.",
+    "second": "Die folgenden Antworten erläutern den allgemeinen Rahmen für vermögensbesicherte Finanzierung, Hospitality-Immobilien und Hospitality-Entwicklungstransaktionen."
+  },
   "items": {
     "collateral": {
+      "number": "01",
       "question": "Was macht Gold Bridge Capital?",
       "answer": "Gold Bridge Capital agiert als unabhängiger Transaktionsvermittler. Wir helfen bei der Vorbereitung ausgewählter Möglichkeiten, identifizieren potenziell relevante Gegenparteien und koordinieren vertrauliche Vorstellungen."
     },
     "sale": {
+      "number": "02",
       "question": "Stellt Gold Bridge Capital selbst Finanzierungen bereit?",
       "answer": "Nein. Eine Finanzierung würde von unabhängigen Banken, Kreditgebern, Private-Credit-Anbietern oder anderen professionellen Finanzierungspartnern bereitgestellt."
     },
     "custody": {
+      "number": "03",
       "question": "Investiert Gold Bridge Capital direkt in Hospitality-Projekte?",
-      "answer": "Gold Bridge Capital stellt sich derzeit weder als Investmentfonds noch als Principal Investor dar. Wir können Vorstellungen bei potenziellen Investoren, Kapitalgebern oder strategischen Partnern erleichtern."
+      "answer": "Gold Bridge Capital stellt sich derzeit weder als Investmentfonds noch als Principal Investor dar. Wir können Vorstellungen bei potenziellen Investoren, Kapitalgebern oder strategischen Parteien erleichtern."
     },
     "amount": {
+      "number": "04",
       "question": "Verkauft Gold Bridge Capital Hotels oder Hospitality-Immobilien?",
       "answer": "Wir können vertrauliche Vorstellungen im Zusammenhang mit ausgewählten Hospitality-Objekten erleichtern, vorbehaltlich des anwendbaren Rechts und der Befugnis des jeweiligen Eigentümers oder Vertreters. Soweit regulierte Maklertätigkeiten erforderlich sind, müssen diese von entsprechend zugelassenen Fachleuten ausgeübt werden."
     },
     "term": {
+      "number": "05",
       "question": "Arbeiten Sie mit Off-Market-Möglichkeiten?",
       "answer": "Ja. Ausgewählte privat vorgestellte oder Off-Market-Möglichkeiten können berücksichtigt werden, wenn der relevante Eigentümer oder autorisierte Vertreter eine vertrauliche Präsentation erlaubt hat."
     },
     "pricing": {
+      "number": "06",
       "question": "Welche Hospitality-Projekte können berücksichtigt werden?",
       "answer": "Wir können ausgewählte Hotels, Resorts, Konversionen, Redevelopment-Projekte, Mixed-Use-Hospitality, Branded Residences, Entwicklungsgrundstücke und andere glaubwürdige Projekte mit identifizierbaren Parteien und ausreichender Dokumentation berücksichtigen."
     },
     "timing": {
+      "number": "07",
       "question": "Können Sie Investoren oder Kapital für eine Hospitality-Entwicklung vorstellen?",
       "answer": "Potenzielle Vorstellungen bei geeigneten Investoren, Kreditgebern, Joint-Venture-Partnern oder strategischen Parteien können geprüft werden. Fundraising-, Finanzierungs- oder Investitionsergebnisse werden nicht garantiert."
     },
     "acceptance": {
+      "number": "08",
       "question": "Welche digitalen Vermögenswerte können für eine besicherte Finanzierung geeignet sein?",
       "answer": "Die Eignung wird ausschließlich vom jeweiligen unabhängigen Finanzierungsinstitut bestimmt und kann von Liquidität, Volatilität, Verwahrung, Rechtsordnung, Compliance-Anforderungen und institutionellen Richtlinien abhängen."
     },
     "repayment": {
+      "number": "09",
       "question": "Garantieren Sie einen Käufer, Investor, Kreditgeber oder eine Transaktion?",
       "answer": "Nein. Jede Möglichkeit bleibt unabhängigem Interesse, Prüfung, Due Diligence, Verhandlung, anwendbarer Regulierung und endgültigen Vereinbarungen vorbehalten."
     }
@@ -736,13 +748,18 @@
     "cta": "Vertrauliche Anfrage"
   },
   "Footer": {
+  "homeAriaLabel": "Gold Bridge Capital Startseite",
+  "brand": {
+    "main": "Gold Bridge",
+    "sub": "Capital"
+  },
   "description": "Gold Bridge Capital ist ein unabhängiger Transaktionsvermittler mit Fokus auf vermögensbesicherte Finanzierung, Hospitality-Immobilien und Hospitality-Entwicklungsmöglichkeiten.",
   "email": "inquiries@goldbridge-capital.com",
   "navigation": {
     "title": "Navigation",
     "approach": "Warum Gold Bridge Capital",
     "structure": "Vermögensbesicherte Finanzierung",
-    "example": "Hospitality Real Estate",
+    "transaction": "Hospitality Real Estate",
     "process": "Transaktionsprozess",
     "requirements": "Anforderungen an Möglichkeiten"
   },
@@ -750,19 +767,20 @@
     "title": "Informationen",
     "faq": "FAQ",
     "inquiry": "Vertrauliche Anfrage",
-    "privacy": "Datenschutz",
-    "terms": "Nutzungsbedingungen",
-    "legal": "Rechtliche Hinweise"
+    "privacyPolicy": "Datenschutz",
+    "termsOfUse": "Nutzungsbedingungen",
+    "legalNotice": "Rechtliche Hinweise"
   },
   "disclaimer": {
     "label": "Wichtige Informationen",
     "text": "Gold Bridge Capital agiert als unabhängiger Transaktionsvermittler und erbringt selbst keine Bank-, Kredit-, Anlage-, Rechts-, Steuer-, Bewertungs- oder regulierten Maklerdienstleistungen. Wo regulierte oder spezialisierte Dienstleistungen erforderlich sind, müssen diese von entsprechend zugelassenen unabhängigen Parteien erbracht werden. Finanzierung, Investition, Erwerb, Verkauf oder sonstige Transaktionsergebnisse werden nicht garantiert."
   },
-  "bottom": {
-    "copyright": "© 2026 Gold Bridge Capital. Alle Rechte vorbehalten.",
+  "copyright": "© {year} Gold Bridge Capital. Alle Rechte vorbehalten.",
+  "bottomLinks": {
     "privacy": "Datenschutz",
     "terms": "Bedingungen",
-    "cookies": "Cookie-Einstellungen"
+    "legal": "Rechtliches",
+    "cookieSettings": "Cookie-Einstellungen"
   }
 },
   "ContactForm": {

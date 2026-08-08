@@ -629,41 +629,53 @@
     "main": "Domande selezionate sul",
     "highlight": " nostro approccio alle operazioni."
   },
-  "introduction": "Gold Bridge Capital si concentra sulla preparazione preliminare delle operazioni, presentazioni riservate e coordinamento. Le risposte seguenti spiegano il quadro generale relativo al finanziamento garantito da asset e alle opportunità hospitality.",
+  "introduction": {
+    "first": "Gold Bridge Capital si concentra sulla preparazione preliminare delle operazioni, sulle presentazioni riservate e sul coordinamento di opportunità private market selezionate.",
+    "second": "Le risposte seguenti spiegano il quadro generale relativo al finanziamento garantito da asset, all'hospitality real estate e alle operazioni di sviluppo hospitality."
+  },
   "items": {
     "collateral": {
+      "number": "01",
       "question": "Cosa fa Gold Bridge Capital?",
       "answer": "Gold Bridge Capital opera come facilitatore indipendente di operazioni. Aiutiamo a preparare opportunità selezionate, identificare potenziali controparti rilevanti e coordinare presentazioni riservate."
     },
     "sale": {
+      "number": "02",
       "question": "Gold Bridge Capital fornisce direttamente finanziamenti?",
       "answer": "No. Qualsiasi finanziamento sarebbe fornito da banche indipendenti, finanziatori, operatori di private credit o altre controparti professionali."
     },
     "custody": {
+      "number": "03",
       "question": "Gold Bridge Capital investe direttamente in progetti hospitality?",
-      "answer": "Gold Bridge Capital non si presenta attualmente come fondo di investimento o investitore principale. Possiamo facilitare presentazioni a potenziali investitori, fornitori di capitale o partner strategici."
+      "answer": "Gold Bridge Capital non si presenta attualmente come fondo di investimento o investitore principale. Possiamo facilitare presentazioni a potenziali investitori, fornitori di capitale o soggetti strategici."
     },
     "amount": {
+      "number": "04",
       "question": "Vendete hotel o immobili hospitality?",
       "answer": "Possiamo facilitare presentazioni riservate relative ad asset hospitality selezionati, nel rispetto della normativa applicabile e dell'autorità del relativo proprietario o rappresentante. Qualora sia richiesta un'attività di intermediazione regolamentata, questa deve essere svolta da professionisti adeguatamente autorizzati."
     },
     "term": {
+      "number": "05",
       "question": "Lavorate con opportunità off-market?",
       "answer": "Sì. Possono essere considerate opportunità selezionate presentate privatamente o off-market quando il relativo proprietario o rappresentante autorizzato abbia consentito una presentazione riservata."
     },
     "pricing": {
+      "number": "06",
       "question": "Quali progetti hospitality possono essere valutati?",
       "answer": "Possiamo valutare hotel, resort, conversioni, progetti di riqualificazione, hospitality mixed-use, branded residences, terreni di sviluppo e altri progetti credibili con soggetti identificabili e documentazione sufficiente."
     },
     "timing": {
+      "number": "07",
       "question": "Potete presentare investitori o capitale per uno sviluppo hospitality?",
       "answer": "Possono essere valutate potenziali presentazioni a investitori, finanziatori, partner joint venture o soggetti strategici adeguati. Nessun risultato di fundraising, finanziamento o investimento può essere garantito."
     },
     "acceptance": {
+      "number": "08",
       "question": "Quali asset digitali possono essere idonei al finanziamento garantito?",
       "answer": "L'idoneità è determinata esclusivamente dalla relativa istituzione finanziaria indipendente e può dipendere da liquidità, volatilità, custodia, giurisdizione, requisiti di conformità e politica istituzionale."
     },
     "repayment": {
+      "number": "09",
       "question": "Garantite un acquirente, investitore, finanziatore o un'operazione?",
       "answer": "No. Ogni opportunità resta soggetta a interesse indipendente, valutazione, due diligence, negoziazione, normativa applicabile e accordi definitivi."
     }
@@ -736,13 +748,18 @@
     "cta": "Richiesta riservata"
   },
   "Footer": {
+  "homeAriaLabel": "Home Gold Bridge Capital",
+  "brand": {
+    "main": "Gold Bridge",
+    "sub": "Capital"
+  },
   "description": "Gold Bridge Capital è un facilitatore indipendente di operazioni focalizzato su finanziamenti garantiti da asset, hospitality real estate e opportunità di sviluppo hospitality.",
   "email": "inquiries@goldbridge-capital.com",
   "navigation": {
     "title": "Navigazione",
     "approach": "Perché Gold Bridge Capital",
     "structure": "Finanziamento garantito da asset",
-    "example": "Hospitality Real Estate",
+    "transaction": "Hospitality Real Estate",
     "process": "Processo dell'operazione",
     "requirements": "Requisiti dell'opportunità"
   },
@@ -750,19 +767,20 @@
     "title": "Informazioni",
     "faq": "FAQ",
     "inquiry": "Richiesta riservata",
-    "privacy": "Privacy Policy",
-    "terms": "Termini di utilizzo",
-    "legal": "Note legali"
+    "privacyPolicy": "Privacy Policy",
+    "termsOfUse": "Termini di utilizzo",
+    "legalNotice": "Note legali"
   },
   "disclaimer": {
     "label": "Informazioni importanti",
     "text": "Gold Bridge Capital opera come facilitatore indipendente di operazioni e non fornisce direttamente servizi bancari, di credito, investimento, legali, fiscali, di valutazione o intermediazione regolamentata. Ove siano richiesti servizi regolamentati o specialistici, questi devono essere svolti da soggetti indipendenti adeguatamente autorizzati. Nessun finanziamento, investimento, acquisizione, vendita o risultato di operazione è garantito."
   },
-  "bottom": {
-    "copyright": "© 2026 Gold Bridge Capital. Tutti i diritti riservati.",
+  "copyright": "© {year} Gold Bridge Capital. Tutti i diritti riservati.",
+  "bottomLinks": {
     "privacy": "Privacy",
     "terms": "Termini",
-    "cookies": "Impostazioni cookie"
+    "legal": "Note legali",
+    "cookieSettings": "Impostazioni cookie"
   }
 },
   "ContactForm": {

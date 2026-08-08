@@ -623,47 +623,59 @@
     "text": "Depending on the opportunity, additional legal opinions, valuations, financial statements, operating data, title documents, planning information, technical reports, proof of funds, financing evidence, compliance information or other specialist materials may be required."
   }
 },
-  "FAQ": {
+ "FAQ": {
   "kicker": "Frequently Asked Questions",
   "title": {
     "main": "Selected questions about",
     "highlight": " our transaction approach."
   },
-  "introduction": "Gold Bridge Capital focuses on preliminary transaction preparation, confidential introductions and coordination. The answers below explain the general framework across asset-backed financing and hospitality opportunities.",
+  "introduction": {
+    "first": "Gold Bridge Capital focuses on preliminary transaction preparation, confidential introductions and coordination across selected private-market opportunities.",
+    "second": "The answers below explain the general framework for asset-backed financing, hospitality real estate and hospitality development transactions."
+  },
   "items": {
     "collateral": {
+      "number": "01",
       "question": "What does Gold Bridge Capital do?",
       "answer": "Gold Bridge Capital acts as an independent transaction facilitator. We help prepare selected opportunities, identify potentially relevant counterparties and coordinate confidential introductions."
     },
     "sale": {
+      "number": "02",
       "question": "Does Gold Bridge Capital provide financing directly?",
       "answer": "No. Any financing would be provided by independent banks, lenders, private-credit providers or other professional financing counterparties."
     },
     "custody": {
+      "number": "03",
       "question": "Does Gold Bridge Capital invest directly in hospitality projects?",
-      "answer": "Gold Bridge Capital does not currently represent itself as an investment fund or principal investor. We may facilitate introductions to potential investors, capital providers or strategic partners."
+      "answer": "Gold Bridge Capital does not currently represent itself as an investment fund or principal investor. We may facilitate introductions to potential investors, capital providers or strategic parties."
     },
     "amount": {
+      "number": "04",
       "question": "Do you sell hotels or hospitality properties?",
       "answer": "We may facilitate confidential introductions involving selected hospitality assets, subject to applicable law and the authority of the relevant owner or representative. Where regulated brokerage activity is required, appropriately authorised professionals must perform those activities."
     },
     "term": {
+      "number": "05",
       "question": "Do you work with off-market opportunities?",
       "answer": "Yes. Selected privately introduced or off-market opportunities may be considered where the relevant owner or authorised representative has permitted confidential presentation."
     },
     "pricing": {
+      "number": "06",
       "question": "Which hospitality projects may be considered?",
       "answer": "We may consider selected hotels, resorts, conversions, redevelopment projects, mixed-use hospitality, branded residences, development land and other credible projects with identifiable principals and sufficient supporting documentation."
     },
     "timing": {
+      "number": "07",
       "question": "Can you introduce investors or capital for a hospitality development?",
       "answer": "Potential introductions to suitable investors, lenders, joint-venture partners or strategic parties may be considered. No fundraising, financing or investment outcome can be guaranteed."
     },
     "acceptance": {
+      "number": "08",
       "question": "Which digital assets may qualify for asset-backed financing?",
       "answer": "Eligibility is determined entirely by the relevant independent financing institution and may depend on liquidity, volatility, custody, jurisdiction, compliance requirements and institutional policy."
     },
     "repayment": {
+      "number": "09",
       "question": "Do you guarantee a buyer, investor, lender or transaction?",
       "answer": "No. Every opportunity remains subject to independent interest, assessment, due diligence, negotiation, applicable regulation and definitive agreements."
     }
@@ -736,13 +748,18 @@
     "cta": "Confidential Inquiry"
   },
   "Footer": {
+  "homeAriaLabel": "Gold Bridge Capital home",
+  "brand": {
+    "main": "Gold Bridge",
+    "sub": "Capital"
+  },
   "description": "Gold Bridge Capital is an independent transaction facilitator focused on asset-backed financing, hospitality real estate and hospitality development opportunities.",
   "email": "inquiries@goldbridge-capital.com",
   "navigation": {
     "title": "Navigation",
     "approach": "Why Gold Bridge Capital",
     "structure": "Asset-Backed Financing",
-    "example": "Hospitality Real Estate",
+    "transaction": "Hospitality Real Estate",
     "process": "Transaction Process",
     "requirements": "Opportunity Requirements"
   },
@@ -750,19 +767,20 @@
     "title": "Information",
     "faq": "FAQ",
     "inquiry": "Confidential Inquiry",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Use",
-    "legal": "Legal Notice"
+    "privacyPolicy": "Privacy Policy",
+    "termsOfUse": "Terms of Use",
+    "legalNotice": "Legal Notice"
   },
   "disclaimer": {
     "label": "Important information",
     "text": "Gold Bridge Capital acts as an independent transaction facilitator and does not itself provide banking, lending, investment, legal, tax, valuation or regulated brokerage services. Where regulated or specialist services are required, these must be performed by appropriately authorised independent parties. No financing, investment, acquisition, sale or transaction outcome is guaranteed."
   },
-  "bottom": {
-    "copyright": "© 2026 Gold Bridge Capital. All rights reserved.",
+  "copyright": "© {year} Gold Bridge Capital. All rights reserved.",
+  "bottomLinks": {
     "privacy": "Privacy",
     "terms": "Terms",
-    "cookies": "Cookie Settings"
+    "legal": "Legal",
+    "cookieSettings": "Cookie Settings"
   }
 },
   "ContactForm": {

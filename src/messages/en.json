@@ -680,38 +680,38 @@
   }
 },
   "Inquiry": {
-    "kicker": "Confidential Inquiry",
-    "title": {
-      "main": "Discuss your proposed",
-      "highlight": " asset-backed transaction."
+  "kicker": "Confidential Inquiry",
+  "title": {
+    "main": "Submit a financing, hospitality",
+    "highlight": " or development opportunity."
+  },
+  "lead": "Provide a concise overview of the proposed transaction. The information will be reviewed solely to determine whether the opportunity may be suitable for further assessment or a potential confidential introduction.",
+  "principles": {
+    "confidential": {
+      "title": "Confidential Review",
+      "text": "Initial information is handled discreetly and assessed on a need-to-know basis."
     },
-    "lead": "Submit a concise overview of your financing requirement and proposed precious-metals or digital-asset collateral. The information will be used solely for an initial assessment of whether the opportunity may be suitable for further review.",
-    "principles": {
-      "confidential": {
-        "title": "Confidential handling",
-        "text": "Information is reviewed discreetly and shared only where required for assessment."
-      },
-      "assessment": {
-        "title": "Preliminary assessment",
-        "text": "The submission helps determine whether a detailed review is appropriate."
-      },
-      "structuring": {
-        "title": "Individual structuring",
-        "text": "Potential terms are developed according to the specific collateral and transaction."
-      }
+    "assessment": {
+      "title": "Preliminary Assessment",
+      "text": "We review commercial rationale, ownership or authority, documentation quality and potential counterparty relevance."
     },
-    "contact": {
-      "label": "Direct correspondence",
-      "email": "inquiries@goldbridge-capital.com",
-      "notice": "Please avoid sending original documents or highly sensitive personal information by unencrypted email."
-    },
-    "form": {
-      "overline": "Initial transaction overview",
-      "title": "Submit Your Inquiry",
-      "security": "Confidential",
-      "notice": "By submitting this form, you confirm that the information provided is accurate to the best of your knowledge. Submission does not create a client relationship, financing commitment or obligation on any party."
+    "structuring": {
+      "title": "Transaction-Specific Process",
+      "text": "The information requested changes automatically depending on the nature of the opportunity."
     }
   },
+  "contact": {
+    "label": "Direct Correspondence",
+    "email": "inquiries@goldbridge-capital.com",
+    "notice": "For sensitive or detailed due-diligence materials, please contact us first so an appropriate method of exchange can be agreed."
+  },
+  "form": {
+    "overline": "Initial Opportunity Submission",
+    "title": "Confidential Transaction Inquiry",
+    "security": "Secure First Step",
+    "notice": "Please provide only the information required for a preliminary review. Do not submit passwords, private keys, seed phrases, login credentials, original ownership documents or highly sensitive due-diligence materials through this form."
+  }
+},
   "Closing": {
   "overline": "Gold Bridge Capital",
   "title": {
@@ -766,84 +766,211 @@
   }
 },
   "ContactForm": {
-    "fields": {
-      "name": {
-        "label": "Full Name",
-        "placeholder": "Your full name"
-      },
-      "company": {
-        "label": "Company, Family Office or Organisation",
-        "placeholder": "Organisation name"
-      },
-      "email": {
-        "label": "Business Email Address",
-        "placeholder": "name@company.com"
-      },
-      "phone": {
-        "label": "Telephone Number",
-        "placeholder": "+41 ..."
-      },
-      "collateralType": {
-        "label": "Proposed Collateral Type",
-        "placeholder": "Select collateral type",
-        "options": {
-          "preciousMetals": "Precious metals",
-          "digitalAssets": "Digital assets",
-          "combination": "Combination of both"
-        }
-      },
-      "financingAmount": {
-        "label": "Requested Financing Amount",
-        "placeholder": "e.g. EUR 2,000,000"
-      },
-      "estimatedAssetValue": {
-        "label": "Estimated Total Collateral Value",
-        "placeholder": "e.g. EUR 3,000,000"
-      },
-      "preciousMetalsDescription": {
-        "label": "Precious Metals Description",
-        "placeholder": "Type, form, quantity, purity, refinery and available documentation"
-      },
-      "preciousMetalsLocation": {
-        "label": "Precious Metals Location or Custodian",
-        "placeholder": "Country, city, bank, vault or custodian"
-      },
-      "digitalAssetsDescription": {
-        "label": "Digital Assets Description",
-        "placeholder": "Asset type, approximate quantity, network and estimated value"
-      },
-      "digitalAssetCustody": {
-        "label": "Exchange, Custodian or Wallet Structure",
-        "placeholder": "Institution, exchange, custodian or wallet type — never enter private keys or seed phrases"
-      },
-      "custodyJurisdiction": {
-        "label": "Custody Jurisdiction",
-        "placeholder": "Country or jurisdiction of the custodian, exchange or account"
-      },
-      "ownershipSource": {
-        "label": "Ownership and Source Overview",
-        "placeholder": "Describe acquisition, ownership evidence and any pledge or restriction"
-      },
-      "purpose": {
-        "label": "Transaction Overview and Financing Purpose",
-        "placeholder": "Describe the purpose, preferred timeframe, repayment strategy and relevant information."
+  "fields": {
+    "name": {
+      "label": "Full Name",
+      "placeholder": "Your full name"
+    },
+    "company": {
+      "label": "Company or Organisation",
+      "placeholder": "Company, Family Office or organisation"
+    },
+    "email": {
+      "label": "Email Address",
+      "placeholder": "name@company.com"
+    },
+    "phone": {
+      "label": "Telephone Number",
+      "placeholder": "+41 ..."
+    },
+    "inquiryType": {
+      "label": "Nature of Inquiry",
+      "placeholder": "Select the type of opportunity",
+      "options": {
+        "assetBackedFinancing": "Asset-Backed Financing",
+        "hospitalitySale": "Hospitality Property for Sale",
+        "hospitalityAcquisition": "Hospitality Acquisition",
+        "hospitalityDevelopment": "Hospitality Development Project"
       }
     },
-    "confirmations": {
-      "ownership": "I confirm that I am the legal or beneficial owner of the proposed collateral or am duly authorised to act on behalf of its owner.",
-      "privacy": "I consent to the processing of the information provided for reviewing and responding to this confidential inquiry.",
-      "security": "I understand that I must never submit passwords, seed phrases, private keys or account login credentials through this form or by email."
+    "collateralType": {
+      "label": "Proposed Collateral Type",
+      "placeholder": "Select collateral type",
+      "options": {
+        "preciousMetals": "Precious Metals",
+        "digitalAssets": "Digital Assets",
+        "combination": "Combination of Both"
+      }
     },
-    "button": {
-      "idle": "Submit Confidential Inquiry",
-      "sending": "Submitting Confidential Inquiry..."
+    "financingAmount": {
+      "label": "Requested Financing Amount",
+      "placeholder": "e.g. EUR 2,000,000"
     },
-    "messages": {
-      "success": "Thank you. Your confidential inquiry has been submitted successfully. We will review the information provided and contact you if the opportunity is suitable for further assessment.",
-      "submissionError": "We were unable to submit your inquiry. Please try again.",
-      "unexpectedError": "An unexpected error occurred. Please try again."
+    "estimatedAssetValue": {
+      "label": "Estimated Total Collateral Value",
+      "placeholder": "e.g. EUR 3,000,000"
+    },
+    "preciousMetalsDescription": {
+      "label": "Precious Metals Description",
+      "placeholder": "Type, form, quantity, purity, refinery and available documentation"
+    },
+    "preciousMetalsLocation": {
+      "label": "Precious Metals Location or Custodian",
+      "placeholder": "Country, city, bank, vault or custodian"
+    },
+    "digitalAssetsDescription": {
+      "label": "Digital Assets Description",
+      "placeholder": "Asset type, approximate quantity, network and estimated value"
+    },
+    "digitalAssetCustody": {
+      "label": "Exchange, Custodian or Wallet Structure",
+      "placeholder": "Institution, exchange, custodian or wallet type — never enter private keys or seed phrases"
+    },
+    "custodyJurisdiction": {
+      "label": "Custody Jurisdiction",
+      "placeholder": "Country or jurisdiction of the custodian, exchange or account"
+    },
+    "ownershipSource": {
+      "label": "Ownership & Source Overview",
+      "placeholder": "Describe acquisition, evidence of ownership and any existing pledges or restrictions"
+    },
+    "purpose": {
+      "label": "Transaction Overview & Financing Purpose",
+      "placeholder": "Describe the purpose, preferred timing, repayment strategy and any information relevant to the proposed financing"
+    },
+    "propertyName": {
+      "label": "Property Name",
+      "placeholder": "Hotel, resort or project name, if applicable"
+    },
+    "propertyType": {
+      "label": "Property Type",
+      "placeholder": "e.g. Hotel, resort, aparthotel, boutique hotel"
+    },
+    "propertyLocation": {
+      "label": "Property Location",
+      "placeholder": "City, region and country"
+    },
+    "propertyKeys": {
+      "label": "Number of Rooms / Keys",
+      "placeholder": "e.g. 85"
+    },
+    "askingPrice": {
+      "label": "Indicative Asking Price",
+      "placeholder": "e.g. EUR 18,000,000"
+    },
+    "marketStatus": {
+      "label": "Current Market Status",
+      "placeholder": "Select current status",
+      "options": {
+        "offMarket": "Off-Market",
+        "privatelyMarketed": "Privately Marketed",
+        "publiclyMarketed": "Publicly Marketed"
+      }
+    },
+    "annualRevenue": {
+      "label": "Annual Revenue",
+      "placeholder": "Most recent annual revenue, if available"
+    },
+    "ebitdaNoi": {
+      "label": "EBITDA / NOI",
+      "placeholder": "Most recent EBITDA or NOI, if available"
+    },
+    "operatorBrand": {
+      "label": "Operator / Brand",
+      "placeholder": "Operator, hotel brand or unbranded"
+    },
+    "ownershipStructure": {
+      "label": "Ownership Structure",
+      "placeholder": "e.g. Freehold, leasehold or other structure"
+    },
+    "propertyAuthority": {
+      "label": "Ownership / Authority to Introduce",
+      "placeholder": "Explain whether you are the owner or describe your authority or relationship to the owner"
+    },
+    "propertyOverview": {
+      "label": "Property & Transaction Overview",
+      "placeholder": "Describe the asset, operating situation, transaction rationale, development potential and other relevant information"
+    },
+    "acquisitionMarkets": {
+      "label": "Target Markets",
+      "placeholder": "Countries, cities or regions of interest"
+    },
+    "acquisitionPropertyType": {
+      "label": "Target Property Type",
+      "placeholder": "e.g. Luxury hotel, resort, aparthotel, value-add hospitality"
+    },
+    "investmentRange": {
+      "label": "Investment Range",
+      "placeholder": "e.g. EUR 10,000,000 – 30,000,000"
+    },
+    "acquisitionCriteria": {
+      "label": "Acquisition Criteria",
+      "placeholder": "Describe target locations, asset profile, size, investment strategy, operating preferences and other relevant criteria"
+    },
+    "developmentLocation": {
+      "label": "Project Location",
+      "placeholder": "City, region and country"
+    },
+    "developmentProjectType": {
+      "label": "Project Type",
+      "placeholder": "e.g. Hotel, resort, conversion, branded residences"
+    },
+    "developmentStage": {
+      "label": "Development Stage",
+      "placeholder": "e.g. Concept, planning, permitted, under construction"
+    },
+    "developmentKeys": {
+      "label": "Planned Rooms / Keys",
+      "placeholder": "e.g. 120"
+    },
+    "landControl": {
+      "label": "Land Ownership / Control",
+      "placeholder": "Describe ownership, option, lease, SPA or other site-control arrangement"
+    },
+    "planningStatus": {
+      "label": "Planning / Permit Status",
+      "placeholder": "Describe zoning, planning permissions, building permits and current status"
+    },
+    "totalDevelopmentCost": {
+      "label": "Total Development Cost",
+      "placeholder": "e.g. EUR 45,000,000"
+    },
+    "capitalInvested": {
+      "label": "Capital Invested to Date",
+      "placeholder": "Sponsor capital already invested, if applicable"
+    },
+    "debtRequired": {
+      "label": "Debt Required",
+      "placeholder": "Requested debt financing, if applicable"
+    },
+    "equityRequired": {
+      "label": "Equity / JV Capital Required",
+      "placeholder": "Required equity or joint-venture capital, if applicable"
+    },
+    "developmentOperatorBrand": {
+      "label": "Operator / Brand Status",
+      "placeholder": "Existing operator, brand discussions, LOI or currently unbranded"
+    },
+    "developmentOverview": {
+      "label": "Development & Capital Overview",
+      "placeholder": "Describe the project, sponsor position, development concept, capital requirement, timeline and relevant commercial information"
     }
   },
+  "confirmations": {
+    "authority": "I confirm that I am the relevant principal, owner or authorised representative, or that I am otherwise authorised to submit this opportunity for preliminary review.",
+    "privacy": "I consent to the processing of the information provided for the purpose of reviewing and responding to this confidential inquiry.",
+    "security": "I understand that I must not submit passwords, seed phrases, private keys, login credentials, original ownership documents or sensitive due-diligence materials through this form."
+  },
+  "button": {
+    "idle": "Submit Confidential Inquiry",
+    "sending": "Submitting Confidential Inquiry..."
+  },
+  "messages": {
+    "success": "Thank you. Your confidential inquiry has been received successfully. The information provided will be reviewed on a preliminary basis and we will contact you if the opportunity appears suitable for further assessment.",
+    "submissionError": "We were unable to submit your inquiry. Please try again.",
+    "unexpectedError": "An unexpected error occurred. Please try again."
+  }
+},
   "Metadata": {
   "title": "Gold Bridge Capital | Asset-Backed Financing & Hospitality Transactions",
   "description": "Independent transaction facilitation across asset-backed financing, hospitality real estate and hospitality development opportunities."

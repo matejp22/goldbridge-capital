@@ -680,38 +680,38 @@
   }
 },
   "Inquiry": {
-    "kicker": "Vertrauliche Anfrage",
-    "title": {
-      "main": "Besprechen Sie Ihre geplante",
-      "highlight": " vermögensbesicherte Transaktion."
+  "kicker": "Vertrauliche Anfrage",
+  "title": {
+    "main": "Finanzierungs-, Hospitality-",
+    "highlight": " oder Entwicklungsmöglichkeit einreichen."
+  },
+  "lead": "Übermitteln Sie eine kurze Übersicht über die vorgeschlagene Transaktion. Die Informationen werden ausschließlich geprüft, um festzustellen, ob die Möglichkeit für eine weitergehende Bewertung oder potenzielle vertrauliche Vorstellung geeignet sein könnte.",
+  "principles": {
+    "confidential": {
+      "title": "Vertrauliche Prüfung",
+      "text": "Erste Informationen werden diskret und nach dem Need-to-know-Prinzip behandelt."
     },
-    "lead": "Übermitteln Sie eine kurze Übersicht über Ihren Finanzierungsbedarf und die vorgeschlagenen Edelmetall- oder Digital-Asset-Sicherheiten. Die Informationen werden ausschließlich für eine erste Prüfung verwendet, ob die Möglichkeit für eine weitergehende Bewertung geeignet sein könnte.",
-    "principles": {
-      "confidential": {
-        "title": "Vertrauliche Behandlung",
-        "text": "Informationen werden diskret geprüft und nur weitergegeben, soweit dies für die Bewertung erforderlich ist."
-      },
-      "assessment": {
-        "title": "Vorläufige Prüfung",
-        "text": "Die Einreichung hilft festzustellen, ob eine detaillierte Prüfung angemessen ist."
-      },
-      "structuring": {
-        "title": "Individuelle Strukturierung",
-        "text": "Mögliche Konditionen werden entsprechend der konkreten Sicherheit und Transaktion entwickelt."
-      }
+    "assessment": {
+      "title": "Vorläufige Bewertung",
+      "text": "Wir prüfen wirtschaftliche Logik, Eigentum oder Befugnis, Qualität der Dokumentation und potenzielle Relevanz für Gegenparteien."
     },
-    "contact": {
-      "label": "Direkte Korrespondenz",
-      "email": "inquiries@goldbridge-capital.com",
-      "notice": "Bitte senden Sie keine Originaldokumente oder hochsensiblen personenbezogenen Informationen per unverschlüsselter E-Mail."
-    },
-    "form": {
-      "overline": "Erste Transaktionsübersicht",
-      "title": "Anfrage einreichen",
-      "security": "Vertraulich",
-      "notice": "Mit dem Absenden dieses Formulars bestätigen Sie, dass die bereitgestellten Informationen nach bestem Wissen richtig sind. Die Einreichung begründet weder eine Kundenbeziehung noch eine Finanzierungszusage oder Verpflichtung einer Partei."
+    "structuring": {
+      "title": "Transaktionsspezifischer Prozess",
+      "text": "Die abgefragten Informationen passen sich automatisch an die Art der ausgewählten Möglichkeit an."
     }
   },
+  "contact": {
+    "label": "Direkte Korrespondenz",
+    "email": "inquiries@goldbridge-capital.com",
+    "notice": "Für sensible oder detaillierte Due-Diligence-Unterlagen kontaktieren Sie uns bitte zuerst, damit eine geeignete Übermittlungsmethode vereinbart werden kann."
+  },
+  "form": {
+    "overline": "Erste Einreichung",
+    "title": "Vertrauliche Transaktionsanfrage",
+    "security": "Sicherer erster Schritt",
+    "notice": "Bitte übermitteln Sie nur die für eine vorläufige Prüfung erforderlichen Informationen. Senden Sie über dieses Formular keine Passwörter, privaten Schlüssel, Seed-Phrasen, Zugangsdaten, Original-Eigentumsunterlagen oder hochsensiblen Due-Diligence-Unterlagen."
+  }
+},
   "Closing": {
   "overline": "Gold Bridge Capital",
   "title": {
@@ -766,84 +766,211 @@
   }
 },
   "ContactForm": {
-    "fields": {
-      "name": {
-        "label": "Vollständiger Name",
-        "placeholder": "Ihr vollständiger Name"
-      },
-      "company": {
-        "label": "Unternehmen, Family Office oder Organisation",
-        "placeholder": "Name der Organisation"
-      },
-      "email": {
-        "label": "Geschäftliche E-Mail-Adresse",
-        "placeholder": "name@unternehmen.com"
-      },
-      "phone": {
-        "label": "Telefonnummer",
-        "placeholder": "+41 ..."
-      },
-      "collateralType": {
-        "label": "Vorgeschlagene Sicherheitenart",
-        "placeholder": "Sicherheitenart auswählen",
-        "options": {
-          "preciousMetals": "Edelmetalle",
-          "digitalAssets": "Digitale Vermögenswerte",
-          "combination": "Kombination aus beiden"
-        }
-      },
-      "financingAmount": {
-        "label": "Gewünschter Finanzierungsbetrag",
-        "placeholder": "z. B. EUR 2.000.000"
-      },
-      "estimatedAssetValue": {
-        "label": "Geschätzter Gesamtwert der Sicherheit",
-        "placeholder": "z. B. EUR 3.000.000"
-      },
-      "preciousMetalsDescription": {
-        "label": "Beschreibung der Edelmetalle",
-        "placeholder": "Art, Form, Menge, Reinheit, Raffinerie und verfügbare Unterlagen"
-      },
-      "preciousMetalsLocation": {
-        "label": "Standort oder Verwahrer der Edelmetalle",
-        "placeholder": "Land, Stadt, Bank, Tresor oder Verwahrer"
-      },
-      "digitalAssetsDescription": {
-        "label": "Beschreibung der digitalen Vermögenswerte",
-        "placeholder": "Vermögensart, ungefähre Menge, Netzwerk und geschätzter Wert"
-      },
-      "digitalAssetCustody": {
-        "label": "Börse, Verwahrer oder Wallet-Struktur",
-        "placeholder": "Institut, Börse, Verwahrer oder Wallet-Typ — niemals private Schlüssel oder Seed-Phrasen eingeben"
-      },
-      "custodyJurisdiction": {
-        "label": "Verwahrungsrechtsordnung",
-        "placeholder": "Land oder Rechtsordnung des Verwahrers, der Börse oder des Kontos"
-      },
-      "ownershipSource": {
-        "label": "Übersicht zu Eigentum und Herkunft",
-        "placeholder": "Beschreiben Sie Erwerb, Eigentumsnachweis und bestehende Verpfändungen oder Beschränkungen"
-      },
-      "purpose": {
-        "label": "Transaktionsübersicht und Finanzierungszweck",
-        "placeholder": "Beschreiben Sie Zweck, bevorzugten Zeitraum, Rückzahlungsstrategie und relevante Informationen."
+  "fields": {
+    "name": {
+      "label": "Vollständiger Name",
+      "placeholder": "Ihr vollständiger Name"
+    },
+    "company": {
+      "label": "Unternehmen oder Organisation",
+      "placeholder": "Unternehmen, Family Office oder Organisation"
+    },
+    "email": {
+      "label": "E-Mail-Adresse",
+      "placeholder": "name@unternehmen.com"
+    },
+    "phone": {
+      "label": "Telefonnummer",
+      "placeholder": "+41 ..."
+    },
+    "inquiryType": {
+      "label": "Art der Anfrage",
+      "placeholder": "Art der Möglichkeit auswählen",
+      "options": {
+        "assetBackedFinancing": "Vermögensbesicherte Finanzierung",
+        "hospitalitySale": "Hospitality-Immobilie zum Verkauf",
+        "hospitalityAcquisition": "Hospitality-Akquisition",
+        "hospitalityDevelopment": "Hospitality-Entwicklungsprojekt"
       }
     },
-    "confirmations": {
-      "ownership": "Ich bestätige, dass ich rechtlicher oder wirtschaftlicher Eigentümer der vorgeschlagenen Sicherheit bin oder ordnungsgemäß bevollmächtigt bin, im Namen des Eigentümers zu handeln.",
-      "privacy": "Ich stimme der Verarbeitung der bereitgestellten Informationen zur Prüfung und Beantwortung dieser vertraulichen Anfrage zu.",
-      "security": "Mir ist bewusst, dass ich über dieses Formular oder per E-Mail niemals Passwörter, Seed-Phrasen, private Schlüssel oder Kontozugangsdaten übermitteln darf."
+    "collateralType": {
+      "label": "Vorgeschlagene Sicherheitenart",
+      "placeholder": "Sicherheitenart auswählen",
+      "options": {
+        "preciousMetals": "Edelmetalle",
+        "digitalAssets": "Digitale Vermögenswerte",
+        "combination": "Kombination aus beiden"
+      }
     },
-    "button": {
-      "idle": "Vertrauliche Anfrage absenden",
-      "sending": "Vertrauliche Anfrage wird gesendet..."
+    "financingAmount": {
+      "label": "Gewünschter Finanzierungsbetrag",
+      "placeholder": "z. B. EUR 2.000.000"
     },
-    "messages": {
-      "success": "Vielen Dank. Ihre vertrauliche Anfrage wurde erfolgreich übermittelt. Wir prüfen die Informationen und kontaktieren Sie, sofern die Möglichkeit für eine weitere Bewertung geeignet ist.",
-      "submissionError": "Ihre Anfrage konnte nicht übermittelt werden. Bitte versuchen Sie es erneut.",
-      "unexpectedError": "Ein unerwarteter Fehler ist aufgetreten. Bitte versuchen Sie es erneut."
+    "estimatedAssetValue": {
+      "label": "Geschätzter Gesamtwert der Sicherheit",
+      "placeholder": "z. B. EUR 3.000.000"
+    },
+    "preciousMetalsDescription": {
+      "label": "Beschreibung der Edelmetalle",
+      "placeholder": "Art, Form, Menge, Reinheit, Raffinerie und verfügbare Unterlagen"
+    },
+    "preciousMetalsLocation": {
+      "label": "Standort oder Verwahrer der Edelmetalle",
+      "placeholder": "Land, Stadt, Bank, Tresor oder Verwahrer"
+    },
+    "digitalAssetsDescription": {
+      "label": "Beschreibung der digitalen Vermögenswerte",
+      "placeholder": "Vermögensart, ungefähre Menge, Netzwerk und geschätzter Wert"
+    },
+    "digitalAssetCustody": {
+      "label": "Börse, Verwahrer oder Wallet-Struktur",
+      "placeholder": "Institut, Börse, Verwahrer oder Wallet-Typ — niemals private Schlüssel oder Seed-Phrasen eingeben"
+    },
+    "custodyJurisdiction": {
+      "label": "Verwahrungsrechtsordnung",
+      "placeholder": "Land oder Rechtsordnung des Verwahrers, der Börse oder des Kontos"
+    },
+    "ownershipSource": {
+      "label": "Übersicht zu Eigentum & Herkunft",
+      "placeholder": "Beschreiben Sie Erwerb, Eigentumsnachweis und bestehende Verpfändungen oder Einschränkungen"
+    },
+    "purpose": {
+      "label": "Transaktionsübersicht & Finanzierungszweck",
+      "placeholder": "Beschreiben Sie Zweck, bevorzugten Zeitraum, Rückzahlungsstrategie und weitere relevante Informationen"
+    },
+    "propertyName": {
+      "label": "Name der Immobilie",
+      "placeholder": "Name des Hotels, Resorts oder Projekts, falls zutreffend"
+    },
+    "propertyType": {
+      "label": "Immobilienart",
+      "placeholder": "z. B. Hotel, Resort, Aparthotel, Boutique-Hotel"
+    },
+    "propertyLocation": {
+      "label": "Standort der Immobilie",
+      "placeholder": "Stadt, Region und Land"
+    },
+    "propertyKeys": {
+      "label": "Zimmer / Keys",
+      "placeholder": "z. B. 85"
+    },
+    "askingPrice": {
+      "label": "Indikative Preisvorstellung",
+      "placeholder": "z. B. EUR 18.000.000"
+    },
+    "marketStatus": {
+      "label": "Aktueller Vermarktungsstatus",
+      "placeholder": "Aktuellen Status auswählen",
+      "options": {
+        "offMarket": "Off-Market",
+        "privatelyMarketed": "Privat vermarktet",
+        "publiclyMarketed": "Öffentlich vermarktet"
+      }
+    },
+    "annualRevenue": {
+      "label": "Jahresumsatz",
+      "placeholder": "Letzter verfügbarer Jahresumsatz"
+    },
+    "ebitdaNoi": {
+      "label": "EBITDA / NOI",
+      "placeholder": "Letztes verfügbares EBITDA oder NOI"
+    },
+    "operatorBrand": {
+      "label": "Betreiber / Marke",
+      "placeholder": "Betreiber, Hotelmarke oder unbranded"
+    },
+    "ownershipStructure": {
+      "label": "Eigentumsstruktur",
+      "placeholder": "z. B. Eigentum, Pacht oder andere Struktur"
+    },
+    "propertyAuthority": {
+      "label": "Eigentum / Befugnis zur Vorstellung",
+      "placeholder": "Erläutern Sie, ob Sie Eigentümer sind oder welche Befugnis beziehungsweise Beziehung zum Eigentümer besteht"
+    },
+    "propertyOverview": {
+      "label": "Immobilien- & Transaktionsübersicht",
+      "placeholder": "Beschreiben Sie Objekt, Betriebssituation, Transaktionsgrund, Entwicklungspotenzial und weitere relevante Informationen"
+    },
+    "acquisitionMarkets": {
+      "label": "Zielmärkte",
+      "placeholder": "Länder, Städte oder Regionen von Interesse"
+    },
+    "acquisitionPropertyType": {
+      "label": "Gesuchte Immobilienart",
+      "placeholder": "z. B. Luxushotel, Resort, Aparthotel, Value-Add-Hospitality"
+    },
+    "investmentRange": {
+      "label": "Investitionsrahmen",
+      "placeholder": "z. B. EUR 10.000.000 – 30.000.000"
+    },
+    "acquisitionCriteria": {
+      "label": "Akquisitionskriterien",
+      "placeholder": "Beschreiben Sie Zielstandorte, Asset-Profil, Größe, Investmentstrategie, Betreiberpräferenzen und weitere relevante Kriterien"
+    },
+    "developmentLocation": {
+      "label": "Projektstandort",
+      "placeholder": "Stadt, Region und Land"
+    },
+    "developmentProjectType": {
+      "label": "Projektart",
+      "placeholder": "z. B. Hotel, Resort, Konversion, Branded Residences"
+    },
+    "developmentStage": {
+      "label": "Entwicklungsstand",
+      "placeholder": "z. B. Konzept, Planung, genehmigt, im Bau"
+    },
+    "developmentKeys": {
+      "label": "Geplante Zimmer / Keys",
+      "placeholder": "z. B. 120"
+    },
+    "landControl": {
+      "label": "Grundstückseigentum / Kontrolle",
+      "placeholder": "Beschreiben Sie Eigentum, Option, Pacht, Kaufvertrag oder eine andere Form der Standortkontrolle"
+    },
+    "planningStatus": {
+      "label": "Planungs- / Genehmigungsstatus",
+      "placeholder": "Beschreiben Sie Widmung, Planungsstatus, Baugenehmigungen und aktuellen Stand"
+    },
+    "totalDevelopmentCost": {
+      "label": "Gesamtentwicklungskosten",
+      "placeholder": "z. B. EUR 45.000.000"
+    },
+    "capitalInvested": {
+      "label": "Bisher investiertes Kapital",
+      "placeholder": "Bereits investiertes Sponsor-Kapital, falls zutreffend"
+    },
+    "debtRequired": {
+      "label": "Benötigtes Fremdkapital",
+      "placeholder": "Gewünschte Fremdfinanzierung, falls zutreffend"
+    },
+    "equityRequired": {
+      "label": "Benötigtes Eigenkapital / JV-Kapital",
+      "placeholder": "Benötigtes Eigenkapital oder Joint-Venture-Kapital"
+    },
+    "developmentOperatorBrand": {
+      "label": "Betreiber- / Markenstatus",
+      "placeholder": "Bestehender Betreiber, Markengespräche, LOI oder derzeit unbranded"
+    },
+    "developmentOverview": {
+      "label": "Projekt- & Kapitalübersicht",
+      "placeholder": "Beschreiben Sie Projekt, Sponsor-Position, Entwicklungskonzept, Kapitalbedarf, Zeitplan und relevante wirtschaftliche Informationen"
     }
   },
+  "confirmations": {
+    "authority": "Ich bestätige, dass ich der relevante Hauptbeteiligte, Eigentümer oder autorisierte Vertreter bin oder anderweitig befugt bin, diese Möglichkeit zur vorläufigen Prüfung einzureichen.",
+    "privacy": "Ich stimme der Verarbeitung der bereitgestellten Informationen zum Zweck der Prüfung und Beantwortung dieser vertraulichen Anfrage zu.",
+    "security": "Ich verstehe, dass ich über dieses Formular keine Passwörter, Seed-Phrasen, privaten Schlüssel, Zugangsdaten, Original-Eigentumsunterlagen oder sensiblen Due-Diligence-Unterlagen übermitteln darf."
+  },
+  "button": {
+    "idle": "Vertrauliche Anfrage absenden",
+    "sending": "Vertrauliche Anfrage wird gesendet..."
+  },
+  "messages": {
+    "success": "Vielen Dank. Ihre vertrauliche Anfrage wurde erfolgreich übermittelt. Die Informationen werden vorläufig geprüft und wir kontaktieren Sie, sofern die Möglichkeit für eine weitergehende Bewertung geeignet erscheint.",
+    "submissionError": "Ihre Anfrage konnte nicht übermittelt werden. Bitte versuchen Sie es erneut.",
+    "unexpectedError": "Ein unerwarteter Fehler ist aufgetreten. Bitte versuchen Sie es erneut."
+  }
+},
   "Metadata": {
   "title": "Gold Bridge Capital | Vermögensbesicherte Finanzierung & Hospitality-Transaktionen",
   "description": "Unabhängige Transaktionsvermittlung für vermögensbesicherte Finanzierung, Hospitality-Immobilien und Hospitality-Entwicklungsmöglichkeiten."

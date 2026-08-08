@@ -624,73 +624,61 @@
   }
 },
   "FAQ": {
-    "kicker": "Frequently Asked Questions",
-    "title": {
-      "main": "Essential information before",
-      "highlight": " submitting an inquiry."
+  "kicker": "Frequently Asked Questions",
+  "title": {
+    "main": "Selected questions about",
+    "highlight": " our transaction approach."
+  },
+  "introduction": "Gold Bridge Capital focuses on preliminary transaction preparation, confidential introductions and coordination. The answers below explain the general framework across asset-backed financing and hospitality opportunities.",
+  "items": {
+    "collateral": {
+      "question": "What does Gold Bridge Capital do?",
+      "answer": "Gold Bridge Capital acts as an independent transaction facilitator. We help prepare selected opportunities, identify potentially relevant counterparties and coordinate confidential introductions."
     },
-    "introduction": {
-      "first": "The answers below provide a general overview of the potential transaction process. Each case remains subject to individual review, documentation, legal structuring and approval.",
-      "second": "No information on this website should be interpreted as a binding offer, investment recommendation or commitment to provide financing."
+    "sale": {
+      "question": "Does Gold Bridge Capital provide financing directly?",
+      "answer": "No. Any financing would be provided by independent banks, lenders, private-credit providers or other professional financing counterparties."
     },
-    "items": {
-      "collateral": {
-        "number": "01",
-        "question": "Which assets may be considered as collateral?",
-        "answer": "Potential collateral may include clearly identifiable physical investment-grade precious metals and selected digital assets accepted by the relevant institution with verifiable purity, ownership, provenance and supporting documentation. The accepted form, refinery, bar size, location and custody conditions depend on the requirements of the relevant transaction parties."
-      },
-      "sale": {
-        "number": "02",
-        "question": "Does the client sell the collateral?",
-        "answer": "The intended structure is financing secured by eligible precious metals and selected digital assets rather than an outright sale. The client is expected to retain legal ownership, subject to the contractual security, custody and enforcement rights established in the final transaction documents."
-      },
-      "custody": {
-        "number": "03",
-        "question": "Where are the assets held during the financing period?",
-        "answer": "The collateral is held or controlled under custody arrangements accepted by the relevant parties. Depending on the transaction, this may involve an approved bank, vault operator, custodian or other professional storage provider in an agreed jurisdiction."
-      },
-      "amount": {
-        "number": "04",
-        "question": "How much financing may be available?",
-        "answer": "The potential financing amount depends on the independently assessed collateral value, asset type, liquidity, volatility and custody, market conditions, requested term, client profile and risk requirements of the financing party. No fixed advance ratio can be guaranteed before full review."
-      },
-      "term": {
-        "number": "05",
-        "question": "What is the maximum financing term?",
-        "answer": "The precise term is determined individually by the selected institution. The precise term is determined individually and depends on the proposed use of funds, repayment strategy and approval of the relevant parties."
-      },
-      "pricing": {
-        "number": "06",
-        "question": "How are pricing and transaction costs determined?",
-        "answer": "Pricing is established individually after review of the collateral and transaction. Total costs may include financing charges, arrangement fees, legal costs, custody, transportation, insurance, assay, valuation, blockchain analytics, compliance and other professional expenses."
-      },
-      "timing": {
-        "number": "07",
-        "question": "How quickly can a transaction be completed?",
-        "answer": "Completion time depends heavily on document quality, collateral location, ownership verification, compliance review, valuation, legal preparation and custody arrangements. A specific completion date cannot be promised before all required information has been reviewed."
-      },
-      "acceptance": {
-        "number": "08",
-        "question": "Is every submitted transaction accepted?",
-        "answer": "No. Every inquiry is assessed individually. Gold Bridge Capital and the relevant independent parties may decline a transaction at any stage where documentation, compliance, collateral eligibility, commercial terms or risk requirements are not satisfactory."
-      },
-      "repayment": {
-        "number": "09",
-        "question": "What happens after the financing has been repaid?",
-        "answer": "Once all repayment obligations, fees and other contractual conditions have been fully satisfied, the collateral is released in accordance with the definitive transaction and custody documents."
-      }
+    "custody": {
+      "question": "Does Gold Bridge Capital invest directly in hospitality projects?",
+      "answer": "Gold Bridge Capital does not currently represent itself as an investment fund or principal investor. We may facilitate introductions to potential investors, capital providers or strategic partners."
     },
-    "sidebar": {
-      "overline": "Confidential discussion",
-      "title": "Your transaction may require a more specific assessment.",
-      "text": "Provide a concise overview of your proposed collateral, financing requirement and intended use of funds. The initial submission will be reviewed confidentially.",
-      "button": "Start a Confidential Inquiry"
+    "amount": {
+      "question": "Do you sell hotels or hospitality properties?",
+      "answer": "We may facilitate confidential introductions involving selected hospitality assets, subject to applicable law and the authority of the relevant owner or representative. Where regulated brokerage activity is required, appropriately authorised professionals must perform those activities."
     },
-    "disclaimer": {
-      "label": "Important information",
-      "text": "Gold Bridge Capital does not represent that financing will be available for every applicant or transaction. Any potential transaction remains subject to satisfactory due diligence, definitive documentation and approval."
+    "term": {
+      "question": "Do you work with off-market opportunities?",
+      "answer": "Yes. Selected privately introduced or off-market opportunities may be considered where the relevant owner or authorised representative has permitted confidential presentation."
+    },
+    "pricing": {
+      "question": "Which hospitality projects may be considered?",
+      "answer": "We may consider selected hotels, resorts, conversions, redevelopment projects, mixed-use hospitality, branded residences, development land and other credible projects with identifiable principals and sufficient supporting documentation."
+    },
+    "timing": {
+      "question": "Can you introduce investors or capital for a hospitality development?",
+      "answer": "Potential introductions to suitable investors, lenders, joint-venture partners or strategic parties may be considered. No fundraising, financing or investment outcome can be guaranteed."
+    },
+    "acceptance": {
+      "question": "Which digital assets may qualify for asset-backed financing?",
+      "answer": "Eligibility is determined entirely by the relevant independent financing institution and may depend on liquidity, volatility, custody, jurisdiction, compliance requirements and institutional policy."
+    },
+    "repayment": {
+      "question": "Do you guarantee a buyer, investor, lender or transaction?",
+      "answer": "No. Every opportunity remains subject to independent interest, assessment, due diligence, negotiation, applicable regulation and definitive agreements."
     }
   },
+  "sidebar": {
+    "overline": "Need to discuss a situation?",
+    "title": "Every transaction is different.",
+    "text": "If your opportunity does not fit neatly into one category, a preliminary confidential discussion may help determine whether it falls within the current focus of Gold Bridge Capital.",
+    "button": "Discuss an Opportunity"
+  },
+  "disclaimer": {
+    "label": "Important",
+    "text": "The information on this website is general and does not constitute financing, investment, legal, tax, valuation or regulated brokerage advice."
+  }
+},
   "Inquiry": {
     "kicker": "Confidential Inquiry",
     "title": {
@@ -725,14 +713,14 @@
     }
   },
   "Closing": {
-    "overline": "Gold Bridge Capital",
-    "title": {
-      "main": "Structured liquidity.",
-      "highlight": " Preserved ownership."
-    },
-    "text": "A discreet and disciplined approach to financing secured by eligible precious metals and selected digital assets.",
-    "button": "Discuss a Transaction"
+  "overline": "Gold Bridge Capital",
+  "title": {
+    "main": "Capital. Assets.",
+    "highlight": " Opportunity."
   },
+  "text": "A confidential and disciplined approach to selected asset-backed financing, hospitality real estate and hospitality development transactions.",
+  "button": "Discuss an Opportunity"
+},
   "Header": {
     "homeAriaLabel": "Gold Bridge Capital home",
     "brand": {
@@ -748,41 +736,35 @@
     "cta": "Confidential Inquiry"
   },
   "Footer": {
-    "homeAriaLabel": "Gold Bridge Capital home",
-    "brand": {
-      "main": "Gold Bridge",
-      "sub": "Capital"
-    },
-    "description": "Gold Bridge Capital facilitates the assessment and coordination of potential short-term financing transactions secured by eligible precious metals and selected digital assets.",
-    "email": "inquiries@goldbridge-capital.com",
-    "navigation": {
-      "title": "Navigation",
-      "approach": "Our Approach",
-      "structure": "How It Works",
-      "transaction": "Illustrative Transaction",
-      "process": "Transaction Process",
-      "requirements": "Requirements"
-    },
-    "information": {
-      "title": "Information",
-      "faq": "Frequently Asked Questions",
-      "inquiry": "Confidential Inquiry",
-      "privacyPolicy": "Privacy Policy",
-      "termsOfUse": "Terms of Use",
-      "legalNotice": "Legal Notice"
-    },
-    "disclaimer": {
-      "label": "Important legal information",
-      "text": "The content of this website is provided for general informational purposes only. It does not constitute financial, legal, tax or investment advice, an offer to lend, an offer of securities or a commitment to arrange or provide financing. Any potential transaction is subject to client and collateral due diligence, compliance review, independent verification, definitive legal documentation and approval by the relevant parties. Gold Bridge Capital does not guarantee that financing will be available or that any transaction will be completed."
-    },
-    "copyright": "© {year} Gold Bridge Capital. All rights reserved.",
-    "bottomLinks": {
-      "privacy": "Privacy",
-      "terms": "Terms",
-      "legal": "Legal",
-      "cookieSettings": "Cookie settings"
-    }
+  "description": "Gold Bridge Capital is an independent transaction facilitator focused on asset-backed financing, hospitality real estate and hospitality development opportunities.",
+  "email": "inquiries@goldbridge-capital.com",
+  "navigation": {
+    "title": "Navigation",
+    "approach": "Why Gold Bridge Capital",
+    "structure": "Asset-Backed Financing",
+    "example": "Hospitality Real Estate",
+    "process": "Transaction Process",
+    "requirements": "Opportunity Requirements"
   },
+  "information": {
+    "title": "Information",
+    "faq": "FAQ",
+    "inquiry": "Confidential Inquiry",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "legal": "Legal Notice"
+  },
+  "disclaimer": {
+    "label": "Important information",
+    "text": "Gold Bridge Capital acts as an independent transaction facilitator and does not itself provide banking, lending, investment, legal, tax, valuation or regulated brokerage services. Where regulated or specialist services are required, these must be performed by appropriately authorised independent parties. No financing, investment, acquisition, sale or transaction outcome is guaranteed."
+  },
+  "bottom": {
+    "copyright": "© 2026 Gold Bridge Capital. All rights reserved.",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "cookies": "Cookie Settings"
+  }
+},
   "ContactForm": {
     "fields": {
       "name": {
@@ -863,9 +845,9 @@
     }
   },
   "Metadata": {
-    "title": "Gold Bridge Capital | Precious Metals & Digital Asset Financing",
-    "description": "Confidential short-term financing solutions secured by eligible precious metals and selected digital assets for qualified private and corporate clients."
-  },
+  "title": "Gold Bridge Capital | Asset-Backed Financing & Hospitality Transactions",
+  "description": "Independent transaction facilitation across asset-backed financing, hospitality real estate and hospitality development opportunities."
+},
   "Privacy": {
     "kicker": "Privacy & Data Protection",
     "title": "Privacy Policy",

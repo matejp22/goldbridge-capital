@@ -624,73 +624,61 @@
   }
 },
   "FAQ": {
-    "kicker": "Domande frequenti",
-    "title": {
-      "main": "Informazioni essenziali prima",
-      "highlight": " di inviare una richiesta."
+  "kicker": "Domande frequenti",
+  "title": {
+    "main": "Domande selezionate sul",
+    "highlight": " nostro approccio alle operazioni."
+  },
+  "introduction": "Gold Bridge Capital si concentra sulla preparazione preliminare delle operazioni, presentazioni riservate e coordinamento. Le risposte seguenti spiegano il quadro generale relativo al finanziamento garantito da asset e alle opportunità hospitality.",
+  "items": {
+    "collateral": {
+      "question": "Cosa fa Gold Bridge Capital?",
+      "answer": "Gold Bridge Capital opera come facilitatore indipendente di operazioni. Aiutiamo a preparare opportunità selezionate, identificare potenziali controparti rilevanti e coordinare presentazioni riservate."
     },
-    "introduction": {
-      "first": "Le risposte riportate di seguito forniscono una panoramica generale del potenziale processo operativo. Ogni caso resta soggetto a valutazione individuale, documentazione, strutturazione legale e approvazione.",
-      "second": "Nessuna informazione presente su questo sito deve essere interpretata come un'offerta vincolante, una raccomandazione di investimento o un impegno a fornire finanziamenti."
+    "sale": {
+      "question": "Gold Bridge Capital fornisce direttamente finanziamenti?",
+      "answer": "No. Qualsiasi finanziamento sarebbe fornito da banche indipendenti, finanziatori, operatori di private credit o altre controparti professionali."
     },
-    "items": {
-      "collateral": {
-        "number": "01",
-        "question": "Quali attività possono essere considerate come garanzia?",
-        "answer": "In generale, le operazioni dovrebbero riguardare metalli preziosi fisici chiaramente identificabili e determinati asset digitali, con purezza, proprietà, provenienza e documentazione verificabili. La forma accettata, la raffineria, la dimensione dei lingotti, l'ubicazione e le condizioni di custodia dipendono dai requisiti delle parti coinvolte."
-      },
-      "sale": {
-        "number": "02",
-        "question": "Il cliente vende la garanzia?",
-        "answer": "La struttura prevista è un finanziamento garantito da attività idonee, non una vendita definitiva. Il cliente dovrebbe mantenere la proprietà legale, fatte salve le garanzie contrattuali, i diritti di custodia e di escussione stabiliti nei documenti definitivi."
-      },
-      "custody": {
-        "number": "03",
-        "question": "Dove vengono detenute le attività durante il finanziamento?",
-        "answer": "La garanzia viene detenuta o controllata secondo accordi di custodia accettati dalle parti pertinenti. A seconda dell'operazione, ciò può coinvolgere una banca approvata, un operatore di caveau, un custode o un altro fornitore professionale di deposito in una giurisdizione concordata."
-      },
-      "amount": {
-        "number": "04",
-        "question": "Quale importo di finanziamento può essere disponibile?",
-        "answer": "L'importo potenziale dipende dal valore della garanzia valutato in modo indipendente, dalla tipo di attività, liquidità, volatilità e custodia, dalle condizioni di mercato, dalla durata richiesta, dal profilo del cliente e dai requisiti di rischio della parte finanziatrice. Nessun rapporto di anticipo fisso può essere garantito prima della valutazione completa."
-      },
-      "term": {
-        "number": "05",
-        "question": "Qual è la durata massima del finanziamento?",
-        "answer": "La durata precisa viene determinata individualmente dall’istituzione selezionata. La durata precisa viene determinata individualmente e dipende dall'uso previsto dei fondi, dalla strategia di rimborso e dall'approvazione delle parti pertinenti."
-      },
-      "pricing": {
-        "number": "06",
-        "question": "Come vengono determinati i prezzi e i costi dell'operazione?",
-        "answer": "I prezzi vengono stabiliti individualmente dopo la valutazione della garanzia e dell'operazione. I costi totali possono includere oneri finanziari, commissioni di organizzazione, costi legali, custodia, trasporto, assicurazione, saggio, valutazione, analisi blockchain, conformità e altre spese professionali."
-      },
-      "timing": {
-        "number": "07",
-        "question": "Quanto rapidamente può essere completata un'operazione?",
-        "answer": "I tempi dipendono fortemente dalla qualità della documentazione, dall'ubicazione della garanzia, dalla verifica della proprietà, dalla conformità, dalla valutazione, dalla preparazione legale e dagli accordi di custodia. Non può essere promessa una data specifica prima della valutazione di tutte le informazioni richieste."
-      },
-      "acceptance": {
-        "number": "08",
-        "question": "Ogni operazione presentata viene accettata?",
-        "answer": "No. Ogni richiesta viene valutata individualmente. Gold Bridge Capital e le parti indipendenti pertinenti possono rifiutare un'operazione in qualsiasi fase se documentazione, conformità, idoneità della garanzia, termini commerciali o requisiti di rischio non sono soddisfacenti."
-      },
-      "repayment": {
-        "number": "09",
-        "question": "Cosa accade dopo il rimborso del finanziamento?",
-        "answer": "Una volta pienamente soddisfatti tutti gli obblighi di rimborso, le commissioni e le altre condizioni contrattuali, la garanzia viene rilasciata conformemente ai documenti definitivi dell'operazione e di custodia."
-      }
+    "custody": {
+      "question": "Gold Bridge Capital investe direttamente in progetti hospitality?",
+      "answer": "Gold Bridge Capital non si presenta attualmente come fondo di investimento o investitore principale. Possiamo facilitare presentazioni a potenziali investitori, fornitori di capitale o partner strategici."
     },
-    "sidebar": {
-      "overline": "Discussione riservata",
-      "title": "La tua operazione potrebbe richiedere una valutazione più specifica.",
-      "text": "Fornisci una breve panoramica della garanzia proposta, del fabbisogno finanziario e dell'uso previsto dei fondi. La presentazione iniziale sarà esaminata in modo riservato.",
-      "button": "Avvia una richiesta riservata"
+    "amount": {
+      "question": "Vendete hotel o immobili hospitality?",
+      "answer": "Possiamo facilitare presentazioni riservate relative ad asset hospitality selezionati, nel rispetto della normativa applicabile e dell'autorità del relativo proprietario o rappresentante. Qualora sia richiesta un'attività di intermediazione regolamentata, questa deve essere svolta da professionisti adeguatamente autorizzati."
     },
-    "disclaimer": {
-      "label": "Informazioni importanti",
-      "text": "Gold Bridge Capital non garantisce che il finanziamento sarà disponibile per ogni richiedente o operazione. Ogni potenziale operazione resta soggetta a due diligence soddisfacente, documentazione definitiva e approvazione."
+    "term": {
+      "question": "Lavorate con opportunità off-market?",
+      "answer": "Sì. Possono essere considerate opportunità selezionate presentate privatamente o off-market quando il relativo proprietario o rappresentante autorizzato abbia consentito una presentazione riservata."
+    },
+    "pricing": {
+      "question": "Quali progetti hospitality possono essere valutati?",
+      "answer": "Possiamo valutare hotel, resort, conversioni, progetti di riqualificazione, hospitality mixed-use, branded residences, terreni di sviluppo e altri progetti credibili con soggetti identificabili e documentazione sufficiente."
+    },
+    "timing": {
+      "question": "Potete presentare investitori o capitale per uno sviluppo hospitality?",
+      "answer": "Possono essere valutate potenziali presentazioni a investitori, finanziatori, partner joint venture o soggetti strategici adeguati. Nessun risultato di fundraising, finanziamento o investimento può essere garantito."
+    },
+    "acceptance": {
+      "question": "Quali asset digitali possono essere idonei al finanziamento garantito?",
+      "answer": "L'idoneità è determinata esclusivamente dalla relativa istituzione finanziaria indipendente e può dipendere da liquidità, volatilità, custodia, giurisdizione, requisiti di conformità e politica istituzionale."
+    },
+    "repayment": {
+      "question": "Garantite un acquirente, investitore, finanziatore o un'operazione?",
+      "answer": "No. Ogni opportunità resta soggetta a interesse indipendente, valutazione, due diligence, negoziazione, normativa applicabile e accordi definitivi."
     }
   },
+  "sidebar": {
+    "overline": "Vuoi discutere una situazione?",
+    "title": "Ogni operazione è diversa.",
+    "text": "Se la tua opportunità non rientra chiaramente in una singola categoria, un primo confronto riservato può aiutare a determinare se rientra nell'attuale focus di Gold Bridge Capital.",
+    "button": "Discuti un'opportunità"
+  },
+  "disclaimer": {
+    "label": "Importante",
+    "text": "Le informazioni presenti su questo sito sono di carattere generale e non costituiscono consulenza finanziaria, di investimento, legale, fiscale, di valutazione o intermediazione regolamentata."
+  }
+},
   "Inquiry": {
     "kicker": "Richiesta riservata",
     "title": {
@@ -725,14 +713,14 @@
     }
   },
   "Closing": {
-    "overline": "Gold Bridge Capital",
-    "title": {
-      "main": "Liquidità strutturata.",
-      "highlight": " Proprietà preservata."
-    },
-    "text": "Un approccio discreto e rigoroso al finanziamento garantito da attività idonee da investimento idoneo.",
-    "button": "Discuti un'operazione"
+  "overline": "Gold Bridge Capital",
+  "title": {
+    "main": "Capitale. Asset.",
+    "highlight": " Opportunità."
   },
+  "text": "Un approccio riservato e disciplinato a operazioni selezionate di finanziamento garantito da asset, hospitality real estate e sviluppo hospitality.",
+  "button": "Discuti un'opportunità"
+},
   "Header": {
     "homeAriaLabel": "Home di Gold Bridge Capital",
     "brand": {
@@ -748,41 +736,35 @@
     "cta": "Richiesta riservata"
   },
   "Footer": {
-    "homeAriaLabel": "Home di Gold Bridge Capital",
-    "brand": {
-      "main": "Gold Bridge",
-      "sub": "Capital"
-    },
-    "description": "Gold Bridge Capital facilita la valutazione e il coordinamento di potenziali operazioni di finanziamento a breve termine garantite da metalli preziosi idonei e determinati asset digitali da investimento idoneo.",
-    "email": "inquiries@goldbridge-capital.com",
-    "navigation": {
-      "title": "Navigazione",
-      "approach": "Il nostro approccio",
-      "structure": "Come funziona",
-      "transaction": "Operazione illustrativa",
-      "process": "Processo dell'operazione",
-      "requirements": "Requisiti"
-    },
-    "information": {
-      "title": "Informazioni",
-      "faq": "Domande frequenti",
-      "inquiry": "Richiesta riservata",
-      "privacyPolicy": "Informativa sulla privacy",
-      "termsOfUse": "Termini di utilizzo",
-      "legalNotice": "Note legali"
-    },
-    "disclaimer": {
-      "label": "Informazioni legali importanti",
-      "text": "Il contenuto di questo sito è fornito esclusivamente a scopo informativo generale. Non costituisce consulenza finanziaria, legale, fiscale o d'investimento, un'offerta di credito, un'offerta di strumenti finanziari o un impegno a organizzare o fornire finanziamenti. Ogni potenziale operazione è soggetta a due diligence sul cliente e sulla garanzia, verifica di conformità, verifica indipendente, documentazione legale definitiva e approvazione delle parti pertinenti. Gold Bridge Capital non garantisce la disponibilità di finanziamento né il completamento di alcuna operazione."
-    },
-    "copyright": "© {year} Gold Bridge Capital. Tutti i diritti riservati.",
-    "bottomLinks": {
-      "privacy": "Privacy",
-      "terms": "Termini",
-      "legal": "Note legali",
-      "cookieSettings": "Impostazioni cookie"
-    }
+  "description": "Gold Bridge Capital è un facilitatore indipendente di operazioni focalizzato su finanziamenti garantiti da asset, hospitality real estate e opportunità di sviluppo hospitality.",
+  "email": "inquiries@goldbridge-capital.com",
+  "navigation": {
+    "title": "Navigazione",
+    "approach": "Perché Gold Bridge Capital",
+    "structure": "Finanziamento garantito da asset",
+    "example": "Hospitality Real Estate",
+    "process": "Processo dell'operazione",
+    "requirements": "Requisiti dell'opportunità"
   },
+  "information": {
+    "title": "Informazioni",
+    "faq": "FAQ",
+    "inquiry": "Richiesta riservata",
+    "privacy": "Privacy Policy",
+    "terms": "Termini di utilizzo",
+    "legal": "Note legali"
+  },
+  "disclaimer": {
+    "label": "Informazioni importanti",
+    "text": "Gold Bridge Capital opera come facilitatore indipendente di operazioni e non fornisce direttamente servizi bancari, di credito, investimento, legali, fiscali, di valutazione o intermediazione regolamentata. Ove siano richiesti servizi regolamentati o specialistici, questi devono essere svolti da soggetti indipendenti adeguatamente autorizzati. Nessun finanziamento, investimento, acquisizione, vendita o risultato di operazione è garantito."
+  },
+  "bottom": {
+    "copyright": "© 2026 Gold Bridge Capital. Tutti i diritti riservati.",
+    "privacy": "Privacy",
+    "terms": "Termini",
+    "cookies": "Impostazioni cookie"
+  }
+},
   "ContactForm": {
     "fields": {
       "name": {
@@ -863,9 +845,9 @@
     }
   },
   "Metadata": {
-    "title": "Gold Bridge Capital | Finanziamento con metalli preziosi e asset digitali",
-    "description": "Soluzioni riservate di finanziamento a breve termine garantite da metalli preziosi idonei e determinati asset digitali da investimento idoneo, per clienti privati e aziendali qualificati."
-  },
+  "title": "Gold Bridge Capital | Finanziamento garantito da asset & Hospitality",
+  "description": "Facilitazione indipendente di operazioni relative a finanziamento garantito da asset, hospitality real estate e sviluppo hospitality."
+},
   "Privacy": {
     "kicker": "Privacy e protezione dei dati",
     "title": "Informativa sulla privacy",

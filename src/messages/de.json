@@ -624,73 +624,61 @@
   }
 },
   "FAQ": {
-    "kicker": "Häufig gestellte Fragen",
-    "title": {
-      "main": "Wichtige Informationen vor",
-      "highlight": " dem Einreichen einer Anfrage."
+  "kicker": "Häufig gestellte Fragen",
+  "title": {
+    "main": "Ausgewählte Fragen zu",
+    "highlight": " unserem Transaktionsansatz."
+  },
+  "introduction": "Gold Bridge Capital konzentriert sich auf die vorläufige Transaktionsvorbereitung, vertrauliche Vorstellungen und Koordination. Die folgenden Antworten erläutern den allgemeinen Rahmen für vermögensbesicherte Finanzierung und Hospitality-Möglichkeiten.",
+  "items": {
+    "collateral": {
+      "question": "Was macht Gold Bridge Capital?",
+      "answer": "Gold Bridge Capital agiert als unabhängiger Transaktionsvermittler. Wir helfen bei der Vorbereitung ausgewählter Möglichkeiten, identifizieren potenziell relevante Gegenparteien und koordinieren vertrauliche Vorstellungen."
     },
-    "introduction": {
-      "first": "Die folgenden Antworten geben einen allgemeinen Überblick über den möglichen Transaktionsprozess. Jeder Fall bleibt einer individuellen Prüfung, Dokumentation, rechtlichen Strukturierung und Genehmigung vorbehalten.",
-      "second": "Keine Information auf dieser Website ist als verbindliches Angebot, Anlageempfehlung oder Verpflichtung zur Bereitstellung einer Finanzierung zu verstehen."
+    "sale": {
+      "question": "Stellt Gold Bridge Capital selbst Finanzierungen bereit?",
+      "answer": "Nein. Eine Finanzierung würde von unabhängigen Banken, Kreditgebern, Private-Credit-Anbietern oder anderen professionellen Finanzierungspartnern bereitgestellt."
     },
-    "items": {
-      "collateral": {
-        "number": "01",
-        "question": "Welche Vermögenswerte können als Sicherheit berücksichtigt werden?",
-        "answer": "Transaktionen sollen grundsätzlich klar identifizierbare physische Edelmetalle und ausgewählte digitale Vermögenswerte mit überprüfbarer Reinheit, Eigentum, Herkunft und unterstützender Dokumentation betreffen. Akzeptierte Form, Raffinerie, Barrengröße, Standort und Verwahrungsbedingungen hängen von den Anforderungen der relevanten Transaktionsparteien ab."
-      },
-      "sale": {
-        "number": "02",
-        "question": "Verkauft der Kunde die Sicherheit?",
-        "answer": "Die beabsichtigte Struktur ist eine durch geeignete Edelmetalle und ausgewählte digitale Vermögenswerte besicherte Finanzierung und kein endgültiger Verkauf. Der Kunde soll rechtlicher Eigentümer bleiben, vorbehaltlich der vertraglichen Sicherungs-, Verwahrungs- und Verwertungsrechte in den endgültigen Transaktionsdokumenten."
-      },
-      "custody": {
-        "number": "03",
-        "question": "Wo werden die Vermögenswerte während der Finanzierung gehalten?",
-        "answer": "Die Sicherheit wird im Rahmen von Verwahrungsregelungen gehalten, die von den relevanten Parteien akzeptiert werden. Je nach Transaktion kann dies eine zugelassene Bank, einen Tresorbetreiber, einen Verwahrer oder einen anderen professionellen Lagerdienstleister in einer vereinbarten Rechtsordnung umfassen."
-      },
-      "amount": {
-        "number": "04",
-        "question": "Wie viel Finanzierung kann verfügbar sein?",
-        "answer": "Der mögliche Finanzierungsbetrag hängt vom unabhängig ermittelten Sicherheitenwert, von Vermögensart, Liquidität, Volatilität und Verwahrung, den Marktbedingungen, der gewünschten Laufzeit, dem Kundenprofil und den Risikoanforderungen des Finanzierungspartners ab. Eine feste Beleihungsquote kann vor vollständiger Prüfung nicht garantiert werden."
-      },
-      "term": {
-        "number": "05",
-        "question": "Wie lang ist die maximale Finanzierungslaufzeit?",
-        "answer": "Die genaue Laufzeit wird vom ausgewählten Institut individuell festgelegt. Die genaue Laufzeit wird individuell festgelegt und hängt vom Verwendungszweck, der Rückzahlungsstrategie und der Genehmigung der relevanten Parteien ab."
-      },
-      "pricing": {
-        "number": "06",
-        "question": "Wie werden Preisgestaltung und Transaktionskosten bestimmt?",
-        "answer": "Die Preisgestaltung wird nach Prüfung der Sicherheit und der Transaktion individuell festgelegt. Die Gesamtkosten können Finanzierungskosten, Vermittlungsgebühren, Rechtskosten, Verwahrung, Transport, Versicherung, Prüfung, Bewertung, Blockchain-Analysen, Compliance und weitere professionelle Aufwendungen umfassen."
-      },
-      "timing": {
-        "number": "07",
-        "question": "Wie schnell kann eine Transaktion abgeschlossen werden?",
-        "answer": "Die Abschlussdauer hängt stark von der Qualität der Dokumentation, dem Standort der Sicherheit, der Eigentumsprüfung, der Compliance-Prüfung, der Bewertung, der rechtlichen Vorbereitung und den Verwahrungsregelungen ab. Ein konkretes Abschlussdatum kann nicht zugesagt werden, bevor alle erforderlichen Informationen geprüft wurden."
-      },
-      "acceptance": {
-        "number": "08",
-        "question": "Wird jede eingereichte Transaktion angenommen?",
-        "answer": "Nein. Jede Anfrage wird individuell geprüft. Gold Bridge Capital und die relevanten unabhängigen Parteien können eine Transaktion in jeder Phase ablehnen, wenn Dokumentation, Compliance, Eignung der Sicherheit, wirtschaftliche Konditionen oder Risikoanforderungen nicht zufriedenstellend sind."
-      },
-      "repayment": {
-        "number": "09",
-        "question": "Was geschieht nach vollständiger Rückzahlung der Finanzierung?",
-        "answer": "Sobald alle Rückzahlungsverpflichtungen, Gebühren und sonstigen vertraglichen Bedingungen vollständig erfüllt sind, wird die Sicherheit gemäß den endgültigen Transaktions- und Verwahrungsdokumenten freigegeben."
-      }
+    "custody": {
+      "question": "Investiert Gold Bridge Capital direkt in Hospitality-Projekte?",
+      "answer": "Gold Bridge Capital stellt sich derzeit weder als Investmentfonds noch als Principal Investor dar. Wir können Vorstellungen bei potenziellen Investoren, Kapitalgebern oder strategischen Partnern erleichtern."
     },
-    "sidebar": {
-      "overline": "Vertrauliches Gespräch",
-      "title": "Ihre Transaktion kann eine spezifischere Prüfung erfordern.",
-      "text": "Übermitteln Sie eine kurze Übersicht über Ihre vorgeschlagene Sicherheit, Ihren Finanzierungsbedarf und den Verwendungszweck. Die erste Einreichung wird vertraulich geprüft.",
-      "button": "Vertrauliche Anfrage starten"
+    "amount": {
+      "question": "Verkauft Gold Bridge Capital Hotels oder Hospitality-Immobilien?",
+      "answer": "Wir können vertrauliche Vorstellungen im Zusammenhang mit ausgewählten Hospitality-Objekten erleichtern, vorbehaltlich des anwendbaren Rechts und der Befugnis des jeweiligen Eigentümers oder Vertreters. Soweit regulierte Maklertätigkeiten erforderlich sind, müssen diese von entsprechend zugelassenen Fachleuten ausgeübt werden."
     },
-    "disclaimer": {
-      "label": "Wichtige Information",
-      "text": "Gold Bridge Capital übernimmt keine Gewähr dafür, dass für jeden Antragsteller oder jede Transaktion eine Finanzierung verfügbar ist. Jede potenzielle Transaktion bleibt einer zufriedenstellenden Due Diligence, endgültigen Dokumentation und Genehmigung vorbehalten."
+    "term": {
+      "question": "Arbeiten Sie mit Off-Market-Möglichkeiten?",
+      "answer": "Ja. Ausgewählte privat vorgestellte oder Off-Market-Möglichkeiten können berücksichtigt werden, wenn der relevante Eigentümer oder autorisierte Vertreter eine vertrauliche Präsentation erlaubt hat."
+    },
+    "pricing": {
+      "question": "Welche Hospitality-Projekte können berücksichtigt werden?",
+      "answer": "Wir können ausgewählte Hotels, Resorts, Konversionen, Redevelopment-Projekte, Mixed-Use-Hospitality, Branded Residences, Entwicklungsgrundstücke und andere glaubwürdige Projekte mit identifizierbaren Parteien und ausreichender Dokumentation berücksichtigen."
+    },
+    "timing": {
+      "question": "Können Sie Investoren oder Kapital für eine Hospitality-Entwicklung vorstellen?",
+      "answer": "Potenzielle Vorstellungen bei geeigneten Investoren, Kreditgebern, Joint-Venture-Partnern oder strategischen Parteien können geprüft werden. Fundraising-, Finanzierungs- oder Investitionsergebnisse werden nicht garantiert."
+    },
+    "acceptance": {
+      "question": "Welche digitalen Vermögenswerte können für eine besicherte Finanzierung geeignet sein?",
+      "answer": "Die Eignung wird ausschließlich vom jeweiligen unabhängigen Finanzierungsinstitut bestimmt und kann von Liquidität, Volatilität, Verwahrung, Rechtsordnung, Compliance-Anforderungen und institutionellen Richtlinien abhängen."
+    },
+    "repayment": {
+      "question": "Garantieren Sie einen Käufer, Investor, Kreditgeber oder eine Transaktion?",
+      "answer": "Nein. Jede Möglichkeit bleibt unabhängigem Interesse, Prüfung, Due Diligence, Verhandlung, anwendbarer Regulierung und endgültigen Vereinbarungen vorbehalten."
     }
   },
+  "sidebar": {
+    "overline": "Möchten Sie eine Situation besprechen?",
+    "title": "Jede Transaktion ist unterschiedlich.",
+    "text": "Wenn Ihre Möglichkeit nicht eindeutig in eine Kategorie fällt, kann ein erstes vertrauliches Gespräch helfen festzustellen, ob sie in den aktuellen Fokus von Gold Bridge Capital fällt.",
+    "button": "Möglichkeit besprechen"
+  },
+  "disclaimer": {
+    "label": "Wichtig",
+    "text": "Die Informationen auf dieser Website sind allgemeiner Natur und stellen keine Finanzierungs-, Anlage-, Rechts-, Steuer-, Bewertungs- oder regulierte Maklerberatung dar."
+  }
+},
   "Inquiry": {
     "kicker": "Vertrauliche Anfrage",
     "title": {
@@ -725,14 +713,14 @@
     }
   },
   "Closing": {
-    "overline": "Gold Bridge Capital",
-    "title": {
-      "main": "Strukturierte Liquidität.",
-      "highlight": " Eigentum bewahren."
-    },
-    "text": "Ein diskreter und disziplinierter Ansatz für Finanzierungen, die durch geeignete Edelmetalle und ausgewählte digitale Vermögenswerte besichert sind.",
-    "button": "Transaktion besprechen"
+  "overline": "Gold Bridge Capital",
+  "title": {
+    "main": "Kapital. Vermögenswerte.",
+    "highlight": " Chancen."
   },
+  "text": "Ein vertraulicher und disziplinierter Ansatz für ausgewählte vermögensbesicherte Finanzierungen, Hospitality-Immobilien und Hospitality-Entwicklungstransaktionen.",
+  "button": "Möglichkeit besprechen"
+},
   "Header": {
     "homeAriaLabel": "Gold Bridge Capital Startseite",
     "brand": {
@@ -748,41 +736,35 @@
     "cta": "Vertrauliche Anfrage"
   },
   "Footer": {
-    "homeAriaLabel": "Gold Bridge Capital Startseite",
-    "brand": {
-      "main": "Gold Bridge",
-      "sub": "Capital"
-    },
-    "description": "Gold Bridge Capital unterstützt die Prüfung und Koordination potenzieller kurzfristiger Finanzierungstransaktionen, die durch geeignete Edelmetalle und ausgewählte digitale Vermögenswerte besichert sind.",
-    "email": "inquiries@goldbridge-capital.com",
-    "navigation": {
-      "title": "Navigation",
-      "approach": "Unser Ansatz",
-      "structure": "So funktioniert es",
-      "transaction": "Beispielhafte Transaktion",
-      "process": "Transaktionsprozess",
-      "requirements": "Anforderungen"
-    },
-    "information": {
-      "title": "Informationen",
-      "faq": "Häufig gestellte Fragen",
-      "inquiry": "Vertrauliche Anfrage",
-      "privacyPolicy": "Datenschutzerklärung",
-      "termsOfUse": "Nutzungsbedingungen",
-      "legalNotice": "Impressum"
-    },
-    "disclaimer": {
-      "label": "Wichtige rechtliche Hinweise",
-      "text": "Die Inhalte dieser Website dienen ausschließlich allgemeinen Informationszwecken. Sie stellen weder Finanz-, Rechts-, Steuer- oder Anlageberatung noch ein Kreditangebot, ein Wertpapierangebot oder eine Verpflichtung dar, eine Finanzierung zu arrangieren oder bereitzustellen. Jede potenzielle Transaktion unterliegt einer Due Diligence des Kunden und der Sicherheit, einer Compliance-Prüfung, unabhängigen Verifizierung, endgültiger rechtlicher Dokumentation und Genehmigung durch die relevanten Parteien. Gold Bridge Capital garantiert weder die Verfügbarkeit einer Finanzierung noch den Abschluss einer Transaktion."
-    },
-    "copyright": "© {year} Gold Bridge Capital. Alle Rechte vorbehalten.",
-    "bottomLinks": {
-      "privacy": "Datenschutz",
-      "terms": "Bedingungen",
-      "legal": "Rechtliches",
-      "cookieSettings": "Cookie-Einstellungen"
-    }
+  "description": "Gold Bridge Capital ist ein unabhängiger Transaktionsvermittler mit Fokus auf vermögensbesicherte Finanzierung, Hospitality-Immobilien und Hospitality-Entwicklungsmöglichkeiten.",
+  "email": "inquiries@goldbridge-capital.com",
+  "navigation": {
+    "title": "Navigation",
+    "approach": "Warum Gold Bridge Capital",
+    "structure": "Vermögensbesicherte Finanzierung",
+    "example": "Hospitality Real Estate",
+    "process": "Transaktionsprozess",
+    "requirements": "Anforderungen an Möglichkeiten"
   },
+  "information": {
+    "title": "Informationen",
+    "faq": "FAQ",
+    "inquiry": "Vertrauliche Anfrage",
+    "privacy": "Datenschutz",
+    "terms": "Nutzungsbedingungen",
+    "legal": "Rechtliche Hinweise"
+  },
+  "disclaimer": {
+    "label": "Wichtige Informationen",
+    "text": "Gold Bridge Capital agiert als unabhängiger Transaktionsvermittler und erbringt selbst keine Bank-, Kredit-, Anlage-, Rechts-, Steuer-, Bewertungs- oder regulierten Maklerdienstleistungen. Wo regulierte oder spezialisierte Dienstleistungen erforderlich sind, müssen diese von entsprechend zugelassenen unabhängigen Parteien erbracht werden. Finanzierung, Investition, Erwerb, Verkauf oder sonstige Transaktionsergebnisse werden nicht garantiert."
+  },
+  "bottom": {
+    "copyright": "© 2026 Gold Bridge Capital. Alle Rechte vorbehalten.",
+    "privacy": "Datenschutz",
+    "terms": "Bedingungen",
+    "cookies": "Cookie-Einstellungen"
+  }
+},
   "ContactForm": {
     "fields": {
       "name": {
@@ -863,9 +845,9 @@
     }
   },
   "Metadata": {
-    "title": "Gold Bridge Capital | Finanzierung mit Edelmetallen & digitalen Vermögenswerten",
-    "description": "Vertrauliche kurzfristige Finanzierungslösungen, besichert durch geeignetes physisches Anlagegold, für qualifizierte private und gewerbliche Kunden."
-  },
+  "title": "Gold Bridge Capital | Vermögensbesicherte Finanzierung & Hospitality-Transaktionen",
+  "description": "Unabhängige Transaktionsvermittlung für vermögensbesicherte Finanzierung, Hospitality-Immobilien und Hospitality-Entwicklungsmöglichkeiten."
+},
   "Privacy": {
     "kicker": "Datenschutz",
     "title": "Datenschutzerklärung",

@@ -211,40 +211,40 @@
 },
 
   "Approach": {
-    "kicker": "Why Gold Bridge Capital",
-    "title": {
-      "main": "A considered approach to",
-      "highlight": " asset-backed liquidity."
-    },
-    "introduction": {
-      "first": "Significant private transactions require more than access to capital. They require discretion, credible documentation, suitable counterparties and a structure aligned with the collateral and commercial objective.",
-      "second": "Gold Bridge Capital acts as a transaction facilitator. We support the preparation, assessment and coordination of potential financing opportunities with relevant independent parties."
-    },
-    "advantages": {
-      "confidential": {
-        "number": "01",
-        "title": "Confidential by Design",
-        "text": "Each inquiry is handled discreetly and shared only with the professionals required to assess and structure the proposed transaction."
-      },
-      "international": {
-        "number": "02",
-        "title": "International Access",
-        "text": "We coordinate opportunities with suitable financing, custody, legal and transaction partners according to the requirements of each case."
-      },
-      "tailored": {
-        "number": "03",
-        "title": "Tailored Structures",
-        "text": "Financing terms are developed individually around the collateral, requested capital, intended use of funds and agreed repayment profile."
-      },
-      "review": {
-        "number": "04",
-        "title": "Disciplined Review",
-        "text": "Every opportunity is subject to verification of ownership, provenance, purity, documentation, counterparties and regulatory acceptability."
-      }
-    },
-    "statement": "Our role is to bring clarity, structure and disciplined coordination to complex transactions secured by eligible precious metals and selected digital assets.",
-    "signature": "Gold Bridge Capital"
+  "kicker": "Why Gold Bridge Capital",
+  "title": {
+    "main": "A disciplined approach to",
+    "highlight": " private-market transactions."
   },
+  "introduction": {
+    "first": "Significant private-market transactions require more than access to capital or assets. They require credible information, appropriate counterparties, discretion and disciplined coordination.",
+    "second": "Gold Bridge Capital supports selected opportunities by helping organise the commercial proposition, identify potentially relevant parties and coordinate confidential introductions."
+  },
+  "advantages": {
+    "confidential": {
+      "number": "01",
+      "title": "Confidential by Design",
+      "text": "Sensitive opportunities are handled discreetly and shared selectively with parties relevant to the proposed transaction."
+    },
+    "international": {
+      "number": "02",
+      "title": "Cross-Border Perspective",
+      "text": "We consider opportunities across selected jurisdictions and coordinate with suitable independent specialists where local expertise or authorisation is required."
+    },
+    "tailored": {
+      "number": "03",
+      "title": "Transaction Preparation",
+      "text": "We help organise essential commercial information so that an opportunity can be understood and assessed efficiently by relevant counterparties."
+    },
+    "review": {
+      "number": "04",
+      "title": "Counterparty Alignment",
+      "text": "The objective is to identify investors, lenders, buyers or strategic parties whose profile and transaction criteria may align with the opportunity."
+    }
+  },
+  "statement": "Our role is to bring structure, credibility and disciplined coordination to selected private-market opportunities.",
+  "signature": "Gold Bridge Capital"
+},
   "Clients": {
   "kicker": "Who We Support",
   "title": {
@@ -416,91 +416,91 @@
     }
   },
   "Process": {
-    "kicker": "Transaction Process",
-    "title": {
-      "main": "A disciplined process from",
-      "highlight": " inquiry to completion."
-    },
-    "introduction": {
-      "first": "Asset-backed financing transactions require a structured and transparent review process. Each stage is designed to establish whether the proposed collateral, client profile and financing purpose meet the requirements of the relevant counterparties.",
-      "second": "Timelines depend on the quality of documentation, collateral location, legal structure, jurisdiction and responsiveness of all parties involved."
-    },
-    "steps": {
-      "inquiry": {
-        "number": "01",
-        "stage": "Initial submission",
-        "title": "Confidential Inquiry",
-        "text": "The client submits an initial overview of the transaction, including the requested financing amount, intended use of funds and essential information about the proposed precious-metals or digital-asset collateral.",
-        "items": {
-          "first": "Requested financing amount",
-          "second": "Purpose and preferred duration",
-          "third": "Initial collateral description"
-        }
-      },
-      "assessment": {
-        "number": "02",
-        "stage": "Preliminary review",
-        "title": "Eligibility Assessment",
-        "text": "The opportunity is screened for basic eligibility. This includes the client profile, beneficial ownership, collateral form, location, documentation and commercial rationale.",
-        "items": {
-          "first": "Client and beneficial-owner profile",
-          "second": "Collateral type, value and custody",
-          "third": "Initial compliance suitability"
-        }
-      },
-      "diligence": {
-        "number": "03",
-        "stage": "Detailed verification",
-        "title": "Due Diligence",
-        "text": "Suitable opportunities proceed to more detailed document, ownership, provenance, sanctions, anti-money-laundering and counterparty review.",
-        "items": {
-          "first": "Identity and corporate documentation",
-          "second": "Proof of ownership and provenance",
-          "third": "Independent verification where required"
-        }
-      },
-      "structuring": {
-        "number": "04",
-        "stage": "Commercial preparation",
-        "title": "Indicative Structuring",
-        "text": "Based on the verified information, suitable parties may prepare an indicative transaction structure covering financing amount, term, pricing, collateral and conditions.",
-        "items": {
-          "first": "Indicative advance ratio",
-          "second": "Proposed duration and repayment profile",
-          "third": "Custody and collateral mechanics"
-        }
-      },
-      "documentation": {
-        "number": "05",
-        "stage": "Legal completion",
-        "title": "Documentation & Custody",
-        "text": "If the indicative structure is accepted, the relevant parties prepare definitive agreements and establish the agreed custody and collateral arrangements.",
-        "items": {
-          "first": "Definitive transaction agreements",
-          "second": "Custody and security documentation",
-          "third": "Completion conditions confirmed"
-        }
-      },
-      "funding": {
-        "number": "06",
-        "stage": "Transaction completion",
-        "title": "Funding & Repayment",
-        "text": "Once all conditions have been satisfied, approved financing may be released. The client then performs the agreed repayment obligations according to the executed documents.",
-        "items": {
-          "first": "Capital release after completion",
-          "second": "Contractual monitoring during the term",
-          "third": "Collateral release after full repayment"
-        }
+  "kicker": "Transaction Process",
+  "title": {
+    "main": "From opportunity to",
+    "highlight": " relevant counterparties."
+  },
+  "introduction": {
+    "first": "Each transaction begins with a preliminary review of the opportunity, its commercial rationale, ownership or authority, documentation and potential counterparty relevance.",
+    "second": "The process varies depending on whether the opportunity involves asset-backed financing, hospitality real estate, development capital or another private-market transaction."
+  },
+  "steps": {
+    "inquiry": {
+      "number": "01",
+      "stage": "Initial submission",
+      "title": "Confidential Opportunity Submission",
+      "text": "The client, owner, sponsor or authorised representative submits a concise overview of the proposed transaction.",
+      "items": {
+        "first": "Nature of the opportunity",
+        "second": "Commercial objective",
+        "third": "Essential supporting information"
       }
     },
-    "timing": {
-      "label": "Indicative transaction timing",
-      "title": "Preparation quality directly influences execution speed.",
-      "text": "A well-documented transaction may progress materially faster than a case with incomplete ownership, provenance, valuation or custody information. No standard completion timeline can be guaranteed.",
-      "statLabel": "Primary factor",
-      "statValue": "Complete documentation"
+    "assessment": {
+      "number": "02",
+      "stage": "Preliminary assessment",
+      "title": "Opportunity Review",
+      "text": "We assess whether the opportunity appears sufficiently credible, documented and aligned with the current focus of Gold Bridge Capital.",
+      "items": {
+        "first": "Ownership or authority",
+        "second": "Commercial rationale",
+        "third": "Initial documentation quality"
+      }
+    },
+    "diligence": {
+      "number": "03",
+      "stage": "Information preparation",
+      "title": "Transaction Preparation",
+      "text": "Relevant information is organised into a clear preliminary opportunity profile suitable for review by potential counterparties.",
+      "items": {
+        "first": "Key commercial information",
+        "second": "Transaction structure",
+        "third": "Supporting documentation"
+      }
+    },
+    "structuring": {
+      "number": "04",
+      "stage": "Counterparty selection",
+      "title": "Counterparty Identification",
+      "text": "Potentially relevant investors, lenders, buyers, operators or professional counterparties may be identified based on the characteristics of the opportunity.",
+      "items": {
+        "first": "Investor or buyer relevance",
+        "second": "Capital or financing fit",
+        "third": "Strategic alignment"
+      }
+    },
+    "documentation": {
+      "number": "05",
+      "stage": "Confidential introduction",
+      "title": "Selected Introductions",
+      "text": "Where appropriate and authorised, the opportunity may be introduced confidentially to selected counterparties for independent review.",
+      "items": {
+        "first": "Controlled disclosure",
+        "second": "Direct principal contact",
+        "third": "Independent assessment"
+      }
+    },
+    "funding": {
+      "number": "06",
+      "stage": "Transaction coordination",
+      "title": "Due Diligence & Completion",
+      "text": "If mutual interest develops, the relevant principals and professional advisers proceed with due diligence, negotiation, documentation and potential completion.",
+      "items": {
+        "first": "Independent due diligence",
+        "second": "Commercial negotiation",
+        "third": "Definitive agreements"
+      }
     }
   },
+  "timing": {
+    "label": "Transaction readiness",
+    "title": "Preparation quality directly influences execution.",
+    "text": "Well-prepared opportunities with clear authority, credible commercial information and supporting documentation can be assessed more efficiently. No specific timeline or transaction outcome can be guaranteed.",
+    "statLabel": "Primary factor",
+    "statValue": "Credible documentation"
+  }
+},
   "Requirements": {
     "kicker": "Transaction Requirements",
     "title": {

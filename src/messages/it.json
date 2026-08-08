@@ -211,40 +211,40 @@
 },
 
   "Approach": {
-    "kicker": "Perché Gold Bridge Capital",
-    "title": {
-      "main": "Un approccio ponderato alla",
-      "highlight": " liquidità garantita da attività."
-    },
-    "introduction": {
-      "first": "Le operazioni private di valore significativo richiedono più del semplice accesso al capitale. Richiedono discrezione, documentazione credibile, controparti adeguate e una struttura coerente con la garanzia e l'obiettivo commerciale.",
-      "second": "Gold Bridge Capital agisce come facilitatore dell'operazione. Supportiamo la preparazione, la valutazione e il coordinamento di potenziali opportunità di finanziamento con le parti indipendenti pertinenti."
-    },
-    "advantages": {
-      "confidential": {
-        "number": "01",
-        "title": "Riservatezza per principio",
-        "text": "Ogni richiesta viene gestita con discrezione e condivisa solo con i professionisti necessari per valutare e strutturare l'operazione proposta."
-      },
-      "international": {
-        "number": "02",
-        "title": "Accesso internazionale",
-        "text": "Coordiniamo le opportunità con partner adeguati nei settori del finanziamento, della custodia, legale e delle operazioni, in base ai requisiti di ciascun caso."
-      },
-      "tailored": {
-        "number": "03",
-        "title": "Strutture su misura",
-        "text": "I termini di finanziamento vengono sviluppati individualmente in funzione della garanzia, del capitale richiesto, dell'uso previsto dei fondi e del profilo di rimborso concordato."
-      },
-      "review": {
-        "number": "04",
-        "title": "Valutazione rigorosa",
-        "text": "Ogni opportunità è soggetta alla verifica della proprietà, provenienza, purezza, documentazione, controparti e accettabilità normativa."
-      }
-    },
-    "statement": "Il nostro ruolo è portare chiarezza, struttura e coordinamento rigoroso in operazioni complesse garantite da metalli preziosi idonei e determinati asset digitali.",
-    "signature": "Gold Bridge Capital"
+  "kicker": "Perché Gold Bridge Capital",
+  "title": {
+    "main": "Un approccio disciplinato alle",
+    "highlight": " operazioni private market."
   },
+  "introduction": {
+    "first": "Le operazioni private market di rilievo richiedono più del semplice accesso a capitale o asset. Richiedono informazioni credibili, controparti adeguate, discrezione e coordinamento disciplinato.",
+    "second": "Gold Bridge Capital supporta opportunità selezionate aiutando a strutturare la proposta commerciale, identificare parti potenzialmente rilevanti e coordinare presentazioni riservate."
+  },
+  "advantages": {
+    "confidential": {
+      "number": "01",
+      "title": "Riservatezza per principio",
+      "text": "Le opportunità sensibili vengono gestite con discrezione e condivise selettivamente con le parti rilevanti per l'operazione proposta."
+    },
+    "international": {
+      "number": "02",
+      "title": "Prospettiva transfrontaliera",
+      "text": "Valutiamo opportunità in giurisdizioni selezionate e coordiniamo con specialisti indipendenti adeguati quando sono necessarie competenze o autorizzazioni locali."
+    },
+    "tailored": {
+      "number": "03",
+      "title": "Preparazione dell'operazione",
+      "text": "Aiutiamo a organizzare le informazioni commerciali essenziali affinché l'opportunità possa essere compresa e valutata in modo efficiente dalle controparti rilevanti."
+    },
+    "review": {
+      "number": "04",
+      "title": "Allineamento delle controparti",
+      "text": "L'obiettivo è identificare investitori, finanziatori, acquirenti o soggetti strategici il cui profilo e criteri di operazione possano essere coerenti con l'opportunità."
+    }
+  },
+  "statement": "Il nostro ruolo è portare struttura, credibilità e coordinamento disciplinato a opportunità private market selezionate.",
+  "signature": "Gold Bridge Capital"
+},
   "Clients": {
   "kicker": "Chi supportiamo",
   "title": {
@@ -416,91 +416,91 @@
     }
   },
   "Process": {
-    "kicker": "Processo dell'operazione",
-    "title": {
-      "main": "Un processo rigoroso dalla",
-      "highlight": " richiesta al completamento."
-    },
-    "introduction": {
-      "first": "Le operazioni di finanziamento garantite da attività richiedono un processo di valutazione strutturato e trasparente. Ogni fase è progettata per stabilire se la garanzia proposta, il profilo del cliente e la finalità del finanziamento soddisfano i requisiti delle controparti pertinenti.",
-      "second": "Le tempistiche dipendono dalla qualità della documentazione, dall'ubicazione della garanzia, dalla struttura legale, dalla giurisdizione e dalla reattività di tutte le parti coinvolte."
-    },
-    "steps": {
-      "inquiry": {
-        "number": "01",
-        "stage": "Presentazione iniziale",
-        "title": "Richiesta riservata",
-        "text": "Il cliente presenta una panoramica iniziale dell'operazione, inclusi l'importo di finanziamento richiesto, l'uso previsto dei fondi e le informazioni essenziali sulla garanzia proposta in metalli preziosi o asset digitali.",
-        "items": {
-          "first": "Importo di finanziamento richiesto",
-          "second": "Finalità e durata preferita",
-          "third": "Descrizione iniziale della garanzia"
-        }
-      },
-      "assessment": {
-        "number": "02",
-        "stage": "Valutazione preliminare",
-        "title": "Valutazione di idoneità",
-        "text": "L'opportunità viene esaminata per verificarne l'idoneità di base. Ciò include il profilo del cliente, la titolarità effettiva, la forma e l'ubicazione della garanzia, la documentazione e la logica commerciale.",
-        "items": {
-          "first": "Profilo del cliente e dei titolari effettivi",
-          "second": "Tipo, valore e custodia della garanzia",
-          "third": "Idoneità preliminare ai requisiti di conformità"
-        }
-      },
-      "diligence": {
-        "number": "03",
-        "stage": "Verifica dettagliata",
-        "title": "Due diligence",
-        "text": "Le opportunità idonee passano a una verifica più approfondita della documentazione, proprietà, provenienza, sanzioni, antiriciclaggio e controparti.",
-        "items": {
-          "first": "Documentazione di identità e societaria",
-          "second": "Prova di proprietà e provenienza",
-          "third": "Verifica indipendente ove richiesta"
-        }
-      },
-      "structuring": {
-        "number": "04",
-        "stage": "Preparazione commerciale",
-        "title": "Strutturazione indicativa",
-        "text": "Sulla base delle informazioni verificate, le parti idonee possono predisporre una struttura indicativa dell'operazione che copra importo del finanziamento, durata, prezzi, garanzia e condizioni.",
-        "items": {
-          "first": "Rapporto di anticipo indicativo",
-          "second": "Durata proposta e profilo di rimborso",
-          "third": "Meccanismi di custodia e garanzia"
-        }
-      },
-      "documentation": {
-        "number": "05",
-        "stage": "Completamento legale",
-        "title": "Documentazione e custodia",
-        "text": "Se la struttura indicativa viene accettata, le parti pertinenti preparano gli accordi definitivi e stabiliscono gli accordi di custodia e garanzia concordati.",
-        "items": {
-          "first": "Accordi definitivi dell'operazione",
-          "second": "Documentazione di custodia e garanzia",
-          "third": "Conferma delle condizioni di completamento"
-        }
-      },
-      "funding": {
-        "number": "06",
-        "stage": "Completamento dell'operazione",
-        "title": "Finanziamento e rimborso",
-        "text": "Una volta soddisfatte tutte le condizioni, il finanziamento approvato può essere erogato. Il cliente adempie quindi agli obblighi di rimborso concordati secondo i documenti definitivi.",
-        "items": {
-          "first": "Erogazione del capitale dopo il completamento",
-          "second": "Monitoraggio contrattuale durante la durata",
-          "third": "Rilascio della garanzia dopo il rimborso completo"
-        }
+  "kicker": "Processo dell'operazione",
+  "title": {
+    "main": "Dall'opportunità alle",
+    "highlight": " controparti rilevanti."
+  },
+  "introduction": {
+    "first": "Ogni operazione inizia con una valutazione preliminare dell'opportunità, della sua logica commerciale, della proprietà o autorità, della documentazione e della potenziale rilevanza per le controparti.",
+    "second": "Il processo varia a seconda che l'opportunità riguardi finanziamento garantito da asset, hospitality real estate, capitale per sviluppo o un'altra operazione private market."
+  },
+  "steps": {
+    "inquiry": {
+      "number": "01",
+      "stage": "Presentazione iniziale",
+      "title": "Presentazione riservata dell'opportunità",
+      "text": "Il cliente, proprietario, sponsor o rappresentante autorizzato presenta una breve panoramica dell'operazione proposta.",
+      "items": {
+        "first": "Natura dell'opportunità",
+        "second": "Obiettivo commerciale",
+        "third": "Informazioni essenziali di supporto"
       }
     },
-    "timing": {
-      "label": "Tempistiche indicative dell'operazione",
-      "title": "La qualità della preparazione influenza direttamente la velocità di esecuzione.",
-      "text": "Un'operazione ben documentata può progredire molto più rapidamente di un caso con informazioni incomplete sulla proprietà, provenienza, valutazione o custodia. Non può essere garantita una tempistica standard di completamento.",
-      "statLabel": "Fattore principale",
-      "statValue": "Documentazione completa"
+    "assessment": {
+      "number": "02",
+      "stage": "Valutazione preliminare",
+      "title": "Valutazione dell'opportunità",
+      "text": "Valutiamo se l'opportunità appare sufficientemente credibile, documentata e coerente con l'attuale focus di Gold Bridge Capital.",
+      "items": {
+        "first": "Proprietà o autorità",
+        "second": "Logica commerciale",
+        "third": "Qualità della documentazione iniziale"
+      }
+    },
+    "diligence": {
+      "number": "03",
+      "stage": "Preparazione delle informazioni",
+      "title": "Preparazione dell'operazione",
+      "text": "Le informazioni rilevanti vengono organizzate in un chiaro profilo preliminare dell'opportunità, adatto alla valutazione da parte di potenziali controparti.",
+      "items": {
+        "first": "Informazioni commerciali chiave",
+        "second": "Struttura dell'operazione",
+        "third": "Documentazione di supporto"
+      }
+    },
+    "structuring": {
+      "number": "04",
+      "stage": "Selezione delle controparti",
+      "title": "Identificazione delle controparti",
+      "text": "Possono essere identificati investitori, finanziatori, acquirenti, operatori o controparti professionali potenzialmente rilevanti in base alle caratteristiche dell'opportunità.",
+      "items": {
+        "first": "Rilevanza per investitori o acquirenti",
+        "second": "Coerenza con capitale o finanziamento",
+        "third": "Allineamento strategico"
+      }
+    },
+    "documentation": {
+      "number": "05",
+      "stage": "Presentazione riservata",
+      "title": "Presentazioni selezionate",
+      "text": "Ove appropriato e autorizzato, l'opportunità può essere presentata in modo riservato a controparti selezionate per una valutazione indipendente.",
+      "items": {
+        "first": "Divulgazione controllata",
+        "second": "Contatto diretto tra le parti",
+        "third": "Valutazione indipendente"
+      }
+    },
+    "funding": {
+      "number": "06",
+      "stage": "Coordinamento dell'operazione",
+      "title": "Due Diligence & Completamento",
+      "text": "Se emerge interesse reciproco, le parti principali e i consulenti professionali procedono con due diligence, negoziazione, documentazione e potenziale completamento.",
+      "items": {
+        "first": "Due diligence indipendente",
+        "second": "Negoziazione commerciale",
+        "third": "Accordi definitivi"
+      }
     }
   },
+  "timing": {
+    "label": "Preparazione dell'operazione",
+    "title": "La qualità della preparazione influenza direttamente l'esecuzione.",
+    "text": "Opportunità ben preparate, con autorità chiara, informazioni commerciali credibili e documentazione di supporto, possono essere valutate in modo più efficiente. Non è possibile garantire una tempistica o un risultato specifico.",
+    "statLabel": "Fattore principale",
+    "statValue": "Documentazione credibile"
+  }
+},
   "Requirements": {
     "kicker": "Requisiti dell'operazione",
     "title": {

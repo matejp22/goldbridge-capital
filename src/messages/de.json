@@ -211,40 +211,40 @@
 },
 
   "Approach": {
-    "kicker": "Warum Gold Bridge Capital",
-    "title": {
-      "main": "Ein sorgfältiger Ansatz für",
-      "highlight": " vermögensbesicherte Liquidität."
-    },
-    "introduction": {
-      "first": "Bedeutende private Transaktionen erfordern mehr als nur Zugang zu Kapital. Sie erfordern Diskretion, belastbare Dokumentation, geeignete Gegenparteien und eine Struktur, die auf die Sicherheit und das wirtschaftliche Ziel abgestimmt ist.",
-      "second": "Gold Bridge Capital agiert als Transaktionsvermittler. Wir unterstützen die Vorbereitung, Prüfung und Koordination potenzieller Finanzierungsmöglichkeiten mit relevanten unabhängigen Parteien."
-    },
-    "advantages": {
-      "confidential": {
-        "number": "01",
-        "title": "Vertraulichkeit von Anfang an",
-        "text": "Jede Anfrage wird diskret behandelt und nur mit den Fachleuten geteilt, die für die Prüfung und Strukturierung der vorgeschlagenen Transaktion erforderlich sind."
-      },
-      "international": {
-        "number": "02",
-        "title": "Internationaler Zugang",
-        "text": "Wir koordinieren Möglichkeiten mit geeigneten Finanzierungs-, Verwahrungs-, Rechts- und Transaktionspartnern entsprechend den Anforderungen des jeweiligen Falls."
-      },
-      "tailored": {
-        "number": "03",
-        "title": "Maßgeschneiderte Strukturen",
-        "text": "Die Finanzierungskonditionen werden individuell auf die Sicherheit, den gewünschten Kapitalbetrag, den Verwendungszweck und das vereinbarte Rückzahlungsprofil abgestimmt."
-      },
-      "review": {
-        "number": "04",
-        "title": "Disziplinierte Prüfung",
-        "text": "Jede Möglichkeit unterliegt der Prüfung von Eigentum, Herkunft, Reinheit, Dokumentation, Gegenparteien und regulatorischer Zulässigkeit."
-      }
-    },
-    "statement": "Unsere Aufgabe ist es, Klarheit, Struktur und disziplinierte Koordination in komplexe Transaktionen zu bringen, die durch geeignete Edelmetalle und ausgewählte digitale Vermögenswerte besichert sind.",
-    "signature": "Gold Bridge Capital"
+  "kicker": "Warum Gold Bridge Capital",
+  "title": {
+    "main": "Ein disziplinierter Ansatz für",
+    "highlight": " Private-Market-Transaktionen."
   },
+  "introduction": {
+    "first": "Bedeutende Private-Market-Transaktionen erfordern mehr als nur Zugang zu Kapital oder Vermögenswerten. Sie erfordern belastbare Informationen, geeignete Gegenparteien, Diskretion und disziplinierte Koordination.",
+    "second": "Gold Bridge Capital unterstützt ausgewählte Möglichkeiten, indem wir die wirtschaftliche Darstellung strukturieren, potenziell relevante Parteien identifizieren und vertrauliche Vorstellungen koordinieren."
+  },
+  "advantages": {
+    "confidential": {
+      "number": "01",
+      "title": "Vertraulichkeit von Anfang an",
+      "text": "Sensible Möglichkeiten werden diskret behandelt und nur gezielt mit Parteien geteilt, die für die vorgeschlagene Transaktion relevant sind."
+    },
+    "international": {
+      "number": "02",
+      "title": "Grenzüberschreitende Perspektive",
+      "text": "Wir prüfen Möglichkeiten in ausgewählten Rechtsordnungen und koordinieren mit geeigneten unabhängigen Spezialisten, wenn lokale Expertise oder Zulassung erforderlich ist."
+    },
+    "tailored": {
+      "number": "03",
+      "title": "Transaktionsvorbereitung",
+      "text": "Wir helfen dabei, wesentliche wirtschaftliche Informationen so zu strukturieren, dass eine Möglichkeit von relevanten Gegenparteien effizient verstanden und geprüft werden kann."
+    },
+    "review": {
+      "number": "04",
+      "title": "Abstimmung mit Gegenparteien",
+      "text": "Ziel ist es, Investoren, Kreditgeber, Käufer oder strategische Parteien zu identifizieren, deren Profil und Transaktionskriterien zur Möglichkeit passen könnten."
+    }
+  },
+  "statement": "Unsere Aufgabe ist es, ausgewählten Private-Market-Möglichkeiten Struktur, Glaubwürdigkeit und disziplinierte Koordination zu geben.",
+  "signature": "Gold Bridge Capital"
+},
   "Clients": {
   "kicker": "Für wen wir tätig werden",
   "title": {
@@ -416,91 +416,91 @@
     }
   },
   "Process": {
-    "kicker": "Transaktionsprozess",
-    "title": {
-      "main": "Ein disziplinierter Prozess von der",
-      "highlight": " Anfrage bis zum Abschluss."
-    },
-    "introduction": {
-      "first": "Vermögensbesicherte Finanzierungstransaktionen erfordern einen strukturierten und transparenten Prüfungsprozess. Jede Phase dient dazu festzustellen, ob die vorgeschlagene Sicherheit, das Kundenprofil und der Finanzierungszweck den Anforderungen der relevanten Gegenparteien entsprechen.",
-      "second": "Die Zeitabläufe hängen von der Qualität der Dokumentation, dem Standort der Sicherheit, der rechtlichen Struktur, der Rechtsordnung und der Reaktionsgeschwindigkeit aller beteiligten Parteien ab."
-    },
-    "steps": {
-      "inquiry": {
-        "number": "01",
-        "stage": "Erste Einreichung",
-        "title": "Vertrauliche Anfrage",
-        "text": "Der Kunde reicht eine erste Übersicht der Transaktion ein, einschließlich des gewünschten Finanzierungsbetrags, des Verwendungszwecks und wesentlicher Angaben zur vorgeschlagenen Edelmetall- oder Digital-Asset-Sicherheit.",
-        "items": {
-          "first": "Gewünschter Finanzierungsbetrag",
-          "second": "Zweck und bevorzugte Laufzeit",
-          "third": "Erste Beschreibung der Sicherheit"
-        }
-      },
-      "assessment": {
-        "number": "02",
-        "stage": "Vorläufige Prüfung",
-        "title": "Eignungsprüfung",
-        "text": "Die Möglichkeit wird auf grundlegende Eignung geprüft. Dazu gehören Kundenprofil, wirtschaftlich Berechtigte, Form und Standort der Sicherheit, Dokumentation und wirtschaftliche Begründung.",
-        "items": {
-          "first": "Profil des Kunden und der wirtschaftlich Berechtigten",
-          "second": "Art, Wert und Verwahrung der Sicherheit",
-          "third": "Erste Compliance-Eignung"
-        }
-      },
-      "diligence": {
-        "number": "03",
-        "stage": "Detaillierte Verifizierung",
-        "title": "Due Diligence",
-        "text": "Geeignete Möglichkeiten werden einer detaillierteren Prüfung von Dokumenten, Eigentum, Herkunft, Sanktionen, Geldwäscheprävention und Gegenparteien unterzogen.",
-        "items": {
-          "first": "Identitäts- und Unternehmensdokumentation",
-          "second": "Nachweis von Eigentum und Herkunft",
-          "third": "Unabhängige Verifizierung, falls erforderlich"
-        }
-      },
-      "structuring": {
-        "number": "04",
-        "stage": "Kommerzielle Vorbereitung",
-        "title": "Indikative Strukturierung",
-        "text": "Auf Grundlage der verifizierten Informationen können geeignete Parteien eine indikative Transaktionsstruktur für Finanzierungsbetrag, Laufzeit, Preisgestaltung, Sicherheit und Bedingungen ausarbeiten.",
-        "items": {
-          "first": "Indikative Beleihungsquote",
-          "second": "Vorgeschlagene Laufzeit und Rückzahlungsprofil",
-          "third": "Mechanik von Verwahrung und Besicherung"
-        }
-      },
-      "documentation": {
-        "number": "05",
-        "stage": "Rechtlicher Abschluss",
-        "title": "Dokumentation & Verwahrung",
-        "text": "Wird die indikative Struktur akzeptiert, erstellen die relevanten Parteien die endgültigen Vereinbarungen und richten die vereinbarten Verwahrungs- und Sicherheitenregelungen ein.",
-        "items": {
-          "first": "Endgültige Transaktionsvereinbarungen",
-          "second": "Verwahrungs- und Sicherheitenunterlagen",
-          "third": "Bestätigung der Abschlussbedingungen"
-        }
-      },
-      "funding": {
-        "number": "06",
-        "stage": "Transaktionsabschluss",
-        "title": "Auszahlung & Rückzahlung",
-        "text": "Sobald alle Bedingungen erfüllt sind, kann die genehmigte Finanzierung ausgezahlt werden. Anschließend erfüllt der Kunde die vereinbarten Rückzahlungsverpflichtungen gemäß den unterzeichneten Dokumenten.",
-        "items": {
-          "first": "Kapitalauszahlung nach Abschluss",
-          "second": "Vertragliche Überwachung während der Laufzeit",
-          "third": "Freigabe der Sicherheit nach vollständiger Rückzahlung"
-        }
+  "kicker": "Transaktionsprozess",
+  "title": {
+    "main": "Von der Möglichkeit zu",
+    "highlight": " relevanten Gegenparteien."
+  },
+  "introduction": {
+    "first": "Jede Transaktion beginnt mit einer vorläufigen Prüfung der Möglichkeit, ihrer wirtschaftlichen Logik, des Eigentums oder der Befugnis, der Dokumentation und der potenziellen Relevanz für Gegenparteien.",
+    "second": "Der Prozess variiert je nachdem, ob es sich um vermögensbesicherte Finanzierung, Hospitality-Immobilien, Entwicklungskapital oder eine andere Private-Market-Transaktion handelt."
+  },
+  "steps": {
+    "inquiry": {
+      "number": "01",
+      "stage": "Erste Einreichung",
+      "title": "Vertrauliche Einreichung",
+      "text": "Der Kunde, Eigentümer, Sponsor oder autorisierte Vertreter übermittelt eine kurze Übersicht über die vorgeschlagene Transaktion.",
+      "items": {
+        "first": "Art der Möglichkeit",
+        "second": "Wirtschaftliches Ziel",
+        "third": "Wesentliche unterstützende Informationen"
       }
     },
-    "timing": {
-      "label": "Indikativer Transaktionszeitrahmen",
-      "title": "Die Qualität der Vorbereitung beeinflusst die Umsetzungsgeschwindigkeit unmittelbar.",
-      "text": "Eine gut dokumentierte Transaktion kann deutlich schneller vorankommen als ein Fall mit unvollständigen Angaben zu Eigentum, Herkunft, Bewertung oder Verwahrung. Eine standardisierte Abschlussfrist kann nicht garantiert werden.",
-      "statLabel": "Wichtigster Faktor",
-      "statValue": "Vollständige Dokumentation"
+    "assessment": {
+      "number": "02",
+      "stage": "Vorläufige Prüfung",
+      "title": "Prüfung der Möglichkeit",
+      "text": "Wir prüfen, ob die Möglichkeit ausreichend glaubwürdig, dokumentiert und mit dem aktuellen Fokus von Gold Bridge Capital vereinbar erscheint.",
+      "items": {
+        "first": "Eigentum oder Befugnis",
+        "second": "Wirtschaftliche Logik",
+        "third": "Qualität der Erstunterlagen"
+      }
+    },
+    "diligence": {
+      "number": "03",
+      "stage": "Informationsaufbereitung",
+      "title": "Transaktionsvorbereitung",
+      "text": "Relevante Informationen werden zu einem klaren vorläufigen Opportunity-Profil für potenzielle Gegenparteien strukturiert.",
+      "items": {
+        "first": "Wesentliche wirtschaftliche Informationen",
+        "second": "Transaktionsstruktur",
+        "third": "Unterstützende Dokumentation"
+      }
+    },
+    "structuring": {
+      "number": "04",
+      "stage": "Auswahl von Gegenparteien",
+      "title": "Identifikation relevanter Parteien",
+      "text": "Je nach Merkmalen der Möglichkeit können potenziell relevante Investoren, Kreditgeber, Käufer, Betreiber oder professionelle Gegenparteien identifiziert werden.",
+      "items": {
+        "first": "Relevanz für Investoren oder Käufer",
+        "second": "Kapital- oder Finanzierungsfit",
+        "third": "Strategische Übereinstimmung"
+      }
+    },
+    "documentation": {
+      "number": "05",
+      "stage": "Vertrauliche Vorstellung",
+      "title": "Ausgewählte Vorstellungen",
+      "text": "Wo sinnvoll und autorisiert, kann die Möglichkeit ausgewählten Gegenparteien vertraulich zur unabhängigen Prüfung vorgestellt werden.",
+      "items": {
+        "first": "Kontrollierte Offenlegung",
+        "second": "Direkter Kontakt zwischen Parteien",
+        "third": "Unabhängige Prüfung"
+      }
+    },
+    "funding": {
+      "number": "06",
+      "stage": "Transaktionskoordination",
+      "title": "Due Diligence & Abschluss",
+      "text": "Entsteht gegenseitiges Interesse, setzen die relevanten Parteien und professionellen Berater Due Diligence, Verhandlungen, Dokumentation und einen möglichen Abschluss fort.",
+      "items": {
+        "first": "Unabhängige Due Diligence",
+        "second": "Wirtschaftliche Verhandlung",
+        "third": "Endgültige Vereinbarungen"
+      }
     }
   },
+  "timing": {
+    "label": "Transaktionsreife",
+    "title": "Die Qualität der Vorbereitung beeinflusst die Umsetzung direkt.",
+    "text": "Gut vorbereitete Möglichkeiten mit klarer Befugnis, glaubwürdigen wirtschaftlichen Informationen und unterstützender Dokumentation können effizienter geprüft werden. Ein bestimmter Zeitplan oder Transaktionserfolg kann nicht garantiert werden.",
+    "statLabel": "Wichtigster Faktor",
+    "statValue": "Belastbare Dokumentation"
+  }
+},
   "Requirements": {
     "kicker": "Transaktionsanforderungen",
     "title": {

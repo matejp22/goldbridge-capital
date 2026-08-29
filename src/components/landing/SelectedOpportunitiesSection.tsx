@@ -67,7 +67,6 @@ export default function SelectedOpportunitiesSection() {
             >
               <div className="selected-opportunity-media">
                 <div
-                 <div
   className={`selected-opportunity-image selected-opportunity-image-${opportunity.key}`}
   style={{
     backgroundImage: `linear-gradient(

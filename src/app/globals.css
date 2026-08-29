@@ -6277,6 +6277,9 @@ textarea {
       #17304f,
       #0a1628 68%
     );
+    background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
   transform: scale(1.01);
   transition: transform var(--transition-slow);
 }

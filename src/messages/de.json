@@ -170,6 +170,50 @@
   },
   "disclaimer": "Gold Bridge Capital ist nicht Eigentümer dieser Immobilien und erklärt nicht, über ein exklusives Verkaufsmandat zu verfügen, sofern dies nicht ausdrücklich bestätigt wurde. Die Informationen basieren auf Unterlagen, die über relevante professionelle Kanäle bereitgestellt wurden, und bleiben einer unabhängigen Prüfung, Verfügbarkeit und möglichen Änderungen vorbehalten."
 },
+"PrivateOpportunities": {
+  "kicker": "Private & Vertrauliche Opportunitäten",
+  "title": {
+    "main": "Ausgewählte Hospitality-Situationen können",
+    "highlight": " vertraulich eingebracht werden."
+  },
+  "introduction": {
+    "first": "Nicht jede Hospitality-Transaktion eignet sich für eine breite öffentliche Vermarktung. Bestimmte Eigentümer, Sponsoren, Entwickler und professionelle Berater bevorzugen möglicherweise einen kontrollierten und vertraulichen Einführungsprozess.",
+    "second": "Gold Bridge Capital kann ausgewählte Opportunitäten für eine diskrete Positionierung und eine mögliche Vorstellung bei relevanten professionellen Gegenparteien prüfen, sofern eine entsprechende Berechtigung zur Einführung nachgewiesen wurde."
+  },
+  "categories": {
+    "hotels": {
+      "title": "Hotels",
+      "text": "Operative Hotels, Repositionierungssituationen, eigentümergeführte Assets und ausgewählte Hospitality-Immobilien."
+    },
+    "resorts": {
+      "title": "Resorts",
+      "text": "Resort-Assets und Destination-Hospitality-Opportunitäten, die von gezielten Investor- oder Käuferkontakten profitieren können."
+    },
+    "boutique": {
+      "title": "Boutique Hospitality",
+      "text": "Charakteristische Boutique-Hotels, Heritage-Immobilien, Lifestyle-Assets und spezialisierte Hospitality-Konzepte."
+    },
+    "valueAdd": {
+      "title": "Value-Add",
+      "text": "Assets mit Potenzial für Repositionierung, operative Verbesserung, Renovierung, Erweiterung oder Redevelopment."
+    },
+    "development": {
+      "title": "Development",
+      "text": "Hospitality-Entwicklungsprojekte auf der Suche nach Fremdkapital, Eigenkapital, Joint-Venture-Kapital, Betreibern oder strategischen Gegenparteien."
+    },
+    "land": {
+      "title": "Entwicklungsgrundstücke",
+      "text": "Grundstücke oder Standorte mit Hospitality-Entwicklungspotenzial, abhängig von Eigentum, Planungsstatus und Projektreife."
+    }
+  },
+  "bottom": {
+    "label": "Vertrauliche Opportunitätsprüfung",
+    "title": "Haben Sie eine Opportunität, die nicht öffentlich vermarktet werden soll?",
+    "text": "Eigentümer, Sponsoren, autorisierte Vertreter und professionelle Berater können eine vertrauliche Übersicht zur ersten Prüfung einreichen. Soweit angemessen, können Informationen selektiv mit potenziell relevanten Gegenparteien geteilt werden.",
+    "button": "Vertrauliche Opportunität einreichen"
+  },
+  "note": "Private, vertrauliche und Off-Market-Opportunitäten werden nicht als austauschbare Begriffe verwendet. Gold Bridge Capital bezeichnet eine Opportunität nur dann als Off-Market, wenn dieser Status ausdrücklich vom jeweiligen Eigentümer, Berater oder autorisierten Vertreter bestätigt wurde."
+},
   "HospitalityRealEstate": {
     "kicker": "Hospitality Real Estate",
     "title": {

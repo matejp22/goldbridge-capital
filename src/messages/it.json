@@ -170,6 +170,50 @@
   },
   "disclaimer": "Gold Bridge Capital non è proprietario di questi immobili e non dichiara di detenere un mandato di vendita esclusivo salvo espressa conferma. Le informazioni si basano su materiali ricevuti attraverso canali professionali pertinenti e restano soggette a verifica indipendente, disponibilità e possibili modifiche."
 },
+"PrivateOpportunities": {
+  "kicker": "Opportunità Private & Riservate",
+  "title": {
+    "main": "Alcune opportunità hospitality selezionate possono essere",
+    "highlight": " introdotte in modo riservato."
+  },
+  "introduction": {
+    "first": "Non tutte le transazioni hospitality sono adatte a una commercializzazione pubblica estesa. Alcuni proprietari, sponsor, sviluppatori e consulenti professionali possono preferire un processo di introduzione controllato e riservato.",
+    "second": "Gold Bridge Capital può valutare opportunità selezionate per un posizionamento discreto e una possibile introduzione a controparti professionali pertinenti, laddove sia stata verificata un'adeguata autorizzazione a presentare l'opportunità."
+  },
+  "categories": {
+    "hotels": {
+      "title": "Hotel",
+      "text": "Hotel operativi, situazioni di riposizionamento, asset gestiti dalla proprietà e proprietà hospitality selezionate."
+    },
+    "resorts": {
+      "title": "Resort",
+      "text": "Asset resort e opportunità hospitality di destinazione che possono beneficiare di introduzioni mirate a investitori o acquirenti."
+    },
+    "boutique": {
+      "title": "Boutique Hospitality",
+      "text": "Boutique hotel distintivi, proprietà heritage, asset lifestyle e concept hospitality specializzati."
+    },
+    "valueAdd": {
+      "title": "Value-Add",
+      "text": "Asset con potenziale di riposizionamento, miglioramento operativo, ristrutturazione, ampliamento o redevelopment."
+    },
+    "development": {
+      "title": "Development",
+      "text": "Progetti hospitality alla ricerca di debito, equity, capitale joint venture, operatori o controparti strategiche."
+    },
+    "land": {
+      "title": "Terreni per sviluppo",
+      "text": "Terreni o siti con potenziale di sviluppo hospitality, soggetti a proprietà, stato urbanistico e maturità del progetto."
+    }
+  },
+  "bottom": {
+    "label": "Valutazione riservata dell'opportunità",
+    "title": "Hai un'opportunità che non dovrebbe essere commercializzata pubblicamente?",
+    "text": "Proprietari, sponsor, rappresentanti autorizzati e consulenti professionali possono inviare una panoramica riservata per una valutazione preliminare. Ove appropriato, le informazioni possono essere condivise in modo selettivo con potenziali controparti pertinenti.",
+    "button": "Invia opportunità riservata"
+  },
+  "note": "I termini privato, riservato e off-market non vengono considerati intercambiabili. Gold Bridge Capital descrive un'opportunità come off-market solo quando tale status è stato espressamente confermato dal relativo proprietario, consulente o rappresentante autorizzato."
+},
   "HospitalityRealEstate": {
     "kicker": "Hospitality Real Estate",
     "title": {

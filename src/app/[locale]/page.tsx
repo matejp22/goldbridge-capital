@@ -7,6 +7,7 @@ import HeroSection from "@/components/landing/HeroSection";
 import InstitutionalStrip from "@/components/landing/InstitutionalStrip";
 import FocusSection from "@/components/landing/FocusSection";
 import SelectedOpportunitiesSection from "@/components/landing/SelectedOpportunitiesSection";
+import PrivateOpportunitiesSection from "@/components/landing/PrivateOpportunitiesSection";
 import ApproachSection from "@/components/landing/ApproachSection";
 import ClientsSection from "@/components/landing/ClientsSection";
 import HospitalityRealEstateSection from "@/components/landing/HospitalityRealEstateSection";
@@ -41,7 +42,7 @@ export default async function Home({ params }: HomeProps) {
       <FocusSection />
 
       <SelectedOpportunitiesSection />
-
+      <PrivateOpportunitiesSection />
       <ApproachSection />
       <ClientsSection />
 

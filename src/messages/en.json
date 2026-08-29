@@ -170,6 +170,50 @@
   },
   "disclaimer": "Gold Bridge Capital does not own these properties and does not represent that it holds an exclusive sales mandate unless expressly confirmed. Information is based on materials provided through relevant professional channels and remains subject to independent verification, availability and change."
 },
+"PrivateOpportunities": {
+  "kicker": "Private & Confidential Opportunities",
+  "title": {
+    "main": "Selected hospitality situations can be",
+    "highlight": " introduced privately."
+  },
+  "introduction": {
+    "first": "Not every hospitality transaction is suitable for broad public marketing. Certain owners, sponsors, developers and professional advisers may prefer a controlled and confidential introduction process.",
+    "second": "Gold Bridge Capital can review selected opportunities for discreet positioning and potential introduction to relevant professional counterparties where appropriate authority to introduce has been established."
+  },
+  "categories": {
+    "hotels": {
+      "title": "Hotels",
+      "text": "Operating hotels, repositioning situations, owner-operated assets and selected hospitality properties."
+    },
+    "resorts": {
+      "title": "Resorts",
+      "text": "Resort assets and destination hospitality opportunities that may benefit from targeted investor or buyer introductions."
+    },
+    "boutique": {
+      "title": "Boutique Hospitality",
+      "text": "Distinctive boutique hotels, heritage properties, lifestyle assets and specialised hospitality concepts."
+    },
+    "valueAdd": {
+      "title": "Value-Add",
+      "text": "Assets with repositioning, operational improvement, refurbishment, expansion or redevelopment potential."
+    },
+    "development": {
+      "title": "Development",
+      "text": "Hospitality developments seeking debt, equity, joint-venture capital, operators or strategic counterparties."
+    },
+    "land": {
+      "title": "Development Land",
+      "text": "Land or sites with hospitality development potential, subject to ownership, planning status and project readiness."
+    }
+  },
+  "bottom": {
+    "label": "Confidential Opportunity Review",
+    "title": "Have an opportunity that should not be publicly marketed?",
+    "text": "Owners, sponsors, authorised representatives and professional advisers may submit a confidential overview for preliminary review. Where appropriate, information may be shared selectively with potentially relevant counterparties.",
+    "button": "Submit Confidential Opportunity"
+  },
+  "note": "Private, confidential and off-market are not treated as interchangeable terms. Gold Bridge Capital only describes an opportunity as off-market where that status has been expressly confirmed by the relevant owner, adviser or authorised representative."
+},
   "HospitalityRealEstate": {
     "kicker": "Hospitality Real Estate",
     "title": {

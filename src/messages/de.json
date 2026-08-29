@@ -100,6 +100,76 @@
     },
     "note": "Gold Bridge Capital agiert als unabhängiger Transaktionsvermittler. Finanzierungs-, Anlage-, Makler-, Rechts-, Bewertungs- und andere regulierte Dienstleistungen werden dort, wo erforderlich, von entsprechend zugelassenen unabhängigen Parteien erbracht."
   },
+  "SelectedOpportunities": {
+  "kicker": "Ausgewählte Hospitality-Opportunitäten",
+  "title": {
+    "main": "Aktuelle Opportunitäten in",
+    "highlight": " Slowenien und der Adriaregion."
+  },
+  "introduction": {
+    "first": "Gold Bridge Capital prüft und koordiniert derzeit ausgewählte Hospitality-Opportunitäten, die über autorisierte professionelle Kanäle eingebracht wurden.",
+    "second": "Öffentliche Informationen werden, soweit angemessen, bewusst begrenzt. Verfügbarkeit, Preisvorstellungen und Transaktionsbedingungen bleiben der Bestätigung durch den jeweiligen Eigentümer, Berater oder autorisierten Ansprechpartner vorbehalten."
+  },
+  "labels": {
+    "assetType": "Asset-Typ",
+    "keys": "Zimmer / Keys",
+    "pricing": "Indikative Preisvorstellung"
+  },
+  "opportunities": {
+    "ambient": {
+      "status": "Vertraulicher Verkaufsprozess",
+      "location": "Domžale, Slowenien",
+      "title": "Ambient Hotel",
+      "description": "Ein operatives Hotelasset mit etablierter Betriebshistorie, Restaurant- und Veranstaltungsflächen im Einzugsgebiet von Ljubljana.",
+      "assetType": "Operatives Hotelasset",
+      "keys": "78",
+      "pricing": "~EUR 6 Mio.",
+      "highlights": {
+        "first": "Operativer Bestand mit stabilem Team vor Ort",
+        "second": "Restaurant, Veranstaltungsflächen und Parkplätze am Objekt",
+        "third": "Asset Deal oder Share Deal möglich"
+      }
+    },
+    "boskinac": {
+      "status": "Ausgewählte Verkaufsopportunität",
+      "location": "Insel Pag, Kroatien",
+      "title": "Boutique Hotel Boškinac",
+      "description": "Ein charakteristisches Boutique-Hospitality-Asset, das Beherbergung, Gastronomie und Weinproduktion mit zusätzlichem Entwicklungspotenzial verbindet.",
+      "assetType": "Boutique Hotel · Weingut · Restaurant",
+      "keys": "11",
+      "pricing": "~EUR 10 Mio.",
+      "highlights": {
+        "first": "Fine-Dining-Restaurant mit Michelin-Stern",
+        "second": "Weingut mit rund 5 ha Rebfläche",
+        "third": "Ca. 1.900 m² zusätzliches Entwicklungspotenzial"
+      }
+    },
+    "milna": {
+      "status": "Verkaufsopportunität",
+      "location": "Milna, Insel Brač, Kroatien",
+      "title": "Heritage Hotel Milna",
+      "description": "Ein vollständig restauriertes historisches Heritage-Hotel aus dem 19. Jahrhundert in zentraler Lage direkt am Wasser auf der Insel Brač.",
+      "assetType": "Boutique Heritage Hotel",
+      "keys": "7",
+      "pricing": "~EUR 3 Mio.",
+      "highlights": {
+        "first": "Vollständig restaurierte historische Immobilie",
+        "second": "Nutzungsgenehmigung vorhanden",
+        "third": "Immobilie zum vollständigen Verkauf angeboten"
+      }
+    }
+  },
+  "actions": {
+    "details": "Details anfragen",
+    "criteria": "Ankaufsprofil übermitteln"
+  },
+  "bottom": {
+    "label": "Anforderungen von Käufern & Investoren",
+    "title": "Suchen Sie eine bestimmte Hospitality-Opportunität?",
+    "text": "Qualifizierte Käufer, Investoren, Family Offices und strategische Betreiber können ihre Ankaufskriterien zur vertraulichen Prüfung und möglichen Zuordnung zu aktuellen oder zukünftigen Opportunitäten übermitteln."
+  },
+  "disclaimer": "Gold Bridge Capital ist nicht Eigentümer dieser Immobilien und erklärt nicht, über ein exklusives Verkaufsmandat zu verfügen, sofern dies nicht ausdrücklich bestätigt wurde. Die Informationen basieren auf Unterlagen, die über relevante professionelle Kanäle bereitgestellt wurden, und bleiben einer unabhängigen Prüfung, Verfügbarkeit und möglichen Änderungen vorbehalten."
+},
   "HospitalityRealEstate": {
     "kicker": "Hospitality Real Estate",
     "title": {

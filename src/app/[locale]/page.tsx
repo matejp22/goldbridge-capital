@@ -6,6 +6,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import HeroSection from "@/components/landing/HeroSection";
 import InstitutionalStrip from "@/components/landing/InstitutionalStrip";
 import FocusSection from "@/components/landing/FocusSection";
+import SelectedOpportunitiesSection from "@/components/landing/SelectedOpportunitiesSection";
 import ApproachSection from "@/components/landing/ApproachSection";
 import ClientsSection from "@/components/landing/ClientsSection";
 import HospitalityRealEstateSection from "@/components/landing/HospitalityRealEstateSection";
@@ -17,6 +18,7 @@ import RequirementsSection from "@/components/landing/RequirementsSection";
 import FAQSection from "@/components/landing/FAQSection";
 import InquirySection from "@/components/landing/InquirySection";
 import ClosingSection from "@/components/landing/ClosingSection";
+
 
 type HomeProps = {
   params: Promise<{
@@ -37,6 +39,8 @@ export default async function Home({ params }: HomeProps) {
       <InstitutionalStrip />
 
       <FocusSection />
+
+      <SelectedOpportunitiesSection />
 
       <ApproachSection />
       <ClientsSection />

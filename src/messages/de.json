@@ -108,67 +108,67 @@
   },
   "introduction": {
     "first": "Gold Bridge Capital prüft und koordiniert derzeit ausgewählte Hospitality-Opportunitäten, die über autorisierte professionelle Kanäle eingebracht wurden.",
-    "second": "Öffentliche Informationen werden, soweit angemessen, bewusst begrenzt. Verfügbarkeit, Preisvorstellungen und Transaktionsbedingungen bleiben der Bestätigung durch den jeweiligen Eigentümer, Berater oder autorisierten Ansprechpartner vorbehalten."
+    "second": "Bestimmte aktuelle Opportunitäten werden bewusst anonymisiert dargestellt. Vollständige Objektinformationen werden ausschließlich im Rahmen direkter vertraulicher Kommunikation mit entsprechend qualifizierten Gegenparteien geteilt."
   },
   "labels": {
     "assetType": "Asset-Typ",
-    "keys": "Zimmer / Keys",
-    "pricing": "Indikative Preisvorstellung"
+    "keys": "Profil",
+    "pricing": "Prozess"
   },
   "opportunities": {
-    "ambient": {
+    "slovenia": {
       "status": "Vertraulicher Verkaufsprozess",
-      "location": "Domžale, Slowenien",
-      "title": "Ambient Hotel",
-      "description": "Ein operatives Hotelasset mit etablierter Betriebshistorie, Restaurant- und Veranstaltungsflächen im Einzugsgebiet von Ljubljana.",
+      "location": "Slowenien",
+      "title": "Operative Hospitality-Opportunität",
+      "description": "Ein privat vermarktetes operatives Hospitality-Asset, das derzeit im Rahmen eines vertraulichen Verkaufsprozesses koordiniert wird.",
       "assetType": "Operatives Hotelasset",
-      "keys": "78",
-      "pricing": "~EUR 6 Mio.",
+      "keys": "Etablierter Betrieb",
+      "pricing": "Privater Prozess",
       "highlights": {
-        "first": "Operativer Bestand mit stabilem Team vor Ort",
-        "second": "Restaurant, Veranstaltungsflächen und Parkplätze am Objekt",
-        "third": "Asset Deal oder Share Deal möglich"
+        "first": "Operatives Hospitality-Asset",
+        "second": "Privat vermarktete Opportunität",
+        "third": "Weitere Informationen nach entsprechender Qualifikation"
       }
     },
-    "boskinac": {
-      "status": "Ausgewählte Verkaufsopportunität",
-      "location": "Insel Pag, Kroatien",
-      "title": "Boutique Hotel Boškinac",
-      "description": "Ein charakteristisches Boutique-Hospitality-Asset, das Beherbergung, Gastronomie und Weinproduktion mit zusätzlichem Entwicklungspotenzial verbindet.",
-      "assetType": "Boutique Hotel · Weingut · Restaurant",
-      "keys": "11",
-      "pricing": "~EUR 10 Mio.",
+    "croatiaBoutique": {
+      "status": "Vertraulicher Verkaufsprozess",
+      "location": "Kroatien",
+      "title": "Boutique-Hospitality-Opportunität",
+      "description": "Eine privat vermarktete Boutique-Hospitality-Opportunität mit charakteristischem operativem Profil und zusätzlichem strategischem Potenzial.",
+      "assetType": "Boutique-Hospitality-Asset",
+      "keys": "Ausgewähltes Profil",
+      "pricing": "Privater Prozess",
       "highlights": {
-        "first": "Fine-Dining-Restaurant mit Michelin-Stern",
-        "second": "Weingut mit rund 5 ha Rebfläche",
-        "third": "Ca. 1.900 m² zusätzliches Entwicklungspotenzial"
+        "first": "Charakteristische Boutique-Hospitality-Positionierung",
+        "second": "Privat vermarktete Opportunität",
+        "third": "Weitere Informationen im direkten vertraulichen Austausch"
       }
     },
-    "milna": {
-      "status": "Verkaufsopportunität",
-      "location": "Milna, Insel Brač, Kroatien",
-      "title": "Heritage Hotel Milna",
-      "description": "Ein vollständig restauriertes historisches Heritage-Hotel aus dem 19. Jahrhundert in zentraler Lage direkt am Wasser auf der Insel Brač.",
-      "assetType": "Boutique Heritage Hotel",
-      "keys": "7",
-      "pricing": "~EUR 3 Mio.",
+    "croatiaHeritage": {
+      "status": "Vertraulicher Verkaufsprozess",
+      "location": "Kroatien",
+      "title": "Heritage-Hospitality-Opportunität",
+      "description": "Ein privat vermarktetes Heritage-Hospitality-Asset, das über einen kontrollierten und vertraulichen Transaktionsprozess vorgestellt wird.",
+      "assetType": "Heritage-Hospitality-Asset",
+      "keys": "Ausgewähltes Profil",
+      "pricing": "Privater Prozess",
       "highlights": {
-        "first": "Vollständig restaurierte historische Immobilie",
-        "second": "Nutzungsgenehmigung vorhanden",
-        "third": "Immobilie zum vollständigen Verkauf angeboten"
+        "first": "Heritage-Hospitality-Positionierung",
+        "second": "Vertraulicher Verkaufsprozess",
+        "third": "Objektdetails werden nach Qualifikation geteilt"
       }
     }
   },
   "actions": {
-    "details": "Details anfragen",
+    "details": "Vertraulichen Zugang anfragen",
     "criteria": "Ankaufsprofil übermitteln"
   },
   "bottom": {
-    "label": "Anforderungen von Käufern & Investoren",
+    "label": "Käufer- & Investorenanforderungen",
     "title": "Suchen Sie eine bestimmte Hospitality-Opportunität?",
     "text": "Qualifizierte Käufer, Investoren, Family Offices und strategische Betreiber können ihre Ankaufskriterien zur vertraulichen Prüfung und möglichen Zuordnung zu aktuellen oder zukünftigen Opportunitäten übermitteln."
   },
-  "disclaimer": "Gold Bridge Capital ist nicht Eigentümer dieser Immobilien und erklärt nicht, über ein exklusives Verkaufsmandat zu verfügen, sofern dies nicht ausdrücklich bestätigt wurde. Die Informationen basieren auf Unterlagen, die über relevante professionelle Kanäle bereitgestellt wurden, und bleiben einer unabhängigen Prüfung, Verfügbarkeit und möglichen Änderungen vorbehalten."
+  "disclaimer": "Die hier gezeigten aktuellen Opportunitäten werden bewusst anonymisiert dargestellt. Gold Bridge Capital veröffentlicht keine Objektidentitäten, detaillierten Konditionen oder vertraulichen Unterlagen, sofern dies nicht ausdrücklich vom jeweiligen Eigentümer, Berater oder autorisierten Vertreter genehmigt wurde. Verfügbarkeit und Transaktionsbedingungen bleiben der Bestätigung und unabhängigen Prüfung vorbehalten."
 },
 "PrivateOpportunities": {
   "kicker": "Private & Vertrauliche Opportunitäten",

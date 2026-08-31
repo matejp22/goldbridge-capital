@@ -6,22 +6,19 @@ import Icon from "@/components/shared/Icon";
 
 const opportunities = [
   {
-    key: "ambient",
+    key: "slovenia",
     country: "SI",
     status: "confidential",
-    image: "/images/opportunities/ambient-hotel.jpg",
   },
   {
-    key: "boskinac",
+    key: "croatiaBoutique",
     country: "HR",
-    status: "selected",
-    image: "/images/opportunities/boskinac-hotel.jpg",
+    status: "confidential",
   },
   {
-    key: "milna",
+    key: "croatiaHeritage",
     country: "HR",
-    status: "sale",
-    image: "/images/opportunities/milna-hotel.jpg",
+    status: "confidential",
   },
 ] as const;
 
@@ -68,13 +65,6 @@ export default function SelectedOpportunitiesSection() {
               <div className="selected-opportunity-media">
                 <div
   className={`selected-opportunity-image selected-opportunity-image-${opportunity.key}`}
-  style={{
-    backgroundImage: `linear-gradient(
-      180deg,
-      rgba(6, 16, 30, 0.02),
-      rgba(6, 16, 30, 0.62)
-    ), url("${opportunity.image}")`,
-  }}
   aria-hidden="true"
 />
 

@@ -108,59 +108,59 @@
   },
   "introduction": {
     "first": "Gold Bridge Capital currently reviews and coordinates selected hospitality opportunities introduced through authorised professional channels.",
-    "second": "Public information is intentionally limited where appropriate. Availability, pricing and transaction terms remain subject to confirmation by the relevant owner, adviser or authorised counterparty."
+    "second": "Certain current opportunities are intentionally presented on an anonymised basis. Full property information is shared only through direct confidential communication with appropriately qualified counterparties."
   },
   "labels": {
-    "assetType": "Asset Type",
-    "keys": "Rooms / Keys",
-    "pricing": "Indicative Pricing"
+    "assetType": "Asset type",
+    "keys": "Profile",
+    "pricing": "Process"
   },
   "opportunities": {
-    "ambient": {
-      "status": "Confidential Sale",
-      "location": "Domžale, Slovenia",
-      "title": "Ambient Hotel",
-      "description": "An operating hotel asset with established trading history, restaurant and events facilities, positioned within the Ljubljana commuter belt.",
+    "slovenia": {
+      "status": "Confidential Sale Process",
+      "location": "Slovenia",
+      "title": "Operating Hospitality Opportunity",
+      "description": "A privately marketed operating hospitality asset currently being coordinated through a confidential sale process.",
       "assetType": "Operating Hotel Asset",
-      "keys": "78",
-      "pricing": "~EUR 6m",
+      "keys": "Established operation",
+      "pricing": "Private process",
       "highlights": {
-        "first": "Operating asset with stable on-site team",
-        "second": "Restaurant, events facility and on-site parking",
-        "third": "Asset deal or share deal structure"
+        "first": "Operating hospitality asset",
+        "second": "Privately marketed opportunity",
+        "third": "Further information available following qualification"
       }
     },
-    "boskinac": {
-      "status": "Selected Sale Opportunity",
-      "location": "Pag Island, Croatia",
-      "title": "Boutique Hotel Boškinac",
-      "description": "A distinctive boutique hospitality asset combining accommodation, gastronomy and winemaking with further development potential.",
-      "assetType": "Boutique Hotel · Winery · Restaurant",
-      "keys": "11",
-      "pricing": "~EUR 10m",
+    "croatiaBoutique": {
+      "status": "Confidential Sale Process",
+      "location": "Croatia",
+      "title": "Boutique Hospitality Opportunity",
+      "description": "A privately marketed boutique hospitality opportunity with a distinctive operating profile and additional strategic potential.",
+      "assetType": "Boutique Hospitality Asset",
+      "keys": "Selected profile",
+      "pricing": "Private process",
       "highlights": {
-        "first": "Michelin-star fine dining restaurant",
-        "second": "Winery with approximately 5 ha of vineyard",
-        "third": "Approx. 1,900 m² of additional development potential"
+        "first": "Distinctive boutique hospitality positioning",
+        "second": "Privately marketed opportunity",
+        "third": "Further information available through direct communication"
       }
     },
-    "milna": {
-      "status": "Sale Opportunity",
-      "location": "Milna, Brač Island, Croatia",
-      "title": "Heritage Hotel Milna",
-      "description": "A fully restored historic 19th-century heritage hotel in a prime central waterfront setting on Brač Island.",
-      "assetType": "Boutique Heritage Hotel",
-      "keys": "7",
-      "pricing": "~EUR 3m",
+    "croatiaHeritage": {
+      "status": "Confidential Sale Process",
+      "location": "Croatia",
+      "title": "Heritage Hospitality Opportunity",
+      "description": "A privately marketed heritage hospitality asset being presented through a controlled and confidential transaction process.",
+      "assetType": "Heritage Hospitality Asset",
+      "keys": "Selected profile",
+      "pricing": "Private process",
       "highlights": {
-        "first": "Fully restored historic property",
-        "second": "Occupancy permit available",
-        "third": "Property offered for outright sale"
+        "first": "Heritage hospitality positioning",
+        "second": "Confidential sale process",
+        "third": "Property details shared following qualification"
       }
     }
   },
   "actions": {
-    "details": "Request Details",
+    "details": "Request Confidential Access",
     "criteria": "Share Acquisition Criteria"
   },
   "bottom": {
@@ -168,7 +168,7 @@
     "title": "Looking for a specific hospitality opportunity?",
     "text": "Qualified buyers, investors, family offices and strategic operators may share their acquisition criteria for confidential review and potential matching with current or future opportunities."
   },
-  "disclaimer": "Gold Bridge Capital does not own these properties and does not represent that it holds an exclusive sales mandate unless expressly confirmed. Information is based on materials provided through relevant professional channels and remains subject to independent verification, availability and change."
+  "disclaimer": "Current opportunities shown here are intentionally anonymised. Gold Bridge Capital does not publicly disclose property identities, detailed terms or confidential materials unless expressly authorised by the relevant owner, adviser or authorised representative. Availability and transaction terms remain subject to confirmation and independent verification."
 },
 "PrivateOpportunities": {
   "kicker": "Private & Confidential Opportunities",

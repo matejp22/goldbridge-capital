@@ -6288,63 +6288,6 @@ background-repeat: no-repeat;
   transform: scale(1.05);
 }
 
-.selected-opportunity-image-ambient {
-  background:
-    linear-gradient(
-      180deg,
-      rgba(6, 16, 30, 0.06),
-      rgba(6, 16, 30, 0.58)
-    ),
-    radial-gradient(
-      circle at 70% 20%,
-      rgba(198, 165, 92, 0.24),
-      transparent 34%
-    ),
-    linear-gradient(
-      135deg,
-      #1a3b59,
-      #0b1728 72%
-    );
-}
-
-.selected-opportunity-image-boskinac {
-  background:
-    linear-gradient(
-      180deg,
-      rgba(6, 16, 30, 0.04),
-      rgba(6, 16, 30, 0.56)
-    ),
-    radial-gradient(
-      circle at 35% 30%,
-      rgba(198, 165, 92, 0.24),
-      transparent 36%
-    ),
-    linear-gradient(
-      135deg,
-      #4a3b2c,
-      #0b1728 75%
-    );
-}
-
-.selected-opportunity-image-milna {
-  background:
-    linear-gradient(
-      180deg,
-      rgba(6, 16, 30, 0.04),
-      rgba(6, 16, 30, 0.56)
-    ),
-    radial-gradient(
-      circle at 70% 30%,
-      rgba(198, 165, 92, 0.22),
-      transparent 36%
-    ),
-    linear-gradient(
-      135deg,
-      #31506a,
-      #0b1728 75%
-    );
-}
-
 .selected-opportunity-media-top {
   position: absolute;
   top: 18px;

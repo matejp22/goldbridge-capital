@@ -214,6 +214,48 @@
   },
   "note": "Private, vertrauliche und Off-Market-Opportunitäten werden nicht als austauschbare Begriffe verwendet. Gold Bridge Capital bezeichnet eine Opportunität nur dann als Off-Market, wenn dieser Status ausdrücklich vom jeweiligen Eigentümer, Berater oder autorisierten Vertreter bestätigt wurde."
 },
+"TransactionActivity": {
+  "kicker": "Aktuelle Transaktionsaktivität",
+  "title": {
+    "main": "Fokus auf aktuelle Opportunitäten,",
+    "highlight": " aktive Anforderungen und neue Einreichungen."
+  },
+  "introduction": {
+    "first": "Gold Bridge Capital baut derzeit Transaktionsaktivität rund um ausgewählte Hospitality-Opportunitäten, Käufer- und Investorenanforderungen sowie neue vertrauliche Einreichungen auf.",
+    "second": "Dieser Abschnitt bildet aktuelle Geschäftstätigkeit und Transaktionskoordination ab. Er wird nicht als Nachweis abgeschlossener Transaktionen, eingesetzten Kapitals oder bestehender Kundenmandate dargestellt."
+  },
+  "items": {
+    "opportunities": {
+      "status": "Aktive Prüfung",
+      "title": "Ausgewählte Hospitality-Opportunitäten",
+      "text": "Aktuelle Hospitality-Opportunitäten werden geprüft und für eine mögliche Vorstellung bei relevanten Käufern, Investoren und strategischen Gegenparteien positioniert.",
+      "detailLabel": "Aktuelle öffentliche Auswahl",
+      "detailValue": "3 Opportunitäten"
+    },
+    "acquisitionCriteria": {
+      "status": "Offen für Anforderungen",
+      "title": "Käufer- & Investorenkriterien",
+      "text": "Ankaufskriterien von qualifizierten Käufern, Investoren, Family Offices und strategischen Betreibern können zur vertraulichen Prüfung und möglichen Zuordnung zu passenden Opportunitäten eingereicht werden.",
+      "detailLabel": "Fokus",
+      "detailValue": "Hospitality-Akquisitionen & Investmentanforderungen"
+    },
+    "newSubmissions": {
+      "status": "Offen für Einreichungen",
+      "title": "Prüfung neuer Opportunitäten",
+      "text": "Eigentümer, Entwickler, Sponsoren, autorisierte Vertreter und professionelle Berater können Hospitality-Assets oder Entwicklungssituationen zur vorläufigen vertraulichen Prüfung einreichen.",
+      "detailLabel": "Arten der Einreichung",
+      "detailValue": "Verkauf, Akquisition & Entwicklungsopportunitäten"
+    }
+  },
+  "principle": {
+    "label": "Transparente Positionierung",
+    "text": "Gold Bridge Capital unterscheidet klar zwischen aktueller Transaktionsaktivität und abgeschlossenem Track Record. Opportunitätsprüfungen, Vorstellungen und Gespräche bedeuten keine abgeschlossene Transaktion, kein formelles Mandat, keine Investitionszusage und keine Finanzierungszusage."
+  },
+  "actions": {
+    "submit": "Opportunität einreichen",
+    "view": "Ausgewählte Opportunitäten ansehen"
+  }
+},
   "HospitalityRealEstate": {
     "kicker": "Hospitality Real Estate",
     "title": {

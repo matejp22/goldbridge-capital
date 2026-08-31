@@ -214,6 +214,48 @@
   },
   "note": "Private, confidential and off-market are not treated as interchangeable terms. Gold Bridge Capital only describes an opportunity as off-market where that status has been expressly confirmed by the relevant owner, adviser or authorised representative."
 },
+"TransactionActivity": {
+  "kicker": "Current Transaction Activity",
+  "title": {
+    "main": "Focused on live opportunities,",
+    "highlight": " active requirements and new submissions."
+  },
+  "introduction": {
+    "first": "Gold Bridge Capital is currently building transaction activity across selected hospitality opportunities, buyer and investor requirements, and new confidential submissions.",
+    "second": "This section reflects current business activity and transaction coordination. It is not presented as a record of completed transactions, capital deployed or client mandates."
+  },
+  "items": {
+    "opportunities": {
+      "status": "Active Review",
+      "title": "Selected Hospitality Opportunities",
+      "text": "Current hospitality opportunities are being reviewed and positioned for potential introduction to relevant buyers, investors and strategic counterparties.",
+      "detailLabel": "Current public selection",
+      "detailValue": "3 opportunities"
+    },
+    "acquisitionCriteria": {
+      "status": "Open for Requirements",
+      "title": "Buyer & Investor Criteria",
+      "text": "Acquisition criteria from qualified buyers, investors, family offices and strategic operators can be submitted for confidential review and potential opportunity matching.",
+      "detailLabel": "Focus",
+      "detailValue": "Hospitality acquisitions & investment requirements"
+    },
+    "newSubmissions": {
+      "status": "Open for Submissions",
+      "title": "New Opportunity Review",
+      "text": "Owners, developers, sponsors, authorised representatives and professional advisers may submit hospitality assets or development situations for preliminary confidential assessment.",
+      "detailLabel": "Submission types",
+      "detailValue": "Sales, acquisitions & development opportunities"
+    }
+  },
+  "principle": {
+    "label": "Transparent Positioning",
+    "text": "Gold Bridge Capital distinguishes current transaction activity from completed track record. Opportunity reviews, introductions and discussions do not imply a completed transaction, formal mandate, investment commitment or financing approval."
+  },
+  "actions": {
+    "submit": "Submit an Opportunity",
+    "view": "View Selected Opportunities"
+  }
+},
   "HospitalityRealEstate": {
     "kicker": "Hospitality Real Estate",
     "title": {

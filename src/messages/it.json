@@ -214,6 +214,48 @@
   },
   "note": "I termini privato, riservato e off-market non vengono considerati intercambiabili. Gold Bridge Capital descrive un'opportunità come off-market solo quando tale status è stato espressamente confermato dal relativo proprietario, consulente o rappresentante autorizzato."
 },
+"TransactionActivity": {
+  "kicker": "Attività Transazionale Corrente",
+  "title": {
+    "main": "Focus su opportunità attive,",
+    "highlight": " requisiti attuali e nuove proposte."
+  },
+  "introduction": {
+    "first": "Gold Bridge Capital sta attualmente sviluppando attività transazionale intorno a opportunità hospitality selezionate, criteri di acquirenti e investitori e nuove proposte riservate.",
+    "second": "Questa sezione riflette l'attività commerciale e il coordinamento transazionale attuali. Non viene presentata come track record di operazioni concluse, capitale investito o mandati clienti esistenti."
+  },
+  "items": {
+    "opportunities": {
+      "status": "Valutazione Attiva",
+      "title": "Opportunità Hospitality Selezionate",
+      "text": "Le attuali opportunità hospitality vengono valutate e posizionate per una possibile introduzione a potenziali acquirenti, investitori e controparti strategiche pertinenti.",
+      "detailLabel": "Selezione pubblica attuale",
+      "detailValue": "3 opportunità"
+    },
+    "acquisitionCriteria": {
+      "status": "Aperto ai Requisiti",
+      "title": "Criteri di Acquirenti & Investitori",
+      "text": "I criteri di acquisizione di acquirenti qualificati, investitori, family office e operatori strategici possono essere inviati per una valutazione riservata e un possibile matching con opportunità pertinenti.",
+      "detailLabel": "Focus",
+      "detailValue": "Acquisizioni hospitality & requisiti di investimento"
+    },
+    "newSubmissions": {
+      "status": "Aperto alle Proposte",
+      "title": "Valutazione di Nuove Opportunità",
+      "text": "Proprietari, sviluppatori, sponsor, rappresentanti autorizzati e consulenti professionali possono presentare asset hospitality o situazioni di sviluppo per una valutazione preliminare riservata.",
+      "detailLabel": "Tipologie di proposta",
+      "detailValue": "Vendite, acquisizioni & opportunità di sviluppo"
+    }
+  },
+  "principle": {
+    "label": "Posizionamento Trasparente",
+    "text": "Gold Bridge Capital distingue chiaramente l'attività transazionale corrente da un track record di operazioni concluse. Valutazioni di opportunità, introduzioni e discussioni non implicano un'operazione conclusa, un mandato formale, un impegno di investimento o un'approvazione di finanziamento."
+  },
+  "actions": {
+    "submit": "Invia un'Opportunità",
+    "view": "Vedi Opportunità Selezionate"
+  }
+},
   "HospitalityRealEstate": {
     "kicker": "Hospitality Real Estate",
     "title": {
